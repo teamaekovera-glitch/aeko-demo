@@ -10,28 +10,32 @@ export const CHANNEL_DEFS = [
     label: 'Chat',
     kind: 'Live chat',
     title: 'On the chat lines.',
-    kinds: ['approve', 'review', 'gap', 'chat-msg', 'chat-status', 'client-check'],
+    // storm-chat-* — the in-call montage's parallel-chats beat.
+    kinds: ['approve', 'review', 'gap', 'chat-msg', 'chat-status', 'client-check', 'storm-chat-open', 'storm-chat-q', 'storm-chat-a'],
   },
   {
     id: 'email',
     label: 'Email',
     kind: 'Drafted email',
     title: 'Spec sheets, drafted and sent.',
-    kinds: ['email-draft', 'email-sent'],
+    // storm-email-* — the montage's parallel-emails beat.
+    kinds: ['email-draft', 'email-sent', 'storm-email-open', 'storm-email-send', 'storm-email-reply'],
   },
   {
     id: 'call',
     label: 'Voice',
     kind: 'AI voice call',
     title: 'The agent picks up the phone.',
-    kinds: ['call'],
+    // storm-call — the montage's overlapping-calls beat.
+    kinds: ['call', 'storm-call-open', 'storm-call'],
   },
   {
     id: 'forms',
     label: 'Forms',
     kind: 'Web forms',
     title: 'Every contact form, filled.',
-    kinds: ['form-fill', 'form-submitted'],
+    // storm-form — the montage's no-answer forms-fallback beat.
+    kinds: ['form-fill', 'form-submitted', 'storm-form-open', 'storm-form'],
   },
   {
     id: 'quotes',

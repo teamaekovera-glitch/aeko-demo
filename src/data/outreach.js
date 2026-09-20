@@ -371,6 +371,54 @@ function formFor(s) {
 }
 
 // ---------------------------------------------------------------------------
+// Shared tail — quotes & follow-ups plus the warm-intro close, as timed steps.
+// The workspace script and the in-call montage's storm run both end with this
+// exact sequence, so a run's outcomes never diverge between the two surfaces.
+// ---------------------------------------------------------------------------
+export function buildQuotesTail(list, t0 = 0, idOffset = 0) {
+  const steps = []
+  let t = t0
+  const add = (si, kind, data = null) => {
+    steps.push({ id: idOffset + steps.length, si, kind, start: t, dur: DUR[kind] ?? 1, data })
+    t += DUR[kind] ?? 1
+  }
+
+  for (const si of list.keys()) {
+    const tier = fitTierFor(si, list)
+    const story = storyFor(list[si], tier)
+    if (tier === 'pass') {
+      add(si, 'pass', { line: PASS_LINE })
+      continue
+    }
+    if (story.quote) add(si, 'quote', story.quote)
+    if (story.confirm) add(si, 'confirm', story.confirm)
+    if (story.followup) add(si, 'followup', story.followup)
+  }
+
+  // Warm introductions — the brand meets its top-fit suppliers. Suppliers
+  // whose storyline produced no quote (reply-pending or unscripted community
+  // matches) get copy that doesn't lean on a quote.
+  list.slice(0, Math.min(2, list.length)).forEach((s) => {
+    const quoted = steps.some((st) => st.si === list.indexOf(s) && st.kind === 'quote')
+    const data = {
+      supplierName: s.name,
+      short: shortName(s),
+      message: quoted
+        ? `Hi ${shortName(s)} — meet Olive & Ember, the brand behind the sauce brief you quoted. They loved your quote and how the conversations went — here’s a direct line to say hello.`
+        : `Hi ${shortName(s)} — meet Olive & Ember, the brand behind the sauce brief. They liked how the conversations went — here’s a direct line to say hello.`,
+      reply: quoted
+        ? 'Wonderful — hi Olive & Ember! The kettle slot’s penciled in. Let’s get samples moving — we’ll send label proofs this week.'
+        : 'Wonderful — hi Olive & Ember! Great to connect directly. Send the spec pack over and we’ll come back with a production window.',
+      connected: `Connected: Olive & Ember ↔ ${s.name} · Intro delivered · Thread opened`,
+    }
+    add(null, 'warm-intro', data)
+    add(null, 'warm-connected', data)
+  })
+
+  return steps
+}
+
+// ---------------------------------------------------------------------------
 // Script builder — pure: list of suppliers in, flat timed step list out.
 //
 // Steps are emitted CHANNEL-MAJOR (every supplier's chat, then every email,
@@ -449,41 +497,28 @@ export function buildScript(list) {
     add(si, 'form-submitted')
   }
 
-  // ---- Quotes & follow-ups (passes resolve here too) ----------------------
-  for (const { si, tier, story } of plans) {
-    if (tier === 'pass') {
-      add(si, 'pass', { line: PASS_LINE })
-      continue
-    }
-    if (story.quote) add(si, 'quote', story.quote)
-    if (story.confirm) add(si, 'confirm', story.confirm)
-    if (story.followup) add(si, 'followup', story.followup)
-  }
+  // ---- Quotes & follow-ups + warm intros — the shared tail ----------------
+  const tail = buildQuotesTail(list, t, steps.length)
+  for (const step of tail) steps.push(step)
+  const lastTail = tail[tail.length - 1]
 
-  // ---- Warm introductions — the brand meets its top-fit suppliers ---------
-  list.slice(0, Math.min(2, list.length)).forEach((s) => {
-    // Suppliers whose storyline produced no quote (reply-pending or unscripted
-    // community matches) get copy that doesn't lean on a quote.
-    const quoted = steps.some((st) => st.si === list.indexOf(s) && st.kind === 'quote')
-    const data = {
-      supplierName: s.name,
-      short: shortName(s),
-      message: quoted
-        ? `Hi ${shortName(s)} — meet Olive & Ember, the brand behind the sauce brief you quoted. They loved your quote and how the conversations went — here’s a direct line to say hello.`
-        : `Hi ${shortName(s)} — meet Olive & Ember, the brand behind the sauce brief. They liked how the conversations went — here’s a direct line to say hello.`,
-      reply: quoted
-        ? 'Wonderful — hi Olive & Ember! The kettle slot’s penciled in. Let’s get samples moving — we’ll send label proofs this week.'
-        : 'Wonderful — hi Olive & Ember! Great to connect directly. Send the spec pack over and we’ll come back with a production window.',
-      connected: `Connected: Olive & Ember ↔ ${s.name} · Intro delivered · Thread opened`,
-    }
-    add(null, 'warm-intro', data)
-    add(null, 'warm-connected', data)
-  })
-
-  return { steps, total: t }
+  return { steps, total: lastTail ? lastTail.start + lastTail.dur : t }
 }
 
-const TOUCH_KINDS = new Set(['chat-msg', 'email-sent', 'form-submitted', 'call', 'quote', 'confirm'])
+// Storm-run kinds (the in-call montage's parallel beats) touch the same
+// counters so the montage's tiles fold into the contacted/replies math.
+const TOUCH_KINDS = new Set([
+  'chat-msg',
+  'email-sent',
+  'form-submitted',
+  'call',
+  'quote',
+  'confirm',
+  'storm-chat-q',
+  'storm-email-send',
+  'storm-call',
+  'storm-form',
+])
 
 // Live counters derived from elapsed time — the summary ticks up as events fire.
 export function foldCounts(steps, elapsed) {
@@ -494,6 +529,7 @@ export function foldCounts(steps, elapsed) {
     if (step.start > elapsed) break
     if (step.si != null && TOUCH_KINDS.has(step.kind)) touched.add(step.si)
     if (step.kind === 'chat-msg' && step.data.role === 'supplier') replied.add(step.si)
+    if (step.kind === 'storm-chat-a') replied.add(step.si)
     if (step.kind === 'quote') counts.quotes++
     if (step.kind === 'confirm') counts.confirmed++
   }

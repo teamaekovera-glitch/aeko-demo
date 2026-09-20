@@ -10,6 +10,7 @@ import { foldCounts, showcaseResults } from '../../data/outreach.js'
 import { usePlayback } from './usePlayback.js'
 import WorkspaceBar from './WorkspaceBar.jsx'
 import { ChannelScreen } from './ChannelScreens.jsx'
+import StormScreen from './StormScreens.jsx'
 import {
   CheckCircleIcon,
   FastForwardIcon,
@@ -19,6 +20,11 @@ import {
   SparklesIcon,
 } from '../icons.jsx'
 import { CUSTOMER } from '../../data/punkrCall.js'
+
+// Channels the montage renders as parallel storm beats (four tiles at once)
+// instead of the workspace's sequential per-supplier screens. Quotes and
+// warm-intros keep the workspace screens in both surfaces.
+const STORM_CHANNELS = new Set(['chat', 'email', 'call', 'forms'])
 
 // Montage pacing: aim ~26s at the default pace (band 20–35s), snapped to the
 // Pace slider's 0.25× steps and clamped inside its 0.5×–4× range.
@@ -194,22 +200,25 @@ export default function ShowcaseOverlay({ list, steps, briefLine, onClose }) {
           />
           <main className="lshow__stage">
             <div className="ows-screen ows-screen--active" key={active?.id ?? 'finale'}>
-              {active && (
-                <ChannelScreen
-                  ch={active}
-                  channels={channels}
-                  list={list}
-                  elapsed={elapsed}
-                  instant={instant}
-                  following={following}
-                  lastSi={lastSi}
-                  counts={counts}
-                  outcomes={[]}
-                  warm={[]}
-                  done={false}
-                  onReplay={replay}
-                />
-              )}
+              {active &&
+                (STORM_CHANNELS.has(active.id) ? (
+                  <StormScreen ch={active} list={list} elapsed={elapsed} />
+                ) : (
+                  <ChannelScreen
+                    ch={active}
+                    channels={channels}
+                    list={list}
+                    elapsed={elapsed}
+                    instant={instant}
+                    following={following}
+                    lastSi={lastSi}
+                    counts={counts}
+                    outcomes={[]}
+                    warm={[]}
+                    done={false}
+                    onReplay={replay}
+                  />
+                ))}
             </div>
           </main>
           <p className="lshow__caption" key={active?.id ?? 'cap'} aria-live="polite">

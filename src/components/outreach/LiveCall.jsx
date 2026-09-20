@@ -27,7 +27,8 @@ import {
   briefRowsFor,
   feedStatsFor,
 } from '../../data/punkrCall.js'
-import { fmtOffset, buildScript, showcaseResults } from '../../data/outreach.js'
+import { fmtOffset, showcaseResults } from '../../data/outreach.js'
+import { buildStormScript } from '../../data/stormRun.js'
 import { COLD_OPEN_FLAG } from '../../data/coldOpen.js'
 import ShowcaseOverlay from './ShowcaseOverlay.jsx'
 import { OpsApprovalCard, IntroAcceptCard, INTRO_CONTACT } from '../PersonaCards.jsx'
@@ -635,7 +636,9 @@ export default function LiveCall() {
     // three plus the next fit, so the run carries an accept, a bare quote,
     // and a graceful pass — real accepts and rejections to come back to.
     const list = rankSuppliers(b).slice(0, 4).map((r) => r.supplier)
-    const { steps } = buildScript(list)
+    // Storm run: the montage's parallel beats (chats, emails, calls, forms
+    // ringing at once) closing with the workspace's quotes/warm-intro tail.
+    const { steps } = buildStormScript(list)
     const results = showcaseResults(steps, list)
     showcaseDataRef.current = { brief: { ...b }, list, steps, results }
     return new Promise((resolve) => {
