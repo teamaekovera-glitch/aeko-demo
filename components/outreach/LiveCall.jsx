@@ -28,6 +28,7 @@ import {
   feedStatsFor,
 } from '../../data/punkrCall.js'
 import { fmtOffset, buildScript, showcaseResults } from '../../data/outreach.js'
+import { COLD_OPEN_FLAG } from '../../data/coldOpen.js'
 import ShowcaseOverlay from './ShowcaseOverlay.jsx'
 import { OpsApprovalCard, IntroAcceptCard, INTRO_CONTACT } from '../PersonaCards.jsx'
 import {
@@ -772,6 +773,17 @@ export default function LiveCall() {
     document.documentElement.style.fontSize = '115%'
     return () => {
       document.documentElement.style.fontSize = ''
+    }
+  }, [])
+
+  // Refresh replay: clear the cold-open session flag as soon as the call is
+  // mounted, so the next visit to /outreach/live — including a mid-call
+  // refresh — starts from the introduction again.
+  useEffect(() => {
+    try {
+      sessionStorage.removeItem(COLD_OPEN_FLAG)
+    } catch {
+      /* private mode — nothing persisted anyway */
     }
   }, [])
 
