@@ -733,3 +733,46 @@
   .cold-blast__grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
   .cold-funnel__counter { top: 8.5rem; }
 }
+
+/* Beat 0 — the backbone: aekovera.com positioning, stated once */
+.cold-backbone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  gap: 2.1rem;
+}
+
+.cold-backbone .cold-head {
+  max-width: 48rem;
+}
+
+.cold-backbone__facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.cold-backbone__fact {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(235, 238, 255, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  animation: coldRise 0.7s var(--ease-expo, ease) both;
+  animation-delay: var(--d, 0.5s);
+}
+
+.cold-backbone__pitch {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(1rem, 1.6vw, 1.3rem);
+  color: hsl(24 94% 60%);
+  animation: coldRise 0.7s var(--ease-expo, ease) both;
+  animation-delay: 1.7s;
+}

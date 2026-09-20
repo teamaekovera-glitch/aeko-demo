@@ -6978,3 +6978,17 @@ a {
   from { opacity: 0; transform: translate(-50%, 8px); }
   to { opacity: 1; transform: translate(-50%, 0); }
 }
+
+/* dropped-call bit — live badge states during the hang-up / call-back */
+.lcall__livebadge.is-dropped {
+  color: hsl(0 72% 62%);
+  border-color: hsl(0 72% 62% / 0.45);
+  background: hsl(0 72% 62% / 0.08);
+}
+.lcall__livebadge.is-dropped i { background: hsl(0 72% 62%); animation: none; }
+.lcall__livebadge.is-ringing {
+  color: hsl(38 92% 56%);
+  border-color: hsl(38 92% 56% / 0.45);
+  background: hsl(38 92% 56% / 0.08);
+}
+.lcall__livebadge.is-ringing i { background: hsl(38 92% 56%); }

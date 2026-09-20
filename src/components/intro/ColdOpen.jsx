@@ -1,6 +1,6 @@
 // ---------------------------------------------------------------------------
 // Cold open — a scripted, non-interactive cinematic intro that plays before
-// the live call. Four beats over ~60s: war room → data funnel → the blast →
+// the live call. Five beats over ~67s: backbone → war room → data funnel → the blast →
 // hook, then an automatic handoff into the existing incoming-call UI at
 // /outreach/live. Pure DOM/CSS/canvas animation; no audio, no network, no
 // keys, no call-engine changes — the handoff is a plain navigation.
@@ -22,6 +22,7 @@ import {
 } from '../icons.jsx'
 import {
   COLD_OPEN,
+  COLD_OPEN_FLAG,
   contactChannel,
   contactName,
   fmtInt,
@@ -30,8 +31,7 @@ import {
 } from '../../data/coldOpen.js'
 import './coldopen.css'
 
-const FLAG = 'aekoColdOpenPlayed'
-const BEAT_ORDER = ['warRoom', 'funnel', 'blast', 'hook']
+const BEAT_ORDER = ['backbone', 'warRoom', 'funnel', 'blast', 'hook']
 
 const clamp01 = (p) => Math.min(Math.max(p, 0), 1)
 const easeOut = (p) => 1 - Math.pow(1 - clamp01(p), 3)
@@ -82,6 +82,37 @@ const CHANNEL_ICONS = {
 }
 
 // ---------------------------------------------------------------------------
+// Beat 0 — THE BACKBONE: aekovera.com's own positioning, stated once. After
+// this beat the film never repeats the pitch — fleets, funnel, blast and
+// call just show the backbone working.
+// ---------------------------------------------------------------------------
+
+function BackboneBeat() {
+  const b = COLD_OPEN.backbone
+  return (
+    <div className="cold-beat cold-backbone">
+      <header className="cold-head">
+        <p className="cold-microlabel">
+          <span className="cold-microlabel__dash" /> {b.eyebrow}
+        </p>
+        <h2 className="cold-title">
+          {b.title[0]} <em>{b.title[1]}</em>
+        </h2>
+        <p className="cold-sub">{b.lines[0]}</p>
+      </header>
+      <div className="cold-backbone__facts">
+        {b.facts.map((f, i) => (
+          <span key={f} className="cold-backbone__fact" style={{ '--d': `${0.7 + i * 0.3}s` }}>
+            {f}
+          </span>
+        ))}
+      </div>
+      <p className="cold-backbone__pitch">{b.lines[1]}</p>
+    </div>
+  )
+}
+
+// ---------------------------------------------------------------------------
 // Beat 1 — WAR ROOM: three agent fleets, live ticks, partner fan-out.
 // ---------------------------------------------------------------------------
 
@@ -121,7 +152,7 @@ function WarRoom() {
         <h2 className="cold-title">
           Three fleets. <em>One network.</em>
         </h2>
-        <p className="cold-sub">Manufacturers and logistics partners, engaged in parallel.</p>
+        <p className="cold-sub">Meet the makers — manufacturers and logistics partners, engaged in parallel.</p>
       </header>
       <div className="cold-war__grid">
         {fleets.map((f, fi) => (
@@ -500,6 +531,8 @@ function HookBeat() {
 
 function beatEl(i) {
   switch (BEAT_ORDER[i]) {
+    case 'backbone':
+      return <BackboneBeat />
     case 'warRoom':
       return <WarRoom />
     case 'funnel':
@@ -535,7 +568,7 @@ export default function ColdOpen() {
 
   const leave = useCallback(() => {
     try {
-      sessionStorage.setItem(FLAG, '1')
+      sessionStorage.setItem(COLD_OPEN_FLAG, '1')
     } catch {
       /* private mode — skip persistence, still navigate */
     }
@@ -585,7 +618,7 @@ export default function ColdOpen() {
 export function ColdOpenGate({ children }) {
   let played = false
   try {
-    played = sessionStorage.getItem(FLAG) === '1'
+    played = sessionStorage.getItem(COLD_OPEN_FLAG) === '1'
   } catch {
     played = false
   }

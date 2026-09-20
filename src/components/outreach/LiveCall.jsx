@@ -28,6 +28,7 @@ import {
   feedStatsFor,
 } from '../../data/punkrCall.js'
 import { fmtOffset, buildScript, showcaseResults } from '../../data/outreach.js'
+import { COLD_OPEN_FLAG } from '../../data/coldOpen.js'
 import ShowcaseOverlay from './ShowcaseOverlay.jsx'
 import { OpsApprovalCard, IntroAcceptCard, INTRO_CONTACT } from '../PersonaCards.jsx'
 import {
@@ -54,13 +55,23 @@ const BRAND = { name: 'Aekovera' }
 let uid = 0
 const nextId = () => `c${++uid}`
 
+// Voice casting: prefer a known-female English voice, then any non-male
+// English voice — never let the browser's default (often male) drift through.
+const FEMALE_VOICE = /female|samantha|aria|jenny|zira|michelle|ava\b|allison|susan|karen|moira|tessa|fiona|catherine|victoria|serena|kate|shelley|nicky|joana|google us english/i
+const MALE_VOICE = /\bmale\b|david|mark\b|alex\b|daniel|fred\b|tom\b|george|james|aaron|arthur|oliver|ryan|rishi|guy\b/i
+
 function pickVoice() {
   try {
     const vs = window.speechSynthesis?.getVoices?.() ?? []
+    const en = vs.filter((v) => /^en/i.test(v.lang))
+    const enUS = en.filter((v) => /en[-_]US/i.test(v.lang))
     return (
-      vs.find((v) => /en[-_]US/i.test(v.lang) && /female|samantha|jenny|aria|zira|google us english/i.test(v.name)) ||
-      vs.find((v) => /en[-_]US/i.test(v.lang)) ||
-      vs.find((v) => /^en/i.test(v.lang)) ||
+      enUS.find((v) => FEMALE_VOICE.test(v.name)) ||
+      en.find((v) => FEMALE_VOICE.test(v.name)) ||
+      enUS.find((v) => !MALE_VOICE.test(v.name)) ||
+      en.find((v) => !MALE_VOICE.test(v.name)) ||
+      enUS[0] ||
+      en[0] ||
       null
     )
   } catch {
@@ -512,16 +523,28 @@ const ACKS = [
   'Perfect — that helps.',
   'Right — noted.',
   'Okay, good.',
-  'Hmm, good.',
   'Great — on it.',
   'Okay — locked in.',
-  'Love it — noted.',
+  'Good — thank you.',
+  'Makes sense — thanks.',
 ]
 // Spontaneity: a random pick per answer, so no two calls read identically.
 const ackFor = () => ACKS[Math.floor(Math.random() * ACKS.length)]
-// Light spoken fillers, sparingly and TTS-friendly (no literal uhm/ahh).
-const FILLERS = { scale: ['Oh, good — ', 'Okay, wow — ', ''], spec: ['Love it — ', 'Perfect — ', ''] }
+// Light spoken lead-ins — ONE per prompt (first line only), never repeated
+// stock praise, and TTS-friendly (no literal uhm/ahh).
+const FILLERS = { scale: ['', 'Alright — ', 'Okay, so — '], spec: ['', 'Alright — ', 'So — '] }
 const fillerFor = (id) => (FILLERS[id] ? FILLERS[id][Math.floor(Math.random() * FILLERS[id].length)] : '')
+const withFiller = (id, t) => {
+  const f = fillerFor(id)
+  return f ? f + t.charAt(0).toLowerCase() + t.slice(1) : t
+}
+// The dropped-call bit — when the fourth ask goes unanswered, Aeko assumes
+// the line died, says goodbye with flair, hangs up, and calls right back.
+const DROPPED_LINES = [
+  { show: '…Hello? I think the call just dropped.', speak: '…Hello? I think the call just dropped.' },
+  { show: '…Still nothing? Network must be down on your end.', speak: '…Still nothing? Network must be down on your end.' },
+  { show: '…You there? Probably in a subway — hold on, calling back.', speak: '…You there? Probably in a subway — hold on, calling back.' },
+]
 
 export default function LiveCall() {
   const navigate = useNavigate()
@@ -534,6 +557,7 @@ export default function LiveCall() {
   const [muted, setMuted] = useState(false)
   const [listening, setListening] = useState(false)
   const [interim, setInterim] = useState('')
+  const [micMuted, setMicMuted] = useState(false)
   const [matches, setMatches] = useState(null)
   const [quote, setQuote] = useState(null)
   const [po, setPo] = useState(null)
@@ -546,6 +570,8 @@ export default function LiveCall() {
   const [feedClock, setFeedClock] = useState(0)
   // the in-call showcase — the outreach montage the call pauses for
   const [showcase, setShowcase] = useState(null)
+  // the dropped-call bit — the line dies, Aeko hangs up and calls back
+  const [drop, setDrop] = useState(null) // null | 'cut' | 'ringing'
 
   const mutedRef = useRef(muted)
   mutedRef.current = muted
@@ -555,6 +581,9 @@ export default function LiveCall() {
   const answerResolver = useRef(null)
   const startedRef = useRef(false)
   const recognitionRef = useRef(null)
+  const micBlockedRef = useRef(false)
+  // the currently-pending question's short recasts (for silence re-asks)
+  const pendingAsk = useRef(null)
   const listRef = useRef(null)
   const finalBriefRef = useRef(null)
   const feedRef = useRef([]) // mirror of feedEvents for sync reads inside run()
@@ -768,8 +797,26 @@ export default function LiveCall() {
   // and restore the root scale on unmount so other routes are untouched.
   useEffect(() => {
     document.documentElement.style.fontSize = '115%'
+    // Prime the voice list — Chrome loads voices async, so the first
+    // utterance should already have the female voice available.
+    try {
+      window.speechSynthesis?.getVoices?.()
+    } catch {
+      /* noop */
+    }
     return () => {
       document.documentElement.style.fontSize = ''
+    }
+  }, [])
+
+  // Refresh replay: clear the cold-open session flag as soon as the call is
+  // mounted, so the next visit to /outreach/live — including a mid-call
+  // refresh — starts from the introduction again.
+  useEffect(() => {
+    try {
+      sessionStorage.removeItem(COLD_OPEN_FLAG)
+    } catch {
+      /* private mode — nothing persisted anyway */
     }
   }, [])
 
@@ -803,8 +850,8 @@ export default function LiveCall() {
             stopSpeech()
             const u = new SpeechSynthesisUtterance(text)
             u.lang = 'en-US'
-            u.rate = 1.04
-            u.pitch = 0.95
+            u.rate = 1.06
+            u.pitch = 1.08
             const v = pickVoice()
             if (v) u.voice = v
             u.onend = finish
@@ -841,31 +888,94 @@ export default function LiveCall() {
     [pushPunkr, speakLine],
   )
 
-  // Silence check-ins — while an answer is owed and the line goes quiet for
-  // five seconds, Aeko checks in rather than hanging in dead air. Speech-only:
-  // quips never enter the transcript.
+  // Silence re-asks — while an answer is owed and the line goes quiet for
+  // fifteen seconds, Aeko checks in AND re-lands the question in fresh, fewer
+  // words (the scene's recasts) — never the same phrasing twice. The moment
+  // the user starts speaking (interim transcript), the timer resets: Aeko
+  // never talks while the user is talking — she just listens. Speech only;
+  // these never enter the transcript. After the FOURTH ask with nothing back,
+  // she treats the line as dead and resolves the wait with via:'dropped' —
+  // the run loop plays the dropped-call bit.
   const QUIPS = [
-    'Are we still on?',
-    'Stephanie? You still there?',
-    'Hello? Did the line drop?',
-    'Still with me? Take your time.',
-    'You there? The network can wait, but not forever.',
+    'Still with me?',
+    'Stephanie? You there?',
+    'Hello? Line just went quiet on me.',
+    "Take your time — I'm here.",
   ]
   const quipState = useRef({ idx: 0, timer: null })
   useEffect(() => {
-    const waiting = phase === 'live' && !showcase && (awaiting || forkChips != null)
+    const waiting = phase === 'live' && !showcase && !drop && (awaiting || forkChips != null)
     if (!waiting) {
       clearTimeout(quipState.current.timer)
       return undefined
     }
     const fire = () => {
-      speakLine(QUIPS[quipState.current.idx % QUIPS.length], { cancelled: false, cancelFns: [] })
+      if (interim) return // user is mid-utterance — keep listening
       quipState.current.idx += 1
-      quipState.current.timer = window.setTimeout(fire, 9000)
+      if (quipState.current.idx >= 4) {
+        // Fourth ask went unanswered — the line is dead; play the bit.
+        answerResolver.current?.({ text: '', via: 'dropped' })
+        return
+      }
+      const ask = pendingAsk.current
+      const recasts = ask?.recasts ?? []
+      const recast = recasts.length ? recasts[(quipState.current.idx - 1) % recasts.length] : null
+      const check = QUIPS[(quipState.current.idx - 1) % QUIPS.length]
+      const speakNow = async () => {
+        const t = { cancelled: false, cancelFns: [] }
+        await speakLine(check, t)
+        await new Promise((r) => setTimeout(r, 1100))
+        if (recast) await speakLine(recast, t)
+      }
+      speakNow()
+      quipState.current.timer = window.setTimeout(fire, 15000)
     }
-    quipState.current.timer = window.setTimeout(fire, 5000)
+    quipState.current.timer = window.setTimeout(fire, 15000)
     return () => clearTimeout(quipState.current.timer)
-  }, [phase, awaiting, forkChips, showcase, speakLine])
+  }, [phase, awaiting, forkChips, showcase, drop, speakLine, interim])
+
+  // The dropped-call bit: flair goodbye → transcript note → hang up → call
+  // back → recap the agreed details → re-land the pending question in the
+  // storyline exactly where it left off.
+  const runDropped = useCallback(
+    async (token, b, reAsk) => {
+      quipState.current.idx = 0
+      const flair = DROPPED_LINES[Math.floor(Math.random() * DROPPED_LINES.length)]
+      await say([flair], token)
+      if (token.cancelled) return
+      pushSystem('(user dropped off, calling back)')
+      await say([{ show: 'Let me call you right back.', speak: 'Let me call you right back.' }], token)
+      if (token.cancelled) return
+      setDrop('cut')
+      await new Promise((r) => setTimeout(r, 2400))
+      if (token.cancelled) return
+      setDrop('ringing')
+      pushSystem('Calling back…')
+      await new Promise((r) => setTimeout(r, 1900))
+      if (token.cancelled) return
+      setDrop(null)
+      pushSystem('Back on the line')
+      const rows = briefRowsFor(b)
+      const recap = rows.length ? rows.map((r) => `${r.k}: ${r.v}`).join(' · ') : null
+      await say(
+        [
+          recap
+            ? {
+                show: `So… to confirm we agreed on these details — ${recap}.`,
+                speak: `So… to confirm we agreed on these details — ${recap}.`,
+              }
+            : {
+                show: `So… picking up right where we left off.`,
+                speak: `Okay, you're back — picking up right where we left off.`,
+              },
+        ],
+        token,
+      )
+      if (token.cancelled || !reAsk) return
+      await say([reAsk], token)
+    },
+    [say, pushSystem],
+  )
 
   const waitForAnswer = useCallback(
     (token) =>
@@ -921,8 +1031,8 @@ export default function LiveCall() {
             speak: `Hi ${CUSTOMER.first}, this is ${PUNKR.name} from ${BRAND.name}. You placed the big ${ORDER_CONTEXT.retailer} cookie order about four minutes ago — I'm the sourcing agent on it.`,
           },
           {
-            show: `Two quick confirms — and I'll start working the supplier network while we're still on the line.`,
-            speak: `Two quick confirms — and I'm already working the network while we talk.`,
+            show: `Two things to lock in — and I'll start working the supplier network while we're still on the line.`,
+            speak: `Two things to lock in — and I'm already working the network while we talk.`,
           },
         ],
         token,
@@ -932,14 +1042,25 @@ export default function LiveCall() {
       for (let i = 0; i < SCENES.length; i++) {
         const scene = SCENES[i]
         let answered = false
+        let prompted = false
+        let recastIdx = 0
         while (!answered) {
           if (token.cancelled) return
           mark(() => setActiveScene(i))
-          await say(
-            scene.prompt(b).map((t) => ({ show: t, speak: `${fillerFor(scene.id)}${t}` })),
-            token,
-          )
+          if (!prompted) {
+            // One lead-in on the first line only — never per-bullet praise.
+            const pl = scene.prompt(b)
+            await say(
+              pl.map((t, li) => {
+                const line = li === 0 ? withFiller(scene.id, t) : t
+                return { show: line, speak: line }
+              }),
+              token,
+            )
+            prompted = true
+          }
           if (token.cancelled) return
+          pendingAsk.current = scene.recasts?.length ? { recasts: scene.recasts } : null
           mark(() => setAwaiting(true))
           const { text, via } = await waitForAnswer(token)
           if (token.cancelled) return
@@ -947,19 +1068,51 @@ export default function LiveCall() {
             setAwaiting(false)
             setActiveScene(null)
           })
+          pendingAsk.current = null
+          if (via === 'dropped') {
+            const rq = scene.recasts?.length ? scene.recasts[recastIdx % scene.recasts.length] : null
+            recastIdx += 1
+            await runDropped(
+              token,
+              b,
+              rq ? { show: rq, speak: rq } : null,
+            )
+            if (token.cancelled) return
+            prompted = true // the recap + re-ask covered it — don't re-run the full prompt
+            continue
+          }
           pushYou(text, via)
           const patch = scene.parse(text)
           if (!patch) {
+            // Off-topic or unclear answer: one polite, brief bridge that
+            // acknowledges what the user actually said (echoing it when it's
+            // short), then — after a small beat — comes back to the question
+            // in fresh, fewer words. No re-asking the full prompt.
+            const short = (text || '').trim()
+            const echoable = short.length > 0 && short.length <= 48 && short.split(/\s+/).length <= 7
+            const recover = scene.recover ?? {
+              show: `Of course — noted with thanks. Say it once more, or tap an answer below.`,
+              speak: `Of course — noted. Once more, or tap an answer below.`,
+            }
             await say(
               [
                 {
-                  show: `Sorry, I didn't quite catch that — say it once more, or tap an answer below.`,
-                  speak: `Sorry, didn't catch that. Once more, or tap an answer below.`,
+                  show: echoable ? `“${short}” — noted with thanks.` : recover.show,
+                  speak: echoable ? `Noted, thank you.` : recover.speak,
                 },
               ],
               token,
             )
             if (token.cancelled) return
+            await new Promise((r) => setTimeout(r, 1100))
+            if (token.cancelled) return
+            if (scene.recasts?.length) {
+              const recast = scene.recasts[recastIdx % scene.recasts.length]
+              recastIdx += 1
+              await say([{ show: recast, speak: recast }], token)
+              if (token.cancelled) return
+            }
+            prompted = true // the recast re-frames the question — don't re-ask it
             continue
           }
           Object.assign(b, patch)
@@ -1021,20 +1174,26 @@ export default function LiveCall() {
         // The quote fork — both paths pre-loaded so the demo never dead-ends.
         const fork = forkFor(quoted, b)
         mark(() => setForkChips(fork.chips))
+        pendingAsk.current = { recasts: [fork.speak] }
         await say([{ show: fork.ask, speak: fork.speak }], token)
         if (token.cancelled) return
         let answer = null
         while (!answer) {
           const { text, via } = await waitForAnswer(token)
           if (token.cancelled) return
+          if (via === 'dropped') {
+            await runDropped(token, b, { show: fork.ask, speak: fork.speak })
+            if (token.cancelled) return
+            continue
+          }
           pushYou(text, via)
           answer = parseYesNo(text)
           if (!answer) {
             await say(
               [
                 {
-                  show: `Just a yes or a no for now — tap one below, or say it once more.`,
-                  speak: `Just a yes or no for me.`,
+                  show: `Of course — noted. Just a yes or a no for now, or tap one below.`,
+                  speak: `Of course — noted. Just a yes or a no for me.`,
                 },
               ],
               token,
@@ -1043,6 +1202,7 @@ export default function LiveCall() {
           }
         }
         mark(() => setForkChips(null))
+        pendingAsk.current = null
         const branch = forkBranch(answer, quoted, b)
         forkDecision = {
           answer,
@@ -1391,18 +1551,13 @@ export default function LiveCall() {
     setFeedClock(0)
   }, [cancelRun])
 
-  // browser speech recognition — final results submit as voice answers
-  const toggleMic = useCallback(() => {
+  // browser speech recognition — continuous, hands-free. The mic arms itself
+  // the moment the call connects and re-arms after every turn, so the user
+  // never presses a mic button to answer. While Aeko speaks the mic is held
+  // (no self-hearing through the speakers); the moment she stops, it comes
+  // back on its own. Final results submit as voice answers.
+  const startListening = useCallback(() => {
     if (!asrOk) return
-    if (listening) {
-      try {
-        recognitionRef.current?.stop?.()
-      } catch {
-        /* noop */
-      }
-      setListening(false)
-      return
-    }
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition
     try {
       const rec = new SR()
@@ -1429,7 +1584,12 @@ export default function LiveCall() {
         }
         setInterim(interimText)
       }
-      rec.onerror = () => setListening(false)
+      rec.onerror = (e) => {
+        // permission or service failure — stop retrying; chips and typing
+        // carry the demo the rest of the way
+        if (e?.error === 'not-allowed' || e?.error === 'service-not-allowed') micBlockedRef.current = true
+        setListening(false)
+      }
       rec.onend = () => setListening(false)
       setInterim('')
       setListening(true)
@@ -1437,7 +1597,29 @@ export default function LiveCall() {
     } catch {
       setListening(false)
     }
-  }, [asrOk, listening, submit])
+  }, [asrOk, submit])
+
+  // auto-mic driver — the mic is on whenever it's the user's turn to talk
+  useEffect(() => {
+    if (!asrOk || micBlockedRef.current) return undefined
+    const shouldListen = phase === 'live' && !showcase && !speaking && !micMuted
+    if (!shouldListen) {
+      try {
+        recognitionRef.current?.stop?.()
+      } catch {
+        /* noop */
+      }
+      return undefined
+    }
+    if (listening) return undefined
+    const t = window.setTimeout(() => startListening(), 350)
+    return () => clearTimeout(t)
+  }, [asrOk, phase, showcase, speaking, micMuted, listening, startListening])
+
+  // the mic button is now a mute toggle — the mic is otherwise always on
+  const toggleMic = useCallback(() => {
+    setMicMuted((m) => !m)
+  }, [])
 
   const onInputKey = (e) => {
     if (e.key === 'Enter' && !e.shiftKey) {
@@ -1484,8 +1666,8 @@ export default function LiveCall() {
                   with {CUSTOMER.name} · {CUSTOMER.company}
                 </span>
               </div>
-              <span className={`lcall__livebadge${complete ? ' is-ended' : ''}`}>
-                <i aria-hidden="true" /> {complete ? 'ENDED' : 'LIVE'}
+              <span className={`lcall__livebadge${complete ? ' is-ended' : drop ? (drop === 'cut' ? ' is-dropped' : ' is-ringing') : ''}`}>
+                <i aria-hidden="true" /> {complete ? 'ENDED' : drop === 'cut' ? 'CALL CUT' : drop === 'ringing' ? 'CALLING BACK' : 'LIVE'}
               </span>
             </div>
             <div className="lcall__controls">
@@ -1564,7 +1746,7 @@ export default function LiveCall() {
                     className={`call-input__mic ${listening ? 'is-on' : ''}`}
                     onClick={toggleMic}
                     disabled={!asrOk}
-                    aria-label={listening ? 'Stop voice input' : 'Answer by voice'}
+                    aria-label={micMuted ? 'Turn voice input on' : 'Mute voice input'}
                     title={
                       asrOk
                         ? listening

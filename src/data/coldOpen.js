@@ -6,22 +6,45 @@
 // browser. Edit numbers/copy here — the components only read from this config.
 //
 // Timeline (seconds):
-//   0–10  WAR ROOM   three agent fleets fan out to partners
-//   10–30 DATA FUNNEL thousands scanned → 312 qualified → 100 contacted
-//   30–50 THE BLAST  100 outreach cards across six channels + paperwork
-//   50–59 HOOK       the order, then "Aeko is calling you now" → live call
+//   0–12  BACKBONE   aekovera.com's positioning, stated once — the
+//                    intelligence layer for how products get made
+//   12–22 WAR ROOM   three agent fleets fan out to partners
+//   22–40 DATA FUNNEL thousands scanned → 312 qualified → 100 contacted
+//   40–57 THE BLAST  100 outreach cards across six channels + paperwork
+//   57–66 HOOK       the order, then "Aeko is calling you now" → live call
 // ---------------------------------------------------------------------------
 
+// sessionStorage flag for the intro→call handoff gate. Cleared by the live
+// call on mount, so every fresh visit to /outreach/live — including a
+// mid-call refresh — replays the introduction.
+export const COLD_OPEN_FLAG = 'aekoColdOpenPlayed'
+
 export const COLD_OPEN = {
-  total: 60,
-  handoffAt: 59,
+  total: 67,
+  handoffAt: 66,
   defaultNext: '/outreach/live',
 
   beats: {
-    warRoom: { start: 0, dur: 10 },
-    funnel: { start: 10, dur: 20 },
-    blast: { start: 30, dur: 20 },
-    hook: { start: 50, dur: 10 },
+    backbone: { start: 0, dur: 12 },
+    warRoom: { start: 12, dur: 10 },
+    funnel: { start: 22, dur: 18 },
+    blast: { start: 40, dur: 17 },
+    hook: { start: 57, dur: 10 },
+  },
+
+  // Beat 0 — the backbone: Aekovera's own positioning, quoted from
+  // aekovera.com ("The intelligence layer for how products get made." and
+  // "Behind every product on a shelf is a maker who built it" — about page;
+  // "800+ vetted suppliers · US, China & India · Matched in 3 weeks" —
+  // homepage). Stated once; the rest of the film shows it working.
+  backbone: {
+    eyebrow: 'Building the backbone',
+    title: ['The intelligence layer', 'for how products get made.'],
+    lines: [
+      'Behind every product on a shelf is a maker who built it. Meet the makers.',
+      'One supply-chain handler for your entire product line.',
+    ],
+    facts: ['800+ vetted suppliers', 'US · China · India', 'Matched in 3 weeks'],
   },
 
   // Fictional fleet codenames + product lines for the war room.

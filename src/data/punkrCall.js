@@ -49,6 +49,12 @@ export const ORDER_CONTEXT = {
   placed: 'placed 4 minutes ago',
 }
 
+// The volume floor for a first run — the winning supplier's MOQ on file
+// (Heartland Culinary Works, '5,000 units' in suppliers.js). Custom volumes
+// below it clamp up to here — Aeko says so out loud and still proceeds;
+// anything at or above proceeds as given, however big.
+export const VOLUME_FLOOR = 5000
+
 // ---------------------------------------------------------------------------
 // Small pure parsing helpers. All tolerate messy spoken/typed input.
 // ---------------------------------------------------------------------------
@@ -204,7 +210,25 @@ export function parseProduct(text) {
 //   chips    — quick answers so the live demo can be driven in one click
 //   parse    — (text) => patch object | null (null → one gentle repair, then chips)
 //   confirm  — (brief) => string[] acknowledgement lines
+//   recasts  — short re-asks in fresh, fewer words for silence + unclear rounds
+//   recover  — polite one-line bridge after an unclear answer; hands the
+//              question back without re-asking the full prompt
 // ---------------------------------------------------------------------------
+
+// The spoken reaction to the volume answer — value-aware, never one stock
+// line: the placed order gets a lock-in, a custom number gets the "different
+// from what's on file, reworking" bridge, a below-floor number gets the MOQ
+// floor. Every downstream figure (capacity screens, quote basis, recap)
+// already reads brief.volume, so the reworked numbers propagate themselves.
+const volumeConfirmLine = (brief) => {
+  const v = brief.volume
+  if (v == null) return 'Volume noted.'
+  if (brief.volumeClamped)
+    return `That's below the MOQ on file — I can't go under ${fmtInt(VOLUME_FLOOR)}. Setting it right at the floor, and we still move.`
+  if (v === ORDER_CONTEXT.volume) return `${fmtInt(v)} units — that's the order as placed. Locked.`
+  if (v === 1000000) return `A million units — going big. I'll rework the run around it — we still go.`
+  return `${fmtInt(v)} units — hm, that's a different number than the ${fmtInt(ORDER_CONTEXT.volume)} on file. Let me rework the run around it — we still go.`
+}
 
 export const SCENES = [
   {
@@ -213,7 +237,7 @@ export const SCENES = [
     // asked; it is already on the brief when the call connects.
     id: 'scale',
     prompt: () => [
-      `Quick confirm — how many units on the first run, and how flexible are we on supplier MOQs?`,
+      `How many units on the first run, and how flexible are we on supplier MOQs?`,
     ],
     chips: [
       '500,000 units · flexible on MOQ',
@@ -223,7 +247,8 @@ export const SCENES = [
     ],
     parse: (text) => {
       const t = (text || '').toLowerCase()
-      const vol = parseVolume(t)
+      let vol = parseVolume(t)
+      let volumeClamped = false
       let moq = null
       if (/(low|small|pilot)/.test(t)) moq = { kind: 'low' }
       else if (/(flex|any|open|whatever)/.test(t)) moq = { kind: 'flexible' }
@@ -236,13 +261,26 @@ export const SCENES = [
         }
       }
       if (vol == null && !moq) return null
+      // MOQ floor: custom volumes below it clamp up to the floor; anything
+      // at or above proceeds as given — however big.
+      if (vol != null && vol < VOLUME_FLOOR) {
+        vol = VOLUME_FLOOR
+        volumeClamped = true
+      }
       return {
         ...(vol != null ? { volume: vol } : {}),
+        ...(volumeClamped ? { volumeClamped: true } : {}),
         ...(moq ? { moqTolerance: moq } : {}),
       }
     },
+    // Re-asks come back in fresh, fewer words — never the same phrasing twice.
+    recasts: [
+      'So — how many units are we making?',
+      'Volume for the first run — what number?',
+      'Units on the first run — a ballpark works.',
+    ],
     confirm: (brief) => [
-      `Oh, I love this — ${fmtInt(brief.volume)} units.`,
+      volumeConfirmLine(brief),
       brief.moqTolerance.kind === 'low'
         ? 'Low MOQs on file — the small-run lines rank up.'
         : brief.moqTolerance.kind === 'max'
@@ -250,32 +288,55 @@ export const SCENES = [
           : 'Flexible on MOQs — that widens the field nicely.',
       `I'll find these manufacturers for you.`,
     ],
-    confirmSpeak: (brief) =>
-      `Oh, I love this — ${fmtInt(brief.volume)} units. I'll find these manufacturers for you.`,
+    confirmSpeak: (brief) => `${volumeConfirmLine(brief)} I'll find these manufacturers for you.`,
+    recover: {
+      show: `No trouble — noted with thanks.`,
+      speak: `Noted, thank you.`,
+    },
   },
   {
     // Spec confirm — packaging + deadline in one answer.
     id: 'spec',
+    // No open-ended ask and no repeated "quick confirm" — the defaults go on
+    // the record as bullets and the user confirms or corrects in one word.
     prompt: () => [
-      `Last one — packaging format, and when does it need to land?`,
+      `Last piece — two things on file:`,
+      `• Packaging: retail-ready pouches.`,
+      `• Landing: six weeks from PO.`,
+      `If that's right, just say "go" — otherwise tell me what to change.`,
     ],
     chips: ['Pouches · 6 weeks', 'Pouches · ASAP', 'Glass jars · 6 weeks'],
     parse: (text) => {
+      const t = (text || '').toLowerCase()
       const [pRaw, dRaw] = (text || '').split('·')
       const p = parsePackaging(pRaw || text)
       const d = parseDeadline((dRaw || '').trim())
+      // A bare confirmation accepts the bullets as stated (the scripted
+      // defaults — pouches, six weeks).
+      if (!p && !d && /\b(go|yes|yeah|yep|yup|correct|confirmed|right|good|perfect|proceed|sounds good|that works|all good|do it)\b/.test(t)) {
+        return { packaging: parsePackaging('pouches'), deadline: parseDeadline('6 weeks') }
+      }
       if (!p && !d) return null
       return {
         ...(p ? { packaging: p } : {}),
         ...(d ? { deadline: d } : {}),
       }
     },
+    recasts: [
+      'So — on the landing — six weeks works?',
+      'Pouches and six weeks — still good?',
+      'Landing in six weeks, pouches — good?',
+    ],
     confirm: (brief) => [
-      `Perfect — ${brief.packaging?.label ?? 'format flexible'}, ${brief.deadline?.label ?? 'timeline open'}.`,
+      `${brief.packaging?.label ?? 'Format flexible'}, ${brief.deadline?.label ?? 'timeline open'} — locked in.`,
       `That's everything — the network is already working. Stay with me.`,
     ],
     confirmSpeak: (brief) =>
-      `Perfect — ${brief.packaging?.label ?? 'format flexible'}, ${brief.deadline?.label ?? 'timeline open'}. That's everything — stay with me.`,
+      `${brief.packaging?.label ?? 'Format flexible'}, ${brief.deadline?.label ?? 'timeline open'} — locked in. That's everything — stay with me.`,
+    recover: {
+      show: `No trouble — noted.`,
+      speak: `Noted, thank you.`,
+    },
   },
 ]
 
