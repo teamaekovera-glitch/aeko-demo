@@ -279,11 +279,10 @@ export default function Discover() {
           </button>
         </span>
       ))}
-      <button type="button" className="disc-clear" onClick={clearFilters}>
-        Clear all
-      </button>
     </div>
   )
+  // Polish change 5: 'Clear all' lives only in the Filters header (shown while
+  // filters are active); the pill row keeps per-pill removal.
 
   const sidebar = (
     <div
@@ -430,7 +429,7 @@ export default function Discover() {
                   ) : null}
                   {' · '}
                   <span className="results-count__rank">
-                    ranked by coverage of your terms — what the row is outweighs where it is
+                    ranked by relevance to your search
                   </span>
                 </p>
 

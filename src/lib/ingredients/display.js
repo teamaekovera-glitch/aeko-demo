@@ -58,5 +58,22 @@ export function hasPublishedValue(signal) {
   return typeof signal.value === "string" && signal.value.length > 0;
 }
 
+/**
+ * Card-surface compression of a long research note (change 2 of the UI polish
+ * pass): drop the parenthetical audit detail and the leading "claim retained
+ * as" phrasing, keep the substance in the source's own words. Words are
+ * extracted verbatim from the note — nothing is invented, and the full
+ * sentence stays on the profile.
+ */
+export function compressPriceNote(note) {
+  if (typeof note !== "string" || note.length === 0) return null;
+  const head = note.split(" (")[0].trim();
+  const tail = note.includes("; ")
+    ? note.split("; ").slice(1).join("; ").trim()
+    : "";
+  const status = tail.replace(/^claim retained as /i, "");
+  return status ? `${head} — ${status}` : head;
+}
+
 /** Result cap: browse stays renderable; the note states the total honestly. */
 export const RESULTS_CAP = 48;

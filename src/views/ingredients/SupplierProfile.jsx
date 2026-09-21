@@ -8,7 +8,8 @@
  * unknown stays Unknown (Rulebook D4).
  */
 
-import { Link, useParams } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Link, useParams, useLocation } from 'react-router-dom'
 import { suppliersById } from '../../lib/ingredients/catalog.js'
 import { bandMoq } from '../../lib/ingredients/search.js'
 import { certificationChipLabel } from '../../lib/ingredients/display.js'
@@ -72,6 +73,13 @@ function profileClaims(supplier) {
 export default function SupplierProfile() {
   const { supplierId } = useParams()
   const supplier = suppliersById.get(supplierId)
+  const location = useLocation()
+
+  // The cards' single 'View sources' affordance deep-links here with #evidence.
+  useEffect(() => {
+    if (location.hash !== '#evidence') return
+    document.getElementById('evidence')?.scrollIntoView({ block: 'start' })
+  }, [location])
 
   if (!supplier) {
     return (
@@ -194,7 +202,7 @@ export default function SupplierProfile() {
           </div>
 
           <aside className="profile-evidence">
-            <div className="card profile-evidence__card">
+            <div className="card profile-evidence__card" id="evidence">
               <h2>Evidence — every claim and its source</h2>
               <p className="profile-evidence__sub">
                 Each line is the page the claim was read from and the date it was opened. Claimed

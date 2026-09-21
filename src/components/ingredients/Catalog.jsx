@@ -10,7 +10,8 @@
  * (the merge gate filters them), so no withheld row can leak.
  */
 
-import { UNKNOWN_LABEL, certificationChipLabel, priceFlag, priceTierLabel } from '../../lib/ingredients/display.js'
+import { Link } from 'react-router-dom'
+import { UNKNOWN_LABEL, certificationChipLabel, compressPriceNote, priceFlag, priceTierLabel } from '../../lib/ingredients/display.js'
 
 function sourceTitle(source) {
   return `Source: ${source.url} · retrieved ${source.retrievedAt}`
@@ -97,14 +98,19 @@ function ShieldGlyph() {
   )
 }
 
-/** Row-level research provenance: how the row was verified, with what confidence. */
+/**
+ * Row-level research provenance: how the row was verified, with what confidence.
+ * The verification level keeps its badge; confidence renders as subtle muted
+ * text next to the card meta (polish change 4) so a low reading stops looking
+ * like an error state. Both levels take the same treatment.
+ */
 export function ProvenanceBadge({ supplier }) {
   return (
     <span className="provenance-badge">
       <span className="badge-muted">
         <ShieldGlyph /> {supplier.verificationLevel}
       </span>
-      <span className="badge-muted">Confidence: {supplier.confidence}</span>
+      <span className="provenance-note">Confidence: {supplier.confidence.toLowerCase()}</span>
     </span>
   )
 }
@@ -112,9 +118,12 @@ export function ProvenanceBadge({ supplier }) {
 /**
  * One price signal: tier badge (Rulebook B1), the verbatim published figure,
  * the verbatim staleness qualifier with its flag badge where one applies,
- * and the source the claim was read from on the date shown.
+ * and the source the claim was read from on the date shown. `compact` (the
+ * discovery card, polish change 2) compresses a long research note to a short
+ * muted one — the verbatim wording stays on the profile, which renders the
+ * same row without the prop.
  */
-export function PriceSignalRow({ signal, index }) {
+export function PriceSignalRow({ signal, index, compact = false }) {
   const flag = priceFlag(signal)
   return (
     <li className="price-signal" data-fact-field={`price-signal-${index + 1}`}>
@@ -124,7 +133,9 @@ export function PriceSignalRow({ signal, index }) {
       {signal.value ? <span className="price-signal__value">{signal.value}</span> : null}
       {flag && <span className={`flag-badge flag-badge--${flag.kind}`}>{flag.label}</span>}
       {signal.staleness && <span className="price-signal__staleness">{signal.staleness}</span>}
-      {signal.note && <span className="price-signal__note">{signal.note}</span>}
+      {signal.note && (
+        <span className="price-signal__note">{compact ? compressPriceNote(signal.note) : signal.note}</span>
+      )}
       <SourceCitation source={signal.source} />
     </li>
   )
@@ -146,5 +157,29 @@ export function CertificationList({ supplier }) {
         </li>
       ))}
     </ul>
+  )
+}
+
+/**
+ * Certification chips for the discovery card (polish change 1): the stated
+ * names as chips with ONE 'View sources' affordance per card pointing at the
+ * profile's evidence section — per-claim source links stay on the profile and
+ * its evidence list, so provenance is de-duplicated, never dropped.
+ */
+export function CertificationChips({ supplier }) {
+  if (supplier.certifications.value.length === 0) {
+    return <p className="cert-empty">None listed on the reviewed page.</p>
+  }
+  return (
+    <span className="chip-list">
+      {supplier.certifications.value.map((cert) => (
+        <span key={cert.name} className="tag tag--cert">
+          {cert.name} · {certificationChipLabel(cert.status)}
+        </span>
+      ))}
+      <Link to={`/ingredients/${supplier.id}#evidence`} className="cert-sources-link">
+        View sources<span aria-hidden="true">↗</span>
+      </Link>
+    </span>
   )
 }

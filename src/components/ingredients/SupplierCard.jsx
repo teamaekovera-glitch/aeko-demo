@@ -9,7 +9,7 @@
 import { Link } from 'react-router-dom'
 import { bandMoq } from '../../lib/ingredients/search.js'
 import {
-  CertificationList,
+  CertificationChips,
   ChipList,
   FactField,
   PriceSignalRow,
@@ -23,6 +23,9 @@ export default function SupplierCard({ supplier }) {
   const ingredients = supplier.ingredients
   const rest = ingredients.value.length - INGREDIENT_CHIP_CAP
   const moqBand = bandMoq(supplier.moq?.value ?? null)
+  // Polish change 6: when neither MOQ nor a sample policy is published, the two
+  // card blocks collapse into one muted line — the profile keeps both fields.
+  const commercialUnpublished = moqBand === 'unspecified' && !supplier.samplePolicy
 
   return (
     <article className="card supplier-result">
@@ -53,18 +56,27 @@ export default function SupplierCard({ supplier }) {
         <h4>Price signals · dated snapshots</h4>
         <ul>
           {supplier.priceSignals.map((signal, index) => (
-            <PriceSignalRow key={index} signal={signal} index={index} />
+            <PriceSignalRow key={index} signal={signal} index={index} compact />
           ))}
         </ul>
       </section>
 
+      {commercialUnpublished && (
+        <p className="fact-muted-line" data-fact-field="commercial-unpublished">
+          MOQ &amp; samples not published
+        </p>
+      )}
       <dl className="fact-grid">
-        <FactField label="MOQ band">
-          {moqBand === 'unspecified' ? <span className="moq-plain">Unspecified</span> : moqBand}
-        </FactField>
-        <FactField label="Sample policy">
-          <SourcedText sourced={supplier.samplePolicy} />
-        </FactField>
+        {commercialUnpublished ? null : (
+          <>
+            <FactField label="MOQ band">
+              {moqBand === 'unspecified' ? <span className="moq-plain">Unspecified</span> : moqBand}
+            </FactField>
+            <FactField label="Sample policy">
+              <SourcedText sourced={supplier.samplePolicy} />
+            </FactField>
+          </>
+        )}
         <FactField label="Ingredients" wide>
           <ChipList sourced={ingredients} cap={INGREDIENT_CHIP_CAP} />
         </FactField>
@@ -80,7 +92,7 @@ export default function SupplierCard({ supplier }) {
 
       <section className="supplier-result__certs" data-slot="certifications">
         <h4>Certifications</h4>
-        <CertificationList supplier={supplier} />
+        <CertificationChips supplier={supplier} />
       </section>
 
       <footer className="supplier-result__foot">
