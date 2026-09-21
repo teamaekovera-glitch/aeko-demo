@@ -1,0 +1,4465 @@
+{
+  "schemaVersion": 1,
+  "regionId": "india-sri-lanka",
+  "region": "India & Sri Lanka",
+  "retrieved": "2026-09-19",
+  "documentArtifact": "art_GfNGlM9s",
+  "documentPath": "docs/ingredient-suppliers-india-sri-lanka.md",
+  "methodology": "Every factual claim in the supplier rows was read this session on a retrieved page — official supplier site first, government/association registry second, marketplace listing last and always labeled. Facts not stated on retrieved pages are recorded as null (Unknown); quote-only is recorded as a quote-only price tier. IndiaMART-listed price signals carry tier marketplace-listed with their canonical listing URLs and are never presented as supplier-published. Self-reported superlatives and metrics are flagged as self-reported. No emails, phones, prices, MOQs or certifications were guessed.",
+  "suppliers": [
+    {
+      "id": "india-sri-lanka-001",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Synthite Industries Ltd",
+        "source": {
+          "url": "https://www.synthite.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://www.synthite.com",
+        "source": {
+          "url": "https://www.synthite.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Kerala, India (HQ city n/s on retrieved page)",
+        "source": {
+          "url": "https://www.synthite.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://www.synthite.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "Delivers to customers in 90+ countries",
+        "source": {
+          "url": "https://www.synthite.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "Spice oleoresins",
+          "botanical extracts"
+        ],
+        "source": {
+          "url": "https://www.synthite.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "spice oleoresins",
+          "functional food",
+          "fragrance",
+          "flavor",
+          "pigments",
+          "botanical extracts"
+        ],
+        "source": {
+          "url": "https://www.synthite.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Manufacturer",
+        "source": {
+          "url": "https://www.synthite.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.synthite.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.synthite.com",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "8 manufacturing facilities; 3,000+ people",
+        "source": {
+          "url": "https://www.synthite.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Describes itself as the world's leading producer of botanical extracts; Kerala origins, 50+ years (self-descriptions). Certifications, MOQ, price, sample policy: unknown on retrieved page.",
+      "sources": [
+        {
+          "url": "https://www.synthite.com",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-002",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Mane Kancor Ingredients Pvt Ltd",
+        "source": {
+          "url": "https://manekancor.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://manekancor.com",
+        "source": {
+          "url": "https://manekancor.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Cochin, India (roots traced to 1857)",
+        "source": {
+          "url": "https://manekancor.com/about/overview/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://manekancor.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "Presence in 100+ countries",
+        "source": {
+          "url": "https://manekancor.com/about/overview/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "Oleoresins",
+          "essential oils",
+          "natural colours",
+          "antioxidants"
+        ],
+        "source": {
+          "url": "https://manekancor.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "oleoresins",
+          "essential oils",
+          "floral extracts",
+          "natural antioxidants",
+          "natural colours",
+          "culinary ingredients",
+          "delivery platforms",
+          "organic ingredients"
+        ],
+        "source": {
+          "url": "https://manekancor.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Manufacturer",
+        "source": {
+          "url": "https://manekancor.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "FSSC 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://manekancor.com/about/overview/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 9001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://manekancor.com/about/overview/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 14001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://manekancor.com/about/overview/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 45001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://manekancor.com/about/overview/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 50001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://manekancor.com/about/overview/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://manekancor.com/about/overview/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "GMP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://manekancor.com/about/overview/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "RSPO",
+            "status": "company-stated",
+            "source": {
+              "url": "https://manekancor.com/about/overview/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FAMI-QS",
+            "status": "company-stated",
+            "source": {
+              "url": "https://manekancor.com/about/overview/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://manekancor.com/about/overview/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://manekancor.com/about/overview/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Organic (NPOP, NOP & EOS)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://manekancor.com/about/overview/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://manekancor.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://manekancor.com/about/overview/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Multi-locational factories in India; SEDEX partner; NABL-accredited labs. MOQ, price, capacity figures, sample policy: unknown.",
+      "sources": [
+        {
+          "url": "https://manekancor.com",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://manekancor.com/about/overview/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-003",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Plant Lipids Pvt Ltd",
+        "source": {
+          "url": "https://plantlipids.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://plantlipids.com",
+        "source": {
+          "url": "https://plantlipids.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Kolenchery, Kerala, India (founded 1979)",
+        "source": {
+          "url": "https://plantlipids.com/our-journey/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://plantlipids.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "Supply network covering 35+ countries",
+        "source": {
+          "url": "https://plantlipids.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page via secondary crawler."
+        }
+      },
+      "categories": {
+        "value": [
+          "Spice extracts",
+          "essential oils",
+          "natural food colours"
+        ],
+        "source": {
+          "url": "https://plantlipids.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "spice extracts",
+          "essential oils",
+          "natural food colours"
+        ],
+        "source": {
+          "url": "https://plantlipids.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Manufacturer",
+        "source": {
+          "url": "https://plantlipids.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://plantlipids.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://plantlipids.com/our-journey/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "14 manufacturing units (India, Sri Lanka, Bangladesh, Indonesia, Germany, UK, US); 7 marketing offices (India, Sri Lanka, Indonesia, Germany, UK, US); R&D hubs Kochi and UK; supercritical CO2 extraction plant",
+        "source": {
+          "url": "https://plantlipids.com/our-journey/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "4-star Export House certificate by DGFT India; felicitated at World Spice Congress as top exporter 2019–2021 (self-stated). Food-safety certifications n/s on retrieved page; one of the world's largest IPM chilli producers (self-stated).",
+      "sources": [
+        {
+          "url": "https://plantlipids.com",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://plantlipids.com/our-journey/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://plantlipids.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-004",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Akay Natural Ingredients Pvt Ltd",
+        "source": {
+          "url": "https://www.akay-group.com/akay-natural-ingredients",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://www.akay-group.com/akay-natural-ingredients",
+        "source": {
+          "url": "https://www.akay-group.com/akay-natural-ingredients",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Pathanamthitta, Kerala, India (began with one factory there)",
+        "source": {
+          "url": "https://www.akay-group.com/akay-natural-ingredients",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://www.akay-group.com/akay-natural-ingredients",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "Markets: Europe, USA, South & Central America, Asia Pacific",
+        "source": {
+          "url": "https://www.akay-group.com/akay-natural-ingredients",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "Oleoresins",
+          "natural colours",
+          "antioxidants",
+          "essential oils",
+          "spray-dried"
+        ],
+        "source": {
+          "url": "https://www.akay-group.com/akay-natural-ingredients",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "oleoresins",
+          "natural colours",
+          "roasted oleoresins",
+          "essential oils",
+          "spray-dried products",
+          "natural antioxidants"
+        ],
+        "source": {
+          "url": "https://www.akay-group.com/akay-natural-ingredients",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Manufacturer",
+        "source": {
+          "url": "https://www.akay-group.com/akay-natural-ingredients",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO 9001:2015",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.akay-group.com/akay-natural-ingredients",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FSSC 22000 V4.1",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.akay-group.com/akay-natural-ingredients",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 14001:2015",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.akay-group.com/akay-natural-ingredients",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 45001:2018",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.akay-group.com/akay-natural-ingredients",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "GMP (Bureau Veritas)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.akay-group.com/akay-natural-ingredients",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.akay-group.com/akay-natural-ingredients",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.akay-group.com/akay-natural-ingredients",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FSSAI-registered sites",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.akay-group.com/akay-natural-ingredients",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO/IEC 17025 (NABL) lab",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.akay-group.com/akay-natural-ingredients",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "DSIR-recognized R&D",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.akay-group.com/akay-natural-ingredients",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.akay-group.com/akay-natural-ingredients",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.akay-group.com/akay-natural-ingredients",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Capacity for 3,000+ tons of natural products and 1,000+ tons of essential oils",
+        "source": {
+          "url": "https://www.akay-group.com/akay-natural-ingredients",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Site blog references an Oterra acquisition closing (ownership context; not independently verified).",
+      "sources": [
+        {
+          "url": "https://www.akay-group.com/akay-natural-ingredients",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-005",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Nedspice",
+        "source": {
+          "url": "https://nedspice.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://nedspice.com/",
+        "source": {
+          "url": "https://nedspice.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://nedspice.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "Pepper",
+          "cumin",
+          "turmeric",
+          "nutmeg",
+          "cassia",
+          "dehydrated onion"
+        ],
+        "source": {
+          "url": "https://nedspice.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "spices",
+          "herbs",
+          "dehydrated vegetables",
+          "pepper",
+          "cumin",
+          "turmeric",
+          "nutmeg",
+          "cassia",
+          "dehydrated onion"
+        ],
+        "source": {
+          "url": "https://nedspice.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Processor/supplier",
+        "source": {
+          "url": "https://nedspice.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://nedspice.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://nedspice.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Onion dehydration factory in Mahuva, India — capacity 4,000 tonnes",
+        "source": {
+          "url": "https://nedspice.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "\"Global supplier of sustainable spices\"; Nedspice Farmers Partnership Program. HQ city/country n/s on retrieved homepage (global group; India processing evidenced by the Mahuva factory).",
+      "sources": [
+        {
+          "url": "https://nedspice.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-006",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Jayanti (Herbs & Spice)",
+        "source": {
+          "url": "https://jayanti.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://jayanti.com/",
+        "source": {
+          "url": "https://jayanti.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "\"Headquartered in India\" (city n/s on retrieved page)",
+        "source": {
+          "url": "https://jayanti.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://jayanti.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "Team of 500+ across 8 countries, 4 continents; offices in Vietnam, Switzerland, Netherlands, UAE, America; manufacturing in Türkiye and India",
+        "source": {
+          "url": "https://jayanti.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "Spices",
+          "herbs",
+          "botanicals"
+        ],
+        "source": {
+          "url": "https://jayanti.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "herbs",
+          "spices",
+          "botanicals"
+        ],
+        "source": {
+          "url": "https://jayanti.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Integrated grower-processor",
+        "source": {
+          "url": "https://jayanti.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://jayanti.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://jayanti.com/",
+            "retrievedAt": "2026-09-19"
+          },
+          "note": "quote-only; bulk product brochure offered"
+        }
+      ],
+      "capacity": {
+        "value": "4,500+ farmers in direct-farm sourcing program; manufacturing in Türkiye and India",
+        "source": {
+          "url": "https://jayanti.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "80+ years in the industry; retail brand \"On1y\".",
+      "sources": [
+        {
+          "url": "https://jayanti.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-007",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Hindustan Gum & Chemicals Ltd (HGCL)",
+        "source": {
+          "url": "https://hindustangum.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://hindustangum.com",
+        "source": {
+          "url": "https://hindustangum.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Bhiwani, Haryana, India (established 1962)",
+        "source": {
+          "url": "https://hindustangum.com/en/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://hindustangum.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "Presence across 30+ countries",
+        "source": {
+          "url": "https://hindustangum.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "Guar gum powder (food & industrial)",
+          "guar split"
+        ],
+        "source": {
+          "url": "https://hindustangum.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "food-grade guar gum powder",
+          "industrial guar gum powder",
+          "textile-grade guar gum powder",
+          "refined guar split"
+        ],
+        "source": {
+          "url": "https://hindustangum.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Manufacturer",
+        "source": {
+          "url": "https://hindustangum.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://hindustangum.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://hindustangum.com/en/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "3 manufacturing units (Haryana, Gujarat, Rajasthan)",
+        "source": {
+          "url": "https://hindustangum.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "JV between M.P. Birla Group and Syensqo (Belgium); flagship brand HIGUM. Site capacity counters empty in retrieval — unknown.",
+      "sources": [
+        {
+          "url": "https://hindustangum.com",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://hindustangum.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-008",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Lucid Colloids Ltd",
+        "source": {
+          "url": "https://lucidcolloids.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://lucidcolloids.com/",
+        "source": {
+          "url": "https://lucidcolloids.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Mumbai, India (head office 401A Navbharat Estates, Sewri (W))",
+        "source": {
+          "url": "https://lucidcolloids.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://lucidcolloids.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "30 countries served; overseas subsidiaries in USA (Houston) and Netherlands",
+        "source": {
+          "url": "https://lucidcolloids.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "Guar gum & hydrocolloids"
+        ],
+        "source": {
+          "url": "https://lucidcolloids.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "guar gum",
+          "hydrocolloids"
+        ],
+        "source": {
+          "url": "https://lucidcolloids.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Manufacturer",
+        "source": {
+          "url": "https://lucidcolloids.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://lucidcolloids.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://lucidcolloids.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "40,000 MT annual manufacturing capacity; 300+ customized products; 3,000 farmers engaged (site counters)",
+        "source": {
+          "url": "https://lucidcolloids.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://lucidcolloids.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-009",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Jayant Agro-Organics Ltd",
+        "source": {
+          "url": "https://www.jayantagro.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://www.jayantagro.com/",
+        "source": {
+          "url": "https://www.jayantagro.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://www.jayantagro.com/company",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "Castor oil & derivatives (HCO, DCO, sebacic acid)"
+        ],
+        "source": {
+          "url": "https://www.jayantagro.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Hydrogenated Castor Oil (HCO)",
+          "Dehydrated Castor Oil (Decasoil)",
+          "Castor Oil – Pharma Grades",
+          "Sebacic Acid"
+        ],
+        "source": {
+          "url": "https://www.jayantagro.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Manufacturer (oleochemical)",
+        "source": {
+          "url": "https://www.jayantagro.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.jayantagro.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.jayantagro.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "\"Emerging global oleochemical company with leadership in the castor-based specialty chemicals industry\"; NSE-listed (share price widget shown on page). HQ city n/s.",
+      "sources": [
+        {
+          "url": "https://www.jayantagro.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.jayantagro.com/company",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-010",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Steviatech Life Pvt Ltd",
+        "source": {
+          "url": "https://steviatech.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://steviatech.com/",
+        "source": {
+          "url": "https://steviatech.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Navrangpura, Ahmedabad, Gujarat, India",
+        "source": {
+          "url": "https://steviatech.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://steviatech.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "Stevia extracts",
+          "sweetening blends"
+        ],
+        "source": {
+          "url": "https://steviatech.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "stevia extracts",
+          "de-bittered stevia extracts",
+          "custom blends for F&B, nutraceuticals, dairy, bakery"
+        ],
+        "source": {
+          "url": "https://steviatech.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Manufacturer",
+        "source": {
+          "url": "https://steviatech.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://steviatech.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "Sample requests invited (\"Have a question or need a sample? Get in touch\")",
+        "source": {
+          "url": "https://steviatech.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://steviatech.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "\"Amongst the pioneers in setting up complete commercial-scale manufacturing for Stevia Extraction, Purification, Crystallization & Bio-conversion in India\" (self-stated); proprietary alcohol-free purification; water-based extraction; brands INSTEVIA® and NEXSTEVIA™. Certifications n/s on retrieved page.",
+      "sources": [
+        {
+          "url": "https://steviatech.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-011",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Ixoreal Biomed (KSM-66 Ashwagandha)",
+        "source": {
+          "url": "https://www.ksm66ashwagandhaa.com/home.php",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://www.ksm66ashwagandhaa.com/home.php",
+        "source": {
+          "url": "https://www.ksm66ashwagandhaa.com/home.php",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://www.ksm66ashwagandhaa.com/home.php",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "KSM-66 in 4,000+ products in 53+ countries (self-reported on site)",
+        "source": {
+          "url": "https://www.ksm66ashwagandhaa.com/home.php",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "Ashwagandha root extract (standardized)"
+        ],
+        "source": {
+          "url": "https://www.ksm66ashwagandhaa.com/home.php",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "ashwagandha root extract (KSM-66, full-spectrum root-only)"
+        ],
+        "source": {
+          "url": "https://www.ksm66ashwagandhaa.com/home.php",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Manufacturer (branded ingredient)",
+        "source": {
+          "url": "https://www.ksm66ashwagandhaa.com/home.php",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.ksm66ashwagandhaa.com/home.php",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.ksm66ashwagandhaa.com/home.php",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Site self-reports: 1,500 acres of company-owned farms, 90 \"gold standard\" clinical trials, 46 quality certifications, KSM-66 in 4,000+ products in 53+ countries — certifier names, MOQ, price, sample policy unknown; HQ city n/s (contact page fetch returned no content). Marketing-heavy self-claims.",
+      "sources": [
+        {
+          "url": "https://www.ksm66ashwagandhaa.com/home.php",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-012",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Grenera Nutrients Pvt Ltd",
+        "source": {
+          "url": "https://www.moringa.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://www.moringa.com/",
+        "source": {
+          "url": "https://www.moringa.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Puthupalayam, Avalpoondurai, Erode, Tamil Nadu, India",
+        "source": {
+          "url": "https://www.moringa.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://www.moringa.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "6,500 tons of moringa products delivered worldwide (site counter); 150+ B2B customers",
+        "source": {
+          "url": "https://www.moringa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "Organic moringa powder",
+          "tea",
+          "seed",
+          "oil",
+          "pellets"
+        ],
+        "source": {
+          "url": "https://www.moringa.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "moringa powder",
+          "moringa tea",
+          "moringa seed",
+          "moringa oil",
+          "moringa pellets"
+        ],
+        "source": {
+          "url": "https://www.moringa.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Integrated grower-manufacturer",
+        "source": {
+          "url": "https://www.moringa.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.moringa.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.moringa.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Own farms of 300 hectares, grown organically",
+        "source": {
+          "url": "https://www.moringa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Organic-growing claims on site; specific certifier names n/s on retrieved page (\"Certifications\" section not captured).",
+      "sources": [
+        {
+          "url": "https://www.moringa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-013",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Coromandel Bio (Bio Products business of Coromandel International Ltd)",
+        "source": {
+          "url": "https://coromandelbio.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://coromandelbio.com/",
+        "source": {
+          "url": "https://coromandelbio.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Corporate office: Guindy, Chennai, India",
+        "source": {
+          "url": "https://coromandelbio.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://coromandelbio.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "Leadership in Azadirachtin across 40+ countries; product registrations in 42 countries",
+        "source": {
+          "url": "https://coromandelbio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "Neem: Azadirachtin, neem-based products"
+        ],
+        "source": {
+          "url": "https://coromandelbio.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Azadirachtin",
+          "Neemazal range",
+          "Parry Neem"
+        ],
+        "source": {
+          "url": "https://coromandelbio.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Manufacturer (corporate division)",
+        "source": {
+          "url": "https://coromandelbio.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO 9001:2015",
+            "status": "company-stated",
+            "source": {
+              "url": "https://coromandelbio.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 14001:2015",
+            "status": "company-stated",
+            "source": {
+              "url": "https://coromandelbio.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "IMO certification for organic agriculture since 2001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://coromandelbio.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://coromandelbio.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://coromandelbio.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "State-of-the-art Azadirachtin manufacturing facility in Tamil Nadu",
+        "source": {
+          "url": "https://coromandelbio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "\"Largest and best in the world for Azadirachtin\" (self-stated). Portfolio is oriented to bio-protection/agri-input applications of neem.",
+      "sources": [
+        {
+          "url": "https://coromandelbio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-014",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Gayatri Psyllium Industries",
+        "source": {
+          "url": "https://gayatripsyllium.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://gayatripsyllium.com/",
+        "source": {
+          "url": "https://gayatripsyllium.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Unjha, Gujarat, India (incorporated 2009)",
+        "source": {
+          "url": "https://gayatripsyllium.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://gayatripsyllium.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "Exports to 35+ countries (USA, Germany, UK, Spain, Italy, China, Malaysia, Thailand, UAE, Egypt, South Africa, Brazil named)",
+        "source": {
+          "url": "https://gayatripsyllium.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "Psyllium husk/powder",
+          "organic psyllium",
+          "chickpea flour"
+        ],
+        "source": {
+          "url": "https://gayatripsyllium.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "psyllium husk",
+          "psyllium husk powder",
+          "psyllium seeds",
+          "organic psyllium",
+          "chickpea flour (besan)"
+        ],
+        "source": {
+          "url": "https://gayatripsyllium.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Manufacturer-exporter",
+        "source": {
+          "url": "https://gayatripsyllium.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "OU Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://gayatripsyllium.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://gayatripsyllium.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "NPOP (India Organic)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://gayatripsyllium.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "NOP (USDA Organic)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://gayatripsyllium.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "EU Organic (EC 834/2007)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://gayatripsyllium.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://gayatripsyllium.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://gayatripsyllium.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Government-recognized STAR EXPORT HOUSE; certifications for processing/handling organic psyllium, spices, oil seeds and herbs; private labeling offered.",
+      "sources": [
+        {
+          "url": "https://gayatripsyllium.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-015",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Shree Mahalaxmi Psyllium Pvt Ltd",
+        "source": {
+          "url": "https://mahalaxmipsyllium.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://mahalaxmipsyllium.com/",
+        "source": {
+          "url": "https://mahalaxmipsyllium.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Between Unjha and Sidhpur, Gujarat, India",
+        "source": {
+          "url": "https://mahalaxmipsyllium.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://mahalaxmipsyllium.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "Psyllium seeds",
+          "husk",
+          "husk powder"
+        ],
+        "source": {
+          "url": "https://mahalaxmipsyllium.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "psyllium (Sat-Isabgol) seeds",
+          "psyllium husk",
+          "psyllium husk powder"
+        ],
+        "source": {
+          "url": "https://mahalaxmipsyllium.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Manufacturer",
+        "source": {
+          "url": "https://mahalaxmipsyllium.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO 22000:2005",
+            "status": "company-stated",
+            "source": {
+              "url": "https://mahalaxmipsyllium.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://mahalaxmipsyllium.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://mahalaxmipsyllium.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://mahalaxmipsyllium.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Plant capacity 2,000+ MT per annum",
+        "source": {
+          "url": "https://mahalaxmipsyllium.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "\"Applied for\" Government of India Recognized Export House (stated as application, not grant); GMP/GHP stated. MOQ/price/sample/export markets: unknown.",
+      "sources": [
+        {
+          "url": "https://mahalaxmipsyllium.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-016",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Vinayaga Organic",
+        "source": {
+          "url": "https://vinayagaorganic.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://vinayagaorganic.com/",
+        "source": {
+          "url": "https://vinayagaorganic.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://vinayagaorganic.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "10+ export countries (self-reported)",
+        "source": {
+          "url": "https://vinayagaorganic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "Jaggery cubes & powder"
+        ],
+        "source": {
+          "url": "https://vinayagaorganic.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "jaggery cubes",
+          "jaggery powder"
+        ],
+        "source": {
+          "url": "https://vinayagaorganic.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Merchant-exporter",
+        "source": {
+          "url": "https://vinayagaorganic.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://vinayagaorganic.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": {
+        "value": "Bulk packaging 1 kg–50 kg (packaging range as stated on site; not a published MOQ)",
+        "source": {
+          "url": "https://vinayagaorganic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://vinayagaorganic.com/",
+            "retrievedAt": "2026-09-19"
+          },
+          "note": "own-site \"Request Quote\"; competitive FOB/CIF pricing offered via inquiry flow"
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Low",
+      "note": "Self-reported metrics: 10+ export countries, 5,000+ tons/year, since 2014 — treat as self-reported, unverified. Claims \"ISO certification and organic verification\" without naming a certifier; Udyam registration shown; self-reported \"4.9/5 rating from 10k+ reviews\" — no third-party review source found this session (excluded from reviewPresence). HQ city n/s.",
+      "sources": [
+        {
+          "url": "https://vinayagaorganic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-017",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "KRBL Ltd",
+        "source": {
+          "url": "https://krblrice.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://krblrice.com/",
+        "source": {
+          "url": "https://krblrice.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Registered office Delhi; corporate office Noida, India",
+        "source": {
+          "url": "https://krblrice.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://krblrice.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "Products sold in 90+ countries",
+        "source": {
+          "url": "https://krblrice.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "Basmati rice",
+          "rice bran oil"
+        ],
+        "source": {
+          "url": "https://krblrice.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "basmati rice",
+          "rice bran oil"
+        ],
+        "source": {
+          "url": "https://krblrice.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Manufacturer/processor",
+        "source": {
+          "url": "https://krblrice.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://krblrice.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://krblrice.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "World's largest rice milling plant in Punjab — 195 MT/hour paddy milling; 1M MT rice/paddy storage (self-stated scale)",
+        "source": {
+          "url": "https://krblrice.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Self-stated #1 largest exporter of branded basmati rice from India; brands incl. India Gate. Certifications/MOQ/price/sample: unknown.",
+      "sources": [
+        {
+          "url": "https://krblrice.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-018",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "LT Foods Ltd",
+        "source": {
+          "url": "https://ltfoods.com/about",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://ltfoods.com/about",
+        "source": {
+          "url": "https://ltfoods.com/about",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "HQ city n/s on retrieved page (Delhi-NCR contact)",
+        "source": {
+          "url": "https://ltfoods.com/about",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://ltfoods.com/about",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "Foods enjoyed in 85+ countries; processing units in India, U.S., Europe; 2,000+ distributors",
+        "source": {
+          "url": "https://ltfoods.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "Specialty/basmati rice",
+          "organic food ingredients"
+        ],
+        "source": {
+          "url": "https://ltfoods.com/about",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "specialty rice",
+          "basmati rice",
+          "organic food ingredients"
+        ],
+        "source": {
+          "url": "https://ltfoods.com/about",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Manufacturer & brand owner",
+        "source": {
+          "url": "https://ltfoods.com/about",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://ltfoods.com/about",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://ltfoods.com/about",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Brands Daawat (India) and Royal (North America); \"supplying organic food-ingredients to leading businesses\"; consolidated revenue Rs 11,023 crore (FY'26). Certifications/MOQ/price/sample: unknown.",
+      "sources": [
+        {
+          "url": "https://ltfoods.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-019",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "ETG India",
+        "source": {
+          "url": "https://etgindia.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://etgindia.com/",
+        "source": {
+          "url": "https://etgindia.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://etgindia.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "ETG globally: 71 processing plants, 4 MMT agri-commodities, 40+ countries",
+        "source": {
+          "url": "https://etgindia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "Pulses"
+        ],
+        "source": {
+          "url": "https://etgindia.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "pigeon pea dal",
+          "red lentils",
+          "chickpeas",
+          "yellow peas",
+          "green gram (moong)",
+          "black matpe (urad)"
+        ],
+        "source": {
+          "url": "https://etgindia.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "type": {
+        "value": "Processor/marketer",
+        "source": {
+          "url": "https://etgindia.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://etgindia.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://etgindia.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "\"Building the largest pulses processing and marketing platform\" in India (self-stated). India facility details/certifications/MOQ/price/sample: unknown.",
+      "sources": [
+        {
+          "url": "https://etgindia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-020",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Mahaan Milk Foods Ltd",
+        "source": {
+          "url": "https://www.mahaanmilkfoods.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://www.mahaanmilkfoods.com/",
+        "source": {
+          "url": "https://www.mahaanmilkfoods.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Office: Worldmark 2, Aerocity, New Delhi, India (manufacturing-site city n/s)",
+        "source": {
+          "url": "https://www.mahaanmilkfoods.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://www.mahaanmilkfoods.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "Milk powders",
+          "whey/milk proteins",
+          "caseinates",
+          "creamers"
+        ],
+        "source": {
+          "url": "https://www.mahaanmilkfoods.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "milk powders",
+          "whey proteins",
+          "milk proteins",
+          "whey & derivatives",
+          "casein & caseinates",
+          "non-dairy proteins",
+          "non-dairy creamers",
+          "milk fats",
+          "fat powders",
+          "specialty powders"
+        ],
+        "source": {
+          "url": "https://www.mahaanmilkfoods.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Manufacturer",
+        "source": {
+          "url": "https://www.mahaanmilkfoods.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.mahaanmilkfoods.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.mahaanmilkfoods.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Since 1987; \"pioneer in India's casein and caseinate production\" (self-stated); co-manufacturing for dairy, nutritional, pharma and F&B companies. Certifications/MOQ/price/sample: unknown.",
+      "sources": [
+        {
+          "url": "https://www.mahaanmilkfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-021",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Angel Starch & Food Pvt Ltd",
+        "source": {
+          "url": "https://www.angelstarchandfood.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://www.angelstarchandfood.com/",
+        "source": {
+          "url": "https://www.angelstarchandfood.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Perundurai, Erode, Tamil Nadu, India (est. 1990)",
+        "source": {
+          "url": "https://www.angelstarchandfood.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://www.angelstarchandfood.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "Export markets named on profile: Bangladesh, Pakistan, Sri Lanka, Saudi Arabia, Singapore, Malaysia, Korea & others",
+        "source": {
+          "url": "https://www.angelstarchandfood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "Rice flour",
+          "tapioca/maize/potato starches",
+          "maltodextrin"
+        ],
+        "source": {
+          "url": "https://www.angelstarchandfood.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "rice flour",
+          "tapioca starch/flour",
+          "maize starch",
+          "potato starch",
+          "modified starches",
+          "maltodextrin"
+        ],
+        "source": {
+          "url": "https://www.angelstarchandfood.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Manufacturer",
+        "source": {
+          "url": "https://www.angelstarchandfood.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "FSSAI",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.angelstarchandfood.com/rice-flour.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "BRCGS",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.angelstarchandfood.com/rice-flour.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.angelstarchandfood.com/rice-flour.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.angelstarchandfood.com/rice-flour.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.angelstarchandfood.com/rice-flour.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.angelstarchandfood.com/rice-flour.html",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.angelstarchandfood.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": {
+        "value": "MOQ 500 kg (published)",
+        "source": {
+          "url": "https://www.angelstarchandfood.com/rice-flour.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "Approx. Rs 41 / Kg",
+          "note": "Published price for Fine White Rice Flour on the company's own product page. The page is an IndiaMART-format profile served on the company's own domain — supplier-published, not marketplace-listed.",
+          "source": {
+            "url": "https://www.angelstarchandfood.com/rice-flour.html",
+            "retrievedAt": "2026-09-21",
+            "note": "re-verified live 2026-09-21; value unchanged — \"Approx. Rs 41 / Kg\" on Fine White Rice Flour for Noodles and Extruded Snacks and Gluten Free Rice Flour for Bakery and Snacks; \"Minimum Order Quantity | 500 Kg\""
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Capacity 500 MT/month; delivery 5–7 days",
+        "source": {
+          "url": "https://www.angelstarchandfood.com/rice-flour.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "IEC 3210015341; CIN U15320TZ2010PTC015946. Page displays \"IndiaMART Trust Seal Verified\" and \"IndiaMART Verified Exporter\" badges and an 84% call-response rate. Price and MOQ are supplier-published on the company's own domain, never marketplace-listed.",
+      "sources": [
+        {
+          "url": "https://www.angelstarchandfood.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.angelstarchandfood.com/rice-flour.html",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.angelstarchandfood.com/rice-flour.html",
+          "retrievedAt": "2026-09-21",
+          "note": "re-verification read"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-022",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Tata Coffee",
+        "source": {
+          "url": "https://www.tatacoffee.com/green-beans",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://www.tatacoffee.com/green-beans",
+        "source": {
+          "url": "https://www.tatacoffee.com/green-beans",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Estates in Karnataka & Tamil Nadu, India",
+        "source": {
+          "url": "https://www.tatacoffee.com/green-beans",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://www.tatacoffee.com/green-beans",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "Green coffee: washed Arabica/Robusta, monsooned, microlots"
+        ],
+        "source": {
+          "url": "https://www.tatacoffee.com/green-beans",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "washed Arabica green coffee",
+          "washed Robusta green coffee",
+          "monsooned coffee",
+          "microlots"
+        ],
+        "source": {
+          "url": "https://www.tatacoffee.com/green-beans",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Grower-processor",
+        "source": {
+          "url": "https://www.tatacoffee.com/green-beans",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Rainforest Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.tatacoffee.com/green-beans",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "SA 8000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.tatacoffee.com/green-beans",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Starbucks C.A.F.E. Practices",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.tatacoffee.com/green-beans",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO-certified dry milling and curing works",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.tatacoffee.com/green-beans",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.tatacoffee.com/green-beans",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.tatacoffee.com/green-beans",
+            "retrievedAt": "2026-09-19"
+          },
+          "note": "\"Let's have a conversation\""
+        }
+      ],
+      "capacity": {
+        "value": "19 coffee estates across 8,000 hectares in Karnataka/Tamil Nadu; dry milling factory at Kushalnagar, Coorg with quality lab",
+        "source": {
+          "url": "https://www.tatacoffee.com/green-beans",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "All 25 estates Rainforest Alliance certified; 12 arabica estates Starbucks C.A.F.E. Practices certified. MOQ/price/sample: unknown.",
+      "sources": [
+        {
+          "url": "https://www.tatacoffee.com/green-beans",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-023",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "NKG India Coffee Pvt Ltd",
+        "source": {
+          "url": "https://nkgindiacoffee.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://nkgindiacoffee.com/",
+        "source": {
+          "url": "https://nkgindiacoffee.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Bengaluru office, India",
+        "source": {
+          "url": "https://nkgindiacoffee.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://nkgindiacoffee.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "Green coffee (Arabica & Robusta), monsooned"
+        ],
+        "source": {
+          "url": "https://nkgindiacoffee.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Arabica green coffee",
+          "Robusta green coffee",
+          "monsooned coffee"
+        ],
+        "source": {
+          "url": "https://nkgindiacoffee.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Exporter (Neumann Kaffee Gruppe)",
+        "source": {
+          "url": "https://nkgindiacoffee.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Rainforest Alliance (processing)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://nkgindiacoffee.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "UTZ (processing)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://nkgindiacoffee.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Organic (processing)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://nkgindiacoffee.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "Fairtrade (processing)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://nkgindiacoffee.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://nkgindiacoffee.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://nkgindiacoffee.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Hassan Mill — washed line 4 MT/hour, unwashed 10 MT/hour; warehouse 25,000+ MT; monsooning facility in Mangalore; packing up to 10 containers/day",
+        "source": {
+          "url": "https://nkgindiacoffee.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "\"The most important green coffee exporter in India\" (self-stated); 100% company of Neumann Kaffee Gruppe; est. 1990 (as Madhu Jayanti Coffee); \"NKG India Planter's Group\" 4,000 ha under certification program; Mangalore facility Rainforest/UTZ.",
+      "sources": [
+        {
+          "url": "https://nkgindiacoffee.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-024",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Goodricke Group Ltd",
+        "source": {
+          "url": "https://goodricke.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://goodricke.com/",
+        "source": {
+          "url": "https://goodricke.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://goodricke.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "Bulk teas",
+          "instant teas",
+          "Darjeeling orthodox"
+        ],
+        "source": {
+          "url": "https://goodricke.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "bulk teas",
+          "instant teas",
+          "Darjeeling orthodox tea"
+        ],
+        "source": {
+          "url": "https://goodricke.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Producer & exporter",
+        "source": {
+          "url": "https://goodricke.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://goodricke.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://goodricke.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Iconic orthodox Darjeeling tea gardens, some over 150 years old",
+        "source": {
+          "url": "https://goodricke.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "\"Our gardens confirm to multiple rigorous certifications for sustainability & fair trade\" — certifiers not named on retrieved page. HQ city n/s; investor filings page confirms listed-company status (general information page).",
+      "sources": [
+        {
+          "url": "https://goodricke.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-025",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Bio Foods (Pvt) Ltd",
+        "source": {
+          "url": "https://www.biofoodslk.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://www.biofoodslk.com/",
+        "source": {
+          "url": "https://www.biofoodslk.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Kandy, Sri Lanka (established 1993; address per EDB: 04, Kumudu Mawatha, Primrose Garden, Kandy)",
+        "source": {
+          "url": "https://www.srilankabusiness.com/exporters-directory/company-profiles/bio-foods-pvt-ltd/",
+          "retrievedAt": "2026-09-19",
+          "note": "EDB registry profile (T2)"
+        }
+      },
+      "country": {
+        "value": "Sri Lanka",
+        "source": {
+          "url": "https://www.biofoodslk.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "Organic & Fairtrade tea, spices, herbs, coconut"
+        ],
+        "source": {
+          "url": "https://www.biofoodslk.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "tea",
+          "spices",
+          "herbs",
+          "coconut products"
+        ],
+        "source": {
+          "url": "https://www.biofoodslk.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Processor/exporter",
+        "source": {
+          "url": "https://www.biofoodslk.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "FLO-registered (Fairtrade Labelling Organization)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.srilankabusiness.com/exporters-directory/company-profiles/bio-foods-pvt-ltd/",
+              "retrievedAt": "2026-09-19",
+              "note": "EDB registry profile (T2)"
+            }
+          },
+          {
+            "name": "IFOAM member",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.srilankabusiness.com/exporters-directory/company-profiles/bio-foods-pvt-ltd/",
+              "retrievedAt": "2026-09-19",
+              "note": "EDB registry profile (T2)"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.biofoodslk.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.biofoodslk.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site + association context",
+      "confidence": "High",
+      "note": "Organic, biodynamic and fair-trade producer/exporter (site). EDB profile: founder Dr. Sarath Ranaweera received the first \"World's Fairest Fairtrader Award\" (2014, FLO). MOQ/price/sample: unknown.",
+      "sources": [
+        {
+          "url": "https://www.biofoodslk.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.srilankabusiness.com/exporters-directory/company-profiles/bio-foods-pvt-ltd/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-026",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Samagi Spice Exports (Pvt) Ltd",
+        "source": {
+          "url": "https://samagispice.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://samagispice.com",
+        "source": {
+          "url": "https://samagispice.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "No 42 A, Matara Road, Akurassa, Sri Lanka (per EDB); Colombo office: Cinnamon Grand, Colombo 03",
+        "source": {
+          "url": "https://www.srilankabusiness.com/exporters-directory/company-profiles/samagi-spice-exports-pvt-ltd/",
+          "retrievedAt": "2026-09-19",
+          "note": "EDB registry profile (T2)"
+        }
+      },
+      "country": {
+        "value": "Sri Lanka",
+        "source": {
+          "url": "https://samagispice.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "True Ceylon cinnamon",
+          "pepper",
+          "cloves",
+          "nutmeg",
+          "spice oils"
+        ],
+        "source": {
+          "url": "https://samagispice.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "True Ceylon cinnamon",
+          "black pepper",
+          "cloves",
+          "nutmeg",
+          "mace",
+          "ginger",
+          "turmeric",
+          "lemongrass",
+          "cinnamon bark oil",
+          "cinnamon leaf oil",
+          "citronella oil",
+          "clove oil",
+          "pepper oil",
+          "nutmeg oil",
+          "lemongrass oil",
+          "vetiver oil"
+        ],
+        "source": {
+          "url": "https://samagispice.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Processor/exporter",
+        "source": {
+          "url": "https://samagispice.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "BRC Food",
+            "status": "company-stated",
+            "source": {
+              "url": "https://samagispice.com/about",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 9001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://samagispice.com/about",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://samagispice.com/about",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "GMP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://samagispice.com/about",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FDA",
+            "status": "company-stated",
+            "source": {
+              "url": "https://samagispice.com/about",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://samagispice.com/about",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "EU Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://samagispice.com/about",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "USDA Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://samagispice.com/about",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://samagispice.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": {
+        "value": "Retail packs for supermarket chains, HoReCa, and bulk offered",
+        "source": {
+          "url": "https://samagispice.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://samagispice.com/about",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "8 processing centres and 14 raw-material collecting centres",
+        "source": {
+          "url": "https://samagispice.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site + association context",
+      "confidence": "High",
+      "note": "Established 1969 (spice collecting in Deiyandara); \"largest True Ceylon Cinnamon exporter in the country since 2012\" (self-stated); supply chain supported by 600,000 rural farmer groups and plantations (self-stated). EDB \"Premium Exporters\" profile: export entity founded 2012; awards incl. NCE Export Gold 2013. MOQ/price: quote-only.",
+      "sources": [
+        {
+          "url": "https://samagispice.com",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.srilankabusiness.com/exporters-directory/company-profiles/samagi-spice-exports-pvt-ltd/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://samagispice.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-027",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "JAPC — Joint Agri Products Ceylon (Pvt) Ltd",
+        "source": {
+          "url": "https://japc.lk/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://japc.lk/",
+        "source": {
+          "url": "https://japc.lk/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "No. 22/2, Nadungamuwa, Weliweriya, Sri Lanka",
+        "source": {
+          "url": "https://organicceyloncinnamon.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "Sri Lanka",
+        "source": {
+          "url": "https://japc.lk/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "Exports to 40+ countries (USA, UK, Germany, Japan named)",
+        "source": {
+          "url": "https://japc.lk/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "Organic Ceylon spices",
+          "herbs",
+          "teas",
+          "botanicals",
+          "essential oils"
+        ],
+        "source": {
+          "url": "https://japc.lk/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic Ceylon spices",
+          "GI-certified True Ceylon Cinnamon (Cinnamomum verum) quills",
+          "cinnamon powder",
+          "cinnamon quillings",
+          "cinnamon chips",
+          "cinnamon oils",
+          "herbs",
+          "teas",
+          "botanicals",
+          "essential oils"
+        ],
+        "source": {
+          "url": "https://japc.lk/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Processor/exporter",
+        "source": {
+          "url": "https://japc.lk/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "USDA organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://japc.lk/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "EU organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://japc.lk/certifications/",
+              "retrievedAt": "2026-09-21",
+              "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+            }
+          },
+          {
+            "name": "JAS organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://japc.lk/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Fair Trade",
+            "status": "company-stated",
+            "source": {
+              "url": "https://japc.lk/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Regenerative Organic Certified",
+            "status": "company-stated",
+            "source": {
+              "url": "https://japc.lk/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://japc.lk/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": {
+        "value": "\"Low MOQs\" (site claim, private label)",
+        "source": {
+          "url": "https://japc.lk/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://japc.lk/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "\"Sri Lanka's leading organic exporter since 1993\" (self-stated); works with 3,500+ farmer families; in-house processing with steam sterilization and lab testing; \"Coumarin tested\"; docs incl. COAs, organic certs, MSDS, fumigation, phyto. \"Best Organic Exporter\" 2021–2024 awards self-stated. Cinnamon program details per organicceyloncinnamon.com.",
+      "sources": [
+        {
+          "url": "https://japc.lk/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://organicceyloncinnamon.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://japc.lk/certifications/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-028",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Akbar Brothers",
+        "source": {
+          "url": "https://www.akbar.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://www.akbar.com/",
+        "source": {
+          "url": "https://www.akbar.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Colombo, Sri Lanka (per EDB tea directory listing; HQ city n/s on own site)",
+        "source": {
+          "url": "https://www.srilankabusiness.com/exporters-directory/tea-exporters-in-sri-lanka/",
+          "retrievedAt": "2026-09-19",
+          "note": "EDB registry profile (T2)"
+        }
+      },
+      "country": {
+        "value": "Sri Lanka",
+        "source": {
+          "url": "https://www.akbar.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": {
+        "value": "90+ nations import from Akbar Group (self-stated)",
+        "source": {
+          "url": "https://www.akbar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "Ceylon tea: black, green, flavoured, herbal, bulk"
+        ],
+        "source": {
+          "url": "https://www.akbar.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Ceylon black tea",
+          "Ceylon green tea",
+          "flavoured tea",
+          "herbal infusions",
+          "gift tea",
+          "ice tea",
+          "tea bags",
+          "loose packs",
+          "bulk tea"
+        ],
+        "source": {
+          "url": "https://www.akbar.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Merchant-exporter/processor",
+        "source": {
+          "url": "https://www.akbar.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO 14001:2015",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.akbar.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Lion logo (Pure Ceylon Tea endorsement) usage",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.akbar.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.akbar.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.akbar.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site + association context",
+      "confidence": "High",
+      "note": "\"World's leading exporter of Ceylon Tea\" and \"30 consecutive years as world's largest Ceylon tea exporter\" (self-stated); 100+ years of family legacy in tea; 2025 Presidential Export Awards wins (site news). EDB tea directory: \"Tea Packets, Tea Bags, Tea in Bulk, Ceylon Black Tea, Ceylon Green Tea, Iced Tea, Herbal Tea\". MOQ/price/sample: unknown.",
+      "sources": [
+        {
+          "url": "https://www.akbar.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.srilankabusiness.com/exporters-directory/tea-exporters-in-sri-lanka/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-029",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Anverally & Sons (Pvt) Ltd",
+        "source": {
+          "url": "https://anverally.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://anverally.com/",
+        "source": {
+          "url": "https://anverally.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Sri Lanka",
+        "source": {
+          "url": "https://anverally.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "Ceylon tea: bags, loose, iced, premixes, bulk"
+        ],
+        "source": {
+          "url": "https://anverally.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "tea bags",
+          "loose tea",
+          "iced tea",
+          "premixes",
+          "bulk tea",
+          "2in1 instant tea"
+        ],
+        "source": {
+          "url": "https://anverally.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Processor/exporter",
+        "source": {
+          "url": "https://anverally.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Rainforest Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://anverally.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Ethical Tea Partnership",
+            "status": "company-stated",
+            "source": {
+              "url": "https://anverally.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Fair Trade",
+            "status": "company-stated",
+            "source": {
+              "url": "https://anverally.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Ozone Friendly",
+            "status": "company-stated",
+            "source": {
+              "url": "https://anverally.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://anverally.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://anverally.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site + association context",
+      "confidence": "Medium",
+      "note": "135 years of heritage (per site's Gulfood 2026 news item); brands Anverally Tea, Tea4U, Sultan, Enchantea; new 2in1 instant tea range launched 2026. EDB tea directory: \"Tea Bags, Loose Tea, Iced Tea, Pre Mixes, Bulk Tea\". Homepage volume counters render \"0\" without JS — export volume figures not captured; not cited. HQ city n/s.",
+      "sources": [
+        {
+          "url": "https://anverally.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-030",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Dilmah (MJF Group / Dilmah Ceylon Tea Company PLC)",
+        "source": {
+          "url": "https://www.dilmah.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://www.dilmah.com/",
+        "source": {
+          "url": "https://www.dilmah.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Sri Lanka",
+        "source": {
+          "url": "https://www.dilmah.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "Ceylon tea (branded, bulk via group cos)"
+        ],
+        "source": {
+          "url": "https://www.dilmah.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Ceylon tea (orthodox)",
+          "tea packets",
+          "tea bags",
+          "bulk tea",
+          "Ceylon green tea",
+          "iced tea",
+          "tea cordial"
+        ],
+        "source": {
+          "url": "https://www.dilmah.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Brand owner/manufacturer-exporter",
+        "source": {
+          "url": "https://www.dilmah.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Lion logo usage",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.srilankabusiness.com/exporters-directory/",
+              "retrievedAt": "2026-09-19",
+              "note": "EDB registry profile (T2)"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.dilmah.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.dilmah.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site + association context",
+      "confidence": "High",
+      "note": "Ceylon tea house since 1985; orthodox production; pack-level traceability code (\"Trace Your Tea\"); 15% of pre-tax profits directed to MJF Foundation and Dilmah Conservation. EDB directory: \"Tea Packets, Tea Bags, Tea in Bulk, Ceylon Green Tea, Iced Tea, Tea Cordial\". B2B bulk terms not published on retrieved page — MOQ/price/sample: unknown. HQ city n/s.",
+      "sources": [
+        {
+          "url": "https://www.dilmah.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.srilankabusiness.com/exporters-directory/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-031",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "HDDES Extracts (Pvt) Ltd",
+        "source": {
+          "url": "https://hddes.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://hddes.com/",
+        "source": {
+          "url": "https://hddes.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Sri Lanka",
+        "source": {
+          "url": "https://hddes.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "Spices",
+          "Ceylon cinnamon",
+          "essential oils & hydrolates",
+          "vanilla",
+          "tea"
+        ],
+        "source": {
+          "url": "https://hddes.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "spices",
+          "natural extracts",
+          "Ceylon cinnamon",
+          "essential oils",
+          "hydrolates",
+          "natural aromatic chemicals",
+          "Ceylon tea",
+          "vanilla products"
+        ],
+        "source": {
+          "url": "https://hddes.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Manufacturer/exporter",
+        "source": {
+          "url": "https://hddes.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://hddes.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "Own-site shop prices in USD (pack size not captured)",
+          "note": "black pepper powder $1.43–$2.83; cinnamon cuts $1.72–$3.43; clove $2.15–$4.32; cardamom powder $10.91–$20.53; nutmeg powder $2.28–$4.47; mace $2.40–$5.13 — supplier-published e-commerce prices",
+          "source": {
+            "url": "https://hddes.com/",
+            "retrievedAt": "2026-09-19",
+            "note": "Official site (T1)"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site + association context",
+      "confidence": "Medium",
+      "note": "Manufacturer for the flavor & fragrance industry — organic and conventional ranges; certifier names n/s. EDB directory: \"Spices - Value Added Consumer Packs, Essential Oil Organic/Conventional… Cinnamon Bark Oil Organic… etc.\". MOQ/sample policy: unknown. HQ city n/s (dossier notes phone prefix +94 11 = Western Province).",
+      "sources": [
+        {
+          "url": "https://hddes.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-032",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Ceylon Golden Cinnamon",
+        "source": {
+          "url": "https://www.goldencinnamon.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "website": {
+        "value": "https://www.goldencinnamon.com/",
+        "source": {
+          "url": "https://www.goldencinnamon.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "hq": {
+        "value": "Mulleriyawa, Colombo, Sri Lanka",
+        "source": {
+          "url": "https://www.goldencinnamon.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "country": {
+        "value": "Sri Lanka",
+        "source": {
+          "url": "https://www.goldencinnamon.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "Organic/conventional Ceylon cinnamon quills",
+          "powder",
+          "bark/leaf oil"
+        ],
+        "source": {
+          "url": "https://www.goldencinnamon.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Ceylon cinnamon quills (organic/conventional)",
+          "cinnamon powder",
+          "cinnamon bark oil",
+          "cinnamon leaf oil"
+        ],
+        "source": {
+          "url": "https://www.goldencinnamon.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "type": {
+        "value": "Merchant-exporter/retailer",
+        "source": {
+          "url": "https://www.goldencinnamon.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO 22000:2018",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.goldencinnamon.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.goldencinnamon.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "GMP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.goldencinnamon.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "EU organic certified by Control Union (Netherlands)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.goldencinnamon.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "JAS organic certified by Control Union (Netherlands)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.goldencinnamon.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "USDA (NOP) organic certified by Control Union (Netherlands)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.goldencinnamon.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "EDB-registered exporter (Reg No: E19050001083)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.goldencinnamon.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Pure Ceylon Lion logo awarded by EDB (2021)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.goldencinnamon.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "USDA organic Reg No CU 877940",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.goldencinnamon.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.goldencinnamon.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Official site (T1)"
+        }
+      },
+      "moq": {
+        "value": "Online shop (85 g–1 kg packs)",
+        "source": {
+          "url": "https://www.goldencinnamon.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "Own-site shop prices in USD",
+          "note": "Alba sticks $8.19–$58.45; C5 sticks $4.70–$41.03; cinnamon powder (100 mesh) $4.70–$22.09 (85 g–1 kg pack sizes) — supplier-published e-commerce prices",
+          "source": {
+            "url": "https://www.goldencinnamon.com/",
+            "retrievedAt": "2026-09-19",
+            "note": "Official site (T1)"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": {
+        "value": "On-site WooCommerce ratings/reviews (e.g., C5 sticks \"based on 14 customer ratings\") and 4 written site reviews — small n, self-hosted",
+        "source": {
+          "url": "https://www.goldencinnamon.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Sources from small rural organic farmer groups.",
+      "sources": [
+        {
+          "url": "https://www.goldencinnamon.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-033",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Shreeji Global FMCG Limited",
+        "source": {
+          "url": "https://shreejifmcg.com/price-updates",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "website": {
+        "value": "https://shreejifmcg.com/",
+        "source": {
+          "url": "https://shreejifmcg.com/price-updates",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "hq": {
+        "value": "1205, The Spire, 150 Feet Ring Road, Near Ayodhya Circle, Rajkot, Gujarat-360005 (IN)",
+        "source": {
+          "url": "https://shreejifmcg.com/price-updates",
+          "retrievedAt": "2026-09-21",
+          "note": "site footer"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://shreejifmcg.com/price-updates",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "regionsServed": {
+        "value": "CIF basis to all major ports across the globe (price-page offer)",
+        "source": {
+          "url": "https://shreejifmcg.com/price-updates",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "categories": {
+        "value": [
+          "spices",
+          "oil seeds",
+          "pulses",
+          "flours"
+        ],
+        "source": {
+          "url": "https://shreejifmcg.com/price-updates",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "cumin seed",
+          "coriander seed",
+          "turmeric powder",
+          "red chilli powder",
+          "fennel seed",
+          "fenugreek seed",
+          "sesame seed",
+          "chia seed",
+          "kalonji seed",
+          "chickpea (chana)",
+          "ground spices",
+          "flours"
+        ],
+        "source": {
+          "url": "https://shreejifmcg.com/price-updates",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "type": {
+        "value": "spices, oil seeds and pulses exporter (NSE SME listed)",
+        "source": {
+          "url": "https://shreejifmcg.com/price-updates",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://shreejifmcg.com/price-updates",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "Indicative FOB Port Mundra, USD/MT in standard packaging: Cumin Seed Singapore 99 \"USD 2385\"; Cumin Seed Europe 99 \"USD 2485\"; Coriander Seed Eagle \"USD 1740\"; Turmeric Powder 3% Curcumin \"USD 1860\"; Red Chilli Powder A Grade \"USD 3680\"; Red Chilli Powder D Grade Gulf \"USD 1540\" (14 Sep 2026 row); Fennel Seed Singapore \"USD 1305\"; Fenugreek Seed Super \"USD 800\"; Sesame Seed Natural \"USD 1585\"; Chia Seed Double Sortex (99.70%) \"USD 2110\"; Kalonji Seed Sortex \"USD 2430\"; Chickpea (Chana) White 42/44 \"USD 1175\"",
+          "staleness": "table rows dated 14-16 Sep 2026; page preamble: \"Below are indicative FOB prices for Port Mundra, USD/MT in standard Packaging of respective commodity; we can offer customized packing and CIF basis also to all major ports across glob\"",
+          "source": {
+            "url": "https://shreejifmcg.com/price-updates",
+            "retrievedAt": "2026-09-21"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site + association context",
+      "confidence": "High",
+      "note": "Publicly listed on India's NSE (SME) — ticker SHETHJI (Bitget stock overview, 25 Jun 2026); Gulfood 2026 exhibitor (first-party directory); SEAIR US-import trail (secondary aggregator, not proof of brand customers); certificates page exists but was not fetched — cert claims unverified",
+      "sources": [
+        {
+          "url": "https://shreejifmcg.com/price-updates",
+          "retrievedAt": "2026-09-21"
+        },
+        {
+          "url": "https://www.gulfood.com/exhibitors/shreeji-global-fmcg-limited",
+          "retrievedAt": "2026-09-21"
+        },
+        {
+          "url": "https://www.seair.co.in/us-import/e-shreeji-global-fmcg-limited.aspx",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-034",
+      "regionId": "india-sri-lanka",
+      "name": {
+        "value": "Radiance Overseas",
+        "source": {
+          "url": "https://www.radianceoverseas.com/indian-spices-wholesale.html",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "website": {
+        "value": "https://www.radianceoverseas.com/",
+        "source": {
+          "url": "https://www.radianceoverseas.com/indian-spices-wholesale.html",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "hq": {
+        "value": "60, Silver Oaks, Annapurna Road, Indore MP 452009, India",
+        "source": {
+          "url": "https://www.radianceoverseas.com/indian-spices-wholesale.html",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "country": {
+        "value": "India",
+        "source": {
+          "url": "https://www.radianceoverseas.com/indian-spices-wholesale.html",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "regionsServed": {
+        "value": "30+ Export Countries (page stat)",
+        "source": {
+          "url": "https://www.radianceoverseas.com/indian-spices-wholesale.html",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "categories": {
+        "value": [
+          "spices",
+          "rice",
+          "coffee",
+          "oil seeds",
+          "pulses",
+          "dehydrated products",
+          "herbs"
+        ],
+        "source": {
+          "url": "https://www.radianceoverseas.com/indian-spices-wholesale.html",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "turmeric",
+          "cumin seeds (jeera)",
+          "black pepper",
+          "red chilli",
+          "green cardamom",
+          "coriander seeds",
+          "fennel seeds",
+          "ashwagandha",
+          "moringa",
+          "psyllium",
+          "stevia",
+          "rice",
+          "coffee",
+          "soy products"
+        ],
+        "source": {
+          "url": "https://www.radianceoverseas.com/indian-spices-wholesale.html",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "type": {
+        "value": "vertically integrated organic agro-product export house",
+        "source": {
+          "url": "https://www.radianceoverseas.com/indian-spices-wholesale.html",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Spices Board RCMC",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.radianceoverseas.com/indian-spices-wholesale.html",
+              "retrievedAt": "2026-09-21",
+              "note": "supplier-claimed on the wholesale-spices page; not registry-verified"
+            }
+          },
+          {
+            "name": "APEDA registered",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.radianceoverseas.com/indian-spices-wholesale.html",
+              "retrievedAt": "2026-09-21",
+              "note": "supplier-claimed; not registry-verified"
+            }
+          },
+          {
+            "name": "USDA NOP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.radianceoverseas.com/indian-spices-wholesale.html",
+              "retrievedAt": "2026-09-21",
+              "note": "supplier-claimed; not registry-verified"
+            }
+          },
+          {
+            "name": "EU Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.radianceoverseas.com/indian-spices-wholesale.html",
+              "retrievedAt": "2026-09-21",
+              "note": "supplier-claimed; not registry-verified"
+            }
+          },
+          {
+            "name": "ISO 9001:2015",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.radianceoverseas.com/indian-spices-wholesale.html",
+              "retrievedAt": "2026-09-21",
+              "note": "supplier-claimed; not registry-verified"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.radianceoverseas.com/indian-spices-wholesale.html",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "moq": {
+        "value": "1 MT Min. Order",
+        "source": {
+          "url": "https://www.radianceoverseas.com/indian-spices-wholesale.html",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "FOB Price Range (USD/MT), FOB Nhava Sheva (Mumbai) / Mundra for FY 2025–26: Turmeric \"$1,800 – $3,200\"; Cumin Seeds (Jeera) \"$3,200 – $4,500\"; Black Pepper \"$6,800 – $10,500\"; Red Chilli \"$1,400 – $2,800\"; Green Cardamom \"$18,000 – $35,000\"; Coriander Seeds \"$1,200 – $1,800\"; Fennel Seeds \"$1,600 – $2,200\"",
+          "staleness": "undated ranges — no on-page timestamp; Verify-against-refresh; \"Prices are indicative FOB Nhava Sheva (Mumbai) / Mundra for FY 2025–26. Organic premium: +20–35% over conventional. Subject to market fluctuation.\"",
+          "note": "FAQ grade splits: \"Alleppey Turmeric (3–5% curcumin): $2,400–$3,200/MT FOB — premium nutraceutical and EU/USA food grade; Erode Turmeric (2–3% curcumin): $1,800–$2,400/MT FOB\"",
+          "source": {
+            "url": "https://www.radianceoverseas.com/indian-spices-wholesale.html",
+            "retrievedAt": "2026-09-21"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Filter-2 partial: marketing evidence is self-published (content/SEO price-guide program); testimonials anonymous (\"Food Distributor, USA\"); no trade-show or press found. US phone line \"+1 469 544 9746\" and FSMA/FDA-documentation claims are supplier-published; no shipment-level proof.",
+      "sources": [
+        {
+          "url": "https://www.radianceoverseas.com/indian-spices-wholesale.html",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    }
+  ],
+  "priceSignals": [
+    {
+      "ingredient": "Turmeric powder (Rajapuri, 25 kg PP bag)",
+      "tier": "marketplace-listed",
+      "value": "₹130/kg",
+      "note": "IndiaMART listing by OMSIM Foods Pvt Ltd, New Delhi — member since Jul 2015; IEC on file (partial). Related New Delhi listings shown at ₹150–160/kg. Sellers are marketplace-verified members; prices exclude taxes and are indicative only. Not a catalog supplier row — category-level indicative pricing only.",
+      "source": {
+        "url": "https://www.indiamart.com/proddetail/turmeric-powder-2853228401091.html",
+        "retrievedAt": "2026-09-19",
+        "note": "IndiaMART listing (T3) — leads & indicative prices only"
+      }
+    },
+    {
+      "ingredient": "Ashwagandha root powder (10/25/50 kg packs)",
+      "tier": "marketplace-listed",
+      "value": "₹350/kg",
+      "note": "IndiaMART listing by \"Aagya\" trader, Neemuch, MP — member since Mar 2021; seller rating 4.3 from 22 ratings (legitimately public marketplace review signal, small n). Related Neemuch listings ₹200–350/kg. Prices exclude taxes and are indicative only. Not a catalog supplier row — category-level indicative pricing only.",
+      "source": {
+        "url": "https://www.indiamart.com/proddetail/ashwagandha-root-powder-2850955836512.html",
+        "retrievedAt": "2026-09-19",
+        "note": "IndiaMART listing (T3) — leads & indicative prices only"
+      }
+    }
+  ],
+  "coverageGaps": [
+    "Spices Board of India exporter-search portal exists but returned no readable listing data this session (form/JS); no individual exporter verifications were derived from it — retained as a registry pointer for future on-platform verification",
+    "Sri Lanka Tea Board Tea Directory page exists; directory content not readable this session (only Board contact info retrieved)",
+    "Tea Exporters Association (Sri Lanka) members list not readable (JS-rendered)",
+    "Ace International Ltd (dairy ingredients, aceinternational.co.in) fetched but official site returned no readable content this session; no verifiable claims — dropped",
+    "Anverally homepage volume counters render \"0\" without JS — export volume figures not recorded",
+    "MOQ, sample policy and capacity are mostly unpublished across the region and are recorded as unknown rather than inferred",
+    "Grower-cooperative models appear as claimed producer networks (JAPC 3,500+ farmer families; Samagi farmer groups; Jayanti 4,500+ farmers); no formal cooperative society was separately verified"
+  ],
+  "associationLeads": {
+    "source": {
+      "url": "https://www.srilankabusiness.com/exporters-directory/spices-exporters-in-sri-lanka/cinnamon-suppliers/",
+      "retrievedAt": "2026-09-19",
+      "note": "EDB exporter directory (T2) — leads only"
+    },
+    "note": "EDB-listed leads named on fetched EDB pages but not carried as verified rows — official sites not verified this session (tier T0 for claims beyond the listing itself). Additional EDB pages listing these companies: https://www.srilankabusiness.com/exporters-directory/tea-exporters-in-sri-lanka/ and https://www.srilankabusiness.com/exporters-directory/",
+    "companies": [
+      "A H Spice Exports",
+      "Adam Exports",
+      "A S Chatoor & Co",
+      "Ancient Nutraceuticals",
+      "A F Jones Exporters",
+      "Alfa Exports",
+      "Basilur Tea Export",
+      "Empire Teas",
+      "Link Natural Products",
+      "Jafferjee Brothers",
+      "A Baur & Co"
+    ]
+  }
+}

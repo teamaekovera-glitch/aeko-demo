@@ -1,0 +1,6082 @@
+{
+  "schemaVersion": 1,
+  "regionId": "us-canada",
+  "region": "US and Canada",
+  "retrieved": "2026-09-19",
+  "documentArtifact": "art_mR0qSy5F",
+  "documentPath": "docs/ingredient-suppliers-us-canada.md",
+  "methodology": "Every factual claim comes from a page fetched in-session on the retrieval date above; claim-level source URLs live in the companion document. Fields without a fetched source are null. Price signals are labeled by tier. No emails, phones, MOQs, prices, certifications, or reviews are invented.",
+  "suppliers": [
+    {
+      "id": "us-canada-001",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Royal Coffee, Inc.",
+        "source": {
+          "url": "https://royalcoffee.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://royalcoffee.com/",
+        "source": {
+          "url": "https://royalcoffee.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Emeryville/Oakland, California, USA",
+        "source": {
+          "url": "https://royalcoffee.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://royalcoffee.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "US warehouses (Oakland CA, Tacoma WA, Sturtevant WI, Houston TX) plus Vancouver, BC (Delta, BC) and Shanghai",
+        "source": {
+          "url": "https://royalcoffee.com/contact/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://royalcoffee.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "green coffee from Africa, Asia, Latin America",
+          "certified-organic, Fairtrade, Smithsonian Bird Friendly lots appear in listings"
+        ],
+        "source": {
+          "url": "https://royalcoffee.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "green coffee importer (founded 1978)",
+        "source": {
+          "url": "https://royalcoffee.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://royalcoffee.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": {
+        "value": "bag-based purchasing (lot listings show bag counts, e.g. 171 bags, 15 bags); no separate MOQ stated",
+        "source": {
+          "url": "https://royalcoffee.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": {
+        "value": "\"For all mailings, including samples, please send to: Royal Coffee, Inc 3306 Powell Street Emeryville, CA 94608\"",
+        "source": {
+          "url": "https://royalcoffee.com/contact/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "spot green coffee at $3.65-$6.94 per pound across listings (e.g., Brazil Cerrado SS FC $4.27/lb; Ethiopia Yirgacheffe 2 Washed FT-FLO Organic $6.81/lb); some lots quote-only",
+          "source": {
+            "url": "https://royalcoffee.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "warehouse crew \"unloads multiple containers every day\"; current listings of 8-171 bags",
+        "source": {
+          "url": "https://royalcoffee.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "offerings page supports filtering by certification; organic/FT claims shown per lot",
+      "sources": [
+        {
+          "url": "https://royalcoffee.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://royalcoffee.com/contact/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-002",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Atlas Coffee Importers",
+        "source": {
+          "url": "https://www.atlascoffee.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.atlascoffee.com/about/",
+        "source": {
+          "url": "https://www.atlascoffee.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Edmonds, Washington, USA; 201 5th Ave S, Ste 201, Edmonds, WA 98020",
+        "source": {
+          "url": "https://www.atlascoffee.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.atlascoffee.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "North America (trading company; no regional limits stated on retrieved pages)",
+        "source": {
+          "url": "https://www.atlascoffee.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://www.atlascoffee.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "green coffee"
+        ],
+        "source": {
+          "url": "https://www.atlascoffee.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "green coffee importer, \"full-service trading company founded in Seattle in 1998\"",
+        "source": {
+          "url": "https://www.atlascoffee.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.atlascoffee.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no published prices on retrieved pages",
+          "source": {
+            "url": "https://www.atlascoffee.com/about/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "a division of Neumann Gruppe USA, Inc., part of Neumann Kaffee Gruppe (NKG)",
+      "sources": [
+        {
+          "url": "https://www.atlascoffee.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-003",
+      "regionId": "us-canada",
+      "name": {
+        "value": "InterAmerican Coffee",
+        "source": {
+          "url": "https://interamericancoffee.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://interamericancoffee.com/",
+        "source": {
+          "url": "https://interamericancoffee.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Hoboken, New Jersey, USA; 111 River Street, Suite 1220, Hoboken, NJ 07030",
+        "source": {
+          "url": "https://interamericancoffee.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://interamericancoffee.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "roasters \"across North America\"; offices in San Diego, Houston, Kansas City plus Hoboken HQ",
+        "source": {
+          "url": "https://interamericancoffee.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://interamericancoffee.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "specialty green coffee from ~20 countries",
+          "single-estate, small-lot, project coffees"
+        ],
+        "source": {
+          "url": "https://interamericancoffee.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "green coffee importer, \"since 1983\"",
+        "source": {
+          "url": "https://interamericancoffee.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic (certified)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://interamericancoffee.com/about-us/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Fairtrade",
+            "status": "company-stated",
+            "source": {
+              "url": "https://interamericancoffee.com/about-us/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Rainforest Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://interamericancoffee.com/about-us/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "NKG Verified",
+            "status": "company-stated",
+            "source": {
+              "url": "https://interamericancoffee.com/about-us/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://interamericancoffee.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://interamericancoffee.com/about-us/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "HQ quality-control lab is \"a certified SCA Premier Training Campus\"; \"nearly a dozen Q Arabica Graders\" on staff",
+      "sources": [
+        {
+          "url": "https://interamericancoffee.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-004",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Guittard Chocolate Company",
+        "source": {
+          "url": "https://www.guittard.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.guittard.com/",
+        "source": {
+          "url": "https://www.guittard.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "California, USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.guittard.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.guittard.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "US wholesale plus \"robust distribution in the UK and beyond\" for international sales",
+        "source": {
+          "url": "https://www.guittard.com/contact",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "cocoa"
+        ],
+        "source": {
+          "url": "https://www.guittard.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "couverture chocolate (white/milk/dark 31-72% cacao)",
+          "baking chocolate",
+          "wafers",
+          "chips",
+          "cocoa powders"
+        ],
+        "source": {
+          "url": "https://www.guittard.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "chocolate and cocoa manufacturer \"for over 150 years\"",
+        "source": {
+          "url": "https://www.guittard.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.guittard.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "wholesale/business sales contacts published",
+        "source": {
+          "url": "https://www.guittard.com/contact",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "professional couverture 3.0 kg at $106.00 across listed SKUs",
+          "source": {
+            "url": "https://www.guittard.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.guittard.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.guittard.com/contact",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-005",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Blommer Chocolate Company",
+        "source": {
+          "url": "https://www.blommer.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.blommer.com/",
+        "source": {
+          "url": "https://www.blommer.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Illinois, USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.blommer.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.blommer.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "\"domestic and international customers\"; four North American manufacturing facilities",
+        "source": {
+          "url": "https://www.blommer.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "cocoa"
+        ],
+        "source": {
+          "url": "https://www.blommer.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "chocolate liquor",
+          "cocoa butter",
+          "cocoa powders",
+          "chocolate drops/chunks",
+          "confectionery coatings"
+        ],
+        "source": {
+          "url": "https://www.blommer.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "cocoa processor; \"the largest cocoa processor and ingredient chocolate supplier in North America,\" founded 1939",
+        "source": {
+          "url": "https://www.blommer.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.blommer.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.blommer.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "brands include Organic, Proteos 30 protein coatings, Elevate; services: commodity risk management, R&D applications lab, quality and sensory; sustainability programs described on page",
+      "sources": [
+        {
+          "url": "https://www.blommer.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-006",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Rishi Tea & Botanicals",
+        "source": {
+          "url": "https://www.rishi-tea.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.rishi-tea.com/",
+        "source": {
+          "url": "https://www.rishi-tea.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Milwaukee, Wisconsin, USA; 185 S. 33rd Court, Milwaukee, WI 53208",
+        "source": {
+          "url": "https://www.rishi-tea.com/pages/contact-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.rishi-tea.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "regionsServed": {
+        "value": "US direct/wholesale (wholesale team at 1-844-467-4744, order@rishi-tea.com)",
+        "source": {
+          "url": "https://www.rishi-tea.com/pages/contact-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "tea",
+          "botanicals"
+        ],
+        "source": {
+          "url": "https://www.rishi-tea.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic loose-leaf teas",
+          "matcha",
+          "botanicals (turmeric ginger, chamomile, hibiscus etc.)"
+        ],
+        "source": {
+          "url": "https://www.rishi-tea.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "tea importer/blender with direct-trade sourcing",
+        "source": {
+          "url": "https://www.rishi-tea.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Certified organic (over 95% of ingredients)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.rishi-tea.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.rishi-tea.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "wholesale inquiries via Wholesale Inquiry Form",
+        "source": {
+          "url": "https://www.rishi-tea.com/pages/contact-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "e.g., Earl Grey Supreme 250 g $30.00, 1 lb $50.00; Turmeric Ginger 1 lb $50.00",
+          "source": {
+            "url": "https://www.rishi-tea.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.rishi-tea.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.rishi-tea.com/pages/contact-us",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-007",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Frontier Co-op",
+        "source": {
+          "url": "https://www.frontiercoop.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.frontiercoop.com/",
+        "source": {
+          "url": "https://www.frontiercoop.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Iowa, USA (town not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.frontiercoop.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.frontiercoop.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "North America (retail + wholesale; international not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.frontiercoop.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "spices",
+          "herbs",
+          "botanicals"
+        ],
+        "source": {
+          "url": "https://www.frontiercoop.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "spices",
+          "herbs",
+          "seasonings",
+          "teas",
+          "botanicals",
+          "flavors (lavender flavor, vanilla line via brands)"
+        ],
+        "source": {
+          "url": "https://www.frontiercoop.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "member-owned co-op manufacturer, \"since 1976,\" \"more than 40,000 member-owners\"",
+        "source": {
+          "url": "https://www.frontiercoop.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Certified organic processor",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.frontiercoop.com/about-us",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Regenerative Organic Certified (SKUs on storefront)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.frontiercoop.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.frontiercoop.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": {
+        "value": "retail e-commerce; wholesale terms not published on retrieved pages",
+        "source": {
+          "url": "https://www.frontiercoop.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "e.g., Curry Powder Organic 1 lb $18.28; Ceylon Cinnamon Ground Organic 1 lb $29.04; Elderberries Whole Organic 1 lb $32.03",
+          "source": {
+            "url": "https://www.frontiercoop.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "brands: Frontier Co-op, Simply Organic, Aura Cacia",
+      "sources": [
+        {
+          "url": "https://www.frontiercoop.com/about-us",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.frontiercoop.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-008",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Spice Jungle",
+        "source": {
+          "url": "https://www.spicejungle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.spicejungle.com/",
+        "source": {
+          "url": "https://www.spicejungle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "New Jersey, USA (city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.spicejungle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.spicejungle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "spices",
+          "herbs"
+        ],
+        "source": {
+          "url": "https://www.spicejungle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "spices",
+          "herbs",
+          "peppercorns",
+          "bulk dried mushrooms",
+          "dried chili peppers"
+        ],
+        "source": {
+          "url": "https://www.spicejungle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "bulk spice retailer/distributor",
+        "source": {
+          "url": "https://www.spicejungle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.spicejungle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": {
+        "value": "bulk sizes with consumer-level ordering; \"Free Shipping in the Continental US on all Orders $15+\"",
+        "source": {
+          "url": "https://www.spicejungle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "note": "verbatim product-page prices captured 2026-09-21",
+          "source": {
+            "url": "https://www.spicejungle.com/",
+            "retrievedAt": "2026-09-21"
+          },
+          "value": "Madagascar Bourbon Vanilla Beans \"As low as $12.91\"; Cascabel Chile Peppers $8.01; Chimichurri Blend $6.67; Smoked Peppercorn Sage Rub $6.90; Lemon Juice Powder $6.08; Japanese Yellow Curry Powder $6.71; Ginger Powder $5.93; Onion Minced $6.10; Chipotle Powder Morita $7.27"
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "\"over 500 unique and hard to find culinary ingredients sold in bulk\"",
+      "sources": [
+        {
+          "url": "https://www.spicejungle.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.spicejungle.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "price capture 2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-009",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Woodland Foods (Woodland Gourmet)",
+        "source": {
+          "url": "https://www.woodlandfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.woodlandfoods.com/",
+        "source": {
+          "url": "https://www.woodlandfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "California, USA (city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.woodlandfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.woodlandfoods.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "spices",
+          "specialty dry"
+        ],
+        "source": {
+          "url": "https://www.woodlandfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "spices",
+          "specialty dry ingredients"
+        ],
+        "source": {
+          "url": "https://www.woodlandfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "specialty ingredient supplier, \"since 1989\"",
+        "source": {
+          "url": "https://www.woodlandfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.woodlandfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.woodlandfoods.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "channels: foodservice, industrial, and retail; brands: Woodland Gourmet (retail/club), Woodland Ingredients (industrial, \"quality and traceability\"), D'allesandro (foodservice), International Spices (custom seasonings)",
+      "sources": [
+        {
+          "url": "https://www.woodlandfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-010",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Spicely Organics",
+        "source": {
+          "url": "https://www.spicely.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.spicely.com/",
+        "source": {
+          "url": "https://www.spicely.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "California, USA (city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.spicely.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.spicely.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "spices",
+          "herbs",
+          "vanilla"
+        ],
+        "source": {
+          "url": "https://www.spicely.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic spices",
+          "herbs",
+          "vanilla extract",
+          "blends"
+        ],
+        "source": {
+          "url": "https://www.spicely.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "organic spice supplier (retail + wholesale)",
+        "source": {
+          "url": "https://www.spicely.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Certified Gluten Free",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.spicely.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "NON-GMO",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.spicely.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.spicely.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "e.g., Organic Vanilla Extract from $32.99; Organic Chili Powder from $3.99",
+          "source": {
+            "url": "https://www.spicely.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://www.spicely.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-011",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Ingredion",
+        "source": {
+          "url": "https://www.ingredion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.ingredion.com/",
+        "source": {
+          "url": "https://www.ingredion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.ingredion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.ingredion.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "sweeteners",
+          "starches",
+          "texturants",
+          "plant proteins"
+        ],
+        "source": {
+          "url": "https://www.ingredion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "sweeteners (sugar-reduction incl. PureCircle stevia technology)",
+          "starches/texturants (\"100+ years of texturant know-how\")",
+          "plant-based proteins",
+          "flavors with modifying properties",
+          "clean-label ingredients"
+        ],
+        "source": {
+          "url": "https://www.ingredion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "global ingredient manufacturer (US/Canada market site \"Ingredion USCA\")",
+        "source": {
+          "url": "https://www.ingredion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.ingredion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "\"order samples and download technical documentation directly\" via their portfolio portal",
+        "source": {
+          "url": "https://www.ingredion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.ingredion.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "tateandlyle.com homepage (retrieved 2026-09-19) discloses a \"Recommended cash acquisition of Tate & Lyle PLC by Ingredion Incorporated\" at shareholder-meeting stage; Ingredion was repeatedly blocked but verified on a direct root-page fetch",
+      "sources": [
+        {
+          "url": "https://www.ingredion.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.tateandlyle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-012",
+      "regionId": "us-canada",
+      "name": {
+        "value": "ADM (Archer-Daniels-Midland)",
+        "source": {
+          "url": "https://www.adm.com/en-us/about-adm/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.adm.com/",
+        "source": {
+          "url": "https://www.adm.com/en-us/about-adm/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Chicago, Illinois, USA",
+        "source": {
+          "url": "https://www.adm.com/en-us/about-adm/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.adm.com/en-us/about-adm/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "sweeteners",
+          "starches",
+          "flavors",
+          "colors",
+          "proteins",
+          "enzymes"
+        ],
+        "source": {
+          "url": "https://www.adm.com/en-us/about-adm/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "colors, flavors, and ingredient combinations",
+          "starches/sweeteners from corn and wheat sourcing",
+          "probiotics, enzymes, supplements"
+        ],
+        "source": {
+          "url": "https://www.adm.com/en-us/about-adm/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "global agricultural processor and ingredient manufacturer",
+        "source": {
+          "url": "https://www.adm.com/en-us/about-adm/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.adm.com/en-us/about-adm/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.adm.com/en-us/about-adm/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "\"Headquartered in Chicago, Illinois, ADM has 44,000 colleagues... generating revenue of $85 billion in 2024\"; 325 production sites; 335 million metric tons moved annually",
+        "source": {
+          "url": "https://www.adm.com/en-us/about-adm/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.adm.com/en-us/about-adm/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-013",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Cargill",
+        "source": {
+          "url": "https://www.cargill.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.cargill.com/",
+        "source": {
+          "url": "https://www.cargill.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.cargill.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.cargill.com/about",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "sweeteners",
+          "starches",
+          "oils",
+          "cocoa",
+          "acids"
+        ],
+        "source": {
+          "url": "https://www.cargill.com/about",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "citrate ingredients",
+          "acidulants"
+        ],
+        "source": {
+          "url": "https://www.cargill.com/food-beverage/na/acidulants",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "global food and agriculture company, founded 1865, family-owned",
+        "source": {
+          "url": "https://www.cargill.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.cargill.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.cargill.com/about",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "155K+ employees, 70 countries, 125 markets served",
+        "source": {
+          "url": "https://www.cargill.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "citrate/acidulant page surfaced in discovery, not deep-fetched; HQ city and category depth partially unverified",
+      "sources": [
+        {
+          "url": "https://www.cargill.com/about",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.cargill.com/food-beverage/na/acidulants",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.cargill.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-014",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Tate & Lyle",
+        "source": {
+          "url": "https://www.tateandlyle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.tateandlyle.com/",
+        "source": {
+          "url": "https://www.tateandlyle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "London, UK (global HQ); North American hub not stated on retrieved pages",
+        "source": {
+          "url": "https://www.tateandlyle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "UK",
+        "source": {
+          "url": "https://www.tateandlyle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "sweeteners",
+          "fibers",
+          "mouthfeel (incl. CP Kelco)"
+        ],
+        "source": {
+          "url": "https://www.tateandlyle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "PROMITOR Soluble Fibre",
+          "EUOLIGO FOS fibres",
+          "hydrocolloids/gums (CP Kelco, acquired 2024)"
+        ],
+        "source": {
+          "url": "https://www.tateandlyle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "global ingredient manufacturer, \"over 160 years\"",
+        "source": {
+          "url": "https://www.tateandlyle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.tateandlyle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.tateandlyle.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Ingredion's recommended cash acquisition of Tate & Lyle was at shareholder-vote stage per its own site; CP Kelco is not listed as a separate supplier because its standalone site redirects to parent Tate & Lyle (acquired 2024)",
+      "sources": [
+        {
+          "url": "https://www.tateandlyle.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-015",
+      "regionId": "us-canada",
+      "name": {
+        "value": "MGP Ingredients",
+        "source": {
+          "url": "https://www.mgpingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.mgpingredients.com/",
+        "source": {
+          "url": "https://www.mgpingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Kansas, USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.mgpingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.mgpingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "wheat starches",
+          "proteins"
+        ],
+        "source": {
+          "url": "https://www.mgpingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "specialty wheat starches and proteins"
+        ],
+        "source": {
+          "url": "https://www.mgpingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer, \"perfecting the art of grain since 1941\"",
+        "source": {
+          "url": "https://www.mgpingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.mgpingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.mgpingredients.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "distilled spirits operations in Kansas, Missouri, Indiana, Kentucky, Ohio, Mexico, Northern Ireland",
+      "sources": [
+        {
+          "url": "https://www.mgpingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-016",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Ardent Mills",
+        "source": {
+          "url": "https://www.ardentmills.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.ardentmills.com/",
+        "source": {
+          "url": "https://www.ardentmills.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Denver, Colorado, USA; 1875 Lawrence Street, Suite 1200, Denver, CO 80202",
+        "source": {
+          "url": "https://www.ardentmills.com/contact",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.ardentmills.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "flours",
+          "grains",
+          "pulses"
+        ],
+        "source": {
+          "url": "https://www.ardentmills.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "flours, grains, pulses and seeds",
+          "UltraGrain",
+          "chickpea, sorghum, lentil ingredients",
+          "egg and cocoa replacers"
+        ],
+        "source": {
+          "url": "https://www.ardentmills.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "flour milling and grain-innovation company",
+        "source": {
+          "url": "https://www.ardentmills.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.ardentmills.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": {
+        "value": "\"Ardent Mills is a commercial supplier, and does not sell directly to home bakers or consumers\"",
+        "source": {
+          "url": "https://www.ardentmills.com/contact",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": {
+        "value": "request via contact form",
+        "source": {
+          "url": "https://www.ardentmills.com/contact",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.ardentmills.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "programs: organic supplier program with transition assistance; identity-preserved grains; non-GMO certifying partnerships",
+      "sources": [
+        {
+          "url": "https://www.ardentmills.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.ardentmills.com/contact",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-017",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Hilmar",
+        "source": {
+          "url": "https://www.hilmar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.hilmar.com/",
+        "source": {
+          "url": "https://www.hilmar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Hilmar, California, USA; HQ & Innovation Center, 8901 Lander Ave, Hilmar, CA 95324",
+        "source": {
+          "url": "https://www.hilmar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.hilmar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "B2B customers worldwide; manufacturing sites: Hilmar CA (HQ), Dalhart TX, Dodge City KS",
+        "source": {
+          "url": "https://www.hilmar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "whey proteins",
+          "lactose"
+        ],
+        "source": {
+          "url": "https://www.hilmar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "whey proteins",
+          "lactose",
+          "B2B cheese for private label"
+        ],
+        "source": {
+          "url": "https://www.hilmar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "dairy manufacturer; \"Ingredients — supplying high-quality whey protein and lactose products for B2B customers worldwide\"",
+        "source": {
+          "url": "https://www.hilmar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.hilmar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.hilmar.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.hilmar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-018",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Vitalus Nutrition",
+        "source": {
+          "url": "https://vitalus.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://vitalus.com/",
+        "source": {
+          "url": "https://vitalus.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Abbotsford, British Columbia, Canada; 3911 Mount Lehman Road, Abbotsford, BC V2T 5W5",
+        "source": {
+          "url": "https://vitalus.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Canada",
+        "source": {
+          "url": "https://vitalus.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "\"trusted international supplier... for large scale processors and top tier brands\"",
+        "source": {
+          "url": "https://vitalus.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "milk proteins",
+          "GOS"
+        ],
+        "source": {
+          "url": "https://vitalus.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "whey protein (since 1988)",
+          "milk protein concentrates MPC1700/MPC1800 (2006)",
+          "heat-stable MPC1800 HT (2010)",
+          "low-lactose MPC1850",
+          "milk protein isolate MPI (2014)",
+          "VITAGOS galacto-oligosaccharides (2018)"
+        ],
+        "source": {
+          "url": "https://vitalus.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "dairy processor; \"A Trusted Canadian Supplier in Specialty Milk Ingredients\"",
+        "source": {
+          "url": "https://vitalus.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://vitalus.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://vitalus.com/about/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "2017 Abbotsford expansion plus a second Winnipeg, MB plant, \"doubling our total capacity\"",
+        "source": {
+          "url": "https://vitalus.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://vitalus.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-019",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Glanbia Nutritionals",
+        "source": {
+          "url": "https://www.glanbianutritionals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.glanbianutritionals.com/",
+        "source": {
+          "url": "https://www.glanbianutritionals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.glanbianutritionals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.glanbianutritionals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "whey proteins",
+          "premix",
+          "bioactives"
+        ],
+        "source": {
+          "url": "https://www.glanbianutritionals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "whey proteins",
+          "bioactive ingredients",
+          "custom premixes",
+          "micronutrients",
+          "flavor solutions",
+          "plant-based solutions"
+        ],
+        "source": {
+          "url": "https://www.glanbianutritionals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "nutritional ingredients manufacturer",
+        "source": {
+          "url": "https://www.glanbianutritionals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.glanbianutritionals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.glanbianutritionals.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "\"#1 producer of whey protein solutions, the #2 producer of vitamin & mineral premix, and the #1 producer of American style cheddar cheese\" (company-stated); 23 manufacturing facilities; manufacturing in the US and Canada",
+        "source": {
+          "url": "https://www.glanbianutritionals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://www.glanbianutritionals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-020",
+      "regionId": "us-canada",
+      "name": {
+        "value": "AAK",
+        "source": {
+          "url": "https://www.aak.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.aak.com/",
+        "source": {
+          "url": "https://www.aak.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Malmö, Sweden (global HQ); AAK Canada Ltd, Oakville, Ontario",
+        "source": {
+          "url": "https://www.aak.com/contact/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Sweden",
+        "source": {
+          "url": "https://www.aak.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "global; \"operations in 16 countries\"; Canada office: AAK Canada Ltd, 2275 Upper Middle Road, Ste. 101, Oakville, ON L6H 0C3",
+        "source": {
+          "url": "https://www.aak.com/contact/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "fats",
+          "oils"
+        ],
+        "source": {
+          "url": "https://www.aak.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "specialty oils and fats for bakery, chocolate & confectionery, dairy & ice cream, plant-based foods, personal care, special nutrition"
+        ],
+        "source": {
+          "url": "https://www.aak.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "specialty plant-based oils and fats manufacturer",
+        "source": {
+          "url": "https://www.aak.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.aak.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.aak.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.aak.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.aak.com/contact/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-021",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Stratas Foods",
+        "source": {
+          "url": "https://www.stratasfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.stratasfoods.com/",
+        "source": {
+          "url": "https://www.stratasfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Tennessee, USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.stratasfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.stratasfoods.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "regionsServed": {
+        "value": "Locations listed: Dallas/Houston TX, Decatur IL, Englewood NJ, Fresno CA, Memphis TN, Nashville TN, Quincy IL, Valdosta GA",
+        "source": {
+          "url": "https://www.stratasfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "frying oils",
+          "salad oils",
+          "olive oils",
+          "vinegar"
+        ],
+        "source": {
+          "url": "https://www.stratasfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "frying oils",
+          "salad oils",
+          "olive oils",
+          "butter-flavored oils",
+          "pan sprays",
+          "margarine",
+          "vinegar & cooking wine"
+        ],
+        "source": {
+          "url": "https://www.stratasfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "oils manufacturer/supplier",
+        "source": {
+          "url": "https://www.stratasfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.stratasfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.stratasfoods.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://www.stratasfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-022",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Bioriginal",
+        "source": {
+          "url": "https://www.bioriginal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.bioriginal.com/",
+        "source": {
+          "url": "https://www.bioriginal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Saskatoon, Saskatchewan, Canada",
+        "source": {
+          "url": "https://www.bioriginal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Canada",
+        "source": {
+          "url": "https://www.bioriginal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "Americas office in Saskatoon (102 Melville Street, Saskatoon, SK S7J 0R1), EMEA (Netherlands), APAC (Japan)",
+        "source": {
+          "url": "https://www.bioriginal.com/contact-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "functional oil blends"
+        ],
+        "source": {
+          "url": "https://www.bioriginal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "oil blend solutions for food manufacturing, personal care, dietary supplements, pet and human nutrition"
+        ],
+        "source": {
+          "url": "https://www.bioriginal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "functional oil processor; \"30 years of experience\"",
+        "source": {
+          "url": "https://www.bioriginal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.bioriginal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.bioriginal.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "traceability from \"fields and oceans\" through every step; in-house testing/research",
+      "sources": [
+        {
+          "url": "https://www.bioriginal.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.bioriginal.com/contact-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-023",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Jungbunzlauer",
+        "source": {
+          "url": "https://www.jungbunzlauer.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.jungbunzlauer.com/en",
+        "source": {
+          "url": "https://www.jungbunzlauer.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "global, family-owned (NA sites not verified this session)",
+        "source": {
+          "url": "https://www.jungbunzlauer.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Global",
+        "source": {
+          "url": "https://www.jungbunzlauer.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "acidulants",
+          "texturants",
+          "minerals",
+          "sweeteners"
+        ],
+        "source": {
+          "url": "https://www.jungbunzlauer.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "high-quality acidulants",
+          "texturants",
+          "minerals & solutions",
+          "sweeteners"
+        ],
+        "source": {
+          "url": "https://www.jungbunzlauer.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "ingredient manufacturer",
+        "source": {
+          "url": "https://www.jungbunzlauer.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.jungbunzlauer.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.jungbunzlauer.com/en",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "NA presence not verified; locations page returned empty this session",
+      "sources": [
+        {
+          "url": "https://www.jungbunzlauer.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-024",
+      "regionId": "us-canada",
+      "name": {
+        "value": "PAT Ingredients",
+        "source": {
+          "url": "https://www.patingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.patingredients.com/",
+        "source": {
+          "url": "https://www.patingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.patingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.patingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "\"food, beverage, and nutrition manufacturers across North America\"; multiple US stocking locations",
+        "source": {
+          "url": "https://www.patingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "gum acacia",
+          "oil powders",
+          "citric acid"
+        ],
+        "source": {
+          "url": "https://www.patingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "gum acacia (senegal and seyal, spray-dried and agglomerated, conventional and organic)",
+          "spray-dried oil powders (Organic MCT, high-oleic sunflower, conventional MCT — manufactured in the US)",
+          "citric acid (anhydrous USP/FCC, 30-80 mesh, non-Chinese origin, AD/CVD cleared)",
+          "magnesium glycinate",
+          "zinc bisglycinate",
+          "fruit powders"
+        ],
+        "source": {
+          "url": "https://www.patingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "specialty supplier/processor; \"food and beverage division of P.A.T. Products, Inc.,\" in business since 1974",
+        "source": {
+          "url": "https://www.patingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Oregon Tilth Certified Organic (product line)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.patingredients.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.patingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "\"Ready to evaluate? We'll send you a sample\"",
+        "source": {
+          "url": "https://www.patingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.patingredients.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "acacia supplier Willy Benecke operates under FSSC 22000 with 4 million kg annual spray-drying capacity (upstream supplier certification, not PAT's own)",
+      "sources": [
+        {
+          "url": "https://www.patingredients.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-025",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Corbion",
+        "source": {
+          "url": "https://www.corbion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.corbion.com/",
+        "source": {
+          "url": "https://www.corbion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "global (US operations not verified this session)",
+        "source": {
+          "url": "https://www.corbion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Global",
+        "source": {
+          "url": "https://www.corbion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "preservation",
+          "lactic acid",
+          "antioxidants"
+        ],
+        "source": {
+          "url": "https://www.corbion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "lactic acid and derivatives",
+          "food preservation solutions",
+          "functional ingredient blends",
+          "algae-derived nutritional ingredients",
+          "Origin antioxidants (rosemary, acerola)",
+          "mold-inhibition solutions for baking"
+        ],
+        "source": {
+          "url": "https://www.corbion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "preservation/fermentation ingredient manufacturer, \"more than a century\"",
+        "source": {
+          "url": "https://www.corbion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.corbion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.corbion.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://www.corbion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-026",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Kemin Industries",
+        "source": {
+          "url": "https://www.kemin.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.kemin.com/",
+        "source": {
+          "url": "https://www.kemin.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.kemin.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.kemin.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "food safety",
+          "oxidation control"
+        ],
+        "source": {
+          "url": "https://www.kemin.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "food technologies: oxidation control and food safety (\"keep our food fresher and safer for longer... from meat and poultry to baked goods\")",
+          "human nutrition & health"
+        ],
+        "source": {
+          "url": "https://www.kemin.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "ingredient manufacturer, family-owned since 1961",
+        "source": {
+          "url": "https://www.kemin.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.kemin.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.kemin.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://www.kemin.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-027",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Givaudan Sense Colour (formerly DDW, The Colour House)",
+        "source": {
+          "url": "https://www.ddwcolor.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.ddwcolor.com/",
+        "source": {
+          "url": "https://www.ddwcolor.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.ddwcolor.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.ddwcolor.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "colors"
+        ],
+        "source": {
+          "url": "https://www.ddwcolor.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "natural colours",
+          "caramel colours",
+          "burnt sugars",
+          "fruit and vegetable-based browns"
+        ],
+        "source": {
+          "url": "https://www.ddwcolor.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "natural colors manufacturer; \"Sense Colour is a division of Givaudan\"",
+        "source": {
+          "url": "https://www.ddwcolor.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.ddwcolor.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "\"Get a sample\" — colour selector with sample-request flow",
+        "source": {
+          "url": "https://www.ddwcolor.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.ddwcolor.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://www.ddwcolor.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-028",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Sensient Technologies Corporation",
+        "source": {
+          "url": "https://www.sensient.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.sensient.com/",
+        "source": {
+          "url": "https://www.sensient.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.sensient.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.sensient.com/contact-us/",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "colors",
+          "flavors",
+          "extracts"
+        ],
+        "source": {
+          "url": "https://www.sensient.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "food colors",
+          "flavors & extracts (beverage, savory, sweet, BioNutrients, natural ingredients)",
+          "pharmaceutical",
+          "cosmetics"
+        ],
+        "source": {
+          "url": "https://www.sensient.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "\"leading global manufacturer and marketer of colors, flavors, and other specialty ingredients\"",
+        "source": {
+          "url": "https://www.sensient.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.sensient.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.sensient.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://www.sensient.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.sensient.com/contact-us/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-029",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Virginia Dare",
+        "source": {
+          "url": "https://www.virginiadare.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.virginiadare.com/",
+        "source": {
+          "url": "https://www.virginiadare.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Carteret, New Jersey, USA; 900 Federal Blvd, Carteret, NJ 07008",
+        "source": {
+          "url": "https://www.virginiadare.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.virginiadare.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "extracts (vanilla, tea, coffee)",
+          "flavors"
+        ],
+        "source": {
+          "url": "https://www.virginiadare.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "vanilla extracts",
+          "tea extracts",
+          "coffee extracts",
+          "custom flavors and taste-modification",
+          "application development"
+        ],
+        "source": {
+          "url": "https://www.virginiadare.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "extracts and flavors manufacturer, \"over 100 years\"",
+        "source": {
+          "url": "https://www.virginiadare.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.virginiadare.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.virginiadare.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.virginiadare.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-030",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Flavorman",
+        "source": {
+          "url": "https://www.flavorman.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.flavorman.com/",
+        "source": {
+          "url": "https://www.flavorman.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Louisville, Kentucky, USA; 809 South 8th Street, Louisville, KY 40203",
+        "source": {
+          "url": "https://www.flavorman.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.flavorman.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "flavors",
+          "beverage development"
+        ],
+        "source": {
+          "url": "https://www.flavorman.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "custom flavors",
+          "beverage development",
+          "analytical testing"
+        ],
+        "source": {
+          "url": "https://www.flavorman.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "flavor and beverage development company, \"over 30 years\"",
+        "source": {
+          "url": "https://www.flavorman.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.flavorman.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.flavorman.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "\"developed over 95,000 formulations\"; 77,000 sq ft formulation facility",
+        "source": {
+          "url": "https://www.flavorman.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.flavorman.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-031",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Nielsen-Massey Vanillas",
+        "source": {
+          "url": "https://www.nielsenmassey.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.nielsenmassey.com/",
+        "source": {
+          "url": "https://www.nielsenmassey.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.nielsenmassey.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.nielsenmassey.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vanilla",
+          "pure flavors"
+        ],
+        "source": {
+          "url": "https://www.nielsenmassey.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "pure vanilla extracts (Madagascar Bourbon, Tahitian, Organic Fairtrade Madagascar Bourbon)",
+          "vanilla bean paste",
+          "pure flavors (orange blossom water, rose water, chocolate extract)"
+        ],
+        "source": {
+          "url": "https://www.nielsenmassey.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "vanilla and flavor extract manufacturer, \"over a century\"",
+        "source": {
+          "url": "https://www.nielsenmassey.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.nielsenmassey.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "corporate solutions include Foodservice, Industrial, Wholesale & Retail, International",
+        "source": {
+          "url": "https://www.nielsenmassey.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "note": "retail e-commerce published; wholesale quote-only; specific figures not captured this session",
+          "source": {
+            "url": "https://www.nielsenmassey.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "a Certifications page exists in navigation but was not retrieved — cert details unknown; \"gentle, proprietary cold-extraction process\"",
+      "sources": [
+        {
+          "url": "https://www.nielsenmassey.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-032",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Jost Chemical Co.",
+        "source": {
+          "url": "https://www.jostchemical.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.jostchemical.com/",
+        "source": {
+          "url": "https://www.jostchemical.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "St. Louis, Missouri, USA",
+        "source": {
+          "url": "https://www.jostchemical.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.jostchemical.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "minerals (USP/FCC)"
+        ],
+        "source": {
+          "url": "https://www.jostchemical.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "high purity, USP/EP, and ACS grade chemicals",
+          "minerals such as calcium, magnesium, zinc, iron for food and nutraceutical use"
+        ],
+        "source": {
+          "url": "https://www.jostchemical.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "high-purity mineral salt manufacturer",
+        "source": {
+          "url": "https://www.jostchemical.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "FDA registration",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.jostchemical.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FSSC 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.jostchemical.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "cGMP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.jostchemical.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.jostchemical.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.jostchemical.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "\"40+ years\" in business; quality signals \"FDA-registered and cGMP certified\", \"FSSC 22000\" (company-stated, fetched 2026-09-19)",
+      "sources": [
+        {
+          "url": "https://www.jostchemical.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-033",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Balchem Corporation",
+        "source": {
+          "url": "https://balchem.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://balchem.com/",
+        "source": {
+          "url": "https://balchem.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://balchem.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://balchem.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "choline",
+          "encapsulated nutrients",
+          "minerals"
+        ],
+        "source": {
+          "url": "https://balchem.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "choline",
+          "encapsulated nutrients",
+          "mineral and nutrient products"
+        ],
+        "source": {
+          "url": "https://balchem.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "ingredient manufacturer; NASDAQ-listed (BCPC)",
+        "source": {
+          "url": "https://balchem.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://balchem.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://balchem.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "segments: Human Nutrition & Health, Animal Nutrition & Health, Specialty Products",
+      "sources": [
+        {
+          "url": "https://balchem.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-034",
+      "regionId": "us-canada",
+      "name": {
+        "value": "PureBulk, Inc.",
+        "source": {
+          "url": "https://www.purebulk.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.purebulk.com/",
+        "source": {
+          "url": "https://www.purebulk.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Roseburg, Oregon, USA; 1925 NE Steward Parkway #104, Roseburg, OR 97470",
+        "source": {
+          "url": "https://www.purebulk.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.purebulk.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vitamins",
+          "amino acids",
+          "extracts"
+        ],
+        "source": {
+          "url": "https://www.purebulk.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "amino acids",
+          "vitamins",
+          "minerals",
+          "sweeteners",
+          "fibers",
+          "extracts (e.g., L-theanine, glycine, magnesium glycinate, taurine, rebaudioside-A)"
+        ],
+        "source": {
+          "url": "https://www.purebulk.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "direct bulk supplement supplier (\"nutraceutical bulk powders direct from the source\")",
+        "source": {
+          "url": "https://www.purebulk.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "FDA-registered cGMP facility",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.purebulk.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.purebulk.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": {
+        "value": "retail e-commerce with gram-to-kg size options; no B2B MOQ stated",
+        "source": {
+          "url": "https://www.purebulk.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": {
+        "value": "COAs published per batch on product pages",
+        "source": {
+          "url": "https://www.purebulk.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "Ascorbic Acid Vitamin C: \"Bags / 100 grams - $6.50\", \"Bags / 1 kilogram - $26.95\"; L-Cysteine HCl: \"100 grams - $10.25\", \"1 kilogram - $71.95\"; D-Mannose: \"50 grams - $5.75\", \"500 grams - $40.50\"; Betaine HCl: \"25 kilograms - $546.75\"; Copper Gluconate: \"25kg - $1,224.95\"; Niacinamide: \"25 kilograms - $529.50\"; Tricalcium Phosphate: \"50 pounds - $896.95\"",
+          "source": {
+            "url": "https://www.purebulk.com/",
+            "retrievedAt": "2026-09-21"
+          },
+          "note": "supersedes the 2026-09-19 capture (L-Theanine Powder from $4.98; Glycine Powder from $2.95; Creatine Monohydrate from $3.44) — newer capture of the same tier per rulebook D9"
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": {
+        "value": "Trustpilot 4.7/5 from 6,676 reviews (claimed profile)",
+        "source": {
+          "url": "https://www.trustpilot.com/review/purebulk.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "\"All third-party lab tested\" (company-stated)",
+      "sources": [
+        {
+          "url": "https://www.purebulk.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.trustpilot.com/review/purebulk.com",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.purebulk.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "price re-capture 2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-035",
+      "regionId": "us-canada",
+      "name": {
+        "value": "BulkSupplements.com",
+        "source": {
+          "url": "https://www.bulksupplements.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.bulksupplements.com/",
+        "source": {
+          "url": "https://www.bulksupplements.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.bulksupplements.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.bulksupplements.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vitamins",
+          "minerals",
+          "actives"
+        ],
+        "source": {
+          "url": "https://www.bulksupplements.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "vitamins",
+          "minerals",
+          "amino acids",
+          "botanicals",
+          "sports nutrition",
+          "sweeteners",
+          "herbal extracts"
+        ],
+        "source": {
+          "url": "https://www.bulksupplements.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "direct bulk supplement supplier",
+        "source": {
+          "url": "https://www.bulksupplements.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "cGMP compliant, FDA registered facility",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.bulksupplements.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.bulksupplements.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": {
+        "value": "no B2B MOQ stated; retail purchasing only",
+        "source": {
+          "url": "https://www.bulksupplements.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": {
+        "value": "COAs on request via contact form",
+        "source": {
+          "url": "https://www.bulksupplements.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "note": "retail per-unit SKUs published on product pages (2026-09-21); bulk inquiry pricing remains quote-only",
+          "source": {
+            "url": "https://www.bulksupplements.com/",
+            "retrievedAt": "2026-09-21"
+          },
+          "value": "Zinc Glycinate Powder: \"250 Grams (8.8 oz) - $20.97\", \"500 Grams (1.1 lbs) - $27.97\", \"1 Kilogram (2.2 lbs) - $34.97\"; Phosphatidylserine: \"25 Grams - $18.97\", \"50 Grams - $21.97\", \"100 Grams - $26.97\"; Kelp Extract Powder: $29.97"
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": {
+        "value": "Trustpilot 3.5/5 from 671 reviews (claimed profile)",
+        "source": {
+          "url": "https://www.trustpilot.com/review/bulksupplements.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "on-site widget \"4.6 based on 5,076 reviews\" (supplier-displayed); \"high-quality, third-party tested products\" (company-stated)",
+      "sources": [
+        {
+          "url": "https://www.bulksupplements.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.trustpilot.com/review/bulksupplements.com",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.bulksupplements.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "price capture 2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-036",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Starwest Botanicals",
+        "source": {
+          "url": "https://www.starwest-botanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.starwest-botanicals.com/",
+        "source": {
+          "url": "https://www.starwest-botanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.starwest-botanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.starwest-botanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "herbs",
+          "spices",
+          "teas"
+        ],
+        "source": {
+          "url": "https://www.starwest-botanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "bulk herbs",
+          "spices",
+          "botanicals",
+          "teas"
+        ],
+        "source": {
+          "url": "https://www.starwest-botanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "bulk herbs/spices/botanicals supplier, \"in business since 1975\"",
+        "source": {
+          "url": "https://www.starwest-botanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "SQF certified",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.starwest-botanicals.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "QAI certified",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.starwest-botanicals.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher certified",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.starwest-botanicals.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.starwest-botanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": {
+        "value": "\"50 lb + commercial pricing program\" for business needs",
+        "source": {
+          "url": "https://www.starwest-botanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": {
+        "value": "wholesale program (\"Wholesale Discount of up to 40% off Retail Prices\")",
+        "source": {
+          "url": "https://www.starwest-botanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "e.g., Organic Ashwagandha Root Powder 1 lb $12.60; Organic Chamomile Flowers 1 lb $26.56",
+          "source": {
+            "url": "https://www.starwest-botanicals.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": {
+        "value": "on-site widget \"5/5 8328 reviews\" (supplier-displayed)",
+        "source": {
+          "url": "https://www.starwest-botanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "sourcing: \"sourced from over 50 countries and cultures\"",
+      "sources": [
+        {
+          "url": "https://www.starwest-botanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-037",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Mountain Rose Herbs",
+        "source": {
+          "url": "https://www.mountainroseherbs.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.mountainroseherbs.com/",
+        "source": {
+          "url": "https://www.mountainroseherbs.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Eugene, Oregon, USA (storefront address shown; HQ not separately labeled)",
+        "source": {
+          "url": "https://www.mountainroseherbs.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.mountainroseherbs.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "organic herbs",
+          "EOs",
+          "teas"
+        ],
+        "source": {
+          "url": "https://www.mountainroseherbs.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic bulk herbs",
+          "spices",
+          "teas",
+          "essential oils",
+          "extracts",
+          "carriers (jojoba, argan)"
+        ],
+        "source": {
+          "url": "https://www.mountainroseherbs.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "organic botanicals supplier",
+        "source": {
+          "url": "https://www.mountainroseherbs.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "TRUE Zero-Waste certified",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.mountainroseherbs.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.mountainroseherbs.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "wholesale hub with bulk pricing access",
+        "source": {
+          "url": "https://www.mountainroseherbs.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "note": "supplier-published retail; bulk discounts available",
+          "source": {
+            "url": "https://www.mountainroseherbs.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": {
+        "value": "\"View Reviews\" link displaying Trustpilot-quoted reviews; site states \"over 10,000 5-star reviews\" (supplier-displayed)",
+        "source": {
+          "url": "https://www.mountainroseherbs.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "a \"View Our Certifications\" link exists but was not retrieved this session",
+      "sources": [
+        {
+          "url": "https://www.mountainroseherbs.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-038",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Blue California",
+        "source": {
+          "url": "https://www.bluecalifornia.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "website": {
+        "value": "https://www.bluecalifornia.com/",
+        "source": {
+          "url": "https://www.bluecalifornia.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.bluecalifornia.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "nutraceutical actives",
+          "preservation"
+        ],
+        "source": {
+          "url": "https://www.bluecalifornia.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "ErgoActive (L-ergothioneine)",
+          "theacrine",
+          "berry and polyphenol extracts",
+          "flavors",
+          "citrus fiber",
+          "natural preservatives (\"clean label preservation... natural preservation... rosemary extract\")"
+        ],
+        "source": {
+          "url": "https://www.bluecalifornia.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "type": null,
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.bluecalifornia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.bluecalifornia.com/",
+            "retrievedAt": "2026-09-19"
+          },
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Low",
+      "note": "portfolio claim: \"Kosher, non-GMO, GMO-free\" ingredients in portfolio (self-claim) | 2026-09-21 URL audit: supplier site unreachable (direct fetch and secondary crawler); unverifiable claims removed or downgraded per rulebook D10; row pending re-verification.",
+      "sources": [
+        {
+          "url": "https://www.bluecalifornia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-039",
+      "regionId": "us-canada",
+      "name": {
+        "value": "PLT Health Solutions",
+        "source": {
+          "url": "https://www.plthealth.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.plthealth.com/",
+        "source": {
+          "url": "https://www.plthealth.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.plthealth.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.plthealth.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "nutraceutical actives"
+        ],
+        "source": {
+          "url": "https://www.plthealth.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "actives, botanicals, functional ingredients",
+          "brands include ProCynDyn, MorUmi"
+        ],
+        "source": {
+          "url": "https://www.plthealth.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "ingredient solutions company, \"over 70 years of experience\"",
+        "source": {
+          "url": "https://www.plthealth.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.plthealth.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "meeting request form",
+        "source": {
+          "url": "https://www.plthealth.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.plthealth.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "services: science support, formulation, claims assistance",
+      "sources": [
+        {
+          "url": "https://www.plthealth.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-040",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Compound Solutions",
+        "source": {
+          "url": "https://www.compoundsolutions.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.compoundsolutions.com/",
+        "source": {
+          "url": "https://www.compoundsolutions.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.compoundsolutions.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.compoundsolutions.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "branded actives"
+        ],
+        "source": {
+          "url": "https://www.compoundsolutions.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "TeaCrine (theacrine)",
+          "Dynamine (methylliberine)",
+          "CoreBiome (tributyrin)",
+          "Mag41"
+        ],
+        "source": {
+          "url": "https://www.compoundsolutions.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "specialty ingredient supplier, \"Since 1998\"",
+        "source": {
+          "url": "https://www.compoundsolutions.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.compoundsolutions.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "\"Get free samples, pricing, and regulatory documentation\" via form",
+        "source": {
+          "url": "https://www.compoundsolutions.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.compoundsolutions.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "\"custom formulation, trademarked compounds, and superior ingredients\"",
+      "sources": [
+        {
+          "url": "https://www.compoundsolutions.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-041",
+      "regionId": "us-canada",
+      "name": {
+        "value": "BENEO",
+        "source": {
+          "url": "https://www.beneo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.beneo.com/",
+        "source": {
+          "url": "https://www.beneo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Mannheim, Germany (global; NA office not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.beneo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Germany",
+        "source": {
+          "url": "https://www.beneo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "local branches all over the world",
+        "source": {
+          "url": "https://www.beneo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "fibers",
+          "functional carbs",
+          "rice ingredients"
+        ],
+        "source": {
+          "url": "https://www.beneo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "functional fibers (Orafti chicory inulin and oligofructose)",
+          "functional carbohydrates (Palatinose isomaltulose, Isomalt)",
+          "plant proteins",
+          "rice ingredients"
+        ],
+        "source": {
+          "url": "https://www.beneo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "ingredient manufacturer with \"local branches all over the world\"",
+        "source": {
+          "url": "https://www.beneo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.beneo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.beneo.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "self-claimed \"BENEO offers T&L, TOS, OOS, OEM, NOS, NIS\" (their typo of inulin variants); NA presence not verified",
+      "sources": [
+        {
+          "url": "https://www.beneo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-042",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Fiberstar",
+        "source": {
+          "url": "https://www.fiberstar.net/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.fiberstar.net/",
+        "source": {
+          "url": "https://www.fiberstar.net/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "River Falls, Wisconsin, USA; 660 S Mason Street, River Falls, WI 54022",
+        "source": {
+          "url": "https://www.fiberstar.net/natural-citrus-fiber-about-us/",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.fiberstar.net/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "supplied to customers in 69 countries",
+        "source": {
+          "url": "https://www.fiberstar.net/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "citrus fiber (emulsification/fiber)"
+        ],
+        "source": {
+          "url": "https://www.fiberstar.net/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Citri-Fi citrus fiber for food, meat, beverage, and pet applications (emulsification, stability)"
+        ],
+        "source": {
+          "url": "https://www.fiberstar.net/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "citrus fiber manufacturer",
+        "source": {
+          "url": "https://www.fiberstar.net/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "FSSC 22000 certified",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.fiberstar.net/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher and Halal certified",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.fiberstar.net/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Non-GMO Project Verified",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.fiberstar.net/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.fiberstar.net/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.fiberstar.net/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "certifications company-stated on own site (fetched 2026-09-19); needs registry cross-check before badge display; \"organic options available\"",
+      "sources": [
+        {
+          "url": "https://www.fiberstar.net/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.fiberstar.net/natural-citrus-fiber-about-us/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-043",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Lallemand",
+        "source": {
+          "url": "https://www.lallemand.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.lallemand.com/",
+        "source": {
+          "url": "https://www.lallemand.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Canada (city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.lallemand.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Canada",
+        "source": {
+          "url": "https://www.lallemand.com/en",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page via secondary crawler."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "cultures",
+          "probiotics",
+          "yeast",
+          "enzymes"
+        ],
+        "source": {
+          "url": "https://www.lallemand.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "probiotics",
+          "yeast and bacteria cultures",
+          "yeast derivatives",
+          "enzymes"
+        ],
+        "source": {
+          "url": "https://www.lallemand.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "microorganism manufacturer, \"since 1895\"; founded in Canada",
+        "source": {
+          "url": "https://www.lallemand.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.lallemand.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.lallemand.com/en",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "contact page failed this session; HQ city unverified",
+      "sources": [
+        {
+          "url": "https://www.lallemand.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-044",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Enzyme Development Corporation (EDC)",
+        "source": {
+          "url": "https://www.enzymedevelopment.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.enzymedevelopment.com/",
+        "source": {
+          "url": "https://www.enzymedevelopment.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.enzymedevelopment.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.enzymedevelopment.com/about",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "enzymes"
+        ],
+        "source": {
+          "url": "https://www.enzymedevelopment.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "food-grade, technical grade, and pharmaceutical-grade enzymes"
+        ],
+        "source": {
+          "url": "https://www.enzymedevelopment.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "enzyme supplier/distributor, \"since 1953\"",
+        "source": {
+          "url": "https://www.enzymedevelopment.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.enzymedevelopment.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": {
+        "value": "orders from a few kg (published statement); range from \"multiple truckloads or only a few kilograms\"",
+        "source": {
+          "url": "https://www.enzymedevelopment.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.enzymedevelopment.com/about",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://www.enzymedevelopment.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-045",
+      "regionId": "us-canada",
+      "name": {
+        "value": "BIO-CAT",
+        "source": {
+          "url": "https://www.bio-cat.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.bio-cat.com/",
+        "source": {
+          "url": "https://www.bio-cat.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.bio-cat.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.bio-cat.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "enzymes",
+          "microbials",
+          "probiotics"
+        ],
+        "source": {
+          "url": "https://www.bio-cat.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "enzymes (proteases, amylases, lactase)",
+          "microbials",
+          "probiotics",
+          "custom enzyme blends"
+        ],
+        "source": {
+          "url": "https://www.bio-cat.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "enzyme supplier and custom blender, \"since 1988\"",
+        "source": {
+          "url": "https://www.bio-cat.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.bio-cat.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.bio-cat.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://www.bio-cat.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-046",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Specialty Enzymes & Probiotics",
+        "source": {
+          "url": "https://www.specialtyenzymes.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.specialtyenzymes.com/",
+        "source": {
+          "url": "https://www.specialtyenzymes.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Chino, California, USA; 4880 Murrieta St, Chino, CA 91710",
+        "source": {
+          "url": "https://www.specialtyenzymes.com/contact-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.specialtyenzymes.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "enzymes",
+          "probiotics"
+        ],
+        "source": {
+          "url": "https://www.specialtyenzymes.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "enzymes",
+          "probiotics"
+        ],
+        "source": {
+          "url": "https://www.specialtyenzymes.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "enzyme and probiotic manufacturer, \"since 1957\"",
+        "source": {
+          "url": "https://www.specialtyenzymes.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "NSF GMP certified",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.specialtyenzymes.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO-17025 accredited in-house lab",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.specialtyenzymes.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Non-GMO Project Verified",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.specialtyenzymes.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "OK Kosher certified",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.specialtyenzymes.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISA Halal certified",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.specialtyenzymes.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.specialtyenzymes.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.specialtyenzymes.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.specialtyenzymes.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.specialtyenzymes.com/contact-us",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-047",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Batory Foods",
+        "source": {
+          "url": "https://www.batoryfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.batoryfoods.com/",
+        "source": {
+          "url": "https://www.batoryfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Rosemont, Illinois, USA; 325 Springlake Lane, Suite 400, Rosemont, IL 60018",
+        "source": {
+          "url": "https://www.batoryfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.batoryfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "supplying \"high-quality food ingredients to manufacturers across the United States\"",
+        "source": {
+          "url": "https://www.batoryfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "broad line"
+        ],
+        "source": {
+          "url": "https://www.batoryfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "broad-line food ingredients"
+        ],
+        "source": {
+          "url": "https://www.batoryfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "\"national sales and distribution management firm\" supplying \"high-quality food ingredients to manufacturers across the United States\"",
+        "source": {
+          "url": "https://www.batoryfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.batoryfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.batoryfoods.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.batoryfoods.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-048",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Hawkins Inc.",
+        "source": {
+          "url": "https://www.hawkinsinc.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.hawkinsinc.com/",
+        "source": {
+          "url": "https://www.hawkinsinc.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Roseville, Minnesota, USA; 2381 Rosegate, Roseville, MN 55113",
+        "source": {
+          "url": "https://www.hawkinsinc.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.hawkinsinc.com/about-us/",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "food ingredients",
+          "citric"
+        ],
+        "source": {
+          "url": "https://www.hawkinsinc.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "food ingredients",
+          "citric"
+        ],
+        "source": {
+          "url": "https://www.hawkinsinc.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "type": {
+        "value": "distributor and toll blender, founded 1938",
+        "source": {
+          "url": "https://www.hawkinsinc.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.hawkinsinc.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.hawkinsinc.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "\"formulates, manufactures, distributes and blends products for its Water Treatment, Food & Health Sciences and Industrial Solutions customers\"",
+      "sources": [
+        {
+          "url": "https://www.hawkinsinc.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.hawkinsinc.com/about-us/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-049",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Prinova (NAGASE company)",
+        "source": {
+          "url": "https://www.prinovaglobal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.prinovaglobal.com/",
+        "source": {
+          "url": "https://www.prinovaglobal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "USA (HQ city not stated on retrieved pages)",
+        "source": {
+          "url": "https://www.prinovaglobal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://www.prinovaglobal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "broad line",
+          "premix",
+          "aromas"
+        ],
+        "source": {
+          "url": "https://www.prinovaglobal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "sweeteners",
+          "proteins",
+          "fibers",
+          "vitamins",
+          "minerals",
+          "premixes",
+          "aromas"
+        ],
+        "source": {
+          "url": "https://www.prinovaglobal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "ingredient distributor",
+        "source": {
+          "url": "https://www.prinovaglobal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.prinovaglobal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.prinovaglobal.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "\"25 regional sales offices\"; \"3500+ ingredients\"",
+        "source": {
+          "url": "https://www.prinovaglobal.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "Claim confirmed on this page via secondary crawler during the 2026-09-21 URL audit."
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "ownership: NAGASE Group; prinovausa.com served identical EU-language content during verification; US headquarters city could not be confirmed this session",
+      "sources": [
+        {
+          "url": "https://www.prinovaglobal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-050",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Kerry Group",
+        "source": {
+          "url": "https://www.kerry.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.kerry.com/",
+        "source": {
+          "url": "https://www.kerry.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Ireland (global HQ); North American hub not stated on retrieved pages",
+        "source": {
+          "url": "https://www.kerry.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Ireland",
+        "source": {
+          "url": "https://www.kerry.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "flavors",
+          "taste & nutrition"
+        ],
+        "source": {
+          "url": "https://www.kerry.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "taste, nutrition, and food science portfolio spanning \"food, beverage, biotechnology, pharma and proactive health\""
+        ],
+        "source": {
+          "url": "https://www.kerry.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "global taste and nutrition manufacturer",
+        "source": {
+          "url": "https://www.kerry.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.kerry.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.kerry.com/about",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "~19,000 people",
+        "source": {
+          "url": "https://www.kerry.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "\"From a small dairy company in the southwest of Ireland to a global organisation\"",
+      "sources": [
+        {
+          "url": "https://www.kerry.com/about",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-051",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Monterey Bay Herb Co.",
+        "source": {
+          "url": "https://herbco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "website": {
+        "value": "https://herbco.com/",
+        "source": {
+          "url": "https://herbco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "hq": {
+        "value": "241 Walker Street, Watsonville, CA 95076",
+        "source": {
+          "url": "https://herbco.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "45,000-square-foot operation in Watsonville, California (first-party about content)"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://herbco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "herbs",
+          "botanicals",
+          "mushroom powders",
+          "teas"
+        ],
+        "source": {
+          "url": "https://herbco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "bulk herbs",
+          "botanicals",
+          "strawberry leaf",
+          "magnesium citrate powder",
+          "organic chaga mushroom powder",
+          "organic elderberry juice powder",
+          "milk thistle",
+          "rose hips",
+          "blackberry leaf",
+          "kola nut"
+        ],
+        "source": {
+          "url": "https://herbco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "type": {
+        "value": "bulk herb and botanical seller (consumer + business, with a 100+ lbs quote-request tier)",
+        "source": {
+          "url": "https://herbco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://herbco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "moq": {
+        "value": "no MOQ stated; published per-unit prices through 1 Pound with a \"100+lbs Quote Request\" tier above the published range",
+        "source": {
+          "url": "https://herbco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "Strawberry Leaf: \"1/4 Pound: $4.13\", \"Pound: $9.17\"; Magnesium Citrate Powder: \"1/4 Pound: $6.17\", \"Pound: $13.71\"; Organic Chaga Mushroom Powder: \"1/4 Pound: $25.78\", \"Pound: $57.29\"; Organic Elderberry Juice Powder: \"1/4 Pound: $14.20\", \"Pound: $35.51\"",
+          "note": "two-tier published pricing (1/4 Pound / Pound) on product pages; Milk Thistle, Rose Hips, Blackberry Leaf, and Kola Nut pages follow the same two-tier pattern",
+          "source": {
+            "url": "https://herbco.com/",
+            "retrievedAt": "2026-09-21"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "\"45,000-square-foot operation in Watsonville, California\"",
+        "source": {
+          "url": "https://herbco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Listed in the first-party SupplySide Global 2025 exhibitor directory (extracted 2026-09-21); site banner: \"Free Shipping On Orders $250+ | 15% Off Orders $600+\". Review platforms returned 403 on the access date; not claimed.",
+      "sources": [
+        {
+          "url": "https://herbco.com/",
+          "retrievedAt": "2026-09-21"
+        },
+        {
+          "url": "https://exhibitor.supplysideglobal.com/supplyside-global25/Public/Exhibitors.aspx",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-052",
+      "regionId": "us-canada",
+      "name": {
+        "value": "OliveNation",
+        "source": {
+          "url": "https://olivenation.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "website": {
+        "value": "https://olivenation.com/",
+        "source": {
+          "url": "https://olivenation.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "hq": {
+        "value": "USA (city not stated on retrieved pages)",
+        "source": {
+          "url": "https://olivenation.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://olivenation.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "extracts",
+          "flavors",
+          "cocoa",
+          "baking ingredients"
+        ],
+        "source": {
+          "url": "https://olivenation.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "blackberry extract",
+          "chocolate flavor powder",
+          "cocoa butter",
+          "coffee extract",
+          "natural flavor extracts",
+          "baking ingredients"
+        ],
+        "source": {
+          "url": "https://olivenation.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "type": {
+        "value": "bakery, brewery and restaurant ingredients supplier (\"Bakery, Brewery & Restaurant Ingredients Supplier\")",
+        "source": {
+          "url": "https://olivenation.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://olivenation.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "Blackberry Extract: \"4 fl oz- $9.99\" through \"55 gal- $7053.99\" (55-gal tier re-captured 2026-09-21; captured $7336.99 earlier the same day); Chocolate Flavor Powder: \"4 oz- $17.99\" through \"45 lb- $2081.99\"; Cacao Barry Cocoa Butter: \"8 oz- $28.99\" through \"5 lb- $256.99\"; Coffee Extract: \"4 fl oz- $8.99\" through \"55 gal- $5704.99\"",
+          "note": "retail-to-foodservice size ladders (4 oz to 55-gallon drums); the 55-gal Blackberry Extract tier drifted $7,336.99 to $7,053.99 intra-day and the re-captured value is imported",
+          "source": {
+            "url": "https://www.olivenation.com/blackberry-extract-pg-free-natural.html",
+            "retrievedAt": "2026-09-21"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Wholesale program (\"Wholesale program — More Discounts More Savings\", olivenation.com/wholesale); distributes branded chocolate lines (Callebaut, Valrhona, Barry Callebaut, Cacao Barry, Gertrude Hawk) named in its own brand navigation; shipping page offers \"Free Shipping\", \"Domestic Shipping\", \"International Shipping\", \"Freight/LTL Shipping\", \"On-Site Order Pickup\", \"Customer-Arranged Delivery\" (olivenation.com/shipping, 2026-09-21)",
+      "sources": [
+        {
+          "url": "https://olivenation.com/",
+          "retrievedAt": "2026-09-21"
+        },
+        {
+          "url": "https://www.olivenation.com/blackberry-extract-pg-free-natural.html",
+          "retrievedAt": "2026-09-21"
+        },
+        {
+          "url": "https://olivenation.com/shipping",
+          "retrievedAt": "2026-09-21"
+        },
+        {
+          "url": "https://olivenation.com/wholesale",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-053",
+      "regionId": "us-canada",
+      "name": {
+        "value": "NutriCargo LLC",
+        "source": {
+          "url": "https://nutricargo.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "website": {
+        "value": "https://nutricargo.com/",
+        "source": {
+          "url": "https://nutricargo.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "hq": {
+        "value": "222 Getty Ave, Clifton, NJ 07011",
+        "source": {
+          "url": "https://nutricargo.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://nutricargo.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "botanical powders",
+          "superfruits",
+          "spices"
+        ],
+        "source": {
+          "url": "https://nutricargo.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "botanical powders",
+          "chickweed powder",
+          "superfruit powders",
+          "spices"
+        ],
+        "source": {
+          "url": "https://nutricargo.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "type": {
+        "value": "wholesale natural-ingredients supplier (\"Quality you can trust since 2011\")",
+        "source": {
+          "url": "https://nutricargo.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://nutricargo.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "Chickweed Powder: \"0.55 LBS (250 G) Add $8.39\", \"1.1 LBS (500 G) Add $21.96\", \"2.2 LBS (1 KG) Add $47.80\", with a displayed \"From $16.80\"",
+          "note": "additive size-selection prices (per-size additions to a base) rather than standalone totals — stored with this qualifier",
+          "source": {
+            "url": "https://nutricargo.com/",
+            "retrievedAt": "2026-09-21"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "note": "\"Need 25kg+ or custom pricing? Contact Sales\" is a bulk-pricing contact channel, not a stated minimum order; \"Free shipping on US orders over $100\" and \"$7.95 flat shipping\" (product page, 2026-09-21). Review platforms returned 403 on the access date.",
+      "sources": [
+        {
+          "url": "https://nutricargo.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-054",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Anthony's Goods",
+        "source": {
+          "url": "https://anthonysgoods.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "website": {
+        "value": "https://anthonysgoods.com/",
+        "source": {
+          "url": "https://anthonysgoods.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "hq": {
+        "value": "820 Thompson, Avenue, Unit 32 Los Angeles, CA 91201 (privacy page; comma placement as published)",
+        "source": {
+          "url": "https://anthonysgoods.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://anthonysgoods.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "flours",
+          "starches",
+          "superfruit powders",
+          "sweeteners"
+        ],
+        "source": {
+          "url": "https://anthonysgoods.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "blanched almond flour",
+          "organic inulin powder",
+          "organic chicory root granules",
+          "organic buckwheat flour",
+          "organic potato starch",
+          "organic pomegranate juice powder",
+          "organic lemon juice powder"
+        ],
+        "source": {
+          "url": "https://anthonysgoods.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "type": {
+        "value": "direct-to-consumer organic ingredient e-commerce seller",
+        "source": {
+          "url": "https://anthonysgoods.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://anthonysgoods.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "Blanched Almond Flour: \"2lb - $21.29\", \"4lb - $33.29\"; Organic Inulin Powder $17.29; Organic Chicory Root Granules $17.29; Organic Buckwheat Flour $20.29; Organic Potato Starch $17.29; Organic Pomegranate Juice Powder $14.29; Organic Lemon Juice Powder $21.29",
+          "source": {
+            "url": "https://anthonysgoods.com/",
+            "retrievedAt": "2026-09-21"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "note": "\"We're at Erewhon! Free standard shipping!\" (anthonysgoods.com/blogs/news, 2026-09-21) — retail placement evidence; second corporate address \"One Parkview Plaza, Suite 500 Oakbrook Terrace, IL 60181\" (shipping-page copyright-agent line). Review platforms blocked on the access date.",
+      "sources": [
+        {
+          "url": "https://anthonysgoods.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-055",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Nuts.com",
+        "source": {
+          "url": "https://nuts.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "website": {
+        "value": "https://nuts.com/",
+        "source": {
+          "url": "https://nuts.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "hq": {
+        "value": "125 Moen Street, Cranford, New Jersey 07016",
+        "source": {
+          "url": "https://nuts.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://nuts.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "nut flours",
+          "baking flours",
+          "cheese powders",
+          "snack nuts"
+        ],
+        "source": {
+          "url": "https://nuts.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "macadamia nut flour",
+          "gluten-free 1-to-1 baking flour",
+          "white cheddar cheese powder",
+          "organic psyllium husk powder",
+          "cocoa-dusted almonds"
+        ],
+        "source": {
+          "url": "https://nuts.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "type": {
+        "value": "family-owned nuts and baking-ingredients seller with a dedicated bulk/business arm",
+        "source": {
+          "url": "https://nuts.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://nuts.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "Macadamia Nut Flour: \"1lb bag $16.49\", \"25lb case $309.19\"; Gluten-Free 1-to-1 Baking Flour: \"1lb bag $5.49\", \"25lb case $109.80\"; White Cheddar Cheese Powder: \"1lb bag $14.49\", \"5lb bag $70.28\"; Organic Psyllium Husk Powder: \"1lb bag $15.49\", \"44lb box $545.24\"; Cocoa-Dusted Almonds: \"7oz bag $8.99\", \"13oz bag $13.29\", \"20lb case $255.84\"",
+          "note": "25 lb / 44 lb / 20 lb case tiers with explicit per-case dollars",
+          "source": {
+            "url": "https://nuts.com/",
+            "retrievedAt": "2026-09-21"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "note": "First-party wholesale program (nuts.com/pages/wholesale) and corporate gifting program in navigation; \"Free shipping on contiguous-US orders totaling $59 or more\" (captured 2026-09-21). Review platforms not verifiable on the access date.",
+      "sources": [
+        {
+          "url": "https://nuts.com/",
+          "retrievedAt": "2026-09-21"
+        },
+        {
+          "url": "https://nuts.com/pages/wholesale",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-056",
+      "regionId": "us-canada",
+      "name": {
+        "value": "True Nutrition",
+        "source": {
+          "url": "https://truenutrition.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "website": {
+        "value": "https://truenutrition.com/",
+        "source": {
+          "url": "https://truenutrition.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "hq": {
+        "value": "Vista, California, USA",
+        "source": {
+          "url": "https://truenutrition.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://truenutrition.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "sports nutrition",
+          "fruit powders",
+          "vegetable powders"
+        ],
+        "source": {
+          "url": "https://truenutrition.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "custom formula blends",
+          "sweet potato powder",
+          "papaya powder",
+          "fruit powders",
+          "vegetable powders"
+        ],
+        "source": {
+          "url": "https://truenutrition.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "type": {
+        "value": "custom-formulation sports-nutrition seller (pre-made formula blends and single-ingredient powders by the pound)",
+        "source": {
+          "url": "https://truenutrition.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://truenutrition.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "Female Lean Formula: \"1lb. - $30.50\"; Competitive Overnight Formula: \"1lb. - $25.00\"; Sweet Potato Powder: \"1lb. - $15.50\"; Papaya Powder $31.00",
+          "source": {
+            "url": "https://truenutrition.com/",
+            "retrievedAt": "2026-09-21"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Site banners: \"20% Off Your First Order with Email Sign Up\", \"Free Ground Shipping on Orders $99 & Up! No Code Required\", \"3rd Party Tested\" (2026-09-21). Review platforms blocked on the access date.",
+      "sources": [
+        {
+          "url": "https://truenutrition.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-057",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Prescribed For Life",
+        "source": {
+          "url": "https://prescribedforlife.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "website": {
+        "value": "https://prescribedforlife.com/",
+        "source": {
+          "url": "https://prescribedforlife.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "hq": {
+        "value": "470 Henly Loop, Dripping Springs, TX 78620",
+        "source": {
+          "url": "https://prescribedforlife.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://prescribedforlife.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "nutraceutical powders",
+          "botanical extracts"
+        ],
+        "source": {
+          "url": "https://prescribedforlife.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic jerusalem artichoke inulin",
+          "chrysin",
+          "lemon bioflavonoid",
+          "hops flower extract",
+          "rutin",
+          "celery seed extract",
+          "butternut bark"
+        ],
+        "source": {
+          "url": "https://prescribedforlife.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "type": {
+        "value": "nutraceutical powder and botanical-extract e-commerce seller",
+        "source": {
+          "url": "https://prescribedforlife.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://prescribedforlife.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "Organic Jerusalem Artichoke Inulin: \"12 oz (340 g) - $21.99\", \"1 kg (2.2 lb) - $44.99\", \"2 kg (4.4 lb) - $74.99\"; Chrysin: \"2 oz (57 g) - $35.99\"; Lemon Bioflavonoid: \"1 kg (2.2 lb) - $54.99\"; Hops Flower Extract: \"1 kg (2.2 lb) - $45.99\"; Rutin: \"1 kg (2.2 lb) - $166.99\"; Celery Seed Extract: \"1 kg (2.2 lb) - $47.99\"; Butternut Bark: \"1 kg (2.2 lb) - $113.99\"",
+          "source": {
+            "url": "https://prescribedforlife.com/",
+            "retrievedAt": "2026-09-21"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "A dedicated shipping-policy page was not re-verified on the access date — shipping claim recorded as Unknown. Review platforms returned 403 on the access date.",
+      "sources": [
+        {
+          "url": "https://prescribedforlife.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-058",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Food To Live",
+        "source": {
+          "url": "https://foodtolive.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "website": {
+        "value": "https://foodtolive.com/",
+        "source": {
+          "url": "https://foodtolive.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "hq": {
+        "value": "Food to Live, 2769 W 15th Street, Brooklyn, NY 11224",
+        "source": {
+          "url": "https://foodtolive.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://foodtolive.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "flours",
+          "spices",
+          "organic seeds",
+          "legumes"
+        ],
+        "source": {
+          "url": "https://foodtolive.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic fava bean flour",
+          "whole nutmeg",
+          "organic seeds",
+          "legumes",
+          "flours"
+        ],
+        "source": {
+          "url": "https://foodtolive.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "type": {
+        "value": "organic flours, seeds, and legumes e-commerce seller",
+        "source": {
+          "url": "https://foodtolive.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://foodtolive.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "Organic Fava Bean Flour: \"12 oz $12.39 $16.52 / lb\", \"1.5 lbs $17.48 $11.65 / lb\"; Whole Nutmeg: \"4 oz $7.37 $29.48 / lb\"",
+          "note": "site displays computed per-pound units alongside package prices",
+          "source": {
+            "url": "https://foodtolive.com/",
+            "retrievedAt": "2026-09-21"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "\"Enjoy FREE shipping on orders $35+ · Just $4.99 if less\" (2026-09-21). Review platforms returned 403 on the access date.",
+      "sources": [
+        {
+          "url": "https://foodtolive.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "us-canada-059",
+      "regionId": "us-canada",
+      "name": {
+        "value": "Hoosier Hill Farm",
+        "source": {
+          "url": "https://hoosierhillfarm.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "website": {
+        "value": "https://hoosierhillfarm.com/",
+        "source": {
+          "url": "https://hoosierhillfarm.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "hq": {
+        "value": "Midwest USA (city not stated on retrieved pages)",
+        "source": {
+          "url": "https://hoosierhillfarm.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "country": {
+        "value": "USA",
+        "source": {
+          "url": "https://hoosierhillfarm.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "dairy powders",
+          "thickeners",
+          "baking mixes"
+        ],
+        "source": {
+          "url": "https://hoosierhillfarm.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "whole milk powder",
+          "agar agar powder",
+          "big daddy mac mix",
+          "chocolate ice cream mix"
+        ],
+        "source": {
+          "url": "https://hoosierhillfarm.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "type": {
+        "value": "specialty ingredients e-commerce seller (\"Dairy powders, thickeners, canning essentials, and more\") with a wholesale program",
+        "source": {
+          "url": "https://hoosierhillfarm.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://hoosierhillfarm.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "Whole Milk Powder \"From $14.99\"; Agar Agar Powder \"From $19.99\"; Big Daddy Mac Mix $16.99; Chocolate Ice Cream Mix \"From $24.99\" and \"$11.29 / per lb\"",
+          "note": "from-prices as displayed",
+          "source": {
+            "url": "https://hoosierhillfarm.com/",
+            "retrievedAt": "2026-09-21"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "\"Wholesale Orders (25 LB) ship within 21 business days\" (wholesale program page); \"FREE SHIPPING. EVERY ITEM. EVERY TIME.\" (site banner). Weakest filter-3 evidence of the twelve e-commerce sellers — review platforms unreachable 2026-09-21.",
+      "sources": [
+        {
+          "url": "https://hoosierhillfarm.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    }
+  ],
+  "coverageGaps": [
+    "HQ cities for 20 medium-confidence rows",
+    "registry cross-checks for every certification",
+    "North American office confirmation for Jungbunzlauer and BENEO",
+    "Tea/botanical depth beyond Rishi",
+    "a dedicated North American MCT/palm-fat pass",
+    "re-verification of the nine dropped candidates through distributors or parent-company sites"
+  ]
+}
