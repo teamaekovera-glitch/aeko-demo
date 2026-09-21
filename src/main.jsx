@@ -6,6 +6,7 @@ import '@fontsource-variable/geist-mono'
 import '@fontsource-variable/space-grotesk'
 import '@fontsource/instrument-serif'
 import './styles.css'
+import './ingredients.css'
 import App from './App.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(

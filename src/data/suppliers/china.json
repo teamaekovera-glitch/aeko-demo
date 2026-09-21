@@ -1,0 +1,6016 @@
+{
+  "schemaVersion": 1,
+  "regionId": "china",
+  "region": "China",
+  "retrieved": "2026-09-19",
+  "documentArtifact": "art_VjN8Y0Ge",
+  "documentPath": "docs/ingredient-suppliers-china.md",
+  "methodology": "Every factual claim comes from a page fetched in-session on the retrieval date above; claim-level source URLs live in the companion document. Fields without a fetched source are null. Price signals are labeled by tier. No emails, phones, MOQs, prices, certifications, or reviews are invented.",
+  "suppliers": [
+    {
+      "id": "china-001",
+      "regionId": "china",
+      "name": {
+        "value": "Zhejiang NHU Co., Ltd.",
+        "source": {
+          "url": "https://cnhu.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://cnhu.com/",
+        "source": {
+          "url": "https://cnhu.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Xinchang/Shaoxing area, Zhejiang (group homepage references Xinchang/Shaoxing events, supporting a Zhejiang base)",
+        "source": {
+          "url": "https://cnhu.com/about/zh-cn",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://cnhu.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vitamins & mineral actives"
+        ],
+        "source": {
+          "url": "https://cnhu.com/productAPIInfo/185/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "vitamin C",
+          "vitamin A (1.0 MIU/g)",
+          "vitamin D3 (40 MIU/g and 0.1 MIU/g)",
+          "vitamin B12 (cyanocobalamin, mecobalamin)",
+          "vitamin E",
+          "coenzyme Q10"
+        ],
+        "source": {
+          "url": "https://cnhu.com/productAPIInfo/185/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "large manufacturer (listed company; listing detail not shown on fetched pages)",
+        "source": {
+          "url": "https://cnhu.com/productAPIInfo/185/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "GMP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cnhu.com/productAPIInfo/185/en",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "DMF",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cnhu.com/productAPIInfo/185/en",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "CEP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cnhu.com/productAPIInfo/185/en",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "PMDA",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cnhu.com/productAPIInfo/185/en",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "NMPA",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cnhu.com/productAPIInfo/185/en",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "DCGI",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cnhu.com/productAPIInfo/185/en",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "COPP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cnhu.com/productAPIInfo/185/en",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://cnhu.com/productAPIInfo/185/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://cnhu.com/productAPIInfo/185/en",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Quality standards CP, EP, USP, JP; packaging e.g. VC 25 kg/carton, VA 5/20 kg bottles; pharmaceutical qualifications apply depending on product. One of China's largest vitamin producers — the strongest anchor supplier in this category.",
+      "sources": [
+        {
+          "url": "https://cnhu.com/productAPIInfo/185/en",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://cnhu.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://cnhu.com/about/zh-cn",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "china-002",
+      "regionId": "china",
+      "name": {
+        "value": "Zhejiang Medicine Co., Ltd.",
+        "source": {
+          "url": "https://www.zmc-china.com/en/about/overview.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.zmc-china.com/en/about/overview.html",
+        "source": {
+          "url": "https://www.zmc-china.com/en/about/overview.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Zhejiang (city not stated on the fetched page)",
+        "source": {
+          "url": "https://www.zmc-china.com/en/about/overview.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.zmc-china.com/en/about/overview.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vitamins & mineral actives"
+        ],
+        "source": {
+          "url": "https://www.zmc-china.com/en/about/overview.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "synthetic vitamin E",
+          "natural vitamin E",
+          "β-carotene"
+        ],
+        "source": {
+          "url": "https://www.zmc-china.com/en/about/overview.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "listed pharma group (large joint-stock pharmaceutical company established May 1997; SSE-listed since 1999; nine subsidiaries incl. Xinchang Pharmaceutical Factory and a dedicated Vitamin Factory)",
+        "source": {
+          "url": "https://www.zmc-china.com/en/about/overview.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "SSE-listed",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.zmc-china.com/en/about/overview.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FDA registration (stated)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.zmc-china.com/en/about/overview.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "DMF registration (stated)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.zmc-china.com/en/about/overview.html",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.zmc-china.com/en/about/overview.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.zmc-china.com/en/about/overview.html",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "States synthetic vitamin E, natural vitamin E, and β-carotene \"rank among the top worldwide.\" Registered capital 960 million yuan and total assets 10 billion yuan (as of end-2018, as stated on the page). DMF/FDA registration activity described; specific export markets not listed.",
+      "sources": [
+        {
+          "url": "https://www.zmc-china.com/en/about/overview.html",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-003",
+      "regionId": "china",
+      "name": {
+        "value": "Northeast Pharmaceutical Group (NEPG)",
+        "source": {
+          "url": "http://www.nepharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "http://www.nepharm.com/",
+        "source": {
+          "url": "http://www.nepharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "No. 8 Kunminghu Street, Economic & Technological Development District, Shenyang, Liaoning",
+        "source": {
+          "url": "http://www.nepharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "http://www.nepharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vitamins & mineral actives"
+        ],
+        "source": {
+          "url": "http://www.nepharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "vitamin C series",
+          "antibiotics",
+          "APIs"
+        ],
+        "source": {
+          "url": "http://www.nepharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "listed pharma group (under Fangda Group)",
+        "source": {
+          "url": "http://www.nepharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Liaoning Province Green Factory title",
+            "status": "company-stated",
+            "source": {
+              "url": "http://www.nepharm.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          }
+        ],
+        "source": {
+          "url": "http://www.nepharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "http://www.nepharm.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Describes itself as \"the first Vitamin C producer in China\" and inventor of the two-step fermentation technology for VC production; broad portfolio spanning vitamin series, antibiotics, and APIs.",
+      "sources": [
+        {
+          "url": "http://www.nepharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-004",
+      "regionId": "china",
+      "name": {
+        "value": "Jiangsu Jiangshan Pharmaceutical Co., Ltd.",
+        "source": {
+          "url": "http://en.jspcinc.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "http://en.jspcinc.com/",
+        "source": {
+          "url": "http://en.jspcinc.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Jiangsu (exact city not stated on the fetched page); founded 1990",
+        "source": {
+          "url": "http://en.jspcinc.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "http://en.jspcinc.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vitamins & mineral actives"
+        ],
+        "source": {
+          "url": "http://en.jspcinc.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "ascorbic acid (incl. mesh grades)",
+          "sodium ascorbate",
+          "calcium ascorbate",
+          "DC granules (25 kg/carton)"
+        ],
+        "source": {
+          "url": "http://en.jspcinc.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer (one of China's earliest VC producers; self-described \"one of the major VC manufacturers in the world\")",
+        "source": {
+          "url": "http://en.jspcinc.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "GMP",
+            "status": "company-stated",
+            "source": {
+              "url": "http://en.jspcinc.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO9001",
+            "status": "company-stated",
+            "source": {
+              "url": "http://en.jspcinc.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FSSC22000",
+            "status": "company-stated",
+            "source": {
+              "url": "http://en.jspcinc.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FAMI-QS",
+            "status": "company-stated",
+            "source": {
+              "url": "http://en.jspcinc.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "IP",
+            "status": "company-stated",
+            "source": {
+              "url": "http://en.jspcinc.com/about_12",
+              "retrievedAt": "2026-09-21",
+              "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "http://en.jspcinc.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "http://en.jspcinc.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "http://en.jspcinc.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "customized products offered (samples not stated)",
+        "source": {
+          "url": "http://en.jspcinc.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "http://en.jspcinc.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Products meet ChP, USP, FCC, BP, EP, E300 and other pharmacopoeia standards; 14 authorized invention patents.",
+      "sources": [
+        {
+          "url": "http://en.jspcinc.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "http://en.jspcinc.com/about_12",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "china-005",
+      "regionId": "china",
+      "name": {
+        "value": "Qufu New Element Bioengineering Co., Ltd.",
+        "source": {
+          "url": "https://www.newelementbio.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.newelementbio.com/vitamins/",
+        "source": {
+          "url": "https://www.newelementbio.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "No. 79 Yin Ting Road, Qufu, Shandong",
+        "source": {
+          "url": "https://www.newelementbio.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.newelementbio.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vitamins & mineral actives"
+        ],
+        "source": {
+          "url": "https://www.newelementbio.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "natural vitamin E (high-purity)",
+          "phospholipids",
+          "biological antioxidants",
+          "vitamin C/ascorbic acid 99% food grade",
+          "vitamin A acetate (oil and powders)",
+          "natural vitamin D3 (oil, crystal, powder)",
+          "vitamin B12 (cyanocobalamin, mecobalamin)",
+          "lecithin",
+          "oligosaccharides"
+        ],
+        "source": {
+          "url": "https://www.newelementbio.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer (national high-tech enterprise)",
+        "source": {
+          "url": "https://www.newelementbio.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "GMP-standard grade-D clean workshops (self-described)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.newelementbio.com/vitamins/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.newelementbio.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": {
+        "value": "1 kg (vitamin D3 powder)",
+        "source": {
+          "url": "https://www.newelementbio.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "vitamin D3 powder FOB US$10/kg",
+          "note": "port Shanghai, MOQ 1 kg, supply 20 MT/quarter — published on the company's own product page",
+          "source": {
+            "url": "https://www.newelementbio.com/vitamins/",
+            "retrievedAt": "2026-09-21",
+            "note": "re-verified live 2026-09-21; value unchanged — \"Vitamin D3 Powder — CAS:67-97-0 — FOB Price:10 USD/KG — Port:Shanghai — Minimum Order Quantity:1 KG — Supply Ability:20 MT/Quarter\" (official-site tier, Tier 1)"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "annual capacity 600 tons; 21 patents",
+        "source": {
+          "url": "https://www.newelementbio.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.newelementbio.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.newelementbio.com/vitamins/",
+          "retrievedAt": "2026-09-21",
+          "note": "re-verification read"
+        }
+      ]
+    },
+    {
+      "id": "china-006",
+      "regionId": "china",
+      "name": {
+        "value": "Zhejiang Vega group (Vega / Prumix / Vegavit)",
+        "source": {
+          "url": "https://www.vegapharma.com/index/china/index.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.vegapharma.com/index/china/index.html",
+        "source": {
+          "url": "https://www.vegapharma.com/index/china/index.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Zhejiang (per site name/units; HQ city not stated on the fetched page)",
+        "source": {
+          "url": "https://www.vegapharma.com/index/china/index.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.vegapharma.com/index/china/index.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vitamins & mineral actives"
+        ],
+        "source": {
+          "url": "https://www.vegapharma.com/index/china/index.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "full food-grade vitamin range A/B1/B2/B3/B5/B6/B12/C/D3/E/K (Zhejiang Prumix, 5,000 MT)",
+          "feed-grade biotin, VE, VD3, VA (Zhejiang Vegavit, 15,000 MT)",
+          "inositol",
+          "taurine",
+          "collagen",
+          "phosphatidylserine (PS)",
+          "GABA",
+          "xanthan gum",
+          "mineral sulfates"
+        ],
+        "source": {
+          "url": "https://www.vegapharma.com/index/china/index.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer group (three units: Vega / Prumix / Vegavit; multiple named sources on one site — trading elements)",
+        "source": {
+          "url": "https://www.vegapharma.com/index/china/index.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.vegapharma.com/index/china/index.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "publishes weekly market price commentary (e.g., \"Vitamin C 99%: prices confirm upward trend ($2.9–$3.6/kg)\"; \"Vitamin A 1000 stable at $19–21/kg\") — supplier-issued market commentary, not quotes; treat as directional only",
+          "source": {
+            "url": "https://www.vegapharma.com/index/china/index.html",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Prumix 5,000 MT annual capacity (food-grade vitamins); Vegavit 15,000 MT (feed-grade)",
+        "source": {
+          "url": "https://www.vegapharma.com/index/china/index.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://www.vegapharma.com/index/china/index.html",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-007",
+      "regionId": "china",
+      "name": {
+        "value": "Hangzhou Zancheng Life Sciences",
+        "source": {
+          "url": "https://www.zanchenglife.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.zanchenglife.com/vitamins/",
+        "source": {
+          "url": "https://www.zanchenglife.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Room 702, No. 318 Huayuangang Street, Gongshu District, Hangzhou, Zhejiang",
+        "source": {
+          "url": "https://www.zanchenglife.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.zanchenglife.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "serves customers in 80+ countries; offices in India and the Netherlands",
+        "source": {
+          "url": "https://www.zanchenglife.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "vitamins & mineral actives"
+        ],
+        "source": {
+          "url": "https://www.zanchenglife.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "fat-soluble vitamins (A, D, E, K)",
+          "water-soluble vitamins (C, full B range incl. methylfolate, methylcobalamin)"
+        ],
+        "source": {
+          "url": "https://www.zanchenglife.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer + sourcing group (part of Better Group with manufacturing bases in Shandong Province and Shanghai; combines self-manufacture with 10+ strategic manufacturing partnerships)",
+        "source": {
+          "url": "https://www.zanchenglife.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.zanchenglife.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.zanchenglife.com/vitamins/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "States it supports sourcing \"from sample to shipment.\" Certifications not stated on the fetched page.",
+      "sources": [
+        {
+          "url": "https://www.zanchenglife.com/vitamins/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-008",
+      "regionId": "china",
+      "name": {
+        "value": "Zhengzhou Ruipu Biological Engineering Co., Ltd.",
+        "source": {
+          "url": "https://www.ruipugroup.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.ruipugroup.com",
+        "source": {
+          "url": "https://www.ruipugroup.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Zhengzhou, Henan; established 1998",
+        "source": {
+          "url": "https://www.ruipugroup.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.ruipugroup.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vitamins & mineral actives"
+        ],
+        "source": {
+          "url": "https://www.ruipugroup.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "mineral nutrients (Ca/Fe/Zn/Mg salts — gluconates, lactates, citrates, phosphates, fumarates)",
+          "vitamin premixes",
+          "monosodium fumarate"
+        ],
+        "source": {
+          "url": "https://www.ruipugroup.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer (high-tech enterprise)",
+        "source": {
+          "url": "https://www.ruipugroup.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.ruipugroup.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.ruipugroup.com",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "three modern production bases covering ~130,000 m²; annual output of nutrients nearly 30,000 metric tons",
+        "source": {
+          "url": "https://www.ruipugroup.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Supplies raw materials to food, dietary supplement, and health industries. Certifications not enumerated on the fetched page.",
+      "sources": [
+        {
+          "url": "https://www.ruipugroup.com",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-009",
+      "regionId": "china",
+      "name": {
+        "value": "Penglai Marine (Shandong) Co., Ltd.",
+        "source": {
+          "url": "https://en.foodelite.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://en.foodelite.com",
+        "source": {
+          "url": "https://en.foodelite.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Penglai (Yantai), Shandong; founded 1995; registered capital 47.5 million yuan",
+        "source": {
+          "url": "https://en.foodelite.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://en.foodelite.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vitamins & mineral actives"
+        ],
+        "source": {
+          "url": "https://en.foodelite.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "calcium salts",
+          "magnesium salts",
+          "zinc salts",
+          "compound nutritional fortifiers",
+          "pharmaceutical intermediates"
+        ],
+        "source": {
+          "url": "https://en.foodelite.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "listed manufacturer (NEEQ 834752, \"Penglai Ocean\", listed December 4, 2015)",
+        "source": {
+          "url": "https://en.foodelite.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "9 management system certifications (company-stated)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.foodelite.com",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://en.foodelite.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://en.foodelite.com",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "50+ patents, 500+ customers, and six of China's top ten health-product exporters as long-term customers (company-stated). Trade-show presence at Fi South America 2025 (São Paulo) per site news.",
+      "sources": [
+        {
+          "url": "https://en.foodelite.com",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-010",
+      "regionId": "china",
+      "name": {
+        "value": "Ningbo Hengxian Biotechnology Co., Ltd.",
+        "source": {
+          "url": "https://www.hengxianbio.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.hengxianbio.com",
+        "source": {
+          "url": "https://www.hengxianbio.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Yunheng Building, Zhenhai District, Ningbo, Zhejiang",
+        "source": {
+          "url": "https://www.hengxianbio.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.hengxianbio.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vitamins & mineral actives"
+        ],
+        "source": {
+          "url": "https://www.hengxianbio.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "zinc gluconate",
+          "ferrous gluconate",
+          "magnesium gluconate (gluconate series)",
+          "glycinate series",
+          "citrate series",
+          "lactate series",
+          "malate series",
+          "vitamins"
+        ],
+        "source": {
+          "url": "https://www.hengxianbio.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer (production entity: Liaoyang Fuqiang Biotechnology Co., Ltd.)",
+        "source": {
+          "url": "https://www.hengxianbio.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.hengxianbio.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.hengxianbio.com",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Product cards show USP/FCC/BP standards (e.g., zinc gluconate USP; ferrous gluconate USP/FCC/BP). Certifications not enumerated.",
+      "sources": [
+        {
+          "url": "https://www.hengxianbio.com",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-011",
+      "regionId": "china",
+      "name": {
+        "value": "JiangXi Tianxin Pharmaceutical Co., Ltd.",
+        "source": {
+          "url": "http://www.txpharm.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; company's own Chinese-language site names the entity (江西天新药业股份有限公司), verified via secondary crawler."
+        }
+      },
+      "website": {
+        "value": "http://www.txpharm.com",
+        "source": {
+          "url": "https://www.investing.com",
+          "note": "official site www.txpharm.com unreachable on two fetch attempts this session (status: other)",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Leping, Jiangxi (per research synthesis)",
+        "source": {
+          "url": "https://www.investing.com",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit.",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.investing.com",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vitamins & mineral actives"
+        ],
+        "source": {
+          "url": "http://www.txpharm.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; site's product list is vitamin-centered (B6, B1, D3, folic acid, biotin), verified via secondary crawler."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "vitamin B6",
+          "vitamin B1",
+          "vitamin B5",
+          "vitamin D3",
+          "pyridoxine HCl CD grade",
+          "thiamine nitrate DC grade",
+          "folic acid",
+          "biotin",
+          "ascorbyl palmitate",
+          "vitamin E 500"
+        ],
+        "source": {
+          "url": "https://www.investing.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "listed manufacturer (SSE 603235)",
+        "source": {
+          "url": "https://www.investing.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.investing.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.investing.com",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Unverified",
+      "confidence": "Low",
+      "quarantined": {
+        "reason": "Directory-only evidence: official site www.txpharm.com unreachable on two fetch attempts this session (status: other) — no official-page claims could be captured; include only after direct verification",
+        "note": "Claims rest on an Investing.com company profile retrieved via research synthesis; certifications and export markets unknown"
+      },
+      "sources": [
+        {
+          "url": "https://www.investing.com",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "http://www.txpharm.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "china-012",
+      "regionId": "china",
+      "name": {
+        "value": "Shandong Sanyuan Biotechnology Co., Ltd.",
+        "source": {
+          "url": "https://binzhousanyuan.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://binzhousanyuan.com/",
+        "source": {
+          "url": "https://binzhousanyuan.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Binzhou Industrial Park, Binzhou, Shandong (330-acre production base); founded 2007",
+        "source": {
+          "url": "https://binzhousanyuan.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://binzhousanyuan.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "sweeteners"
+        ],
+        "source": {
+          "url": "https://binzhousanyuan.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "erythritol (135,000 t/yr capacity)",
+          "allulose (10,000 t/yr capacity)",
+          "Rebaudioside M (200–350× sucrose sweetness)"
+        ],
+        "source": {
+          "url": "https://binzhousanyuan.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "listed manufacturer (Shenzhen Stock Exchange GEM, February 10, 2022; stock code 301206)",
+        "source": {
+          "url": "https://binzhousanyuan.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO9001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://binzhousanyuan.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO14001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://binzhousanyuan.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://binzhousanyuan.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "BRC",
+            "status": "company-stated",
+            "source": {
+              "url": "https://binzhousanyuan.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://binzhousanyuan.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://binzhousanyuan.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "IP Non-GMO",
+            "status": "company-stated",
+            "source": {
+              "url": "https://binzhousanyuan.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://binzhousanyuan.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://binzhousanyuan.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "135,000 t/yr erythritol and 10,000 t/yr allulose capacity",
+        "source": {
+          "url": "https://binzhousanyuan.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "The scale anchor for polyol sweeteners on this list.",
+      "sources": [
+        {
+          "url": "https://binzhousanyuan.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-013",
+      "regionId": "china",
+      "name": {
+        "value": "GL Stevia (Xinghua Green)",
+        "source": {
+          "url": "https://www.glstevia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.glstevia.com/",
+        "source": {
+          "url": "https://www.glstevia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.glstevia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "sweeteners"
+        ],
+        "source": {
+          "url": "https://www.glstevia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "steviol glycosides — Optimvia Reb-M",
+          "Reb-D",
+          "Reb-A series",
+          "economical ST90s",
+          "GSG series"
+        ],
+        "source": {
+          "url": "https://www.glstevia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer (largest producer of stevia Reb-M in the world, self-described)",
+        "source": {
+          "url": "https://www.glstevia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Chinese national high-tech enterprise title",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.glstevia.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Vice chairman company of the China Stevia Association",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.glstevia.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.glstevia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.glstevia.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "annual productivity 2,300 tonnes; owns ~5.3 km² planted and 6.7 km² contracted stevia fields; proprietary varieties GL#9/GL#10",
+        "source": {
+          "url": "https://www.glstevia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "note": "Established 2005. Site news entity \"Xinghua Green\" (FIA 2026 awards, FIE Paris 2025) indicates a Jiangsu/Xinghua base — exact HQ city not stated on the fetched page. Applications: beverages, dairy, tabletop, bakery, sauces.",
+      "sources": [
+        {
+          "url": "https://www.glstevia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-014",
+      "regionId": "china",
+      "name": {
+        "value": "Unitech Chemicals Zibo Co., Ltd.",
+        "source": {
+          "url": "https://www.unitechzibo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.unitechzibo.com/",
+        "source": {
+          "url": "https://www.unitechzibo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "89 Qidu Road, Linzi, Zibo, Shandong; established February 2002; 128-acre site",
+        "source": {
+          "url": "https://www.unitechzibo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.unitechzibo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "exports to the Americas, Europe, South-East Asia, Africa, and the Middle East",
+        "source": {
+          "url": "https://www.unitechzibo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "sweeteners"
+        ],
+        "source": {
+          "url": "https://www.unitechzibo.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "sucralose (2,000 MT annual capacity)",
+          "CMC/PAC (25,000 MT)",
+          "organic clay (30,000 MT)"
+        ],
+        "source": {
+          "url": "https://www.unitechzibo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer",
+        "source": {
+          "url": "https://www.unitechzibo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO9001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.unitechzibo.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.unitechzibo.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "BRC",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.unitechzibo.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.unitechzibo.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.unitechzibo.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "NSF",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.unitechzibo.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.unitechzibo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.unitechzibo.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "sucralose annual capacity 2,000 MT; CMC/PAC 25,000 MT; organic clay 30,000 MT",
+        "source": {
+          "url": "https://www.unitechzibo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Production \"controlled under GMP\"; products meet FCC and E-955/E-466 regulations.",
+      "sources": [
+        {
+          "url": "https://www.unitechzibo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-015",
+      "regionId": "china",
+      "name": {
+        "value": "JK Sucralose Inc.",
+        "source": {
+          "url": "https://www.made-in-china.com/showroom/jksucralose/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.made-in-china.com/showroom/jksucralose/",
+        "source": {
+          "url": "https://www.made-in-china.com/showroom/jksucralose/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Beijing office (Fengtai District)",
+        "source": {
+          "url": "https://www.made-in-china.com/showroom/jksucralose/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.made-in-china.com/showroom/jksucralose/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "sweeteners"
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/showroom/jksucralose/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "sucralose"
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/showroom/jksucralose/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "China–USA joint venture; manufacturer/factory (showroom account registered 2007)",
+        "source": {
+          "url": "https://www.made-in-china.com/showroom/jksucralose/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO9001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.made-in-china.com/showroom/jksucralose/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "GMP (production base claim)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.made-in-china.com/showroom/jksucralose/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher (product meeting FCC5 and USP standards)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.made-in-china.com/showroom/jksucralose/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/showroom/jksucralose/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.made-in-china.com/showroom/jksucralose/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Unverified",
+      "confidence": "Medium",
+      "quarantined": {
+        "reason": "Marketplace-tier listing: business facts self-reported to the Made-in-China platform and the official company site not fetched this session — the company's own domain (jksucralose.com) no longer serves the company (returns an unrelated Chinese consumer-association page, fetched 2026-09-19)",
+        "note": "Three-ply export quality control claimed (ex-works test, third-party re-certification in China, third-party examination in the import country); showroom states US stock and after-sales. Production base in Sheyang County, Yancheng, Jiangsu, and ~4,000 t capacity expansion are industry-page claims retrieved only as search snippets — unverified pending direct fetch"
+      },
+      "sources": [
+        {
+          "url": "https://www.made-in-china.com/showroom/jksucralose/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-016",
+      "regionId": "china",
+      "name": {
+        "value": "Futaste Pharmaceutical Co., Ltd.",
+        "source": {
+          "url": "http://en.sdftyy.com/index.php",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "http://en.sdftyy.com/index.php",
+        "source": {
+          "url": "http://en.sdftyy.com/index.php",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "No. 666 South Ring Road, National High-tech Industrial Development Zone, Dezhou (Yucheng), Shandong; founded 1991",
+        "source": {
+          "url": "http://en.sdftyy.com/index.php",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "http://en.sdftyy.com/index.php",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "sweeteners"
+        ],
+        "source": {
+          "url": "http://en.sdftyy.com/index.php",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "functional sugar alcohols (xylitol etc. — specific SKUs not enumerated on fetched page)"
+        ],
+        "source": {
+          "url": "http://en.sdftyy.com/index.php",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer (national pioneer high-tech enterprise processing corn and corncob; self-described \"global market mainstream functional sugar alcohol product integrated supplier\")",
+        "source": {
+          "url": "http://en.sdftyy.com/index.php",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "National high-tech enterprise title",
+            "status": "company-stated",
+            "source": {
+              "url": "http://en.sdftyy.com/index.php",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "http://en.sdftyy.com/index.php",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "http://en.sdftyy.com/index.php",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "150 invention patents claimed. Specific sugar alcohols (xylitol etc.) not enumerated on the fetched page — product detail needs a follow-up fetch.",
+      "sources": [
+        {
+          "url": "http://en.sdftyy.com/index.php",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-017",
+      "regionId": "china",
+      "name": {
+        "value": "Shandong Bailong Chuangyuan Bio-Tech Co., Ltd.",
+        "source": {
+          "url": "https://www.bailongcn.com/allulose/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.bailongcn.com/allulose/",
+        "source": {
+          "url": "https://www.bailongcn.com/allulose/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Dezhou, Shandong",
+        "source": {
+          "url": "https://www.bailongcn.com/allulose/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.bailongcn.com/allulose/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "sweeteners"
+        ],
+        "source": {
+          "url": "https://www.bailongcn.com/allulose/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "D-allulose powder",
+          "crystalline allulose",
+          "allulose syrup",
+          "organic allulose crystal"
+        ],
+        "source": {
+          "url": "https://www.bailongcn.com/allulose/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer (allulose specialist)",
+        "source": {
+          "url": "https://www.bailongcn.com/allulose/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.bailongcn.com/allulose/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.bailongcn.com/allulose/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Certifications, capacity, MOQ, pricing: not stated on the fetched page (quote-only; the allulose category page is product-marketing focused).",
+      "sources": [
+        {
+          "url": "https://www.bailongcn.com/allulose/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-018",
+      "regionId": "china",
+      "name": {
+        "value": "Baolingbao Biology Co., Ltd.",
+        "source": {
+          "url": "https://en.blb-cn.com/about_us.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://en.blb-cn.com/",
+        "source": {
+          "url": "https://en.blb-cn.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "Website updated to the live homepage during the 2026-09-21 URL audit; former /about_us.html path returned 404, verified via secondary crawler."
+        }
+      },
+      "hq": {
+        "value": "Yucheng, Shandong (site news references Yucheng municipal bodies); founded 1997",
+        "source": {
+          "url": "https://en.blb-cn.com/about_us.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://en.blb-cn.com/about_us.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "sweeteners"
+        ],
+        "source": {
+          "url": "https://en.blb-cn.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; homepage displays functional-sugar product families (sugar alcohols and new sugar sources; starch and modified starch), verified via secondary crawler."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "functional sugars (sugar alcohols and new sugar sources)",
+          "starch and modified starch",
+          "erythritol",
+          "allulose",
+          "crystalline fructose",
+          "HMOs/2'-FL (award-winning technology, per site news)"
+        ],
+        "source": {
+          "url": "https://en.blb-cn.com/about_us.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "listed manufacturer (national key high-tech enterprise in bio-polysaccharides; \"single champion enterprise\" in China's manufacturing industry)",
+        "source": {
+          "url": "https://en.blb-cn.com/about_us.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "National key high-tech enterprise",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.blb-cn.com/about_us.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Single champion enterprise (China's manufacturing industry)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.blb-cn.com/about_us.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "National green factory",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.blb-cn.com/about_us.html",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://en.blb-cn.com/about_us.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://en.blb-cn.com/about_us.html",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Caution: a separate site, baolingbao-biology.com, carries Baolingbao-branded news but a third-party (Alchemist Chem) sales contact — excluded as evidence this session (distributor/replica site). Verified via en.blb-cn.com.",
+      "sources": [
+        {
+          "url": "https://en.blb-cn.com/about_us.html",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://en.blb-cn.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "china-019",
+      "regionId": "china",
+      "name": {
+        "value": "Meihua Group",
+        "source": {
+          "url": "https://english.meihua.group/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://english.meihua.group/",
+        "source": {
+          "url": "https://english.meihua.group/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://english.meihua.group/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "exporting since 2005; sales network across 150 countries in five continents",
+        "source": {
+          "url": "https://english.meihua.group/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "amino acids & nucleotides"
+        ],
+        "source": {
+          "url": "https://english.meihua.group/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "amino acids",
+          "umami agents (MSG)",
+          "food ingredients",
+          "colloids and polysaccharides",
+          "DNA synthesis",
+          "pharmaceutical intermediates"
+        ],
+        "source": {
+          "url": "https://english.meihua.group/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "large listed manufacturer (large-scale bio-manufacturing group)",
+        "source": {
+          "url": "https://english.meihua.group/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://english.meihua.group/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://english.meihua.group/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "HQ city not stated on the fetched English homepage. Certifications not enumerated on the fetched page.",
+      "sources": [
+        {
+          "url": "https://english.meihua.group/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-020",
+      "regionId": "china",
+      "name": {
+        "value": "Anhui BBCA Biochemical Co., Ltd.",
+        "source": {
+          "url": "https://en.bbcabiotech.com/who-we-are",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://en.bbcabiotech.com/who-we-are",
+        "source": {
+          "url": "https://en.bbcabiotech.com/who-we-are",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Anhui (leading agricultural deep-processing enterprise; city not stated on the fetched page — province recorded only)",
+        "source": {
+          "url": "https://en.bbcabiotech.com/who-we-are",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://en.bbcabiotech.com/who-we-are",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "amino acids & nucleotides"
+        ],
+        "source": {
+          "url": "https://en.bbcabiotech.com/who-we-are",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "citric acid",
+          "lactic acid (180,000 t/yr)",
+          "L-malic acid (30,000 t/yr project)",
+          "lysine (150,000 t/yr)",
+          "L-alanine (30,000 t/yr)",
+          "threonine (30,000 t/yr)",
+          "DL-alanine",
+          "D-aspartate",
+          "branched-chain amino acids",
+          "PLA (100,000 t/yr in operation)"
+        ],
+        "source": {
+          "url": "https://en.bbcabiotech.com/who-we-are",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "large manufacturer (leading agricultural deep-processing enterprise)",
+        "source": {
+          "url": "https://en.bbcabiotech.com/who-we-are",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "National high-tech enterprise title",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.bbcabiotech.com/who-we-are",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Green factory title",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.bbcabiotech.com/who-we-are",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://en.bbcabiotech.com/who-we-are",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://en.bbcabiotech.com/who-we-are",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "lysine 150,000 t/yr; L-alanine 30,000 t/yr; threonine 30,000 t/yr; L-malic acid 30,000 t/yr (project); lactic acid 180,000 t/yr; PLA 100,000 t/yr in operation",
+        "source": {
+          "url": "https://en.bbcabiotech.com/who-we-are",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Relies on the National Engineering Research Center for Fermentation Technology. City (Bengbu) not stated on the fetched page — province recorded only.",
+      "sources": [
+        {
+          "url": "https://en.bbcabiotech.com/who-we-are",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-021",
+      "regionId": "china",
+      "name": {
+        "value": "Shijiazhuang Jirong Pharmaceutical Co., Ltd.",
+        "source": {
+          "url": "https://en.jirongpharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://en.jirongpharm.com/",
+        "source": {
+          "url": "https://en.jirongpharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Circular Chemical Park, Shijiazhuang (a national high-tech zone), Hebei; founded 2006",
+        "source": {
+          "url": "https://en.jirongpharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://en.jirongpharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "self-operated import/export rights; global sales network (no country list)",
+        "source": {
+          "url": "https://en.jirongpharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "amino acids & nucleotides"
+        ],
+        "source": {
+          "url": "https://en.jirongpharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "L-glutamic acid",
+          "DL-methionine",
+          "L-hydroxyproline",
+          "L-arginine"
+        ],
+        "source": {
+          "url": "https://en.jirongpharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer (holds the Drug Manufacturing License from NMPA; more than 20 amino-acid APIs passed GMP compliance inspections)",
+        "source": {
+          "url": "https://en.jirongpharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "NMPA Drug Manufacturing License",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.jirongpharm.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "GMP-compliant QMS",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.jirongpharm.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.jirongpharm.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.jirongpharm.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.jirongpharm.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "EcoVadis",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.jirongpharm.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://en.jirongpharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://en.jirongpharm.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "over 20,000 MT/yr, plus 30,000 MT via wholly-owned subsidiary Shijiazhuang Haitian Amino Acid Co., Ltd. (est. 2003)",
+        "source": {
+          "url": "https://en.jirongpharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Grades: injection, oral, high-end food, electronic, cosmetic. Glycine, lysine HCl, and threonine are also associated with the company per directory snippets — directory-tier only, not recorded as ingredients.",
+      "sources": [
+        {
+          "url": "https://en.jirongpharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-022",
+      "regionId": "china",
+      "name": {
+        "value": "Ningxia Eppen Biotech Co., Ltd.",
+        "source": {
+          "url": "https://en.eppen.com.cn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Cited URL redirected to a different company's site (en.sl-eppen.com, Starlake Bioscience) at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "website": {
+        "value": "https://en.eppen.com.cn/",
+        "source": {
+          "url": "https://en.eppen.com.cn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Cited URL redirected to a different company's site (en.sl-eppen.com, Starlake Bioscience) at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "hq": {
+        "value": "Ningxia",
+        "source": {
+          "url": "https://en.eppen.com.cn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Cited URL redirected to a different company's site (en.sl-eppen.com, Starlake Bioscience) at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://en.eppen.com.cn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Cited URL redirected to a different company's site (en.sl-eppen.com, Starlake Bioscience) at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "amino acids & nucleotides"
+        ],
+        "source": {
+          "url": "https://en.eppen.com.cn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Cited URL redirected to a different company's site (en.sl-eppen.com, Starlake Bioscience) at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "amino acids (animal nutrition)",
+          "yeast culture",
+          "monosodium glutamate",
+          "chicken essence",
+          "sweeteners",
+          "PA56 (new materials)"
+        ],
+        "source": {
+          "url": "https://en.eppen.com.cn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Cited URL redirected to a different company's site (en.sl-eppen.com, Starlake Bioscience) at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "type": {
+        "value": "manufacturer (fermentation group; segments in animal nutrition, human nutrition, plant nutrition, and new materials)",
+        "source": {
+          "url": "https://en.eppen.com.cn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Cited URL redirected to a different company's site (en.sl-eppen.com, Starlake Bioscience) at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://en.eppen.com.cn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://en.eppen.com.cn/",
+            "retrievedAt": "2026-09-19"
+          },
+          "note": "Cited URL redirected to a different company's site (en.sl-eppen.com, Starlake Bioscience) at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Low",
+      "note": "Part of the Eppen group (sister site eppen-biotech.com covers Inner Mongolia Eppen). Certifications not enumerated on the fetched page. | 2026-09-21 URL audit: cited domain redirects to a different company's site (Starlake Bioscience); identity claims unverified; re-sourcing pending.",
+      "sources": [
+        {
+          "url": "https://en.eppen.com.cn/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-023",
+      "regionId": "china",
+      "name": {
+        "value": "Xuchang Foison Biological Technology Co., Ltd.",
+        "source": {
+          "url": "http://en.foisonpharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "http://en.foisonpharm.com/",
+        "source": {
+          "url": "http://en.foisonpharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Xuchang Biomedical Industrial Park, Xuchang Economic & Technological Development Zone, Henan; established 2017; total investment ~1.13 billion yuan, ~200 acres",
+        "source": {
+          "url": "http://en.foisonpharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "http://en.foisonpharm.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "amino acids & nucleotides"
+        ],
+        "source": {
+          "url": "http://en.foisonpharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "nucleosides and nucleotides food additives (incl. I+G, disodium 5'-ribonucleotide)",
+          "high-end enzyme-technology food additives",
+          "nucleotide-series pharmaceutical intermediates",
+          "amino acids and derivatives"
+        ],
+        "source": {
+          "url": "http://en.foisonpharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer",
+        "source": {
+          "url": "http://en.foisonpharm.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "http://en.foisonpharm.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "http://en.foisonpharm.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "note": "Three R&D labs (bioengineering, chemical synthesis, protein engineering). I+G product detail (address No. 5188 Jinlong Street) at http://en.foisonpharm.com/product/17.html was retrieved only as a search snippet this session — verify on fetch before publishing live.",
+      "sources": [
+        {
+          "url": "http://en.foisonpharm.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "http://en.foisonpharm.com/product/17.html",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-024",
+      "regionId": "china",
+      "name": {
+        "value": "Foodchem International Corporation",
+        "source": {
+          "url": "https://www.foodchem.cn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.foodchem.cn/",
+        "source": {
+          "url": "https://www.foodchem.cn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Shanghai",
+        "source": {
+          "url": "https://www.foodchem.cn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.foodchem.cn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "amino acids & nucleotides"
+        ],
+        "source": {
+          "url": "https://www.foodchem.cn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "broad food additives",
+          "I+G (disodium ribonucleotides; assay 97.0–102.0%, IMP/GMP 48.0–52.0% each)",
+          "wheat gluten"
+        ],
+        "source": {
+          "url": "https://www.foodchem.cn/products/Disodium-ribonucleotides",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer + trader (self-described \"both manufacturer and trading company\"; I+G distributor plus manufacturer of other products)",
+        "source": {
+          "url": "https://www.foodchem.cn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO9001 (company)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.foodchem.cn/products/Disodium-ribonucleotides",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.foodchem.cn/products/Disodium-ribonucleotides",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": {
+        "value": "500 kg (I+G)",
+        "source": {
+          "url": "https://www.foodchem.cn/products/Disodium-ribonucleotides",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": {
+        "value": "inquiry-based; not explicitly stated",
+        "source": {
+          "url": "https://www.foodchem.cn/products/Disodium-ribonucleotides",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.foodchem.cn/products/Disodium-ribonucleotides",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Offers HACCP, Kosher, Halal certificates for I+G. European warehouse stock; delivery within 1 week (stocked) / 2 weeks; payment T/T, L/C, D/P, D/A.",
+      "sources": [
+        {
+          "url": "https://www.foodchem.cn/products/Disodium-ribonucleotides",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.foodchem.cn/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-025",
+      "regionId": "china",
+      "name": {
+        "value": "RZBC Group Co., Ltd.",
+        "source": {
+          "url": "https://en.rzbc.com/intro/1.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://en.rzbc.com/intro/1.html",
+        "source": {
+          "url": "https://en.rzbc.com/intro/1.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Rizhao City, Shandong; established 1992",
+        "source": {
+          "url": "https://en.rzbc.com/intro/1.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://en.rzbc.com/intro/1.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "acidulants & gums"
+        ],
+        "source": {
+          "url": "https://en.rzbc.com/intro/1.html",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "citric acid",
+          "citrates"
+        ],
+        "source": {
+          "url": "https://en.rzbc.com/intro/1.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "large manufacturer (professional citric-acid manufacturer; drafts/revises China's national citric-acid quality standard; operates a National Accredited Lab)",
+        "source": {
+          "url": "https://en.rzbc.com/intro/1.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO9001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.rzbc.com/intro/1.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO14001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.rzbc.com/intro/1.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "GMP (pharmaceutical)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.rzbc.com/intro/1.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "BRCGS",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.rzbc.com/intro/1.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "OU-Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.rzbc.com/intro/1.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HALAL",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.rzbc.com/intro/1.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.rzbc.com/intro/1.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "IP compliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.rzbc.com/intro/1.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "SEDEX-SMETA",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.rzbc.com/intro/1.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FAMI-QS",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.rzbc.com/intro/1.html",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://en.rzbc.com/intro/1.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://en.rzbc.com/intro/1.html",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "States it was first in China's citric-acid field to obtain the listed certifications. Long-term cooperation claimed with Coca-Cola, PepsiCo, Mondelez, Nestlé, Danone, GSK, Yili, Wahaha. The flagship acidulant supplier on this list.",
+      "sources": [
+        {
+          "url": "https://en.rzbc.com/intro/1.html",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-026",
+      "regionId": "china",
+      "name": {
+        "value": "Fufeng Group",
+        "source": {
+          "url": "http://en.fufeng-group.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "http://en.fufeng-group.com/",
+        "source": {
+          "url": "http://en.fufeng-group.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Building 4, Yuanchuang Guojilanwan Creative Park, Huoju Road, Hi-Tech Zone, Qingdao, Shandong",
+        "source": {
+          "url": "http://en.fufeng-group.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "http://en.fufeng-group.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "acidulants & gums"
+        ],
+        "source": {
+          "url": "http://en.fufeng-group.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "food additives (MSG brands, crystallized dextrose)",
+          "threonine",
+          "lysine",
+          "tryptophan (animal-nutrition amino acids)",
+          "sodium hyaluronate",
+          "BCAAs",
+          "polyglutamic acid",
+          "glutamine (high-end amino acids)",
+          "xanthan gum",
+          "gellan gum",
+          "pectin (water-soluble colloids)"
+        ],
+        "source": {
+          "url": "http://en.fufeng-group.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "listed manufacturer (HK-listed bio-fermentation group, 00546)",
+        "source": {
+          "url": "http://en.fufeng-group.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "http://en.fufeng-group.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "http://en.fufeng-group.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Certifications not enumerated on the fetched page.",
+      "sources": [
+        {
+          "url": "http://en.fufeng-group.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-027",
+      "regionId": "china",
+      "name": {
+        "value": "Deosen Biochemical (Ordos) Ltd.",
+        "source": {
+          "url": "https://www.deosen.com/deosen-profile/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.deosen.com/deosen-profile/",
+        "source": {
+          "url": "https://www.deosen.com/deosen-profile/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "production base HQ in Ordos City, Inner Mongolia; sales HQ in Zibo City, Shandong (origin: Shandong Zhongxuan Corporation, 1992)",
+        "source": {
+          "url": "https://www.deosen.com/deosen-profile/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.deosen.com/deosen-profile/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "acidulants & gums"
+        ],
+        "source": {
+          "url": "https://www.deosen.com/deosen-profile/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Ziboxan xanthan gum lines",
+          "gellan gum",
+          "welan gum",
+          "DSTA gum",
+          "erythritol"
+        ],
+        "source": {
+          "url": "https://www.deosen.com/deosen-profile/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer (hydrocolloids specialist; Deosen USA branch since 2003)",
+        "source": {
+          "url": "https://www.deosen.com/deosen-profile/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.deosen.com/deosen-profile/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "\"GET PRICE\" form on site",
+          "source": {
+            "url": "https://www.deosen.com/deosen-profile/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "48,000 t total xanthan capacity (2018); states it is one of the largest xanthan gum manufacturers worldwide",
+        "source": {
+          "url": "https://www.deosen.com/deosen-profile/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Ziboxan/Zibozan registered in 33 countries. Certifications not enumerated on the fetched profile page.",
+      "sources": [
+        {
+          "url": "https://www.deosen.com/deosen-profile/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-028",
+      "regionId": "china",
+      "name": {
+        "value": "Layn Natural Ingredients (Layn Corp)",
+        "source": {
+          "url": "https://layncorp.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://layncorp.com/",
+        "source": {
+          "url": "https://layncorp.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Guilin, Guangxi (Asia-Pacific manufacturing site, +86 773 area code); China Global Innovation Center in Shanghai",
+        "source": {
+          "url": "https://layncorp.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://layncorp.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "offices/operations in Shanghai, USA (Layn USA Inc), and Europe (Layn Europe SRL); US hemp subsidiary HempRise (USDA Organic)",
+        "source": {
+          "url": "https://layncorp.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "botanical extracts"
+        ],
+        "source": {
+          "url": "https://layncorp.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page via secondary crawler."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "monk fruit (named portfolio section)",
+          "botanical extracts (vertically integrated seed-to-solution supply chain)"
+        ],
+        "source": {
+          "url": "https://layncorp.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "vertically integrated manufacturer",
+        "source": {
+          "url": "https://layncorp.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Certification logos displayed (specifics not text-readable on the fetched page — request the certification list directly)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://layncorp.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://layncorp.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://layncorp.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "site shows a biomass-processed-annually counter (dynamic value; not captured)",
+        "source": {
+          "url": "https://layncorp.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Strongest monk-fruit anchor found this session. Single-source risk: monk fruit rests on Layn alone in this dossier.",
+      "sources": [
+        {
+          "url": "https://layncorp.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-029",
+      "regionId": "china",
+      "name": {
+        "value": "Botanical Cube Inc.",
+        "source": {
+          "url": "https://www.botanicalcube.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.botanicalcube.com/about-us",
+        "source": {
+          "url": "https://www.botanicalcube.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Xi'an, Shaanxi; parent Xi'an Tianben Bio-Engineering Co., Ltd. (est. 2008); three production bases — Yangling (2012), Huxian (2019), Shanyang (2021) — covering 200+ acres",
+        "source": {
+          "url": "https://www.botanicalcube.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.botanicalcube.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "exports to customers in 100+ countries/regions (site states both \"60% of the world's countries\" and \"200+ countries and regions\" — inconsistency noted)",
+        "source": {
+          "url": "https://www.botanicalcube.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "botanical extracts"
+        ],
+        "source": {
+          "url": "https://www.botanicalcube.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "botanical extracts (200+ varieties)"
+        ],
+        "source": {
+          "url": "https://www.botanicalcube.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer (dedicated international brand since 2017, backed by Xi'an Tianben Bio-Engineering)",
+        "source": {
+          "url": "https://www.botanicalcube.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.botanicalcube.com/about-us",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO9001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.botanicalcube.com/about-us",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FDA",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.botanicalcube.com/about-us",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HALAL",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.botanicalcube.com/about-us",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "KOSHER",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.botanicalcube.com/about-us",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.botanicalcube.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "OEM/ODM offered; samples not stated",
+        "source": {
+          "url": "https://www.botanicalcube.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.botanicalcube.com/about-us",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "annual processing capacity of 3,000+ tons of plant raw materials",
+        "source": {
+          "url": "https://www.botanicalcube.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "note": "Certifications claimed on site (also references GMP requirements); third-party labs: SGS, Eurofins, Pony, Merieux; testing to CP/EP/USP.",
+      "sources": [
+        {
+          "url": "https://www.botanicalcube.com/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-030",
+      "regionId": "china",
+      "name": {
+        "value": "Xi'an Best Bio-Tech Co., Ltd. (BSTBIO)",
+        "source": {
+          "url": "https://bstextract.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://bstextract.com/about/",
+        "source": {
+          "url": "https://bstextract.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Yangling, Shaanxi (Xi'an focus); founded 2017",
+        "source": {
+          "url": "https://bstextract.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://bstextract.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "customers in 60+ countries",
+        "source": {
+          "url": "https://bstextract.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "botanical extracts"
+        ],
+        "source": {
+          "url": "https://bstextract.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "botanical extracts (GMP-certified factory with HPLC/UV-VIS/microbiology lab)"
+        ],
+        "source": {
+          "url": "https://bstextract.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer",
+        "source": {
+          "url": "https://bstextract.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "KOF-K Kosher (2022)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://bstextract.com/about/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "USDA Organic (2023)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://bstextract.com/about/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal (2024)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://bstextract.com/about/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO22000 & HACCP (2024)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://bstextract.com/about/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "CE-OS EU organic (2024)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://bstextract.com/about/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://bstextract.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "OEM/ODM with \"fast sampling & low MOQ\" (no numeric MOQ stated)",
+        "source": {
+          "url": "https://bstextract.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://bstextract.com/about/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "GAP-certified herbal base in Shaanxi. MOQ not numerically stated (low-MOQ claim only).",
+      "sources": [
+        {
+          "url": "https://bstextract.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-031",
+      "regionId": "china",
+      "name": {
+        "value": "Xi'an Demeter Biotech Co., Ltd.",
+        "source": {
+          "url": "https://www.demeterherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.demeterherb.com/",
+        "source": {
+          "url": "https://www.demeterherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "No. 11 Tangyan South Road, Xi'an, Shaanxi; since 2008",
+        "source": {
+          "url": "https://www.demeterherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.demeterherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "exports to 50+ countries",
+        "source": {
+          "url": "https://www.demeterherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "botanical extracts"
+        ],
+        "source": {
+          "url": "https://www.demeterherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "plant extracts",
+          "food additives (nutrient supplements, amino acids, vitamins, minerals, fruit/vegetable powders, pigments, sweeteners, enzymes)"
+        ],
+        "source": {
+          "url": "https://www.demeterherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer (R&D/production/sales of plant extracts, food additives, APIs, cosmetic raw materials)",
+        "source": {
+          "url": "https://www.demeterherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "GMP factory standard",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.demeterherb.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "International Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.demeterherb.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "EU organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.demeterherb.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "USDA organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.demeterherb.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FDA certificates",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.demeterherb.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO9001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.demeterherb.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.demeterherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "OEM customization (capsules, tablets, private label)",
+        "source": {
+          "url": "https://www.demeterherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.demeterherb.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://www.demeterherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-032",
+      "regionId": "china",
+      "name": {
+        "value": "Xi'an Tian Guangyuan Biotech Co., Ltd.",
+        "source": {
+          "url": "https://www.tgybio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.tgybio.com/",
+        "source": {
+          "url": "https://www.tgybio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Xi'an, Shaanxi; founded 2005",
+        "source": {
+          "url": "https://www.tgybio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.tgybio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "botanical extracts"
+        ],
+        "source": {
+          "url": "https://www.tgybio.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "nutritional supplements and cosmetic raw materials — CoQ10, curcumin, resveratrol, glutathione, magnesium L-threonate",
+          "EGCG (product page on site)"
+        ],
+        "source": {
+          "url": "https://www.tgybio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer",
+        "source": {
+          "url": "https://www.tgybio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "GMP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.tgybio.com/products/",
+              "retrievedAt": "2026-09-21",
+              "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+            }
+          },
+          {
+            "name": "FSSC22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.tgybio.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.tgybio.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.tgybio.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HALAL",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.tgybio.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.tgybio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.tgybio.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Certificates \"all available\" per site; 2,000+ global clients claimed.",
+      "sources": [
+        {
+          "url": "https://www.tgybio.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.tgybio.com/products/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "china-033",
+      "regionId": "china",
+      "name": {
+        "value": "Shaanxi Fruiterco Biotechnology Co., Ltd.",
+        "source": {
+          "url": "https://www.fruiterco.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.fruiterco.com/",
+        "source": {
+          "url": "https://www.fruiterco.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Xi'an (Hi-Tech Zone address: Jinye 69 Rd), Shaanxi",
+        "source": {
+          "url": "https://www.fruiterco.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.fruiterco.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "exports to 100+ countries (US, Canada, UK, France, Australia, Japan, South Korea, Malaysia, Brazil, Turkey named)",
+        "source": {
+          "url": "https://www.fruiterco.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "botanical extracts"
+        ],
+        "source": {
+          "url": "https://www.fruiterco.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "standardized natural plant extracts",
+          "cosmetic raw materials",
+          "fruit/vegetable powders",
+          "health supplements",
+          "probiotics",
+          "amino acids",
+          "mushroom extracts (named category)"
+        ],
+        "source": {
+          "url": "https://www.fruiterco.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer + trader",
+        "source": {
+          "url": "https://www.fruiterco.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "EOS",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.fruiterco.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.fruiterco.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.fruiterco.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "NOP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.fruiterco.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HALAL",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.fruiterco.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.fruiterco.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.fruiterco.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.fruiterco.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "extraction/separation/purification line processing 1,000+ tons of raw materials, producing 150+ tons of standard extracts annually",
+        "source": {
+          "url": "https://www.fruiterco.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Certification badges listed on site — request certificates for scope.",
+      "sources": [
+        {
+          "url": "https://www.fruiterco.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-034",
+      "regionId": "china",
+      "name": {
+        "value": "Xi'an Aoge Biotech Co., Ltd.",
+        "source": {
+          "url": "https://www.aogebio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.aogebio.com/",
+        "source": {
+          "url": "https://www.aogebio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Xi'an high-tech zone, Shaanxi; founded 2013; subsidiaries Imaherb and Nahanutri",
+        "source": {
+          "url": "https://www.aogebio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.aogebio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "serves skincare/personal-care brands in 40+ countries",
+        "source": {
+          "url": "https://www.aogebio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "botanical extracts"
+        ],
+        "source": {
+          "url": "https://www.aogebio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "botanical extracts",
+          "cosmetic raw materials",
+          "EGCG (product page on site)"
+        ],
+        "source": {
+          "url": "https://www.aogebio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer (cosmetics-forward positioning)",
+        "source": {
+          "url": "https://www.aogebio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "GMP-compliant production facility",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.aogebio.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.aogebio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.aogebio.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "~50 tons/month raw-material output; cooperative factory 1,000 mu; in-house lab (UPLC, HPLC, GC-MS, ICP-MS)",
+        "source": {
+          "url": "https://www.aogebio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Positioning note: cosmetics-forward — best fit for personal-care ingredient rows rather than food-grade botanicals.",
+      "sources": [
+        {
+          "url": "https://www.aogebio.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-035",
+      "regionId": "china",
+      "name": {
+        "value": "GanoHerb Group",
+        "source": {
+          "url": "https://www.ganoherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.ganoherb.com/",
+        "source": {
+          "url": "https://www.ganoherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Fujian (city not stated on the fetched page; site carries a \"Fujian Sci-Tech Little Giant Leading Enterprise\" title); US office Pasadena, CA",
+        "source": {
+          "url": "https://www.ganoherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.ganoherb.com/pages/company-profile",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+        }
+      },
+      "regionsServed": {
+        "value": "exports to 30+ countries; ~3,000 sales outlets across China",
+        "source": {
+          "url": "https://www.ganoherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "functional mushrooms"
+        ],
+        "source": {
+          "url": "https://www.ganoherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "reishi (Ganoderma lucidum) extracts and supplements"
+        ],
+        "source": {
+          "url": "https://www.ganoherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "vertically integrated manufacturer (cultivation to deep processing; reishi specialist since 1989; national high-tech enterprise; national key leading enterprise in agricultural industrialization)",
+        "source": {
+          "url": "https://www.ganoherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "GLOBALG.A.P. (organic plantations, since 2006)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.ganoherb.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Certified organic in the US, EU, Japan, and China for 10+ consecutive years",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.ganoherb.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "UNIDO Demonstration Base (plantation designation)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.ganoherb.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "NSF-certified reishi spore-oil products (per site article)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.ganoherb.com/pages/company-profile",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.ganoherb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "consumer storefront prices shown (finished capsules, e.g., US$19.90) — these are retail products, not bulk extract quotes; bulk = quote-only",
+          "source": {
+            "url": "https://www.ganoherb.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "29 Chinese invention patents. Single-source risk: functional mushrooms rest on GanoHerb alone in this dossier.",
+      "sources": [
+        {
+          "url": "https://www.ganoherb.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.ganoherb.com/pages/company-profile",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-036",
+      "regionId": "china",
+      "name": {
+        "value": "Hunan Sunfull Bio-Tech Co., Ltd.",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Hunan (city not stated on the listing)",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "botanical extracts"
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "green tea extract 95% EGCG",
+          "EGCG 98%",
+          "EGCG 90%"
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer/factory & trading company",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Halal certificate badge (Made-in-China platform badge, valid since 2026-07-06)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "marketplace-listed",
+          "value": "green tea extract 95% EGCG US$178–180/kg",
+          "note": "MOQ 10 kg; indicative listing price, negotiable in practice",
+          "source": {
+            "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+            "retrievedAt": "2026-09-19"
+          }
+        },
+        {
+          "tier": "marketplace-listed",
+          "value": "EGCG 98% US$236–248/kg",
+          "note": "MOQ 10 kg; indicative listing price, negotiable in practice",
+          "source": {
+            "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+            "retrievedAt": "2026-09-19"
+          }
+        },
+        {
+          "tier": "marketplace-listed",
+          "value": "EGCG 90% US$128–138/kg",
+          "note": "MOQ 10 kg; indicative listing price, negotiable in practice",
+          "source": {
+            "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": {
+        "value": "Made-in-China 5.0/5.0 rating on listings (platform rating, not independent reviews)",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "verificationLevel": "Unverified",
+      "confidence": "Medium",
+      "quarantined": {
+        "reason": "Marketplace-tier listing: Made-in-China \"Audited Supplier\" status with self-reported business facts and indicative listing prices; official site not fetched this session",
+        "note": "MIC Diamond + Audited Supplier; useful for tier-2 marketplace rows and price benchmarking — promote only after showroom-level verification"
+      },
+      "sources": [
+        {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-037",
+      "regionId": "china",
+      "name": {
+        "value": "Hunan Nutramax Inc.",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Hunan (city not stated on the listing)",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "botanical extracts"
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic green tea extract (98% polyphenols, 70% catechin, 50% EGCG)"
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer/factory & trading company",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Made-in-China Gold + Audited Supplier",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "marketplace-listed",
+          "value": "organic green tea extract US$10–100/kg",
+          "note": "MOQ 1 kg; indicative listing price, negotiable in practice",
+          "source": {
+            "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Unverified",
+      "confidence": "Medium",
+      "quarantined": {
+        "reason": "Marketplace-tier listing: Made-in-China \"Audited Supplier\" status with self-reported business facts and indicative listing prices; official site not fetched this session",
+        "note": "Useful for tier-2 marketplace rows and price benchmarking — promote only after showroom-level verification"
+      },
+      "sources": [
+        {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-038",
+      "regionId": "china",
+      "name": {
+        "value": "Xi'an Xinlu Biotechnology Co., Ltd.",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Xi'an, Shaanxi",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "botanical extracts"
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "green tea extract (30–98% polyphenols/catechins/EGCG)"
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "supplier",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Made-in-China Diamond + Audited Supplier",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "marketplace-listed",
+          "value": "green tea extract US$50–220/kg",
+          "note": "MOQ 1 kg; indicative listing price, negotiable in practice",
+          "source": {
+            "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": {
+        "value": "Made-in-China 4.9/5.0 rating (platform rating, not independent reviews)",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "verificationLevel": "Unverified",
+      "confidence": "Medium",
+      "quarantined": {
+        "reason": "Marketplace-tier listing: Made-in-China \"Audited Supplier\" status with self-reported business facts and indicative listing prices; official site not fetched this session",
+        "note": "Useful for tier-2 marketplace rows and price benchmarking — promote only after showroom-level verification"
+      },
+      "sources": [
+        {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-039",
+      "regionId": "china",
+      "name": {
+        "value": "Changsha Comext Biotech Co., Ltd.",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Changsha, Hunan",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "botanical extracts"
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "green tea extract (95% polyphenol / 70% catechin / 50% EGCG)"
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "supplier",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Made-in-China Diamond + Audited Supplier",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "marketplace-listed",
+          "value": "green tea extract US$21.80–26.00/kg",
+          "note": "95% polyphenol / 70% catechin / 50% EGCG; MOQ 1 kg; indicative listing price, negotiable in practice",
+          "source": {
+            "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": {
+        "value": "Made-in-China 5.0/5.0 rating (platform rating, not independent reviews)",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "verificationLevel": "Unverified",
+      "confidence": "Medium",
+      "quarantined": {
+        "reason": "Marketplace-tier listing: Made-in-China \"Audited Supplier\" status with self-reported business facts and indicative listing prices; official site not fetched this session",
+        "note": "Useful for tier-2 marketplace rows and price benchmarking — promote only after showroom-level verification"
+      },
+      "sources": [
+        {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-040",
+      "regionId": "china",
+      "name": {
+        "value": "Suzhou Greenway Biotech Co., Ltd.",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Suzhou, Jiangsu",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "botanical extracts"
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic green tea extract (98% polyphenols / 98% EGCG)"
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "supplier",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "USDA certificate badge (Made-in-China platform badge, valid since 2026-05-11)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "marketplace-listed",
+          "value": "organic green tea extract US$25–50/kg",
+          "note": "MOQ 1 kg; indicative listing price, negotiable in practice",
+          "source": {
+            "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": {
+        "value": "Made-in-China 5.0/5.0 rating with \"On-time Delivery\" tag (platform rating, not independent reviews)",
+        "source": {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "verificationLevel": "Unverified",
+      "confidence": "Medium",
+      "quarantined": {
+        "reason": "Marketplace-tier listing: Made-in-China \"Audited Supplier\" status with self-reported business facts and indicative listing prices; official site not fetched this session",
+        "note": "Useful for tier-2 marketplace rows and price benchmarking — promote only after showroom-level verification"
+      },
+      "sources": [
+        {
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-041",
+      "regionId": "china",
+      "name": {
+        "value": "Hubei Xingfa Chemicals Group Co., Ltd.",
+        "source": {
+          "url": "https://www.xingfagroup.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.xingfagroup.com/en/",
+        "source": {
+          "url": "https://www.xingfagroup.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Hubei Yichang (No. 58 Gaoyang Avenue, Gufu town, Xingshan county); established 1994",
+        "source": {
+          "url": "https://www.xingfagroup.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.xingfagroup.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "food phosphates & citrates"
+        ],
+        "source": {
+          "url": "https://www.xingfagroup.com/en/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "sodium tripolyphosphate (food additive)",
+          "sodium hexametaphosphate (food additive)",
+          "sodium acid pyrophosphate",
+          "tetrasodium pyrophosphate"
+        ],
+        "source": {
+          "url": "https://www.xingfa-chemicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "listed manufacturer (Shanghai Stock Exchange since 1999, stock code 600141); describes itself as the largest company in China's phosphates specialty industry; ~29.49 billion RMB total assets and 11,500 employees (per group/export site)",
+        "source": {
+          "url": "https://www.xingfagroup.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "China Top 500 ranking",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.xingfagroup.com/en/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.xingfagroup.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.xingfagroup.com/en/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Food-relevant listings appear on the export site; note the export site (xingfa-chemicals.com) is operated by a partner (Liwei Group) selling Xingfa products.",
+      "sources": [
+        {
+          "url": "https://www.xingfagroup.com/en/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.xingfa-chemicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-042",
+      "regionId": "china",
+      "name": {
+        "value": "Jiangsu Kolod Food Ingredients Co., Ltd.",
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/calcium-citrate.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.made-in-china.com/manufacturers/calcium-citrate.html",
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/calcium-citrate.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Jiangsu (city not stated on the listing)",
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/calcium-citrate.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/calcium-citrate.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "food phosphates & citrates"
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/calcium-citrate.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "potassium phosphates",
+          "ammonium phosphates",
+          "citrates",
+          "sulfates",
+          "magnesium phosphates"
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/calcium-citrate.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer/factory & trading company",
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/calcium-citrate.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/calcium-citrate.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "marketplace-listed",
+          "value": "US$1,280–1,300/ton",
+          "note": "calcium citrate listing; MOQ 1 ton; indicative listing price, negotiable in practice",
+          "source": {
+            "url": "https://www.made-in-china.com/manufacturers/calcium-citrate.html",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "2,000+ (plant area, unit not stated on listing); 429 employees",
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/calcium-citrate.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Unverified",
+      "confidence": "Medium",
+      "quarantined": {
+        "reason": "Marketplace-tier listing: Made-in-China \"Audited Supplier\" status with self-reported business facts and indicative listing prices; official site not fetched this session",
+        "note": "Certifications not stated on the listing — promote only after showroom-level verification"
+      },
+      "sources": [
+        {
+          "url": "https://www.made-in-china.com/manufacturers/calcium-citrate.html",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-043",
+      "regionId": "china",
+      "name": {
+        "value": "Yantai Shuangta Food Co., Ltd.",
+        "source": {
+          "url": "https://en.shuangtafood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://en.shuangtafood.com/",
+        "source": {
+          "url": "https://en.shuangtafood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Zhaoyuan City, Shandong",
+        "source": {
+          "url": "https://en.shuangtafood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://en.shuangtafood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "plant proteins"
+        ],
+        "source": {
+          "url": "https://en.shuangtafood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "pea protein (incl. 80% textured pea protein)",
+          "pea starch",
+          "pea fiber",
+          "edible mushrooms",
+          "Longkou vermicelli"
+        ],
+        "source": {
+          "url": "https://en.shuangtafood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "listed manufacturer (Shenzhen Stock Exchange, 2010)",
+        "source": {
+          "url": "https://en.shuangtafood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "BRC",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.shuangtafood.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO9001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.shuangtafood.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.shuangtafood.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.shuangtafood.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "US FDA auditing (\"the only enterprise in the pea protein industry that has passed the auditing from the USA's FDA with 'zero problem'\")",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.shuangtafood.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "SGS FSMA certification (holder of the world's first)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.shuangtafood.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "AEO customs certification",
+            "status": "company-stated",
+            "source": {
+              "url": "https://en.shuangtafood.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://en.shuangtafood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://en.shuangtafood.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "States it is first in its industry to pass BRC, ISO9001, ISO22000, HACCP; industry's first nationally accredited laboratory. Strongest pea-protein anchor found this session.",
+      "sources": [
+        {
+          "url": "https://en.shuangtafood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-044",
+      "regionId": "china",
+      "name": {
+        "value": "Shandong Jianyuan Group",
+        "source": {
+          "url": "http://en.jianyuangroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "http://en.jianyuangroup.com/",
+        "source": {
+          "url": "http://en.jianyuangroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Zhaoyuan City, Shandong (100 Shengtai Road)",
+        "source": {
+          "url": "http://en.jianyuangroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "http://en.jianyuangroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "exports to European, American, and Southeast Asian markets",
+        "source": {
+          "url": "http://en.jianyuangroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "plant proteins"
+        ],
+        "source": {
+          "url": "http://en.jianyuangroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "pea protein isolate",
+          "pea dietary fiber",
+          "pea starch (North American peas)"
+        ],
+        "source": {
+          "url": "http://en.jianyuangroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer (pea processor)",
+        "source": {
+          "url": "http://en.jianyuangroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "BRC",
+            "status": "company-stated",
+            "source": {
+              "url": "http://en.jianyuangroup.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "http://en.jianyuangroup.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "USDA Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "http://en.jianyuangroup.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "http://en.jianyuangroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "http://en.jianyuangroup.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "note": "Exhibitor history at Fi Europe Paris (2019), Expo West Anaheim (2020), IFT (2020); capacity expansion in 2016.",
+      "sources": [
+        {
+          "url": "http://en.jianyuangroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-045",
+      "regionId": "china",
+      "name": {
+        "value": "Shandong Yuwang Ecological Food Industry Co., Ltd",
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/soy-protein.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.made-in-china.com/manufacturers/soy-protein.html",
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/soy-protein.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Shandong (city not stated on the listing)",
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/soy-protein.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/soy-protein.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "plant proteins"
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/soy-protein.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "soy protein isolate",
+          "dietary fiber"
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/soy-protein.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer/factory & trading company",
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/soy-protein.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO9001:2015",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.made-in-china.com/manufacturers/soy-protein.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO45001:2018",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.made-in-china.com/manufacturers/soy-protein.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO14001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.made-in-china.com/manufacturers/soy-protein.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO50001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.made-in-china.com/manufacturers/soy-protein.html",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/soy-protein.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "marketplace-listed",
+          "value": "soy protein isolate US$1,700–2,600/ton",
+          "note": "MOQ 1 ton; indicative listing price, negotiable in practice",
+          "source": {
+            "url": "https://www.made-in-china.com/manufacturers/soy-protein.html",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "2,000+ (plant area, unit not stated on listing); 1,113 employees",
+        "source": {
+          "url": "https://www.made-in-china.com/manufacturers/soy-protein.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Unverified",
+      "confidence": "Medium",
+      "quarantined": {
+        "reason": "Marketplace-tier listing: Made-in-China \"Audited Supplier\" status with self-reported business facts and indicative listing prices; official site not fetched this session",
+        "note": "Management certifications listed on the Made-in-China listing — promote only after showroom-level verification"
+      },
+      "sources": [
+        {
+          "url": "https://www.made-in-china.com/manufacturers/soy-protein.html",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-046",
+      "regionId": "china",
+      "name": {
+        "value": "Shandong Hua-Thai (sales: Hainan Zhongxin Chemical / ZXchem)",
+        "source": {
+          "url": "https://www.zxchem.com/plant-proteins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.zxchem.com/plant-proteins/",
+        "source": {
+          "url": "https://www.zxchem.com/plant-proteins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "plant-protein manufacturer established 1995 (Shandong); sales offices in Shanghai (Caohejing Center) and Haikou",
+        "source": {
+          "url": "https://www.zxchem.com/plant-proteins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.zxchem.com/plant-proteins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "exports to 40+ countries",
+        "source": {
+          "url": "https://www.zxchem.com/plant-proteins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "plant proteins"
+        ],
+        "source": {
+          "url": "https://www.zxchem.com/plant-proteins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "pea protein isolate (non-GMO, >95% absorption claim)",
+          "pea/rice protein peptides",
+          "rice protein",
+          "vital wheat gluten (>80% protein)",
+          "hydrolyzed wheat gluten"
+        ],
+        "source": {
+          "url": "https://www.zxchem.com/plant-proteins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer + sales entity",
+        "source": {
+          "url": "https://www.zxchem.com/plant-proteins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO 22000 & HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.zxchem.com/plant-proteins/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal certificate (can be provided)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.zxchem.com/plant-proteins/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher certificate (can be provided)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.zxchem.com/plant-proteins/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.zxchem.com/plant-proteins/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": {
+        "value": "500 kg per product (standard orders); custom formulations typically 1,000 kg minimum",
+        "source": {
+          "url": "https://www.zxchem.com/plant-proteins/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "samplePolicy": {
+        "value": "sample orders 5–25 kg",
+        "source": {
+          "url": "https://www.zxchem.com/plant-proteins/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.zxchem.com/plant-proteins/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Packaging 20/25 kg bags; lead time 2–4 weeks.",
+      "sources": [
+        {
+          "url": "https://www.zxchem.com/plant-proteins/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-047",
+      "regionId": "china",
+      "name": {
+        "value": "Ningbo Bolly Biology Co., Ltd.",
+        "source": {
+          "url": "https://www.bollybio.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.bollybio.com/about/",
+        "source": {
+          "url": "https://www.bollybio.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Ningbo, Zhejiang",
+        "source": {
+          "url": "https://www.bollybio.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.bollybio.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "serves 50+ countries",
+        "source": {
+          "url": "https://www.bollybio.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "plant proteins"
+        ],
+        "source": {
+          "url": "https://www.bollybio.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "soy protein",
+          "pea protein",
+          "rice protein",
+          "wheat protein",
+          "specialty proteins"
+        ],
+        "source": {
+          "url": "https://www.bollybio.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer",
+        "source": {
+          "url": "https://www.bollybio.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO-certified operations (cert numbers not stated)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.bollybio.com/about/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.bollybio.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.bollybio.com/about/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "annual capacity stated as exceeding 10,000 metric tons",
+        "source": {
+          "url": "https://www.bollybio.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "GMP-certified production environment claim; non-GMO verified options and allergen management claims.",
+      "sources": [
+        {
+          "url": "https://www.bollybio.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-048",
+      "regionId": "china",
+      "name": {
+        "value": "Dongguan Tsrel Biology Co., Ltd.",
+        "source": {
+          "url": "https://www.biodtai.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.biodtai.com/about/",
+        "source": {
+          "url": "https://www.biodtai.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Dongguan, Guangdong (near Shenzhen/Guangzhou ports)",
+        "source": {
+          "url": "https://www.biodtai.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.biodtai.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "plant proteins"
+        ],
+        "source": {
+          "url": "https://www.biodtai.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "soy protein isolates (≥90% protein, PDCAAS 1.0 claim)",
+          "pea protein",
+          "rice protein",
+          "wheat gluten",
+          "hydrolyzed wheat protein"
+        ],
+        "source": {
+          "url": "https://www.biodtai.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer",
+        "source": {
+          "url": "https://www.biodtai.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO 9001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.biodtai.com/about/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.biodtai.com/about/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.biodtai.com/about/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher compliant (\"proteins fully Kosher and Halal compliant\")",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.biodtai.com/about/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal compliant",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.biodtai.com/about/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.biodtai.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.biodtai.com/about/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Non-GMO IP screening claimed. Hygiene flag: the page includes self-published customer testimonials with named but unverifiable individuals — excluded as review evidence.",
+      "sources": [
+        {
+          "url": "https://www.biodtai.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-049",
+      "regionId": "china",
+      "name": {
+        "value": "Wachsen Industry Co., Ltd.",
+        "source": {
+          "url": "https://wachsen.goldsupplier.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://wachsen.goldsupplier.com/",
+        "source": {
+          "url": "https://wachsen.goldsupplier.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Qingdao, Shandong",
+        "source": {
+          "url": "https://wachsen.goldsupplier.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://wachsen.goldsupplier.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "exports to 20+ countries (Japan, South Korea, Germany, Finland, South Africa, Bulgaria, Russia named)",
+        "source": {
+          "url": "https://wachsen.goldsupplier.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "plant proteins"
+        ],
+        "source": {
+          "url": "https://wachsen.goldsupplier.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "isolated soy protein",
+          "concentrated soy protein",
+          "textured soy protein",
+          "soy fiber — non-GMO soybeans"
+        ],
+        "source": {
+          "url": "https://wachsen.goldsupplier.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer + trading company (est. 2002); two subsidiary soy-protein plants",
+        "source": {
+          "url": "https://wachsen.goldsupplier.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://wachsen.goldsupplier.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "marketplace-listed",
+          "value": "vital wheat gluten 75% US$1.3–1.5/kg",
+          "note": "MOQ 5,000 kg; indicative listing price, negotiable in practice",
+          "source": {
+            "url": "https://wachsen.goldsupplier.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        },
+        {
+          "tier": "marketplace-listed",
+          "note": "pea protein isolate listing, MOQ 6 t, price negotiable (not stated on listing)",
+          "source": {
+            "url": "https://wachsen.goldsupplier.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Unverified",
+      "confidence": "Medium",
+      "quarantined": {
+        "reason": "Marketplace-tier listing: GoldSupplier profile with self-reported business facts and indicative listing prices; official site not fetched this session",
+        "note": "Certifications not stated on the listing — promote only after showroom-level verification"
+      },
+      "sources": [
+        {
+          "url": "https://wachsen.goldsupplier.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "china-050",
+      "regionId": "china",
+      "name": {
+        "value": "Huabao (Huabao Technology Co., Ltd. — 华宝科技)",
+        "source": {
+          "url": "https://www.hbflavor.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.hbflavor.com",
+        "source": {
+          "url": "https://www.hbflavor.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "registered Lhasa economic-zone address; Shanghai branch at No. 1299 Yecheng Road, Jiading, Shanghai",
+        "source": {
+          "url": "https://www.hbflavor.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "China",
+        "source": {
+          "url": "https://www.hbflavor.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "flavors"
+        ],
+        "source": {
+          "url": "https://www.hbflavor.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "food flavors",
+          "tobacco flavors",
+          "daily-use flavors",
+          "food ingredients"
+        ],
+        "source": {
+          "url": "https://www.hbflavor.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "listed flavor group (predecessor Huabao Edible Flavours & Fragrances (Shanghai) founded 1996; 57 subsidiaries as of Dec 31, 2025; R&D investment ~10.04% three-year average, per site)",
+        "source": {
+          "url": "https://www.hbflavor.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Industry sales rank #1 for 2014–2022 (per site, credited to the China Association of Fragrance & Flavors)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.hbflavor.com",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.hbflavor.com",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.hbflavor.com",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Source page is Chinese-language. Category note: flavors coverage here is one anchor manufacturer; a second flavor supplier would strengthen this row set (dossier coverage-gap note).",
+      "sources": [
+        {
+          "url": "https://www.hbflavor.com",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    }
+  ],
+  "priceSignals": [
+    {
+      "ingredient": "green tea extract / EGCG",
+      "tier": "marketplace-listed",
+      "value": "US$8–300/kg across audited-supplier listings",
+      "note": "MOQ typically 1 kg (10 kg for Sunfull's high-purity grades); indicative listing price, negotiable in practice",
+      "source": {
+        "url": "https://www.made-in-china.com/products-search/hot-china-products/tea_polyphenol_egcg.html",
+        "retrievedAt": "2026-09-19"
+      }
+    },
+    {
+      "ingredient": "soy protein isolate / vital wheat gluten",
+      "tier": "marketplace-listed",
+      "value": "soy protein isolate US$1,700–2,600/ton (Yuwang, MOQ 1 t); Kawah Oils US$2,100–2,400/ton (MOQ 10–26 t); Guanxian Xinrui vital wheat gluten US$2,100–2,400/ton (MOQ 10–26 t)",
+      "note": "indicative listing price, negotiable in practice",
+      "source": {
+        "url": "https://www.made-in-china.com/manufacturers/soy-protein.html",
+        "retrievedAt": "2026-09-19"
+      }
+    },
+    {
+      "ingredient": "calcium citrate",
+      "tier": "marketplace-listed",
+      "value": "Kolod US$1,280–1,300/ton, MOQ 1 t; multiple trader listings US$900–1,500/ton",
+      "note": "indicative listing price, negotiable in practice",
+      "source": {
+        "url": "https://www.made-in-china.com/manufacturers/calcium-citrate.html",
+        "retrievedAt": "2026-09-19"
+      }
+    },
+    {
+      "ingredient": "wheat gluten (FOB)",
+      "tier": "marketplace-listed",
+      "value": "US$1.3–1.5/kg, MOQ 5,000 kg (GoldSupplier, Wachsen)",
+      "note": "indicative listing price, negotiable in practice",
+      "source": {
+        "url": "https://wachsen.goldsupplier.com/",
+        "retrievedAt": "2026-09-19"
+      }
+    },
+    {
+      "ingredient": "vitamin D3 powder",
+      "tier": "supplier-published",
+      "value": "FOB US$10/kg, MOQ 1 kg (New Element own site)",
+      "source": {
+        "url": "https://www.newelementbio.com/vitamins/",
+        "retrievedAt": "2026-09-19"
+      }
+    },
+    {
+      "ingredient": "vitamin C / vitamin A / creatine monohydrate (market commentary)",
+      "tier": "supplier-published",
+      "value": "VC 99% US$2.9–3.6/kg; VA 1000 US$19–21/kg; creatine monohydrate US$7.5–8.0/kg",
+      "note": "directional commentary only, not quotes",
+      "source": {
+        "url": "https://www.vegapharma.com/index/china/index.html",
+        "retrievedAt": "2026-09-19"
+      }
+    }
+  ],
+  "coverageGaps": [
+    "Goji berry extract: no manufacturer independently verified this session; discovery surfaced none with a fetched official page — category gap, not a supplier drop",
+    "Xylitol/maltitol standalones: Futaste and Baolingbao cover sugar alcohols; no additional dedicated xylitol maker verified (common names surfaced only in directory snippets) — kept as leads, not rows",
+    "Single-source risks: monk fruit rests on Layn alone; flavors on Huabao alone; functional mushrooms on GanoHerb alone",
+    "Review presence: no independent public review presence found for any verified manufacturer; the only review-type signals are Made-in-China star ratings on individual listings (#36–#40), which are platform ratings, not independent reviews; testimonials on Tsrel's own site are self-published and excluded as evidence",
+    "26 unverified leads excluded from the roster this session (official sites not fetched; single-source or snippet-only), including Kawah, Xinrui, Aurora, and Golden Flavors which have usable Made-in-China listing data and can be promoted after a dedicated showroom fetch"
+  ]
+}

@@ -1,0 +1,683 @@
+{
+  "schemaVersion": 1,
+  "sourceArtifact": "art_5Ld7vheQ",
+  "sourceName": "CPG Ingredient Taxonomy v1",
+  "sourceDate": "2026-09-19",
+  "enumerationNote": "Subtype entries are transcribed verbatim from the artifact's per-category subtype lists. [V] items are company-page-verified (observed on a cited source page); [C] items are category-verified only (parent category verified, subtype not observed) and are excluded from storefront filters until supplier-page-verified. Portfolio/catalog-size mentions in the artifact prose (e.g. '204 plant-extract SKUs') are not purchasable subtypes and are not entries.",
+  "categories": [
+    {
+      "slug": "sweeteners-bulk-nutritive",
+      "name": "Sweeteners — Bulk & Nutritive",
+      "aliases": ["sweeteners", "sugar & sweeteners", "sweetening blends", "jaggery cubes & powder", "maltodextrin", "functional carbs"],
+      "subtypes": [
+        { "name": "dextrose anhydrous", "verified": true },
+        { "name": "dextrose monohydrate", "verified": true },
+        { "name": "crystalline fructose", "verified": true },
+        { "name": "high fructose corn syrup", "verified": true },
+        { "name": "liquid glucose", "verified": true },
+        { "name": "maltodextrin", "verified": true },
+        { "name": "trehalose", "verified": true },
+        { "name": "isomaltulose", "verified": true },
+        { "name": "arabinose", "verified": true },
+        { "name": "low-GI sugar", "verified": true },
+        { "name": "erythritol", "verified": true },
+        { "name": "maltitol (crystalline)", "verified": true },
+        { "name": "mannitol", "verified": true },
+        { "name": "sorbitol (powder & liquid)", "verified": true },
+        { "name": "isomalt", "verified": true },
+        { "name": "xylitol", "verified": false }
+      ]
+    },
+    {
+      "slug": "sweeteners-high-intensity-rare-sugars",
+      "name": "Sweeteners — High-Intensity, Rare Sugars & Sweetness Modulators",
+      "aliases": ["stevia extracts"],
+      "subtypes": [
+        { "name": "stevia Reb A 97% (>97% steviol glycosides)", "verified": true },
+        { "name": "stevia Reb A 95–99% ten-grade line (incl. Reb M, Reb D, glucosylated steviol glycosides)", "verified": true },
+        { "name": "EverSweet Reb M/D stevia", "verified": true },
+        { "name": "organic stevia leaf extract", "verified": true },
+        { "name": "stevia powder or granulate form", "verified": true },
+        { "name": "monk fruit (Siraitia grosvenorii) mogroside V 5–65% (HPLC)", "verified": true },
+        { "name": "monk fruit mogroside V 20/25/40/50%", "verified": true },
+        { "name": "monk fruit total mogrosides 80/95/98%", "verified": true },
+        { "name": "monk fruit juice concentrate and blends", "verified": true },
+        { "name": "allulose liquid 70% DS", "verified": true },
+        { "name": "allulose crystalline >95% purity", "verified": true },
+        { "name": "D-allulose", "verified": true },
+        { "name": "tagatose", "verified": true },
+        { "name": "thaumatin", "verified": true },
+        { "name": "glycyrrhizin", "verified": true },
+        { "name": "ammonium glycyrrhizinate", "verified": true },
+        { "name": "disodium glycyrrhizinate", "verified": true },
+        { "name": "neohesperidin dihydrochalcone", "verified": true },
+        { "name": "naringin dihydrochalcone", "verified": true },
+        { "name": "sucralose", "verified": true },
+        { "name": "acesulfame-K", "verified": true },
+        { "name": "aspartame", "verified": true },
+        { "name": "advantame", "verified": true },
+        { "name": "neotame", "verified": true },
+        { "name": "saccharin", "verified": true },
+        { "name": "cyclamate", "verified": true }
+      ]
+    },
+    {
+      "slug": "acidulants-ph-control",
+      "name": "Acidulants & pH Control",
+      "aliases": ["acidulants", "acidulants & gums", "acids", "citric acid", "citric", "lactic acid"],
+      "subtypes": [
+        { "name": "citric acid anhydrous", "verified": true },
+        { "name": "citric acid monohydrate", "verified": true },
+        { "name": "DL-malic acid", "verified": true },
+        { "name": "L-malic acid", "verified": true },
+        { "name": "lactic acid (incl. powder)", "verified": true },
+        { "name": "fumaric acid", "verified": true },
+        { "name": "tartaric acid (DL / L(+))", "verified": true },
+        { "name": "maleic acid", "verified": true },
+        { "name": "succinic acid", "verified": true },
+        { "name": "glucono-delta-lactone (GDL)", "verified": true },
+        { "name": "sodium citrate (anhydrous/dihydrate)", "verified": true },
+        { "name": "potassium citrate", "verified": true },
+        { "name": "calcium citrate", "verified": true },
+        { "name": "calcium lactate", "verified": true },
+        { "name": "ferrous lactate", "verified": true },
+        { "name": "sodium lactate (incl. powder)", "verified": true },
+        { "name": "potassium lactate", "verified": true },
+        { "name": "potassium bitartrate", "verified": true },
+        { "name": "sodium acetate", "verified": true },
+        { "name": "monosodium fumarate", "verified": true },
+        { "name": "buffered lactic acid", "verified": true },
+        { "name": "food-grade glacial acetic acid", "verified": true },
+        { "name": "sodium acid pyrophosphate", "verified": true }
+      ]
+    },
+    {
+      "slug": "preservatives-antimicrobials",
+      "name": "Preservatives & Antimicrobials",
+      "aliases": ["preservation", "food safety", "vinegar"],
+      "subtypes": [
+        { "name": "potassium sorbate (granular)", "verified": true },
+        { "name": "sorbic acid", "verified": true },
+        { "name": "sodium benzoate (powder/prill/granular)", "verified": true },
+        { "name": "benzoic acid", "verified": true },
+        { "name": "calcium propionate", "verified": true },
+        { "name": "sodium propionate", "verified": true },
+        { "name": "potassium metabisulfite", "verified": true },
+        { "name": "calcium sorbate", "verified": true },
+        { "name": "sodium diacetate", "verified": true },
+        { "name": "potassium propionate", "verified": true },
+        { "name": "natamycin (FCC IV/USP; 50% in glucose / lactose / NaCl; 95%)", "verified": true },
+        { "name": "nisin", "verified": true },
+        { "name": "ε-polylysine / polylysine HCl", "verified": true },
+        { "name": "ethyl lauroyl arginate", "verified": true },
+        { "name": "dehydroacetic acid / sodium dehydroacetate", "verified": true },
+        { "name": "cultured sugar", "verified": true },
+        { "name": "vinegar (liquid & powder)", "verified": true },
+        { "name": "cultured corn sugar", "verified": true },
+        { "name": "cultured dextrose", "verified": true },
+        { "name": "cultured onion and celery", "verified": true },
+        { "name": "dry vinegar", "verified": true }
+      ]
+    },
+    {
+      "slug": "antioxidants",
+      "name": "Antioxidants",
+      "aliases": ["antioxidants", "oxidation control"],
+      "subtypes": [
+        { "name": "ascorbic acid", "verified": true },
+        { "name": "sodium ascorbate", "verified": true },
+        { "name": "erythorbic acid", "verified": true },
+        { "name": "sodium erythorbate", "verified": true },
+        { "name": "TBHQ", "verified": true },
+        { "name": "BHT", "verified": true },
+        { "name": "astaxanthin (Haematococcus pluvialis)", "verified": true },
+        { "name": "hydroxytyrosol", "verified": true },
+        { "name": "dihydroquercetin", "verified": true },
+        { "name": "enzymatically modified isoquercitrin", "verified": true },
+        { "name": "mixed tocopherols", "verified": false },
+        { "name": "rosemary extract", "verified": false }
+      ]
+    },
+    {
+      "slug": "hydrocolloids-thickeners-texturants",
+      "name": "Hydrocolloids, Thickeners & Texturants",
+      "aliases": ["texturants", "guar gum & hydrocolloids", "guar gum powder (food & industrial)", "guar split", "gum acacia", "acidulants & gums", "citrus fiber (emulsification/fiber)", "mouthfeel (incl. cp kelco)"],
+      "subtypes": [
+        { "name": "xanthan gum (incl. 40-mesh, instant)", "verified": true },
+        { "name": "gellan gum (high-acyl & low-acyl; fine-mesh F; beverage-suspension & plant-based-meat grades)", "verified": true },
+        { "name": "pectin (apple & citrus; GENU line; label-friendly neutral-dairy grade)", "verified": true },
+        { "name": "pectin HM/LM set grades", "verified": false },
+        { "name": "carrageenan", "verified": true },
+        { "name": "refined locust bean gum", "verified": true },
+        { "name": "guar gum", "verified": true },
+        { "name": "tara gum", "verified": true },
+        { "name": "sodium alginate", "verified": true },
+        { "name": "calcium alginate", "verified": true },
+        { "name": "propylene glycol alginate (PGA)", "verified": true },
+        { "name": "sodium CMC (cellulose gum)", "verified": true },
+        { "name": "microcrystalline cellulose / colloidal MCC", "verified": true },
+        { "name": "konjac (gum, fine flour, micro-powder, acid-resistant)", "verified": true },
+        { "name": "agar-agar", "verified": true },
+        { "name": "gum arabic", "verified": true },
+        { "name": "curdlan gum", "verified": true },
+        { "name": "pullulan", "verified": true },
+        { "name": "welan gum", "verified": true },
+        { "name": "diutan gum", "verified": true },
+        { "name": "citrus fiber", "verified": true },
+        { "name": "fermentation-derived cellulose", "verified": true },
+        { "name": "microparticulated whey protein concentrate (Simplesse-type)", "verified": true },
+        { "name": "gelatin", "verified": true },
+        { "name": "fish gelatin", "verified": true },
+        { "name": "chitosan", "verified": true },
+        { "name": "beta-1,3-glucan", "verified": true },
+        { "name": "fucoidan", "verified": true },
+        { "name": "alginate oligosaccharide", "verified": true },
+        { "name": "soluble soybean polysaccharide", "verified": true }
+      ]
+    },
+    {
+      "slug": "starches-flours",
+      "name": "Starches & Flours",
+      "aliases": ["starches", "tapioca starch", "wheat starches", "flours", "rice flour", "chickpea flour", "grains", "rice", "basmati rice", "specialty/basmati rice", "rice ingredients"],
+      "subtypes": [
+        { "name": "corn starch (native & modified)", "verified": true },
+        { "name": "tapioca starch (native & modified)", "verified": true },
+        { "name": "potato starch (native & modified)", "verified": true },
+        { "name": "wheat starch (native & modified)", "verified": true },
+        { "name": "rice starch (native & modified)", "verified": true },
+        { "name": "resistant starch from turmeric rhizome (Starmeric; 20% & 35% total starch)", "verified": true },
+        { "name": "rice (category)", "verified": true },
+        { "name": "oats", "verified": true },
+        { "name": "flours & grains", "verified": true },
+        { "name": "konjac compound flour", "verified": true },
+        { "name": "pregelatinized starches", "verified": false }
+      ]
+    },
+    {
+      "slug": "proteins-dairy",
+      "name": "Proteins — Dairy",
+      "aliases": ["milk powders", "milk proteins", "whey proteins", "whey/milk proteins", "dairy proteins", "caseinates", "lactose", "creamers"],
+      "subtypes": [
+        { "name": "casein and acid caseinates", "verified": true },
+        { "name": "dry whey (sweet & acid)", "verified": true },
+        { "name": "dry whole milk", "verified": true },
+        { "name": "instant nonfat dry milk", "verified": true },
+        { "name": "dry buttermilk", "verified": true },
+        { "name": "dry cream powder", "verified": true },
+        { "name": "anhydrous milkfat", "verified": true },
+        { "name": "butter/churned milkfat", "verified": true },
+        { "name": "concentrated butter flavors", "verified": true },
+        { "name": "lactose (food grade)", "verified": true },
+        { "name": "lactoferrin", "verified": true },
+        { "name": "dairy commodities (category)", "verified": true },
+        { "name": "dairy proteins (category)", "verified": true },
+        { "name": "microparticulated whey protein concentrate", "verified": true },
+        { "name": "WPC 80% / WPI 90% / MPC 80% grade designations", "verified": false }
+      ]
+    },
+    {
+      "slug": "proteins-plant-egg-animal",
+      "name": "Proteins — Plant, Egg & Animal",
+      "aliases": ["plant proteins", "pulses", "quinoa & pulses", "proteins"],
+      "subtypes": [
+        { "name": "soy protein", "verified": true },
+        { "name": "pea protein", "verified": true },
+        { "name": "rice protein", "verified": true },
+        { "name": "instant egg white protein", "verified": true },
+        { "name": "grass-fed beef bone broth protein powder", "verified": true },
+        { "name": "cereals & grains (category)", "verified": true },
+        { "name": "pulses (category)", "verified": true },
+        { "name": "textured proteins for plant-based meat", "verified": false }
+      ]
+    },
+    {
+      "slug": "protein-hydrolysates-peptides",
+      "name": "Protein Hydrolysates & Peptides",
+      "aliases": [],
+      "subtypes": [
+        { "name": "whey protein hydrolysate", "verified": false },
+        { "name": "collagen peptides", "verified": false },
+        { "name": "casein hydrolysate", "verified": false },
+        { "name": "plant protein hydrolysates", "verified": false }
+      ]
+    },
+    {
+      "slug": "amino-acids-sports-actives",
+      "name": "Amino Acids & Sports Actives",
+      "aliases": ["amino acids", "amino acids & nucleotides", "nutraceutical actives", "branded actives", "actives", "bioactives", "choline", "encapsulated nutrients"],
+      "subtypes": [
+        { "name": "L-leucine", "verified": true },
+        { "name": "L-isoleucine", "verified": true },
+        { "name": "L-valine", "verified": true },
+        { "name": "L-lysine monohydrochloride & sulfate", "verified": true },
+        { "name": "DL-methionine", "verified": true },
+        { "name": "L-arginine", "verified": true },
+        { "name": "L-glutamine", "verified": true },
+        { "name": "glycine", "verified": true },
+        { "name": "taurine", "verified": true },
+        { "name": "GABA", "verified": true },
+        { "name": "beta-alanine", "verified": true },
+        { "name": "L-citrulline (incl. DL-malate)", "verified": true },
+        { "name": "betaine (anhydrous/monohydrate)", "verified": true },
+        { "name": "N-acetyl-L-cysteine", "verified": true },
+        { "name": "SAM-e disulfate tosylate", "verified": true },
+        { "name": "L-proline", "verified": true },
+        { "name": "L-serine", "verified": true },
+        { "name": "L-threonine", "verified": true },
+        { "name": "L-tryptophan", "verified": true },
+        { "name": "L-tyrosine", "verified": true },
+        { "name": "L-histidine", "verified": true },
+        { "name": "L-alanine", "verified": true },
+        { "name": "L-aspartic acid", "verified": true },
+        { "name": "L-glutamic acid", "verified": true },
+        { "name": "L-cysteine (+HCl)", "verified": true },
+        { "name": "L-cystine", "verified": true },
+        { "name": "L-ornithine HCl", "verified": true },
+        { "name": "creatine monohydrate (Creapure)", "verified": true },
+        { "name": "tri-creatine malate", "verified": true },
+        { "name": "L-carnitine base", "verified": true },
+        { "name": "L-carnitine L-tartrate", "verified": true },
+        { "name": "L-carnitine fumarate", "verified": true },
+        { "name": "acetyl-L-carnitine HCl", "verified": true },
+        { "name": "L-theanine", "verified": false }
+      ]
+    },
+    {
+      "slug": "vitamins-derivatives",
+      "name": "Vitamins & Derivatives",
+      "aliases": ["vitamins", "vitamins & mineral actives"],
+      "subtypes": [
+        { "name": "food-grade single vitamins & derivatives (multi-vitamin catalog)", "verified": true },
+        { "name": "Vitamin C / ascorbates", "verified": true },
+        { "name": "vitamin D3 100,000 IU/g cold-water-dispersible powders (CWS-S, CWS-A, SD matrices)", "verified": true },
+        { "name": "vitamin D3 500,000 IU/g", "verified": true },
+        { "name": "vitamin D3 crystalline", "verified": true },
+        { "name": "vitamin D3 oil", "verified": true },
+        { "name": "vitamin D3 resin-in-oil", "verified": true },
+        { "name": "vitamin D3 cold-water-dispersible", "verified": true },
+        { "name": "folate as 5-MTHF (Quatrefolic)", "verified": true },
+        { "name": "vitamin premixes", "verified": true },
+        { "name": "vitamin E acetate", "verified": false },
+        { "name": "vitamin A palmitate", "verified": false },
+        { "name": "vitamin K2 MK-7 on carrier", "verified": false }
+      ]
+    },
+    {
+      "slug": "minerals-mineral-salts",
+      "name": "Minerals & Mineral Salts",
+      "aliases": ["minerals", "minerals (usp/fcc)", "food phosphates & citrates", "vitamins & mineral actives"],
+      "subtypes": [
+        { "name": "magnesium bisglycinate chelate (Albion TRAACS; ~10% unbuffered / 18% buffered / 8% taste-free)", "verified": true },
+        { "name": "zinc picolinate (20–21% elemental)", "verified": true },
+        { "name": "potassium citrate", "verified": true },
+        { "name": "calcium citrate", "verified": true },
+        { "name": "calcium lactate", "verified": true },
+        { "name": "magnesium citrate", "verified": true },
+        { "name": "ferrous lactate", "verified": true },
+        { "name": "mineral premixes", "verified": true },
+        { "name": "calcium citrate malate", "verified": false },
+        { "name": "tricalcium phosphate", "verified": false },
+        { "name": "chromium picolinate", "verified": false }
+      ]
+    },
+    {
+      "slug": "botanical-herbal-extracts",
+      "name": "Botanical & Herbal Extracts — Standardized",
+      "aliases": ["botanical extracts", "botanicals", "herbs", "organic herbs", "extracts", "ashwagandha root extract (standardized)", "organic moringa powder", "neem: azadirachtin, neem-based products"],
+      "subtypes": [
+        { "name": "Curcumin C3 Complex (curcuma extract)", "verified": true },
+        { "name": "BioPerine — black pepper extract ≥95% piperine", "verified": true },
+        { "name": "Boswellin — 70% total boswellic acids / 20% β-boswellic / 2% AKBBA", "verified": true },
+        { "name": "Boswellia 30% AKBA", "verified": true },
+        { "name": "Bacopin — 20/40/50% bacosides", "verified": true },
+        { "name": "Saberry — amla ≥10% β-glucogallin", "verified": true },
+        { "name": "ForsLean — 10% forskolin (20/40% also)", "verified": true },
+        { "name": "Cinnasil — cassia 20% polyphenols", "verified": true },
+        { "name": "pTeroSol — ≥5% C-glycosides", "verified": true },
+        { "name": "Tinofolin — 2.5% bitter principles", "verified": true },
+        { "name": "oroxylum extract — 10% oroxylin A / 15% baicalein / 6% chrysin", "verified": true },
+        { "name": "garcinia extract — ≥20% garcinol (Citrin)", "verified": true },
+        { "name": "Cirpusins — 6% total stilbenoids", "verified": true },
+        { "name": "Momordicin — 0.5% charantin", "verified": true },
+        { "name": "GS4 PLUS gymnema", "verified": true },
+        { "name": "Fenumannan — ≥60% galactomannans", "verified": true },
+        { "name": "FenuFibers — ≥50% dietary fiber", "verified": true },
+        { "name": "ZeaLutein — 1% zeaxanthin / 5% lutein / 2% piperine", "verified": true },
+        { "name": "organic moringa leaf extract 10:1", "verified": true },
+        { "name": "centella asiatica powder", "verified": true },
+        { "name": "carob powder", "verified": true }
+      ]
+    },
+    {
+      "slug": "adaptogens-nootropics",
+      "name": "Adaptogens & Nootropics",
+      "aliases": ["ashwagandha root extract (standardized)"],
+      "subtypes": [
+        { "name": "ashwagandha root extract 2.5% total withanolides (gravimetry)", "verified": true },
+        { "name": "ashwagandha 5% withanolides branded forms (KSM-66/Sensoril-type)", "verified": false },
+        { "name": "rhodiola rosea extract 3% rosavins / 1% salidroside", "verified": true },
+        { "name": "bacopa monnieri extract", "verified": true },
+        { "name": "tinospora cordifolia (nootropic adaptogen)", "verified": true },
+        { "name": "citicoline (CDP-choline)", "verified": false },
+        { "name": "phosphatidylserine (sunflower)", "verified": false },
+        { "name": "L-theanine", "verified": false }
+      ]
+    },
+    {
+      "slug": "functional-mushrooms",
+      "name": "Functional Mushrooms",
+      "aliases": ["functional mushrooms"],
+      "subtypes": [
+        { "name": "lion's mane (Hericium erinaceus)", "verified": true },
+        { "name": "reishi", "verified": true },
+        { "name": "chaga", "verified": true },
+        { "name": "cordyceps", "verified": true },
+        { "name": "maitake", "verified": true },
+        { "name": "shiitake", "verified": true }
+      ]
+    },
+    {
+      "slug": "probiotics-cultures-ferments",
+      "name": "Probiotics, Cultures & Ferments",
+      "aliases": ["probiotics", "cultures", "microbials", "yeast"],
+      "subtypes": [
+        { "name": "Bifidobacterium lactis BB-12", "verified": true },
+        { "name": "Lactobacillus rhamnosus GG", "verified": true },
+        { "name": "Saccharomyces cerevisiae var. boulardii CNCM I-1079", "verified": true },
+        { "name": "Tyndallized/inactivated probiotic grades", "verified": true },
+        { "name": "dairy starter cultures", "verified": true },
+        { "name": "multi-strain probiotics & synbiotics", "verified": true },
+        { "name": "Bifidobacterium longum", "verified": false },
+        { "name": "Lactobacillus acidophilus NCFM", "verified": false },
+        { "name": "Bacillus coagulans (GanedenBC30)", "verified": false }
+      ]
+    },
+    {
+      "slug": "enzymes",
+      "name": "Enzymes",
+      "aliases": ["enzymes"],
+      "subtypes": [
+        { "name": "proteases", "verified": true },
+        { "name": "amylases", "verified": true },
+        { "name": "glucoamylases", "verified": true },
+        { "name": "cellulases", "verified": true },
+        { "name": "lipase", "verified": true },
+        { "name": "lactase", "verified": true },
+        { "name": "pectinases", "verified": true },
+        { "name": "invertases", "verified": true },
+        { "name": "rennet/chymosin & microbial milk coagulants", "verified": true },
+        { "name": "transglutaminase", "verified": true },
+        { "name": "bacterial alpha-amylase in granulate format (BAN)", "verified": true },
+        { "name": "COROLASE 7089 liquid bacterial endopeptidase", "verified": true },
+        { "name": "bromelain", "verified": false },
+        { "name": "papain", "verified": false }
+      ]
+    },
+    {
+      "slug": "fibers-prebiotics",
+      "name": "Fibers & Prebiotics",
+      "aliases": ["fibers", "psyllium husk/powder", "organic psyllium", "psyllium seeds", "husk", "husk powder", "seed", "gos", "citrus fiber (emulsification/fiber)"],
+      "subtypes": [
+        { "name": "micronized psyllium fiber", "verified": true },
+        { "name": "fenugreek fiber fraction (≥50% total dietary fiber)", "verified": true },
+        { "name": "galactomannan fiber (≥60%)", "verified": true },
+        { "name": "soluble corn fiber", "verified": true },
+        { "name": "citrus fiber", "verified": true },
+        { "name": "fructooligosaccharide (FOS)", "verified": true },
+        { "name": "beta-1,3-glucan", "verified": true },
+        { "name": "seaweed fiber", "verified": true },
+        { "name": "inulin (chicory)", "verified": false },
+        { "name": "GOS", "verified": false },
+        { "name": "XOS", "verified": false },
+        { "name": "polydextrose", "verified": false },
+        { "name": "resistant dextrins", "verified": false }
+      ]
+    },
+    {
+      "slug": "fats-oils-specialty-lipids",
+      "name": "Fats, Oils & Specialty Lipids",
+      "aliases": ["oils", "oil", "specialty oils", "edible oils", "palm fats", "specialty fats", "rice bran oil", "frying oils", "salad oils", "olive oils", "functional oil blends", "oil powders", "castor oil & derivatives (hco, dco, sebacic acid)", "fats"],
+      "subtypes": [
+        { "name": "coconut MCT oil 60/40 (C8 caprylic + C10 capric)", "verified": true },
+        { "name": "MCT powders", "verified": false },
+        { "name": "fish oil 1812EE/TG", "verified": true },
+        { "name": "fish oil 3322EE", "verified": true },
+        { "name": "fish oil 3624EE/TG/rTG (EPA 36% + DHA 24%)", "verified": true },
+        { "name": "cod liver oil", "verified": true },
+        { "name": "standard 18/12 fish oils", "verified": true },
+        { "name": "DHA algal oil ≥40% / ≥50% (TG, solvent-free)", "verified": true },
+        { "name": "microencapsulated DHA algae powder ≥10% / ≥20%", "verified": true },
+        { "name": "DHA (TG) powder 10/20/30%", "verified": true },
+        { "name": "algal DHA + ARA oil 40–55%", "verified": true },
+        { "name": "algal DHA + ARA powder 10–20%", "verified": true },
+        { "name": "organic Schizochytrium powder 20%", "verified": true },
+        { "name": "cold-pressed citrus oils", "verified": true },
+        { "name": "natural cocoa butter", "verified": true },
+        { "name": "high-oleic sunflower oil", "verified": false },
+        { "name": "flaxseed oil", "verified": false },
+        { "name": "cocoa butter equivalents (CBEs)", "verified": false },
+        { "name": "shea fractions", "verified": false }
+      ]
+    },
+    {
+      "slug": "emulsifiers-lecithins",
+      "name": "Emulsifiers & Lecithins",
+      "aliases": [],
+      "subtypes": [
+        { "name": "lecithins", "verified": true },
+        { "name": "emulsifiers, stabilisers & thickeners (additive group)", "verified": true },
+        { "name": "sunflower lecithin (fluid/deoiled)", "verified": false },
+        { "name": "mono- and diglycerides", "verified": false },
+        { "name": "polysorbates", "verified": false },
+        { "name": "DATEM", "verified": false }
+      ]
+    },
+    {
+      "slug": "colors-natural-synthetic",
+      "name": "Colors — Natural & Synthetic",
+      "aliases": ["colors", "natural colours", "natural food colours", "oleoresins"],
+      "subtypes": [
+        { "name": "natural colorants from fruits, vegetables & plant sources (single or custom blends)", "verified": true },
+        { "name": "curcumin — turmeric oleoresin or turmeric crystals", "verified": true },
+        { "name": "paprika oleoresin (E160c, capsanthin-rich)", "verified": true },
+        { "name": "carotenoids (category)", "verified": true },
+        { "name": "colors (application group)", "verified": true },
+        { "name": "annatto", "verified": false },
+        { "name": "beetroot red", "verified": false },
+        { "name": "spirulina blue", "verified": false },
+        { "name": "anthocyanins", "verified": false },
+        { "name": "carmine", "verified": false },
+        { "name": "beta-carotene beadlets", "verified": false },
+        { "name": "FD&C lakes", "verified": false }
+      ]
+    },
+    {
+      "slug": "flavors-aroma-chemicals-taste",
+      "name": "Flavors, Aroma Chemicals & Taste Modulators",
+      "aliases": ["flavors", "essential oils", "essential oils & hydrolates", "eos", "aromas", "pure flavors", "fragrance", "floral ingredients", "bark/leaf oil", "extracts (vanilla, tea, coffee)", "taste & nutrition", "beverage development"],
+      "subtypes": [
+        { "name": "aroma chemicals (natural & synthetic)", "verified": true },
+        { "name": "bulk essential oils", "verified": true },
+        { "name": "cold-pressed citrus oils and blends", "verified": true },
+        { "name": "flavourings & flavour enhancers (category)", "verified": true },
+        { "name": "menthol crystals", "verified": true },
+        { "name": "peppermint oil", "verified": true },
+        { "name": "D-limonene", "verified": true },
+        { "name": "vanilla", "verified": true },
+        { "name": "vanillin", "verified": true },
+        { "name": "natural vanillin", "verified": true },
+        { "name": "ethyl vanillin", "verified": true },
+        { "name": "cinnamon bark oil", "verified": true },
+        { "name": "ginger oils", "verified": true },
+        { "name": "carrot seed oil", "verified": true },
+        { "name": "thaumatin for bitter blocking", "verified": true },
+        { "name": "sweetness enhancers", "verified": true }
+      ]
+    },
+    {
+      "slug": "cocoa-coffee-tea",
+      "name": "Cocoa, Coffee & Tea",
+      "aliases": ["coffee", "cocoa", "tea", "teas", "bulk teas", "instant teas", "darjeeling orthodox", "green coffee: washed arabica/robusta, monsooned, microlots", "green coffee (arabica & robusta), monsooned", "ceylon tea: black, green, flavoured, herbal, bulk", "ceylon tea: bags, loose, iced, premixes, bulk", "ceylon tea (branded, bulk via group cos)", "rooibos", "extracts (vanilla, tea, coffee)"],
+      "subtypes": [
+        { "name": "cocoa & chocolate", "verified": true },
+        { "name": "coffee", "verified": true },
+        { "name": "teas", "verified": true },
+        { "name": "tea blend components", "verified": true },
+        { "name": "natural cocoa powder", "verified": true },
+        { "name": "alkalized cocoa powder", "verified": true },
+        { "name": "natural cocoa butter", "verified": true },
+        { "name": "green coffee", "verified": false },
+        { "name": "instant coffee", "verified": false },
+        { "name": "matcha", "verified": false }
+      ]
+    },
+    {
+      "slug": "spices-herbs-seasonings",
+      "name": "Spices, Herbs & Seasonings",
+      "aliases": ["spices", "pepper", "cumin", "turmeric", "cassia", "cinnamon", "cloves", "nutmeg", "seasonings", "dehydrated onion", "true ceylon cinnamon", "ceylon cinnamon", "organic/conventional ceylon cinnamon quills", "organic ceylon spices", "spice oils", "spice oleoresins", "spice extracts", "oleoresins", "herbs", "organic herbs"],
+      "subtypes": [
+        { "name": "seeds & spices (category)", "verified": true },
+        { "name": "seasonings (application group)", "verified": true },
+        { "name": "BioPerine black pepper extract ≥95% piperine", "verified": true },
+        { "name": "cinnamon bark extract 20% polyphenols", "verified": true },
+        { "name": "turmeric oleoresin (dual color/flavor use)", "verified": true },
+        { "name": "spice oleoresins", "verified": false },
+        { "name": "garlic/onion powders", "verified": false }
+      ]
+    },
+    {
+      "slug": "fruits-vegetables-superfruit-powders",
+      "name": "Fruits, Vegetables & Superfruit Powders",
+      "aliases": ["dried fruit", "fruit powders", "berry powders", "banana chips", "banana & tropical purees", "fruit purees", "frozen fruit (iqf)", "superfruit & botanical powders"],
+      "subtypes": [
+        { "name": "juice concentrates", "verified": true },
+        { "name": "purees", "verified": true },
+        { "name": "powders", "verified": true },
+        { "name": "blends", "verified": true },
+        { "name": "freeze-dried coconut liquid endosperm (Cococin, GRAS affirmed)", "verified": true },
+        { "name": "amla superfruit extract", "verified": true },
+        { "name": "seabuckthorn juice", "verified": true },
+        { "name": "fruits & vegetables (category)", "verified": true },
+        { "name": "berry extracts", "verified": false },
+        { "name": "greens powders", "verified": false }
+      ]
+    },
+    {
+      "slug": "salts-phosphates-anti-caking",
+      "name": "Salts, Phosphates & Anti-caking Agents",
+      "aliases": ["food phosphates & citrates"],
+      "subtypes": [
+        { "name": "salts (category)", "verified": true },
+        { "name": "phosphates (dairy-ingredient line)", "verified": true },
+        { "name": "sodium acid pyrophosphate", "verified": true },
+        { "name": "tripotassium phosphate", "verified": true },
+        { "name": "sodium citrate & potassium citrate (dual acidulant/buffer roles)", "verified": true },
+        { "name": "anti-caking agents (additive group)", "verified": true },
+        { "name": "silicon dioxide", "verified": true },
+        { "name": "tricalcium phosphate", "verified": false },
+        { "name": "sodium hexametaphosphate", "verified": false }
+      ]
+    },
+    {
+      "slug": "algae-marine-ingredients",
+      "name": "Algae & Marine Ingredients",
+      "aliases": [],
+      "subtypes": [
+        { "name": "spirulina powder", "verified": true },
+        { "name": "chlorella powder", "verified": true },
+        { "name": "astaxanthin (Haematococcus pluvialis) — powder & algal oil", "verified": true },
+        { "name": "Schizochytrium (algal DHA) oil & powders", "verified": true },
+        { "name": "alginates and oligosaccharides", "verified": true },
+        { "name": "fucoidan", "verified": true },
+        { "name": "chitosan", "verified": true },
+        { "name": "fish gelatin", "verified": true },
+        { "name": "kelp/iodine extracts", "verified": false }
+      ]
+    },
+    {
+      "slug": "personal-care-surfactants-cleansing",
+      "name": "Personal Care — Surfactants & Cleansing",
+      "aliases": [],
+      "subtypes": [
+        { "name": "surfactant (anionic)", "verified": true },
+        { "name": "surfactant (nonionic)", "verified": true },
+        { "name": "surfactant (amphoteric)", "verified": true },
+        { "name": "foaming agent", "verified": true },
+        { "name": "foam booster", "verified": true },
+        { "name": "foam stabilizer", "verified": true },
+        { "name": "wetting agent", "verified": true },
+        { "name": "viscosity modifier", "verified": true },
+        { "name": "Cocamide DIPA (foaming/solubilizing/viscosity)", "verified": true },
+        { "name": "Sorbitan Oleate Decylglucoside Crosspolymer (solubilizer/co-emulsifier)", "verified": true },
+        { "name": "SCI", "verified": false },
+        { "name": "coco-glucoside", "verified": false },
+        { "name": "cocamidopropyl betaine", "verified": false }
+      ]
+    },
+    {
+      "slug": "personal-care-emulsifiers-emollients-oils",
+      "name": "Personal Care — Emulsifiers, Emollients & Oils",
+      "aliases": ["shea"],
+      "subtypes": [
+        { "name": "emulsifier", "verified": true },
+        { "name": "co-emulsifier", "verified": true },
+        { "name": "stabilizer", "verified": true },
+        { "name": "solubilizer", "verified": true },
+        { "name": "Glyceryl Laurate (co-emulsifier, emollient, anti-microbial; ECOCERT/COSMOS)", "verified": true },
+        { "name": "Butyrospermum Parkii (Shea) Butter (origin-tagged)", "verified": true },
+        { "name": "emollient", "verified": true },
+        { "name": "texturizing agent", "verified": true },
+        { "name": "caprylic/capric triglyceride", "verified": false },
+        { "name": "squalane", "verified": false },
+        { "name": "cetearyl alcohol", "verified": false },
+        { "name": "glyceryl stearate", "verified": false }
+      ]
+    },
+    {
+      "slug": "personal-care-actives-humectants-botanicals",
+      "name": "Personal Care — Actives, Humectants & Botanicals",
+      "aliases": [],
+      "subtypes": [
+        { "name": "Biosaccharide Gum-1 (moisturizing agent & film former)", "verified": true },
+        { "name": "Alpha-Glucan Oligosaccharide (prebiotic, biotech origin)", "verified": true },
+        { "name": "Octyldodecyl PCA (skin barrier protectant)", "verified": true },
+        { "name": "UV filter", "verified": true },
+        { "name": "protective agent", "verified": true },
+        { "name": "astringent", "verified": true },
+        { "name": "matting agent", "verified": true },
+        { "name": "niacinamide", "verified": false },
+        { "name": "panthenol", "verified": false },
+        { "name": "sodium hyaluronate", "verified": false },
+        { "name": "bakuchiol", "verified": false },
+        { "name": "allantoin", "verified": false },
+        { "name": "aloe/centella botanicals", "verified": false }
+      ]
+    },
+    {
+      "slug": "personal-care-preservation-chelation",
+      "name": "Personal Care — Preservation & Chelation",
+      "aliases": [],
+      "subtypes": [
+        { "name": "personal-care preservative systems (INCI/form/spectrum/compliance-indexed)", "verified": true },
+        { "name": "preservative-boosting multitaskers (UniProtect 1,2-HD)", "verified": true },
+        { "name": "natural preservative pairing (caprylic acid + Origanum vulgare leaf extract)", "verified": true },
+        { "name": "disodium EDTA", "verified": true },
+        { "name": "phenoxyethanol", "verified": false },
+        { "name": "ethylhexylglycerin", "verified": false },
+        { "name": "sodium benzoate (personal-care grade)", "verified": false }
+      ]
+    },
+    {
+      "slug": "premixes-blends-synbiotics",
+      "name": "Premixes, Blends & Synbiotics",
+      "aliases": ["premix"],
+      "subtypes": [
+        { "name": "nutrient premixes for RDA fortification (joint care, immunity, digestive balance)", "verified": true },
+        { "name": "custom vitamin/mineral premixes and blends", "verified": true },
+        { "name": "functional systems/blends", "verified": true },
+        { "name": "ingredient mixtures & synbiotics", "verified": true },
+        { "name": "hydrocolloid functional blends (carrageenan+pectin+xanthan systems)", "verified": true }
+      ]
+    }
+  ]
+}

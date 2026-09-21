@@ -1,0 +1,5333 @@
+{
+  "schemaVersion": 1,
+  "regionId": "southeast-asia",
+  "region": "Southeast Asia",
+  "retrieved": "2026-09-19",
+  "documentArtifact": "art_9v2WZq8Q",
+  "documentPath": "docs/ingredient-suppliers-southeast-asia.md",
+  "methodology": "Every factual claim comes from a page fetched in-session on the retrieval date above; claim-level source URLs live in the companion document. Fields without a fetched source are null. Price signals are labeled by tier. No emails, phones, MOQs, prices, certifications, or reviews are invented.",
+  "suppliers": [
+    {
+      "id": "southeast-asia-001",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Phuc Sinh Joint Stock Company",
+        "source": {
+          "url": "https://phucsinh.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://phucsinh.com/",
+        "source": {
+          "url": "https://phucsinh.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Ho Chi Minh City; factory in Bao Loc, Lam Dong Province",
+        "source": {
+          "url": "https://phucsinh.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Vietnam",
+        "source": {
+          "url": "https://phucsinh.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "Export 70-75% of coffee volume to 65+ countries incl. Germany, Spain, Italy, Netherlands, Switzerland, US, Canada, Mexico, Brazil, Chile, Argentina, Colombia, Peru, Paraguay, Uruguay, Japan, Korea, China",
+        "source": {
+          "url": "https://phucsinh.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://phucsinh.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "robusta green coffee",
+          "arabica green coffee",
+          "black pepper",
+          "white pepper"
+        ],
+        "source": {
+          "url": "https://phucsinh.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer / exporter",
+        "source": {
+          "url": "https://phucsinh.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "FSSC 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://phucsinh.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "ISO 9001:2015",
+            "status": "company-stated",
+            "source": {
+              "url": "https://phucsinh.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 14001:2015",
+            "status": "company-stated",
+            "source": {
+              "url": "https://phucsinh.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://phucsinh.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "USDA Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://phucsinh.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "EU Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://phucsinh.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "JAS",
+            "status": "company-stated",
+            "source": {
+              "url": "https://phucsinh.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Rainforest Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://phucsinh.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "4C",
+            "status": "company-stated",
+            "source": {
+              "url": "https://phucsinh.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Fairtrade",
+            "status": "company-stated",
+            "source": {
+              "url": "https://phucsinh.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "UTZ",
+            "status": "company-stated",
+            "source": {
+              "url": "https://phucsinh.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://phucsinh.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://phucsinh.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "70,000+ tonnes/year; five coffee production lines; est. 1999",
+        "source": {
+          "url": "https://phucsinh.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://phucsinh.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-002",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Lien Thanh Company Limited",
+        "source": {
+          "url": "https://vienthao.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "website": {
+        "value": "https://vienthao.vn/",
+        "source": {
+          "url": "https://vienthao.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Vietnam",
+        "source": {
+          "url": "https://vienthao.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "coffee",
+          "pepper",
+          "spices"
+        ],
+        "source": {
+          "url": "https://vienthao.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "robusta green coffee",
+          "arabica green coffee",
+          "black pepper",
+          "white pepper",
+          "cassia",
+          "star anise",
+          "sliced ginger",
+          "turmeric",
+          "chili",
+          "yellow maize"
+        ],
+        "source": {
+          "url": "https://vienthao.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "type": null,
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://vienthao.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://vienthao.vn/",
+            "retrievedAt": "2026-09-19"
+          },
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Low",
+      "sources": [
+        {
+          "url": "https://vienthao.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      ],
+      "note": "2026-09-21 URL audit: supplier site unreachable (direct fetch and secondary crawler); unverifiable claims removed or downgraded per rulebook D10; row pending re-verification."
+    },
+    {
+      "id": "southeast-asia-003",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Chu Se Pepper Joint Stock Company (Chu Se Pepper)",
+        "source": {
+          "url": "https://chusepepper.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://chusepepper.com.vn/",
+        "source": {
+          "url": "https://chusepepper.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Chu Se District, Gia Lai Province, Vietnam",
+        "source": {
+          "url": "https://chusepepper.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Vietnam",
+        "source": {
+          "url": "https://chusepepper.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "exports to 30+ countries (self-published; young 2013-founded company)",
+        "source": {
+          "url": "https://chusepepper.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "pepper",
+          "cashew"
+        ],
+        "source": {
+          "url": "https://chusepepper.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "black pepper",
+          "white pepper",
+          "raw cashew nuts",
+          "processed cashew kernels"
+        ],
+        "source": {
+          "url": "https://chusepepper.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer / exporter",
+        "source": {
+          "url": "https://chusepepper.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://chusepepper.com.vn/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "ISO 9001:2015",
+            "status": "company-stated",
+            "source": {
+              "url": "https://chusepepper.com.vn/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "Food Safety (MOH)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://chusepepper.com.vn/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          }
+        ],
+        "source": {
+          "url": "https://chusepepper.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://chusepepper.com.vn/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "average purchase ~5,000 MT/year (self-published)",
+        "source": {
+          "url": "https://chusepepper.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://chusepepper.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-004",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "KSS Vietnam Co., Ltd",
+        "source": {
+          "url": "https://kssv.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://kssv.com.vn/",
+        "source": {
+          "url": "https://kssv.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Floor 9, PVT building, 35-37-39 Ho Hao Hon Street, Ward 13, District 4, Ho Chi Minh City; branch 121-125-127-129-131-133 Ham Nghi, District 1",
+        "source": {
+          "url": "https://kssv.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Vietnam",
+        "source": {
+          "url": "https://kssv.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "specializing in agriculture exports (no country list — unknown)",
+        "source": {
+          "url": "https://kssv.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "pepper"
+        ],
+        "source": {
+          "url": "https://kssv.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "black pepper",
+          "white pepper"
+        ],
+        "source": {
+          "url": "https://kssv.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "producer / exporter",
+        "source": {
+          "url": "https://kssv.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://kssv.com.vn/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "Rainforest Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://kssv.com.vn/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "FDA",
+            "status": "company-stated",
+            "source": {
+              "url": "https://kssv.com.vn/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          }
+        ],
+        "source": {
+          "url": "https://kssv.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://kssv.com.vn/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "5,000 MT/year of raw cashews (cashew-focused)",
+        "source": {
+          "url": "https://kssv.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "note": "Correct domain is kssv.com.vn — kss.com.vn resolves to an unrelated securities firm (SmartMind Securities)",
+      "sources": [
+        {
+          "url": "https://kssv.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-005",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Vietnam Southern Food Corporation (Visimex)",
+        "source": {
+          "url": "https://www.visimexcorp.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "website": {
+        "value": "https://www.visimexcorp.com/",
+        "source": {
+          "url": "https://www.visimexcorp.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Vietnam",
+        "source": {
+          "url": "https://www.visimexcorp.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "cashew"
+        ],
+        "source": {
+          "url": "https://www.visimexcorp.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "raw cashew nuts",
+          "whole cashew kernels",
+          "split cashew kernels",
+          "frozen fruits and vegetables"
+        ],
+        "source": {
+          "url": "https://www.visimexcorp.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "type": null,
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.visimexcorp.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.visimexcorp.com/",
+            "retrievedAt": "2026-09-19"
+          },
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Low",
+      "sources": [
+        {
+          "url": "https://www.visimexcorp.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ],
+      "note": "2026-09-21 URL audit: supplier site unreachable (direct fetch and secondary crawler); unverifiable claims removed or downgraded per rulebook D10; row pending re-verification."
+    },
+    {
+      "id": "southeast-asia-006",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Long Son Joint Stock Company (SVC)",
+        "source": {
+          "url": "https://longson.com.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "website": {
+        "value": "https://longson.com.vn/",
+        "source": {
+          "url": "https://longson.com.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Vietnam",
+        "source": {
+          "url": "https://longson.com.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "cashew"
+        ],
+        "source": {
+          "url": "https://longson.com.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "raw cashew nuts",
+          "whole cashew kernels",
+          "split cashew kernels",
+          "frozen fruits and vegetables"
+        ],
+        "source": {
+          "url": "https://longson.com.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "type": null,
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://longson.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://longson.com.vn/",
+            "retrievedAt": "2026-09-19"
+          },
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Low",
+      "sources": [
+        {
+          "url": "https://longson.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      ],
+      "note": "2026-09-21 URL audit: supplier site unreachable (direct fetch and secondary crawler); unverifiable claims removed or downgraded per rulebook D10; row pending re-verification."
+    },
+    {
+      "id": "southeast-asia-007",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Cao Nguyen Phu Tho Co., Ltd (CPT)",
+        "source": {
+          "url": "https://cptsivn.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "website": {
+        "value": "https://cptsivn.com/",
+        "source": {
+          "url": "https://cptsivn.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Vietnam",
+        "source": {
+          "url": "https://cptsivn.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "cashew"
+        ],
+        "source": {
+          "url": "https://cptsivn.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "raw cashew nuts (A/B grade)",
+          "processed cashews"
+        ],
+        "source": {
+          "url": "https://cptsivn.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "type": null,
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://cptsivn.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://cptsivn.com/",
+            "retrievedAt": "2026-09-19"
+          },
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Low",
+      "sources": [
+        {
+          "url": "https://cptsivn.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ],
+      "note": "2026-09-21 URL audit: supplier site unreachable (direct fetch and secondary crawler); unverifiable claims removed or downgraded per rulebook D10; row pending re-verification."
+    },
+    {
+      "id": "southeast-asia-008",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Hanoi Foodstuff And Import Export JSC (Hanfimex)",
+        "source": {
+          "url": "https://hanfimex.com.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "website": {
+        "value": "https://hanfimex.com.vn/",
+        "source": {
+          "url": "https://hanfimex.com.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Vietnam",
+        "source": {
+          "url": "https://hanfimex.com.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "cashew",
+          "cinnamon"
+        ],
+        "source": {
+          "url": "https://hanfimex.com.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "raw cashew nuts",
+          "processed cashew kernels",
+          "cashew by-products",
+          "cinnamon (Cassia)",
+          "rice"
+        ],
+        "source": {
+          "url": "https://hanfimex.com.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "type": null,
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://hanfimex.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://hanfimex.com.vn/",
+            "retrievedAt": "2026-09-19"
+          },
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Low",
+      "sources": [
+        {
+          "url": "https://hanfimex.com.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      ],
+      "note": "2026-09-21 URL audit: supplier site unreachable (direct fetch and secondary crawler); unverifiable claims removed or downgraded per rulebook D10; row pending re-verification."
+    },
+    {
+      "id": "southeast-asia-009",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Vietnam Agri Marketing & Processing JSC (Vinasamex)",
+        "source": {
+          "url": "https://vinasamex.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://vinasamex.com/",
+        "source": {
+          "url": "https://vinasamex.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Gia Nghia, Dak Nong Province, Vietnam",
+        "source": {
+          "url": "https://vinasamex.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Vietnam",
+        "source": {
+          "url": "https://vinasamex.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "United States, Europe (per export orientation)",
+        "source": {
+          "url": "https://vinasamex.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "cashew"
+        ],
+        "source": {
+          "url": "https://vinasamex.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic cashew kernels",
+          "conventional cashew kernels"
+        ],
+        "source": {
+          "url": "https://vinasamex.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "type": {
+        "value": "processor / exporter",
+        "source": {
+          "url": "https://vinasamex.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://vinasamex.com/en/certifications/",
+              "retrievedAt": "2026-09-21",
+              "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+            }
+          },
+          {
+            "name": "USDA Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://vinasamex.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "EU Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://vinasamex.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://vinasamex.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://vinasamex.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "sources": [
+        {
+          "url": "https://vinasamex.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://vinasamex.com/en/certifications/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-010",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Dong Anh Import Export Company Limited (DACE)",
+        "source": {
+          "url": "https://dace.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site bot-protected (HTTP 403 to automated access) at the 2026-09-21 URL audit; page exists but the claim was not independently verifiable."
+        }
+      },
+      "website": {
+        "value": "https://dace.vn/",
+        "source": {
+          "url": "https://dace.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site bot-protected (HTTP 403 to automated access) at the 2026-09-21 URL audit; page exists but the claim was not independently verifiable."
+        }
+      },
+      "hq": {
+        "value": "Quang Minh Industrial Zone, Me Linh, Hanoi, Vietnam; extended base in Phuoc Thanh Village, An Cuong Commune, Hieu Xuan Area, Xuan Loc District, Dong Nai Province",
+        "source": {
+          "url": "https://dace.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site bot-protected (HTTP 403 to automated access) at the 2026-09-21 URL audit; page exists but the claim was not independently verifiable."
+        }
+      },
+      "country": {
+        "value": "Vietnam",
+        "source": {
+          "url": "https://dace.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site bot-protected (HTTP 403 to automated access) at the 2026-09-21 URL audit; page exists but the claim was not independently verifiable."
+        }
+      },
+      "regionsServed": {
+        "value": "markets in Europe, US, Australia, Russia, Singapore, Malaysia, and South Korea",
+        "source": {
+          "url": "https://dace.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site bot-protected (HTTP 403 to automated access) at the 2026-09-21 URL audit; page exists but the claim was not independently verifiable."
+        }
+      },
+      "categories": {
+        "value": [
+          "cashew"
+        ],
+        "source": {
+          "url": "https://dace.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site bot-protected (HTTP 403 to automated access) at the 2026-09-21 URL audit; page exists but the claim was not independently verifiable."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "whole cashew kernels",
+          "split cashew kernels",
+          "butts & pieces",
+          "roasted & salted cashews"
+        ],
+        "source": {
+          "url": "https://dace.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site bot-protected (HTTP 403 to automated access) at the 2026-09-21 URL audit; page exists but the claim was not independently verifiable."
+        }
+      },
+      "type": {
+        "value": "processor / exporter",
+        "source": {
+          "url": "https://dace.vn/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site bot-protected (HTTP 403 to automated access) at the 2026-09-21 URL audit; page exists but the claim was not independently verifiable."
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "BRC",
+            "status": "company-stated",
+            "source": {
+              "url": "https://dace.vn/",
+              "retrievedAt": "2026-09-19",
+              "note": "Site bot-protected (HTTP 403 to automated access) at the 2026-09-21 URL audit; page exists but the claim was not independently verifiable."
+            }
+          },
+          {
+            "name": "IFS",
+            "status": "company-stated",
+            "source": {
+              "url": "https://dace.vn/",
+              "retrievedAt": "2026-09-19",
+              "note": "Site bot-protected (HTTP 403 to automated access) at the 2026-09-21 URL audit; page exists but the claim was not independently verifiable."
+            }
+          },
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://dace.vn/",
+              "retrievedAt": "2026-09-19",
+              "note": "Site bot-protected (HTTP 403 to automated access) at the 2026-09-21 URL audit; page exists but the claim was not independently verifiable."
+            }
+          },
+          {
+            "name": "ISO 9001:2015",
+            "status": "company-stated",
+            "source": {
+              "url": "https://dace.vn/",
+              "retrievedAt": "2026-09-19",
+              "note": "Site bot-protected (HTTP 403 to automated access) at the 2026-09-21 URL audit; page exists but the claim was not independently verifiable."
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://dace.vn/",
+              "retrievedAt": "2026-09-19",
+              "note": "Site bot-protected (HTTP 403 to automated access) at the 2026-09-21 URL audit; page exists but the claim was not independently verifiable."
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://dace.vn/",
+              "retrievedAt": "2026-09-19",
+              "note": "Site bot-protected (HTTP 403 to automated access) at the 2026-09-21 URL audit; page exists but the claim was not independently verifiable."
+            }
+          }
+        ],
+        "source": {
+          "url": "https://dace.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://dace.vn/",
+            "retrievedAt": "2026-09-19"
+          },
+          "note": "Site bot-protected (HTTP 403 to automated access) at the 2026-09-21 URL audit; page exists but the claim was not independently verifiable."
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://dace.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      ],
+      "note": "2026-09-21 URL audit: site bot-protected (HTTP 403 to automated access), not dead; claims retained, unverifiable by audit."
+    },
+    {
+      "id": "southeast-asia-011",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Helena Coffee Vietnam (Helena Co., Ltd)",
+        "source": {
+          "url": "https://helenacoffee.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://helenacoffee.vn/",
+        "source": {
+          "url": "https://helenacoffee.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Block 4, Hoa Thuan Commune, Dak Hoa District, Dak Nong Province, Vietnam",
+        "source": {
+          "url": "https://helenacoffee.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Vietnam",
+        "source": {
+          "url": "https://helenacoffee.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "exports to US, Europe, Middle East, Africa, Asia (exact list to confirm — countries cited across site)",
+        "source": {
+          "url": "https://helenacoffee.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://helenacoffee.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "robusta green coffee",
+          "arabica green coffee",
+          "instant coffee",
+          "roasted coffee"
+        ],
+        "source": {
+          "url": "https://helenacoffee.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "processor / exporter",
+        "source": {
+          "url": "https://helenacoffee.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://helenacoffee.vn/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "ISO 9001:2015",
+            "status": "company-stated",
+            "source": {
+              "url": "https://helenacoffee.vn/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FDA",
+            "status": "company-stated",
+            "source": {
+              "url": "https://helenacoffee.vn/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "Rainforest Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://helenacoffee.vn/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://helenacoffee.vn/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://helenacoffee.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://helenacoffee.vn/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "5,000 MT/year of green coffee (self-published)",
+        "source": {
+          "url": "https://helenacoffee.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "sources": [
+        {
+          "url": "https://helenacoffee.vn/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-012",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Phuoc Son Co., Ltd",
+        "source": {
+          "url": "https://phuocsoncinnamon.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "website": {
+        "value": "https://phuocsoncinnamon.com/",
+        "source": {
+          "url": "https://phuocsoncinnamon.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Vietnam",
+        "source": {
+          "url": "https://phuocsoncinnamon.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "cinnamon"
+        ],
+        "source": {
+          "url": "https://phuocsoncinnamon.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "cassia/cinnamon tubes",
+          "split cassia",
+          "stick cassia",
+          "broken cassia",
+          "cassia powder",
+          "cassia oil"
+        ],
+        "source": {
+          "url": "https://phuocsoncinnamon.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      },
+      "type": null,
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://phuocsoncinnamon.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://phuocsoncinnamon.com/",
+            "retrievedAt": "2026-09-19"
+          },
+          "note": "Site unreachable at the 2026-09-21 URL audit (direct fetch and secondary crawler); claim retained as company-stated, unverified."
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Low",
+      "sources": [
+        {
+          "url": "https://phuocsoncinnamon.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ],
+      "note": "2026-09-21 URL audit: supplier site unreachable (direct fetch and secondary crawler); unverifiable claims removed or downgraded per rulebook D10; row pending re-verification."
+    },
+    {
+      "id": "southeast-asia-013",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Tam Ngoc Fruits (Tam Ngoc Co., Ltd)",
+        "source": {
+          "url": "https://tamngoc.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Domain parked for sale at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "website": {
+        "value": "https://tamngoc.com/",
+        "source": {
+          "url": "https://tamngoc.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Domain parked for sale at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Vietnam",
+        "source": {
+          "url": "https://tamngoc.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Domain parked for sale at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "fruit powders",
+          "dried fruit"
+        ],
+        "source": {
+          "url": "https://tamngoc.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Domain parked for sale at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "freeze-dried dragon fruit powder",
+          "freeze-dried mango powder",
+          "freeze-dried banana powder",
+          "freeze-dried jackfruit powder",
+          "freeze-dried durian powder",
+          "freeze-dried pineapple powder",
+          "freeze-dried soursop powder"
+        ],
+        "source": {
+          "url": "https://tamngoc.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Domain parked for sale at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "type": null,
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://tamngoc.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://tamngoc.com/",
+            "retrievedAt": "2026-09-19"
+          },
+          "note": "Domain parked for sale at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Low",
+      "sources": [
+        {
+          "url": "https://tamngoc.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ],
+      "note": "2026-09-21 URL audit: domain parked for sale; unverifiable claims removed or downgraded per rulebook D10."
+    },
+    {
+      "id": "southeast-asia-014",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "CV Indo Pacific Coconut",
+        "source": {
+          "url": "https://indopacificcoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://indopacificcoconut.com/",
+        "source": {
+          "url": "https://indopacificcoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Medan, Indonesia",
+        "source": {
+          "url": "https://indopacificcoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Indonesia",
+        "source": {
+          "url": "https://indopacificcoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "~12,000 MT desiccated coconut annually to 51 countries; 300+ clients across confectionery, bakery, cookies, biscuits, dairy, savory, cereals, coating, beverage, chocolate, ice cream, retail",
+        "source": {
+          "url": "https://indopacificcoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coconut"
+        ],
+        "source": {
+          "url": "https://indopacificcoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "desiccated coconut high-fat (fine/medium grade)",
+          "low-fat desiccated coconut",
+          "coconut milk",
+          "coconut cream powder",
+          "coconut water",
+          "virgin coconut oil"
+        ],
+        "source": {
+          "url": "https://indopacificcoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "exporter; seven manufacturing facilities (4 high-fat DC plants Sumatra, 1 Pontianak, 1 integrated Pangandaran, 1 VCO Sumatra); history to 1970",
+        "source": {
+          "url": "https://indopacificcoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://indopacificcoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://indopacificcoconut.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "~12,000 MT DC/year (self-published)",
+        "source": {
+          "url": "https://indopacificcoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Retrieved page contained injected gambling-spam text — site hygiene flag",
+      "sources": [
+        {
+          "url": "https://indopacificcoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-015",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Global Coco Sugar",
+        "source": {
+          "url": "https://www.globalcocosugar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.globalcocosugar.com/",
+        "source": {
+          "url": "https://www.globalcocosugar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Indonesia (city not stated — unknown)",
+        "source": {
+          "url": "https://www.globalcocosugar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Indonesia",
+        "source": {
+          "url": "https://www.globalcocosugar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "buyers across 14 countries",
+        "source": {
+          "url": "https://www.globalcocosugar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "sweeteners",
+          "coconut"
+        ],
+        "source": {
+          "url": "https://www.globalcocosugar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "coconut sugar (primary)",
+          "coconut nectar",
+          "desiccated coconut",
+          "palm sugar",
+          "coconut cream",
+          "coconut milk",
+          "virgin coconut oil"
+        ],
+        "source": {
+          "url": "https://www.globalcocosugar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "supplier / exporter (importers, distributors, food manufacturers, private-label buyers)",
+        "source": {
+          "url": "https://www.globalcocosugar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "BRCGS Food Safety Grade A+",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.globalcocosugar.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Organic (scope-based)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.globalcocosugar.com/coconut-product-from-indonesia/",
+              "retrievedAt": "2026-09-21",
+              "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.globalcocosugar.com/global-coco-sugar-ships-certified-coconut-products-usa-europe/",
+              "retrievedAt": "2026-09-21",
+              "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.globalcocosugar.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.globalcocosugar.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.globalcocosugar.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "sources": [
+        {
+          "url": "https://www.globalcocosugar.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.globalcocosugar.com/coconut-product-from-indonesia/",
+          "retrievedAt": "2026-09-21"
+        },
+        {
+          "url": "https://www.globalcocosugar.com/global-coco-sugar-ships-certified-coconut-products-usa-europe/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-016",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Cocofine Indonesia (managed by PT Universal Agrindo Persada)",
+        "source": {
+          "url": "https://cocofineindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://cocofineindo.com/",
+        "source": {
+          "url": "https://cocofineindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Indonesia; Business Registration Number 20092201",
+        "source": {
+          "url": "https://cocofineindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Indonesia",
+        "source": {
+          "url": "https://cocofineindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "bulk export and private label services worldwide (no country list)",
+        "source": {
+          "url": "https://cocofineindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "sweeteners",
+          "coconut"
+        ],
+        "source": {
+          "url": "https://cocofineindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic coconut sugar",
+          "desiccated coconut",
+          "coconut milk & cream"
+        ],
+        "source": {
+          "url": "https://cocofineindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "supplier / manufacturer",
+        "source": {
+          "url": "https://cocofineindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cocofineindo.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cocofineindo.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HACCP (certifying bodies not named — unknown)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cocofineindo.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://cocofineindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://cocofineindo.com/",
+            "retrievedAt": "2026-09-19"
+          },
+          "note": "'competitive pricing' claimed, no figures"
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": {
+        "value": "first-party testimonials only (not independent)",
+        "source": {
+          "url": "https://cocofineindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://cocofineindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-017",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Cocoindo",
+        "source": {
+          "url": "https://cocoindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://cocoindo.com/",
+        "source": {
+          "url": "https://cocoindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Batam, Indonesia; 30-ton/day facility",
+        "source": {
+          "url": "https://cocoindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Indonesia",
+        "source": {
+          "url": "https://cocoindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "food manufacturers and distributors (no country list — unknown)",
+        "source": {
+          "url": "https://cocoindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coconut"
+        ],
+        "source": {
+          "url": "https://cocoindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "desiccated coconut",
+          "coconut oil",
+          "coconut water",
+          "coconut cream & milk"
+        ],
+        "source": {
+          "url": "https://cocoindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer (full batch traceability)",
+        "source": {
+          "url": "https://cocoindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "FSSC 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cocoindo.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cocoindo.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cocoindo.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 14001:2015",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cocoindo.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 9001:2015",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cocoindo.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://cocoindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://cocoindo.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "30-ton/day facility",
+        "source": {
+          "url": "https://cocoindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "sources": [
+        {
+          "url": "https://cocoindo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-018",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "PT Nutrisi Kakao Indonesia (NK Cocoa)",
+        "source": {
+          "url": "https://nutrisikakao.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://nutrisikakao.com/en/",
+        "source": {
+          "url": "https://nutrisikakao.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Sulawesi, Indonesia (facility); est. 2015",
+        "source": {
+          "url": "https://nutrisikakao.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Indonesia",
+        "source": {
+          "url": "https://nutrisikakao.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "30+ countries",
+        "source": {
+          "url": "https://nutrisikakao.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "cocoa"
+        ],
+        "source": {
+          "url": "https://nutrisikakao.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "natural cocoa powder (pH 5.2-5.8)",
+          "alkalized cocoa powder (pH 6.2-6.8)",
+          "black cocoa powder (pH 7.6-8.2)",
+          "cocoa butter",
+          "cocoa liquor"
+        ],
+        "source": {
+          "url": "https://nutrisikakao.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer (100% Indonesian-origin cocoa)",
+        "source": {
+          "url": "https://nutrisikakao.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://nutrisikakao.com/en/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://nutrisikakao.com/en/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HALAL",
+            "status": "company-stated",
+            "source": {
+              "url": "https://nutrisikakao.com/en/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Rainforest Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://nutrisikakao.com/en/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO/IEC 17025 lab",
+            "status": "company-stated",
+            "source": {
+              "url": "https://nutrisikakao.com/en/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://nutrisikakao.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://nutrisikakao.com/en/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "5,000+ tons annual capacity (self-published)",
+        "source": {
+          "url": "https://nutrisikakao.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": {
+        "value": "first-party client testimonials only (not independent)",
+        "source": {
+          "url": "https://nutrisikakao.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "sources": [
+        {
+          "url": "https://nutrisikakao.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-019",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "PT Indesso Aroma",
+        "source": {
+          "url": "https://www.indesso.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.indesso.com/",
+        "source": {
+          "url": "https://www.indesso.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Indonesia (city not stated — unknown)",
+        "source": {
+          "url": "https://www.indesso.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Indonesia",
+        "source": {
+          "url": "https://www.indesso.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "59 countries served",
+        "source": {
+          "url": "https://www.indesso.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "spices",
+          "cloves"
+        ],
+        "source": {
+          "url": "https://www.indesso.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "natural extracts & aroma ingredients",
+          "clove derivatives",
+          "essential oils (flavor & fragrance, food, pharmaceutical)"
+        ],
+        "source": {
+          "url": "https://www.indesso.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer since 1968; 700+ employees",
+        "source": {
+          "url": "https://www.indesso.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.indesso.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.indesso.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "150,000 tonnes essential oils & aroma ingredients produced; 100,000+ farmers & biomass collectors (self-published)",
+        "source": {
+          "url": "https://www.indesso.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.indesso.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-020",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "PT Putra Gayo International",
+        "source": {
+          "url": "https://putragayo.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://putragayo.id/",
+        "source": {
+          "url": "https://putragayo.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Takengon, Central Aceh, Sumatra; founded November 25, 2022",
+        "source": {
+          "url": "https://putragayo.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Indonesia",
+        "source": {
+          "url": "https://putragayo.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "claims exports to 50+ countries (self-published; young company)",
+        "source": {
+          "url": "https://putragayo.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://putragayo.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Gayo Arabica green coffee — Timtim (Gayo 1)",
+          "Bourbon (Gayo 2/3)",
+          "fully washed / semi-washed / natural / honey",
+          "altitude 1,400-1,600 m"
+        ],
+        "source": {
+          "url": "https://putragayo.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "licensed exporter with Gayo farmer cooperatives; GI-registered Gayo Single Origin",
+        "source": {
+          "url": "https://putragayo.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://putragayo.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://putragayo.id/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://putragayo.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-021",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "CV Multi Rempah Sulawesi (MRS)",
+        "source": {
+          "url": "https://www.multirempahsulawesi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.multirempahsulawesi.com/",
+        "source": {
+          "url": "https://www.multirempahsulawesi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Sulawesi — Bitung (production), Kendari (warehouse), Sangihe (coordinator)",
+        "source": {
+          "url": "https://www.multirempahsulawesi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Indonesia",
+        "source": {
+          "url": "https://www.multirempahsulawesi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "exporter from Sulawesi, Moluccas and neighbouring islands (destinations unknown)",
+        "source": {
+          "url": "https://www.multirempahsulawesi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "spices"
+        ],
+        "source": {
+          "url": "https://www.multirempahsulawesi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "nutmeg & mace",
+          "cloves",
+          "black/white/long pepper",
+          "cassia",
+          "vanilla"
+        ],
+        "source": {
+          "url": "https://www.multirempahsulawesi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "producer / exporter (6,000+ smallholder farmers on 5,000+ ha)",
+        "source": {
+          "url": "https://www.multirempahsulawesi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic EU",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.multirempahsulawesi.com/",
+              "retrievedAt": "2026-09-21",
+              "note": "Claim confirmed on this page during the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "Organic USDA",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.multirempahsulawesi.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.multirempahsulawesi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.multirempahsulawesi.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "6,000+ farmers / 5,000+ ha",
+        "source": {
+          "url": "https://www.multirempahsulawesi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.multirempahsulawesi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-022",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "PT Agri Spice Indonesia (ASI)",
+        "source": {
+          "url": "https://www.ptasi.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.ptasi.id/",
+        "source": {
+          "url": "https://www.ptasi.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Klaten, Central Java — 3-hectare facility",
+        "source": {
+          "url": "https://www.ptasi.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Indonesia",
+        "source": {
+          "url": "https://www.ptasi.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "unknown",
+        "source": {
+          "url": "https://www.ptasi.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "spices"
+        ],
+        "source": {
+          "url": "https://www.ptasi.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "nutmeg & mace",
+          "cloves",
+          "cinnamon",
+          "vanilla (Planifolia & Tahitensis)",
+          "pepper",
+          "long pepper"
+        ],
+        "source": {
+          "url": "https://www.ptasi.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "spice processing / export; farmer partnerships in Lampung, South Sulawesi, Jambi, Papua; retail brand Spice Voyages",
+        "source": {
+          "url": "https://www.ptasi.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.ptasi.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.ptasi.id/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://www.ptasi.id/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-023",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Celebes Oil Mill Incorporated (CelebesPH)",
+        "source": {
+          "url": "https://celebes.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://celebes.com.ph/",
+        "source": {
+          "url": "https://celebes.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Butuan City, Philippines; first coconut oil mill and refinery built 1990",
+        "source": {
+          "url": "https://celebes.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Philippines",
+        "source": {
+          "url": "https://celebes.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "one of the country's largest export-oriented enterprises; serves bakery & snack food, biscuits, confectionery, fast food, dairy industries",
+        "source": {
+          "url": "https://celebes.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coconut"
+        ],
+        "source": {
+          "url": "https://celebes.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic virgin coconut oil (since 1998)",
+          "RBD coconut oil",
+          "coconut milk",
+          "desiccated coconut & coconut flour",
+          "coconut water/juice",
+          "coconut cream"
+        ],
+        "source": {
+          "url": "https://celebes.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer / exporter (Organic & Fair Trade certified products per site)",
+        "source": {
+          "url": "https://celebes.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic (certifier not named)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://celebes.com.ph/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Fair Trade (certifier not named)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://celebes.com.ph/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://celebes.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://celebes.com.ph/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://celebes.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-024",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Peter Paul Philippine Corporation",
+        "source": {
+          "url": "https://www.peterpaul.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.peterpaul.com.ph/",
+        "source": {
+          "url": "https://www.peterpaul.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "13-hectare plant at Barrio Pahinga, Candelaria, Quezon Province (~100 km south of Manila); Sorsogon plant; est. June 29, 1946",
+        "source": {
+          "url": "https://www.peterpaul.com.ph/about-us",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+        }
+      },
+      "country": {
+        "value": "Philippines",
+        "source": {
+          "url": "https://www.peterpaul.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "originally supplied Peter Paul Inc. (Naugatuck, Connecticut, USA); current markets unknown",
+        "source": {
+          "url": "https://www.peterpaul.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coconut"
+        ],
+        "source": {
+          "url": "https://www.peterpaul.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "desiccated coconut (core)",
+          "coconut milk & cream",
+          "coconut water",
+          "virgin coconut oil",
+          "coconut flour/fiber",
+          "copra & copra cake",
+          "coconut oil",
+          "paring cake/oil"
+        ],
+        "source": {
+          "url": "https://www.peterpaul.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer (Filipino majority ownership since 1962)",
+        "source": {
+          "url": "https://www.peterpaul.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.peterpaul.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.peterpaul.com.ph/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "About page contains lorem-ipsum placeholders — site hygiene flag",
+      "sources": [
+        {
+          "url": "https://www.peterpaul.com.ph/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.peterpaul.com.ph/about-us",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-025",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Axelum Resources Corp.",
+        "source": {
+          "url": "https://axelum.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://axelum.ph/",
+        "source": {
+          "url": "https://axelum.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Philippines (plant location not stated — unknown)",
+        "source": {
+          "url": "https://axelum.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Philippines",
+        "source": {
+          "url": "https://axelum.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "international markets (no country list — unknown)",
+        "source": {
+          "url": "https://axelum.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coconut"
+        ],
+        "source": {
+          "url": "https://axelum.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "desiccated coconut",
+          "sweetened coconut",
+          "toasted coconut",
+          "reduced-fat coconut",
+          "coconut water",
+          "coconut milk powder",
+          "coconut milk/cream",
+          "coconut cooking oil",
+          "Fiesta Coconut retail range",
+          "industrial products"
+        ],
+        "source": {
+          "url": "https://axelum.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer / exporter; listed-company structure (Corporate Governance & Investor Relations sections)",
+        "source": {
+          "url": "https://axelum.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://axelum.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://axelum.ph/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://axelum.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-026",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Royce Food Corporation",
+        "source": {
+          "url": "https://www.roycefood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.roycefood.com/",
+        "source": {
+          "url": "https://www.roycefood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "first factory Tagum City, Davao del Norte; est. 1990",
+        "source": {
+          "url": "https://www.roycefood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Philippines",
+        "source": {
+          "url": "https://www.roycefood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "exports to 32 countries; banana chips ~30 containers/month",
+        "source": {
+          "url": "https://www.roycefood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coconut",
+          "banana chips"
+        ],
+        "source": {
+          "url": "https://www.roycefood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic desiccated coconut",
+          "VCO",
+          "RBD & crude coconut oil",
+          "coconut milk/cream/water/juice",
+          "coconut sugar",
+          "coconut flour",
+          "fiber/peat",
+          "charcoal briquettes",
+          "banana chips"
+        ],
+        "source": {
+          "url": "https://www.roycefood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer / exporter",
+        "source": {
+          "url": "https://www.roycefood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "USDA Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.roycefood.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "JAS",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.roycefood.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "Fair Trade Sustainability Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.roycefood.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "EU Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.roycefood.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "Organic Trade Association",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.roycefood.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Star-K Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.roycefood.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "BRC (GFSI scheme)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.roycefood.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.roycefood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.roycefood.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "~30 containers/month banana chips",
+        "source": {
+          "url": "https://www.roycefood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.roycefood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-027",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Greenville Agro Corporation",
+        "source": {
+          "url": "https://greenville-agro.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://greenville-agro.com/",
+        "source": {
+          "url": "https://greenville-agro.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Philippines (city not stated — unknown)",
+        "source": {
+          "url": "https://greenville-agro.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Philippines",
+        "source": {
+          "url": "https://greenville-agro.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "global supplier and exporter (no country list — unknown)",
+        "source": {
+          "url": "https://greenville-agro.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coconut",
+          "banana chips"
+        ],
+        "source": {
+          "url": "https://greenville-agro.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic desiccated coconut",
+          "banana chips (Saba & Cardava)",
+          "frozen coconut cream",
+          "VCO",
+          "coconut fiber/peat/chips",
+          "dried fruits",
+          "coconut sugar",
+          "coconut milk/cream",
+          "RBD & crude coconut oil",
+          "coconut water/juice",
+          "coconut charcoal"
+        ],
+        "source": {
+          "url": "https://greenville-agro.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer / exporter",
+        "source": {
+          "url": "https://greenville-agro.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic (bodies not named — unknown)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://greenville-agro.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://greenville-agro.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://greenville-agro.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "sources": [
+        {
+          "url": "https://greenville-agro.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-028",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "SC Global Coco Products, Inc.",
+        "source": {
+          "url": "https://scglobal.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://scglobal.com.ph/",
+        "source": {
+          "url": "https://scglobal.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Baybay, Leyte; est. 2006",
+        "source": {
+          "url": "https://scglobal.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Philippines",
+        "source": {
+          "url": "https://scglobal.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "unknown",
+        "source": {
+          "url": "https://scglobal.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coconut"
+        ],
+        "source": {
+          "url": "https://scglobal.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic crude coconut oil",
+          "organic RBD / Cochin coconut oil",
+          "organic VCO",
+          "organic coconut fatty acid distillate (CFAD)",
+          "organic coconut flour",
+          "organic coconut chips",
+          "organic coconut shortening"
+        ],
+        "source": {
+          "url": "https://scglobal.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer (organic-only portfolio; contracted farmers certified under its organic program)",
+        "source": {
+          "url": "https://scglobal.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic (bodies not named — unknown)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://scglobal.com.ph/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://scglobal.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://scglobal.com.ph/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://scglobal.com.ph/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-029",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "MSCPI (Millennium Specialty Coconut Products Inc)",
+        "source": {
+          "url": "http://mscpi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "http://mscpi.com/",
+        "source": {
+          "url": "http://mscpi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Philippines (city not stated — unknown); backed by the Ching Bee Group (50+ years)",
+        "source": {
+          "url": "http://mscpi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Philippines",
+        "source": {
+          "url": "http://mscpi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "global (no country list — unknown)",
+        "source": {
+          "url": "http://mscpi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coconut"
+        ],
+        "source": {
+          "url": "http://mscpi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "desiccated coconut meat",
+          "virgin coconut oil",
+          "coconut flour",
+          "coconut milk",
+          "coconut water",
+          "coconut water concentrate (100% Philippine-sourced)"
+        ],
+        "source": {
+          "url": "http://mscpi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer / exporter",
+        "source": {
+          "url": "http://mscpi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "BRC",
+            "status": "company-stated",
+            "source": {
+              "url": "http://mscpi.com/about-us/",
+              "retrievedAt": "2026-09-21",
+              "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+            }
+          },
+          {
+            "name": "FSSC 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "http://mscpi.com/about-us/",
+              "retrievedAt": "2026-09-21",
+              "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+            }
+          },
+          {
+            "name": "HARPC",
+            "status": "company-stated",
+            "source": {
+              "url": "http://mscpi.com/about-us/",
+              "retrievedAt": "2026-09-21",
+              "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+            }
+          },
+          {
+            "name": "organic / fair trade / non-GMO / vegan certificates available",
+            "status": "company-stated",
+            "source": {
+              "url": "http://mscpi.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "http://mscpi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "http://mscpi.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "targets 400 MT/day dehusked-coconut input (page counters were blank)",
+        "source": {
+          "url": "http://mscpi.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "sources": [
+        {
+          "url": "http://mscpi.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "http://mscpi.com/about-us/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-030",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "KLT Fruits",
+        "source": {
+          "url": "https://www.kltfruits.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.kltfruits.com/",
+        "source": {
+          "url": "https://www.kltfruits.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Philippines (city not stated — unknown)",
+        "source": {
+          "url": "https://www.kltfruits.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Philippines",
+        "source": {
+          "url": "https://www.kltfruits.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "global food & beverage industry; mango sourced from Northern Luzon, Southern Luzon, Cebu, Mindanao",
+        "source": {
+          "url": "https://www.kltfruits.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "fruit purees",
+          "fruit powders"
+        ],
+        "source": {
+          "url": "https://www.kltfruits.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "100% purees (Carabao mango aseptic & frozen, banana Cavendish & Saba, calamansi, guava, passion fruit, soursop, strawberry, coconut, ube)",
+          "dried fruits (mango, guava, guyabano, strawberry)",
+          "IQF frozen fruits (mango, banana, jackfruit, ube)",
+          "fruit powders (100% ube, 100% calamansi, 100% banana flour)",
+          "fruit fillings",
+          "juices"
+        ],
+        "source": {
+          "url": "https://www.kltfruits.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "processor / exporter",
+        "source": {
+          "url": "https://www.kltfruits.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic (bodies not named — unknown)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.kltfruits.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.kltfruits.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.kltfruits.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "sources": [
+        {
+          "url": "https://www.kltfruits.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-031",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Thai Wah Public Company (TWPC)",
+        "source": {
+          "url": "https://www.thaiwah.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.thaiwah.com/",
+        "source": {
+          "url": "https://www.thaiwah.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Thai Wah Tower 1, South Sathorn Road, Bangkok, Thailand",
+        "source": {
+          "url": "https://www.thaiwah.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Thailand",
+        "source": {
+          "url": "https://www.thaiwah.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "regionsServed": {
+        "value": "sells locally and internationally (specific markets unknown)",
+        "source": {
+          "url": "https://www.thaiwah.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "tapioca starch",
+          "rice flour"
+        ],
+        "source": {
+          "url": "https://www.thaiwah.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "native tapioca starch",
+          "coarse flour",
+          "cassava flour",
+          "waxy tapioca starch (ROSE BRAND)",
+          "via VN subsidiaries: organic tapioca starch, glucose syrup, organic glucose syrup, rice flour, organic rice flour"
+        ],
+        "source": {
+          "url": "https://www.thaiwah.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "type": {
+        "value": "manufacturer — 6 tapioca plants in Thailand + 2 invested plants in Tay Ninh, Vietnam",
+        "source": {
+          "url": "https://www.thaiwah.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "TH plants: ISO 9001:2015, ISO 14001:2015, GMP, HACCP, USFDA, FSSC 22000, Halal, Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.thaiwah.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "VN plants: FSSC 22000, Kosher, Halal, NOP, EU organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.thaiwah.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.thaiwah.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "product enquiry channel published: product.enquiry@thaiwah.com (no formal policy)",
+        "source": {
+          "url": "https://www.thaiwah.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.thaiwah.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "6 TH + 2 VN plants (volumes not published)",
+        "source": {
+          "url": "https://www.thaiwah.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.thaiwah.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-032",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "SWI (Sanguan Wongse Industries Limited)",
+        "source": {
+          "url": "https://www.swi.co.th/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.swi.co.th/",
+        "source": {
+          "url": "https://www.swi.co.th/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Thailand (news references Nakhon Ratchasima/Korat area; exact HQ unknown)",
+        "source": {
+          "url": "https://www.swi.co.th/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Thailand",
+        "source": {
+          "url": "https://www.swi.co.th/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "international and domestic shipment (no market list — unknown)",
+        "source": {
+          "url": "https://www.swi.co.th/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "tapioca starch",
+          "sweeteners"
+        ],
+        "source": {
+          "url": "https://www.swi.co.th/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "native & modified tapioca starch (food & industrial grade)",
+          "cassava flour",
+          "pharmaceutical-grade tapioca starch",
+          "cassava fiber",
+          "prebiotic isomalto-oligosaccharides (IMO)",
+          "FibrePlas thermoplastic starch",
+          "ready-to-cook cassava"
+        ],
+        "source": {
+          "url": "https://www.swi.co.th/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer / exporter",
+        "source": {
+          "url": "https://www.swi.co.th/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.swi.co.th/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.swi.co.th/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "sources": [
+        {
+          "url": "https://www.swi.co.th/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-033",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Thai Coconut Public Company Limited (Thaicoco)",
+        "source": {
+          "url": "https://thaicoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://thaicoconut.com/",
+        "source": {
+          "url": "https://thaicoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Thailand (city not stated — unknown); public company",
+        "source": {
+          "url": "https://thaicoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Thailand",
+        "source": {
+          "url": "https://thaicoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "exports to America, Europe, Oceania, Middle East, Africa, Asia; export value >90% of revenues; 100 countries",
+        "source": {
+          "url": "https://thaicoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coconut"
+        ],
+        "source": {
+          "url": "https://thaicoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "coconut milk",
+          "coconut water",
+          "ready curry soup",
+          "coconut snacks; brands Thai Coco, Coco Buri",
+          "OEM/private label",
+          "industrial supplies"
+        ],
+        "source": {
+          "url": "https://thaicoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer",
+        "source": {
+          "url": "https://thaicoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://thaicoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://thaicoconut.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://thaicoconut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-034",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Erawan Food Co., Ltd.",
+        "source": {
+          "url": "https://erawanfood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://erawanfood.com/",
+        "source": {
+          "url": "https://erawanfood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Thailand (city not stated — unknown)",
+        "source": {
+          "url": "https://erawanfood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Thailand",
+        "source": {
+          "url": "https://erawanfood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "international and domestic markets (countries unknown)",
+        "source": {
+          "url": "https://erawanfood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coconut"
+        ],
+        "source": {
+          "url": "https://erawanfood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "canned coconut milk (light 7-9%, original 18-20%)",
+          "coconut cream (20-22%)",
+          "UHT coconut milk (Tetra Pak 17-19%)",
+          "coconut milk drinks",
+          "100% coconut water; brands Twin Elephants & Earth, Elephant and Sun",
+          "private label/OEM"
+        ],
+        "source": {
+          "url": "https://erawanfood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer",
+        "source": {
+          "url": "https://erawanfood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "BRC (A+)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://erawanfood.com/product-categories/coconut-milk/",
+              "retrievedAt": "2026-09-21",
+              "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+            }
+          },
+          {
+            "name": "IFS (Higher Level)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://erawanfood.com/product-categories/coconut-milk/",
+              "retrievedAt": "2026-09-21",
+              "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+            }
+          },
+          {
+            "name": "BSCI",
+            "status": "company-stated",
+            "source": {
+              "url": "https://erawanfood.com/product-categories/coconut-milk/",
+              "retrievedAt": "2026-09-21",
+              "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+            }
+          },
+          {
+            "name": "GHPs",
+            "status": "company-stated",
+            "source": {
+              "url": "https://erawanfood.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://erawanfood.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://erawanfood.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://erawanfood.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://erawanfood.com/product-categories/coconut-milk/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-035",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "NutriExact",
+        "source": {
+          "url": "https://nutriexact.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://nutriexact.com/",
+        "source": {
+          "url": "https://nutriexact.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Thailand (city not stated — unknown); ships FOB Laem Chabang",
+        "source": {
+          "url": "https://nutriexact.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Thailand",
+        "source": {
+          "url": "https://nutriexact.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "food manufacturers, nutraceutical formulators, cosmetics brands (no country list — unknown)",
+        "source": {
+          "url": "https://nutriexact.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "fruit powders"
+        ],
+        "source": {
+          "url": "https://nutriexact.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "freeze-dried fruit powders with variety-level traceability — Nam Dok Mai mango",
+          "Monthong durian",
+          "mangosteen",
+          "Chiang Mai lychee",
+          "pineapple"
+        ],
+        "source": {
+          "url": "https://nutriexact.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "B2B ingredient supplier (freeze-dried, not spray-dried)",
+        "source": {
+          "url": "https://nutriexact.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "FSSC 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://nutriexact.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "CoA per production lot",
+            "status": "company-stated",
+            "source": {
+              "url": "https://nutriexact.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "MRL testing against EU limits as standard",
+            "status": "company-stated",
+            "source": {
+              "url": "https://nutriexact.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://nutriexact.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": {
+        "value": "per-SKU: mango 250 kg, durian 100 kg, mangosteen 100 kg, lychee 250 kg, pineapple 250 kg",
+        "source": {
+          "url": "https://nutriexact.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": {
+        "value": "Request Sample flow; responds within one business day",
+        "source": {
+          "url": "https://nutriexact.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://nutriexact.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://nutriexact.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-036",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "PGEO Group",
+        "source": {
+          "url": "https://www.pgeogroup.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.pgeogroup.com.my/",
+        "source": {
+          "url": "https://www.pgeogroup.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Malaysia (city not stated — unknown)",
+        "source": {
+          "url": "https://www.pgeogroup.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Malaysia",
+        "source": {
+          "url": "https://www.pgeogroup.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "food and oleochemicals industry worldwide; bulk via vessels, road tanker, flexi bag, ISO tank, IBC, steel drums; consumer brands Neptune, Seri Murni, Krystal (FFM Marketing Sdn Bhd)",
+        "source": {
+          "url": "https://www.pgeogroup.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "palm fats",
+          "specialty fats"
+        ],
+        "source": {
+          "url": "https://www.pgeogroup.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "RBD palm olein/stearin/oil",
+          "palm fatty acid distillate",
+          "soft oils (soybean, sunflower, canola, corn, high-oleic sunflower)",
+          "lauric oils (RBD palm kernel oil/olein/stearin, RBD coconut oil)",
+          "specialty fats (coating, creaming, CBS, CBE, ice-cream, non-dairy creamer oil, emulsifier oil, interesterified)",
+          "texturised fats (shortening, vegetable ghee, margarine, puff pastry margarine)"
+        ],
+        "source": {
+          "url": "https://www.pgeogroup.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "refiner / manufacturer",
+        "source": {
+          "url": "https://www.pgeogroup.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.pgeogroup.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.pgeogroup.com.my/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.pgeogroup.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-037",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Intercontinental Specialty Fats Sdn. Bhd. (ISF)",
+        "source": {
+          "url": "https://isfsb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://isfsb.com/",
+        "source": {
+          "url": "https://isfsb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Lot 1, Lebuh Sultan Hishamudin 2, Kawasan 20, Bandar Sultan Suleiman, Port Klang, Selangor; incorporated 1980",
+        "source": {
+          "url": "https://isfsb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Malaysia",
+        "source": {
+          "url": "https://isfsb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "global supply chain (no country list — unknown)",
+        "source": {
+          "url": "https://isfsb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "palm fats",
+          "specialty fats"
+        ],
+        "source": {
+          "url": "https://isfsb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "confectionery fats (chocolate)",
+          "bakery oils & fats",
+          "frying oils",
+          "plant-based dairy alternative fats",
+          "non-food fats (candle, animal feed, soap)",
+          "CBA supplier"
+        ],
+        "source": {
+          "url": "https://isfsb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer; subsidiary of The Nisshin OilliO Group, Ltd. (Japan)",
+        "source": {
+          "url": "https://isfsb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://isfsb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://isfsb.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://isfsb.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-038",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Palmtop Sdn Bhd",
+        "source": {
+          "url": "https://www.palmtop.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.palmtop.com.my/",
+        "source": {
+          "url": "https://www.palmtop.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "PLO 470, Jalan Keluli 1, Kawasan Perindustrian Pasir Gudang, 81700 Pasir Gudang, Johor; five plants in Pasir Gudang and Port Klang",
+        "source": {
+          "url": "https://www.palmtop.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Malaysia",
+        "source": {
+          "url": "https://www.palmtop.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "exports to Africa, Middle East, Asia Pacific via Singapore-based Continental Palms Pte Ltd",
+        "source": {
+          "url": "https://www.palmtop.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "palm fats"
+        ],
+        "source": {
+          "url": "https://www.palmtop.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "vegetable cooking oil",
+          "soft oils",
+          "lauric oils",
+          "vegetable ghee",
+          "functional & specialty fats",
+          "also trades rice, tomato paste, sardines, spaghetti, condensed/evaporated milk"
+        ],
+        "source": {
+          "url": "https://www.palmtop.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer",
+        "source": {
+          "url": "https://www.palmtop.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.palmtop.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.palmtop.com.my/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "5 plants; ASRS (no volumes)",
+        "source": {
+          "url": "https://www.palmtop.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "sources": [
+        {
+          "url": "https://www.palmtop.com.my/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-039",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Mewah International Inc.",
+        "source": {
+          "url": "https://mewahgroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://mewahgroup.com/",
+        "source": {
+          "url": "https://mewahgroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "refineries and processing facilities in Malaysia, Singapore and Indonesia (group HQ city unknown)",
+        "source": {
+          "url": "https://mewahgroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Malaysia / Singapore / Indonesia",
+        "source": {
+          "url": "https://mewahgroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "products marketed to more than 100 countries",
+        "source": {
+          "url": "https://mewahgroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "palm fats",
+          "specialty fats"
+        ],
+        "source": {
+          "url": "https://mewahgroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "vegetable-based edible oils and fats (bulk + consumer pack)",
+          "specialty fats and confectionery oils",
+          "bioenergy products; brands OKI, MOI",
+          "also markets rice, cashew, dairy, food premixes, soap"
+        ],
+        "source": {
+          "url": "https://mewahgroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "refiner / manufacturer since the 1950s; SGX Mainboard listing November 24, 2010",
+        "source": {
+          "url": "https://mewahgroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://mewahgroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://mewahgroup.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "total refining capacity more than 4.5 million MT annually (self-published)",
+        "source": {
+          "url": "https://mewahgroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://mewahgroup.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-040",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Amru Rice (Cambodia) Co., Ltd",
+        "source": {
+          "url": "https://amrurice.com.kh/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://amrurice.com.kh/",
+        "source": {
+          "url": "https://amrurice.com.kh/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "#13A, St. Lum, Boeng Salang, Khan Ruessei Kaev, Phnom Penh, Cambodia",
+        "source": {
+          "url": "https://amrurice.com.kh/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Cambodia",
+        "source": {
+          "url": "https://amrurice.com.kh/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "retail brands across the U.S., Asia and Europe",
+        "source": {
+          "url": "https://amrurice.com.kh/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "categories": {
+        "value": [
+          "rice"
+        ],
+        "source": {
+          "url": "https://amrurice.com.kh/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "milled Cambodian rice — Phka Rumduol jasmine (multiple-time 'World's Best Rice' winner claim)",
+          "Phka Malis",
+          "Sen Kra'ob",
+          "organic jasmine",
+          "long-grain white (5-25% broken)",
+          "glutinous rice",
+          "SRP / conventional / organic systems",
+          "own brands or private label"
+        ],
+        "source": {
+          "url": "https://amrurice.com.kh/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "miller / exporter (export workflow: spec & sampling → artwork & packaging → audit & certification → production & QA → export & logistics)",
+        "source": {
+          "url": "https://amrurice.com.kh/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "EU and USDA organic jasmine (plot-traceable)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://amrurice.com.kh/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "EU / USDA / Fair Trade labels on organic line",
+            "status": "company-stated",
+            "source": {
+              "url": "https://amrurice.com.kh/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://amrurice.com.kh/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "spec & sampling is step 1 of export workflow; pack formats 500 g-50 kg plus vacuum/MAP and 1-tonne jumbo bags",
+        "source": {
+          "url": "https://amrurice.com.kh/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://amrurice.com.kh/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://amrurice.com.kh/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-041",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Farmlink Ltd.",
+        "source": {
+          "url": "https://farmlink-cambodia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://farmlink-cambodia.com/",
+        "source": {
+          "url": "https://farmlink-cambodia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Kampot province, Cambodia; Cambodian-registered company created 2006",
+        "source": {
+          "url": "https://farmlink-cambodia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Cambodia",
+        "source": {
+          "url": "https://farmlink-cambodia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "fine food specialist worldwide (no country list — unknown)",
+        "source": {
+          "url": "https://farmlink-cambodia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "pepper"
+        ],
+        "source": {
+          "url": "https://farmlink-cambodia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Kampot pepper (KADODE brand — black/white/red variants incl. long red pepper)",
+          "salt flower from Kampot",
+          "palm flower sugar"
+        ],
+        "source": {
+          "url": "https://farmlink-cambodia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "processor / exporter (farm-to-export; every peppercorn traced back to farm, farmer and batch with online traceability tool)",
+        "source": {
+          "url": "https://farmlink-cambodia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "KPPA registered member #C001 and recognized Kampot Pepper Packager since 10/04/2009",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.farmlink-cambodia.com/content/member-kampot-pepper-promotion-association",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://farmlink-cambodia.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://farmlink-cambodia.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site + association context",
+      "confidence": "High",
+      "note": "Kampot pepper PGI registration status not confirmed this session — unknown",
+      "sources": [
+        {
+          "url": "https://farmlink-cambodia.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.farmlink-cambodia.com/content/member-kampot-pepper-promotion-association",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-042",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "PT Coco Total Sugar Indonesia",
+        "source": {
+          "url": "https://coconutsugar.pro/products/natural",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "website": {
+        "value": "https://coconutsugar.pro/",
+        "source": {
+          "url": "https://coconutsugar.pro/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "hq": {
+        "value": "PT Coco Total Sugar Indonesia, Jl. Mayor Unus KM 1.5, Magelang, Central Java 56117, Indonesia",
+        "source": {
+          "url": "https://coconutsugar.pro/",
+          "retrievedAt": "2026-09-21",
+          "note": "factory address (contact-page claim, confirmed in site footer)"
+        }
+      },
+      "country": {
+        "value": "Indonesia",
+        "source": {
+          "url": "https://coconutsugar.pro/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "regionsServed": {
+        "value": "Exported from Indonesia to 18+ countries: USA, Canada, UK, Germany, Poland, Australia, Russia, Italy, Bulgaria, Japan, Korea, Singapore, UAE, Turkey, Greece, Spain, France, Netherlands",
+        "source": {
+          "url": "https://coconutsugar.pro/products/natural",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "categories": {
+        "value": [
+          "coconut sugar",
+          "sweeteners"
+        ],
+        "source": {
+          "url": "https://coconutsugar.pro/products/natural",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "natural coconut sugar",
+          "organic coconut sugar",
+          "coconut sugar"
+        ],
+        "source": {
+          "url": "https://coconutsugar.pro/products/natural",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "type": {
+        "value": "coconut sugar manufacturer (wholesale-only B2B, no checkout)",
+        "source": {
+          "url": "https://coconutsugar.pro/products/natural",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "USDA Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://coconutsugar.pro/certificates",
+              "retrievedAt": "2026-09-21",
+              "note": "stated validity May 2027; supplier-published PDF, not registry-verified"
+            }
+          },
+          {
+            "name": "EU Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://coconutsugar.pro/certificates",
+              "retrievedAt": "2026-09-21",
+              "note": "stated validity May 2027; supplier-published PDF, not registry-verified"
+            }
+          },
+          {
+            "name": "FSSC 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://coconutsugar.pro/certificates",
+              "retrievedAt": "2026-09-21",
+              "note": "stated validity April 2027; supplier-published PDF, not registry-verified"
+            }
+          },
+          {
+            "name": "BRCGS Grade A",
+            "status": "company-stated",
+            "source": {
+              "url": "https://coconutsugar.pro/certificates",
+              "retrievedAt": "2026-09-21",
+              "note": "stated validity March 2027; supplier-published PDF, not registry-verified"
+            }
+          },
+          {
+            "name": "Kosher OU",
+            "status": "company-stated",
+            "source": {
+              "url": "https://coconutsugar.pro/certificates",
+              "retrievedAt": "2026-09-21",
+              "note": "stated validity May 2027; supplier-published PDF, not registry-verified"
+            }
+          },
+          {
+            "name": "Halal MUI",
+            "status": "company-stated",
+            "source": {
+              "url": "https://coconutsugar.pro/certificates",
+              "retrievedAt": "2026-09-21",
+              "note": "stated validity May 2027; supplier-published PDF, not registry-verified"
+            }
+          },
+          {
+            "name": "FDA Registered",
+            "status": "company-stated",
+            "source": {
+              "url": "https://coconutsugar.pro/certificates",
+              "retrievedAt": "2026-09-21",
+              "note": "\"Registered facility for export to United States markets. Valid: Ongoing\"; supplier-published, not registry-verified"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://coconutsugar.pro/certificates",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "moq": {
+        "value": "MOQ: 1 ton (1 pallet)",
+        "source": {
+          "url": "https://coconutsugar.pro/products/natural",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "\"Wholesale price from ... $1.80 USD per kg\"",
+          "staleness": "stock line on the same page: \"In Stock — 26 MT Ready for Immediate Shipment — Updated: Jan 2, 2026\"",
+          "note": "incoterms EXW Magelang / FOB Semarang (\"FOB Semarang is most popular\"); \"Transit to USA: 18-35 days\" (Los Angeles, Long Beach)",
+          "source": {
+            "url": "https://coconutsugar.pro/products/natural",
+            "retrievedAt": "2026-09-21"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "\"In Stock — 26 MT Ready for Immediate Shipment — Updated: Jan 2, 2026\"",
+        "source": {
+          "url": "https://coconutsugar.pro/products/natural",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Claims 820+ shipments and 8+ years exporting with C13 isotope purity testing via SGS/Eurofins/Intertek (supplier-claimed); homepage states 260 tons/month production capacity and export to 18 countries (USA first on the destination list). All trust claims are self-published.",
+      "sources": [
+        {
+          "url": "https://coconutsugar.pro/products/natural",
+          "retrievedAt": "2026-09-21"
+        },
+        {
+          "url": "https://coconutsugar.pro/certificates",
+          "retrievedAt": "2026-09-21"
+        },
+        {
+          "url": "https://coconutsugar.pro/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-043",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Cocopany (PT Barooka Global Indonesia)",
+        "source": {
+          "url": "https://cocopany.com/catalog",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "website": {
+        "value": "https://cocopany.com/",
+        "source": {
+          "url": "https://cocopany.com/catalog",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "hq": {
+        "value": "PT Barooka Global Indonesia, AD Premier 9th Floor, Jl. TB Simatupang No. 5 Ragunan, Pasar Minggu, South Jakarta 12550, Indonesia",
+        "source": {
+          "url": "https://cocopany.com/catalog",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "country": {
+        "value": "Indonesia",
+        "source": {
+          "url": "https://cocopany.com/catalog",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "coconut products"
+        ],
+        "source": {
+          "url": "https://cocopany.com/catalog",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "virgin coconut oil",
+          "RBD coconut oil",
+          "desiccated coconut",
+          "coconut aminos",
+          "dried copra"
+        ],
+        "source": {
+          "url": "https://cocopany.com/catalog",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "type": {
+        "value": "coconut products supplier/exporter",
+        "source": {
+          "url": "https://cocopany.com/catalog",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "USDA Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cocopany.com/catalog",
+              "retrievedAt": "2026-09-21",
+              "note": "per-line certification label; supplier-claimed"
+            }
+          },
+          {
+            "name": "EU Organic (Control Union ID-BIO-149)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cocopany.com/catalog",
+              "retrievedAt": "2026-09-21",
+              "note": "per-line certification label; supplier-claimed"
+            }
+          },
+          {
+            "name": "JAS Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cocopany.com/catalog",
+              "retrievedAt": "2026-09-21",
+              "note": "per-line certification label; supplier-claimed"
+            }
+          },
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cocopany.com/catalog",
+              "retrievedAt": "2026-09-21",
+              "note": "per-line certification label; supplier-claimed"
+            }
+          },
+          {
+            "name": "BRCGS",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cocopany.com/catalog",
+              "retrievedAt": "2026-09-21",
+              "note": "per-line certification label; supplier-claimed"
+            }
+          },
+          {
+            "name": "Halal MUI",
+            "status": "company-stated",
+            "source": {
+              "url": "https://cocopany.com/catalog",
+              "retrievedAt": "2026-09-21",
+              "note": "per-line certification label; supplier-claimed"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://cocopany.com/catalog",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "moq": {
+        "value": "20 MT (\"Min. order\" per catalog line)",
+        "source": {
+          "url": "https://cocopany.com/catalog",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "Virgin Coconut Oil: \"$4,500 to $5,000 per MT\"",
+          "staleness": "\"Prices move with the commodity market and with the season, so treat the ranges below as indicative and ask us for a quotation valid on the day.\" — undated ranges",
+          "source": {
+            "url": "https://cocopany.com/catalog",
+            "retrievedAt": "2026-09-21"
+          }
+        },
+        {
+          "tier": "supplier-published",
+          "value": "RBD Coconut Oil: \"$1,700 to $2,250 per MT\"",
+          "staleness": "\"Prices move with the commodity market and with the season, so treat the ranges below as indicative and ask us for a quotation valid on the day.\" — undated ranges",
+          "source": {
+            "url": "https://cocopany.com/catalog",
+            "retrievedAt": "2026-09-21"
+          }
+        },
+        {
+          "tier": "supplier-published",
+          "value": "Desiccated Coconut: \"$900 to $1,100 per MT\"",
+          "staleness": "ANOMALY — do not use as a current price: this range is far below plausible desiccated-coconut export levels (SEA reference: USD 3,350.00/MT FOB Jakarta, copra.co.id, priced Sep 2025). Re-checked live 2026-09-21 and unchanged; range is undated and self-labeled indicative. Imported per rulebook B8 as published-but-questionable pending a fresh quote check.",
+          "note": "line carries the catalog's 20 MT minimum order",
+          "source": {
+            "url": "https://cocopany.com/catalog",
+            "retrievedAt": "2026-09-21"
+          }
+        },
+        {
+          "tier": "supplier-published",
+          "value": "Coconut Aminos: \"$2,800 per MT\"",
+          "staleness": "\"Prices move with the commodity market and with the season, so treat the ranges below as indicative and ask us for a quotation valid on the day.\" — undated ranges",
+          "source": {
+            "url": "https://cocopany.com/catalog",
+            "retrievedAt": "2026-09-21"
+          }
+        },
+        {
+          "tier": "supplier-published",
+          "value": "Dried Copra: \"$1,350 to $1,450 per MT\"",
+          "staleness": "\"Prices move with the commodity market and with the season, so treat the ranges below as indicative and ask us for a quotation valid on the day.\" — undated ranges",
+          "source": {
+            "url": "https://cocopany.com/catalog",
+            "retrievedAt": "2026-09-21"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "International office \"IVARON GOODS INTERNATIONAL LLC, 30 N Gould St Ste R, Sheridan, Wyoming 82801, United States\" — a Sheridan-format registered-agent address; treat as a US legal entity, not a staffed operation. Listed in the Inaexport Indonesian export directory.",
+      "sources": [
+        {
+          "url": "https://cocopany.com/catalog",
+          "retrievedAt": "2026-09-21"
+        },
+        {
+          "url": "https://www.inaexport.id/perusahaan/54260-barooka-global-indonesia",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "southeast-asia-044",
+      "regionId": "southeast-asia",
+      "name": {
+        "value": "Viet Nam Cashew Nut Processing Joint Stock Company",
+        "source": {
+          "url": "https://vietnamcashewco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "website": {
+        "value": "https://vietnamcashewco.com/",
+        "source": {
+          "url": "https://vietnamcashewco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "hq": {
+        "value": "35 Group DT741, Thangloi Farm, Dongphu Ward, Dong Nai, Vietnam",
+        "source": {
+          "url": "https://vietnamcashewco.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "corporate headquarters & factory address"
+        }
+      },
+      "country": {
+        "value": "Vietnam",
+        "source": {
+          "url": "https://vietnamcashewco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "regionsServed": {
+        "value": "International markets, including the USA, Europe, and Asia (about-page claim)",
+        "source": {
+          "url": "https://vietnamcashewco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "categories": {
+        "value": [
+          "cashew kernels"
+        ],
+        "source": {
+          "url": "https://vietnamcashewco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "raw cashew kernels",
+          "roasted cashew kernels",
+          "salt roasted cashew kernels",
+          "cashew pieces"
+        ],
+        "source": {
+          "url": "https://vietnamcashewco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "type": {
+        "value": "cashew processor/exporter",
+        "source": {
+          "url": "https://vietnamcashewco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://vietnamcashewco.com/",
+              "retrievedAt": "2026-09-21",
+              "note": "\"our roasted cashew nut factory meet HACCP and ISO 22000 standards\"; supplier-claimed"
+            }
+          },
+          {
+            "name": "ISO 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://vietnamcashewco.com/",
+              "retrievedAt": "2026-09-21",
+              "note": "supplier-claimed"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://vietnamcashewco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "FOB Ho Chi Minh sea port, USD/KG: Vietnam WW160 \"10.4 – 10.7\"; Vietnam WW180 \"9.5 – 9.8\"; Vietnam WW210 \"8.6 – 8.9\"; Vietnam WW240 \"7.5 – 7.8\"; Vietnam WW320 \"7.1 – 7.4\"; SW320 grade 1 \"6.5 – 6.8\"; DW320 grade 1 \"6.2 – 6.5\"; LP grade 1 \"4.8 – 5.0\"; SP grade 1 \"2.85 – 3.15\"; Salt Roasted Cashew A180 \"8.XX usd/kg, Subject to quality\"",
+          "staleness": "table dated 21 MAR 2026 (\"New Crop 2026\", packing 22.68KG (50lbs)/vacuum plastic bag X 1 bag/carton) — beyond the 90-day window; Verify — recheck in progress",
+          "note": "\"Prices is just for your reference, If you have order in details please kindly contact us, we will be glad make an official quotation in details.\" The same market's current (8 Sep 2026) prices are recorded as the region-level SVC International signal.",
+          "source": {
+            "url": "https://vietnamcashewco.com/en/vietnam-cashew-prices/",
+            "retrievedAt": "2026-09-21"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "\"High Capacity: 500 metric tons exporting cashew nut per month\" (supplier-claimed)",
+        "source": {
+          "url": "https://vietnamcashewco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "HACCP and ISO 22000 supplier-claimed; export desk export@vietnamcashewco.com; OEM/private-label and factory-audit offers on-site",
+      "sources": [
+        {
+          "url": "https://vietnamcashewco.com/en/vietnam-cashew-prices/",
+          "retrievedAt": "2026-09-21"
+        },
+        {
+          "url": "https://vietnamcashewco.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    }
+  ],
+  "priceSignals": [
+    {
+      "ingredient": "High-fat desiccated coconut, fine grain",
+      "tier": "supplier-published",
+      "value": "USD 3,350.00/MT, FOB Jakarta",
+      "source": {
+        "url": "https://copra.co.id/desiccated_coconut.html",
+        "retrievedAt": "2026-09-21"
+      },
+      "note": "trader/processor site; re-verified live 2026-09-21 with the same dated values displayed",
+      "staleness": "HISTORICAL (2025), not current: page states \"Last price update: 01 September 2025. Valid for delivery period: October - November 2025\" yet displays it as \"Today Price\"; at 12+ months treat as historical evidence of publishing behavior, not a current price (rulebook B8)"
+    },
+    {
+      "ingredient": "High-fat desiccated coconut, medium grain",
+      "tier": "supplier-published",
+      "value": "USD 3,400.00/MT, FOB Jakarta",
+      "source": {
+        "url": "https://copra.co.id/desiccated_coconut.html",
+        "retrievedAt": "2026-09-21"
+      },
+      "note": "trader/processor site; re-verified live 2026-09-21 with the same dated values displayed",
+      "staleness": "HISTORICAL (2025), not current: page states \"Last price update: 01 September 2025. Valid for delivery period: October - November 2025\" yet displays it as \"Today Price\"; at 12+ months treat as historical evidence of publishing behavior, not a current price (rulebook B8)"
+    },
+    {
+      "ingredient": "Vietnam robusta green coffee beans (2026 crop, Grade A, 60 kg jute)",
+      "tier": "marketplace-listed",
+      "value": "EUR 4.01-4.53/kg; sample EUR 4.01/kg (max 1 kg)",
+      "source": {
+        "url": "https://www.alibaba.com/product-detail/Vietnam-New-Crop-2026-Robusta-Green_10000038371403.html",
+        "retrievedAt": "2026-09-19"
+      },
+      "note": "Alibaba listing by IDD Corporation JSC, Gia Lai, 8 yrs on platform",
+      "staleness": "MOQ 60 kg; listing shows 'No reviews yet'"
+    },
+    {
+      "ingredient": "Vietnam cashew kernels (WW180/WW240/WW320/A180/A240/A320), FOB Ho Chi Minh",
+      "tier": "supplier-published",
+      "value": "[SVC Cashew 8th September] FOB Ho Chi Minh • WW180: 9.60 USD/KG • WW240: 7.90 USD/KG • WW320 7.00 USD/kg • A180 8.65 USD/kg • A240 7.70 USD/KG • A320 7.05 USD/KG. Quality: AFI Standards. Packing: 22.68 kgs PE/carton. Delivery: End of September/Early October shipment.",
+      "staleness": "entry dated 8 Sep 2026; page header: \"Latest Vietnam Cashew Kernel Prices | Updated by SVC INTERNATIONAL JSC. From 8 Sep 2026 To Present.\" — current within the 90-day window at access (2026-09-21); weekly archive on page",
+      "note": "Region-level signal, not a supplier-row enrichment: the catalog's SEA slot-6 row is Long Son JSC (longson.com.vn), a distinct company per SVC Group's own market article listing both; SVC International JSC has no catalog row in the approved 14-row net-new scope.",
+      "source": {
+        "url": "https://svc.vn/cashew-price-update-svc-official/",
+        "retrievedAt": "2026-09-21"
+      }
+    }
+  ],
+  "coverageGaps": [
+    "MCT oil: no standalone Southeast Asian manufacturer verified this session; coconut oil coverage is VCO/RBD-based",
+    "Vanilla: covered only via Indonesian spice processors (MRS, PT Agri Spice) with small retail-plus-bulk lines; no dedicated bulk vanilla exporter verified",
+    "Malaysia palm fats: no published certifications on reviewed pages; RSPO/MPOB checks required before any sustainability badge",
+    "Review presence: effectively absent in public B2B platforms checked; only datapoint retrieved was 'No reviews yet' on an Alibaba listing"
+  ],
+  "associationLeads": {
+    "source": {
+      "url": "https://vpsaspice.org/doanh-nghiep-gia-nhap-hiep-hoi-trong-thang-3-2025/",
+      "retrievedAt": "2026-09-19"
+    },
+    "note": "Nine companies joined the Vietnam Pepper and Spice Association in March 2025 (contacts published); not profiled here because the 30-50 target was met. Control Union is a certifier, not a supplier.",
+    "companies": [
+      "Chung Dung Co., Ltd",
+      "Control Union Vietnam",
+      "EximGroup Vina",
+      "Lap Phu Co., Ltd",
+      "Lam Son Ha Spices",
+      "Nam International (namagro.com)",
+      "Saigon Spices Import Export",
+      "Minh Quan Cooperative (Kon Tum)",
+      "VietGlobal Export JSC"
+    ]
+  }
+}

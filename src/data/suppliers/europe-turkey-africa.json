@@ -1,0 +1,4881 @@
+{
+  "schemaVersion": 1,
+  "regionId": "europe-turkey-africa",
+  "region": "Europe, Turkey and Africa",
+  "retrieved": "2026-09-19",
+  "documentArtifact": "art_KI4Y9iWa",
+  "documentPath": "docs/ingredient-suppliers-europe-turkey-africa.md",
+  "methodology": "Every factual claim comes from a page fetched in-session on the retrieval date above; claim-level source URLs live in the companion dossier (documentArtifact). Fields without a fetched source are null. Registry and association lists (COCOBOD, ECX Ethiopia, Turkish exporter unions, FTG, Rooibos Council) could not be read this session, so association membership is unknown for every supplier. Certification claims are company-stated and self-reported by suppliers unless noted. Price signals are labeled by tier; no marketplace-listed prices were used. Nothing is invented.",
+  "suppliers": [
+    {
+      "id": "europe-turkey-africa-001",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Symrise AG",
+        "source": {
+          "url": "https://www.symrise.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.symrise.com/",
+        "source": {
+          "url": "https://www.symrise.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Mühlenfeldstrasse 1, 37603 Holzminden, Germany",
+        "source": {
+          "url": "https://www.symrise.com/imprint/",
+          "retrievedAt": "2026-09-19",
+          "note": "imprint page; commercial register HRB 200436 (Hildesheim)"
+        }
+      },
+      "country": {
+        "value": "Germany",
+        "source": {
+          "url": "https://www.symrise.com/imprint/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "flavors",
+          "natural ingredients"
+        ],
+        "source": {
+          "url": "https://www.symrise.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "flavors",
+          "natural ingredients"
+        ],
+        "source": {
+          "url": "https://www.symrise.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "business lines: Food & Beverage, Scent & Care, Fragrance; divesting Terpene Ingredients business to Mutares SE & Co. KGaA"
+        }
+      },
+      "type": {
+        "value": "Flavor house (multinational)",
+        "source": {
+          "url": "https://www.symrise.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.symrise.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "not stated on pages fetched"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no public pricing",
+          "source": {
+            "url": "https://www.symrise.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.symrise.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.symrise.com/imprint/",
+          "retrievedAt": "2026-09-19",
+          "note": "imprint: legal seat, register, contact email"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-002",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Döhler GmbH",
+        "source": {
+          "url": "https://www.doehler.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.doehler.com/",
+        "source": {
+          "url": "https://www.doehler.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Darmstadt, Germany",
+        "source": {
+          "url": "https://www.doehler.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "city sourced from job postings on the homepage"
+        }
+      },
+      "country": {
+        "value": "Germany",
+        "source": {
+          "url": "https://www.doehler.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "natural ingredients",
+          "functional ingredients"
+        ],
+        "source": {
+          "url": "https://www.doehler.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "natural food and beverage ingredient solutions",
+          "plant-based nutrition",
+          "sugar reduction",
+          "functional ingredients",
+          "natural colours/coatings/glazes"
+        ],
+        "source": {
+          "url": "https://www.doehler.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "Ingredient manufacturer",
+        "source": {
+          "url": "https://www.doehler.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.doehler.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "not stated on pages fetched"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no public pricing",
+          "source": {
+            "url": "https://www.doehler.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.doehler.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-003",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Omnitrade Handelsgesellschaft mbH",
+        "source": {
+          "url": "https://www.omnitrade-hamburg.com/home-en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.omnitrade-hamburg.com/",
+        "source": {
+          "url": "https://www.omnitrade-hamburg.com/home-en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Hamburg, Germany",
+        "source": {
+          "url": "https://www.omnitrade-hamburg.com/home-en",
+          "retrievedAt": "2026-09-19",
+          "note": "'From Hamburg we supply our exquisite range of nuts and dried fruit to the retail and food industry worldwide'; family business; MD Jens Vergin"
+        }
+      },
+      "country": {
+        "value": "Germany",
+        "source": {
+          "url": "https://www.omnitrade-hamburg.com/home-en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "Worldwide — supplies the retail and food industry worldwide from Hamburg",
+        "source": {
+          "url": "https://www.omnitrade-hamburg.com/home-en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "nuts",
+          "dried fruit"
+        ],
+        "source": {
+          "url": "https://www.omnitrade-hamburg.com/home-en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "peanuts",
+          "pistachios",
+          "almonds",
+          "walnuts",
+          "macadamias",
+          "cashews",
+          "dried fruit"
+        ],
+        "source": {
+          "url": "https://www.omnitrade-hamburg.com/home-en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "Trader + roaster/processor",
+        "source": {
+          "url": "https://www.omnitrade-hamburg.com/home-en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "IFS Food",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.omnitrade-hamburg.com/home-en",
+              "retrievedAt": "2026-09-19",
+              "note": "self-reported; certifying body unknown"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.omnitrade-hamburg.com/home-en",
+          "retrievedAt": "2026-09-19",
+          "note": "'As an IFS Food certified company, we guarantee the complete traceability of our goods'"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no public pricing",
+          "source": {
+            "url": "https://www.omnitrade-hamburg.com/home-en",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Production volume exceeding 20,000 tons; daily dry-roast production over 120 tons; 20,000 m² plant just outside Hamburg (built 2013); roasting/packing plants at Hamburg harbor since 2006; founded 1992 with 3 employees; EUROFOOD retail brand founded 2003",
+        "source": {
+          "url": "https://www.omnitrade-hamburg.com/home-en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.omnitrade-hamburg.com/home-en",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-004",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Tradin Organic Agriculture B.V.",
+        "source": {
+          "url": "https://www.tradinorganic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.tradinorganic.com/",
+        "source": {
+          "url": "https://www.tradinorganic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Stationsplein 61–65, 1012AB Amsterdam, Netherlands",
+        "source": {
+          "url": "https://www.tradinorganic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Netherlands",
+        "source": {
+          "url": "https://www.tradinorganic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "cocoa",
+          "organic ingredients",
+          "oils"
+        ],
+        "source": {
+          "url": "https://www.tradinorganic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic cocoa",
+          "sesame",
+          "avocado oil",
+          "coconut",
+          "cashew"
+        ],
+        "source": {
+          "url": "https://www.tradinorganic.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "sourcing projects: Sierra Leone (35,000+ organic cocoa farmers), Ethiopia (sesame, avocado), Indonesia (coconut sugar/oil), Vietnam (cashew, tapioca, fruit since 2001), Philippines (coconut oil), Mexico (citrus)"
+        }
+      },
+      "type": {
+        "value": "Organic trader/processor",
+        "source": {
+          "url": "https://www.tradinorganic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic portfolio (scheme detail not shown)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.tradinorganic.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.tradinorganic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no public pricing",
+          "source": {
+            "url": "https://www.tradinorganic.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Owned processing: organic cocoa site in Middenmeer, Netherlands (since 2013, ex-Crown of Holland) producing organic cocoa butter and powder; organic sunflower facility in Bulgaria; Sunvado organic avocado oil factory in Ethiopia (opened 2019); acquired citrus processor Citromil (Spain)",
+        "source": {
+          "url": "https://www.tradinorganic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.tradinorganic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-005",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Verstegen Spices & Sauces B.V.",
+        "source": {
+          "url": "https://verstegen.nl/en/pages/over-ons",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://verstegen.nl/",
+        "source": {
+          "url": "https://verstegen.nl/en/pages/over-ons",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Industrieweg 161, 3044AS Rotterdam, Netherlands",
+        "source": {
+          "url": "https://verstegen.nl/en/pages/contact",
+          "retrievedAt": "2026-09-19",
+          "note": "Chamber of Commerce 24404853; additional offices in Rotterdam and Mechelen (Belgium); owner Michel Driessen"
+        }
+      },
+      "country": {
+        "value": "Netherlands",
+        "source": {
+          "url": "https://verstegen.nl/en/pages/contact",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "spices",
+          "herbs",
+          "sauces"
+        ],
+        "source": {
+          "url": "https://verstegen.nl/en/pages/over-ons",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "herbs",
+          "spices",
+          "sauces",
+          "marinades"
+        ],
+        "source": {
+          "url": "https://verstegen.nl/en/pages/over-ons",
+          "retrievedAt": "2026-09-19",
+          "note": "'For generations, we've been supplying the very best quality herbs, spices, sauces, and marinades'"
+        }
+      },
+      "type": {
+        "value": "Spice house",
+        "source": {
+          "url": "https://verstegen.nl/en/pages/over-ons",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://verstegen.nl/en/pages/over-ons",
+          "retrievedAt": "2026-09-19",
+          "note": "not stated on pages fetched"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no public pricing",
+          "source": {
+            "url": "https://verstegen.nl/en/pages/over-ons",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://verstegen.nl/en/pages/over-ons",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://verstegen.nl/en/pages/contact",
+          "retrievedAt": "2026-09-19",
+          "note": "head office address, phone, email, CoC number"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-006",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Robertet SA",
+        "source": {
+          "url": "https://www.robertet.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.robertet.com/",
+        "source": {
+          "url": "https://www.robertet.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Grasse, France (per site history)",
+        "source": {
+          "url": "https://www.robertet.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "'depuis ses origines à Grasse'; founded 1850"
+        }
+      },
+      "country": {
+        "value": "France",
+        "source": {
+          "url": "https://www.robertet.com/nous-contacter",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "flavors",
+          "natural ingredients",
+          "fragrance"
+        ],
+        "source": {
+          "url": "https://www.robertet.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "natural raw materials",
+          "flavors",
+          "fragrance"
+        ],
+        "source": {
+          "url": "https://www.robertet.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "type": {
+        "value": "Flavor house (naturals)",
+        "source": {
+          "url": "https://www.robertet.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "EcoVadis Platinum 88/100",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.robertet.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "company announcement; top 1% globally"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.robertet.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "food-safety certifications unknown"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no public pricing",
+          "source": {
+            "url": "https://www.robertet.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.robertet.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.robertet.com/nous-contacter",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-007",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Albert Vieille",
+        "source": {
+          "url": "https://www.albertvieille.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.albertvieille.com/",
+        "source": {
+          "url": "https://www.albertvieille.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Grasse, France",
+        "source": {
+          "url": "https://www.albertvieille.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "'Producteur de matières premières aromatiques – Grasse, France'; ~100 years of know-how"
+        }
+      },
+      "country": {
+        "value": "France",
+        "source": {
+          "url": "https://www.albertvieille.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "essential oils",
+          "natural ingredients"
+        ],
+        "source": {
+          "url": "https://www.albertvieille.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; French-language homepage displays 100% pure and natural aromatic feedstocks (huiles essentielles), verified via secondary crawler."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "essential oils",
+          "absolutes",
+          "floral waters"
+        ],
+        "source": {
+          "url": "https://www.albertvieille.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; homepage lists huiles essentielles, absolues et eaux florales, verified via secondary crawler."
+        }
+      },
+      "type": {
+        "value": "Naturals producer",
+        "source": {
+          "url": "https://www.albertvieille.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; homepage titles the company 'Producteur de matières premières aromatiques', verified via secondary crawler."
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "COSMOS (certified range)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.albertvieille.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "self-reported; 100% pure (single geographic origin, chemotyped) and 100% natural per ISO 9235 physical processes"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.albertvieille.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "account quotation area on site",
+          "source": {
+            "url": "https://www.albertvieille.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.albertvieille.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-008",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "MANE",
+        "source": {
+          "url": "https://www.mane.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.mane.com/",
+        "source": {
+          "url": "https://www.mane.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "France",
+        "source": {
+          "url": "https://www.mane.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "flavors",
+          "natural ingredients"
+        ],
+        "source": {
+          "url": "https://www.mane.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "flavors",
+          "natural ingredients"
+        ],
+        "source": {
+          "url": "https://www.mane.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "'150 year-old experience in the production of natural ingredients'; recent acquisition of Cvista expands U.S. citrus and beverage capabilities (news item dated Sep 2, 2026)"
+        }
+      },
+      "type": {
+        "value": "Flavor house",
+        "source": {
+          "url": "https://www.mane.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.mane.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "not stated on pages fetched"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no public pricing",
+          "source": {
+            "url": "https://www.mane.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://www.mane.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-009",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Esperis S.p.A.",
+        "source": {
+          "url": "https://www.esperis.it/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.esperis.it/",
+        "source": {
+          "url": "https://www.esperis.it/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Via Fratelli Bandiera 2, Trezzano sul Naviglio, Milano, Italy",
+        "source": {
+          "url": "https://www.esperis.it/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Italy",
+        "source": {
+          "url": "https://www.esperis.it/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "essential oils"
+        ],
+        "source": {
+          "url": "https://www.esperis.it/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "essential oils",
+          "vegetable oils and butters",
+          "distilled and aromatic waters",
+          "plant extracts",
+          "fragrances and aromas"
+        ],
+        "source": {
+          "url": "https://www.esperis.it/en/",
+          "retrievedAt": "2026-09-19",
+          "note": "founded 1922; industries: cosmetics, perfume, pharmaceutical"
+        }
+      },
+      "type": {
+        "value": "EO distillery",
+        "source": {
+          "url": "https://www.esperis.it/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.esperis.it/en/",
+          "retrievedAt": "2026-09-19",
+          "note": "not stated on pages fetched"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no public pricing",
+          "source": {
+            "url": "https://www.esperis.it/en/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Over 4,000 customers; over 1,200 tons sold per year; 50+ collaborators",
+        "source": {
+          "url": "https://www.esperis.it/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.esperis.it/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-010",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Fratelli Pagani S.p.A.",
+        "source": {
+          "url": "https://www.fratellipagani.it/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.fratellipagani.it/",
+        "source": {
+          "url": "https://www.fratellipagani.it/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Italy",
+        "source": {
+          "url": "https://www.fratellipagani.it/en/home/",
+          "retrievedAt": "2026-09-19",
+          "note": "city not verified"
+        }
+      },
+      "regionsServed": {
+        "value": "Active in 36+ countries; US branch opened 2018; 3 branches in Eastern Europe; subsidiary Fratelli Pagani Ibérica (Spain)",
+        "source": {
+          "url": "https://www.fratellipagani.it/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "flavors",
+          "spices"
+        ],
+        "source": {
+          "url": "https://www.fratellipagani.it/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "flavors",
+          "spices",
+          "meat/fish/pasta blends",
+          "organic ingredients"
+        ],
+        "source": {
+          "url": "https://www.fratellipagani.it/en/home/",
+          "retrievedAt": "2026-09-19",
+          "note": "segments: meat, fish, pasta/savoury, organic, vegan; 'Skybridge' customer development method; R&D and Q.C. labs in-house"
+        }
+      },
+      "type": {
+        "value": "Flavor/ingredient manufacturer",
+        "source": {
+          "url": "https://www.fratellipagani.it/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic offer (certified; scheme unnamed)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.fratellipagani.it/en/home/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.fratellipagani.it/en/home/",
+          "retrievedAt": "2026-09-19",
+          "note": "Italian family company, 110+ years and 5 generations"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no public pricing",
+          "source": {
+            "url": "https://www.fratellipagani.it/en/home/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://www.fratellipagani.it/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-011",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Sosa Ingredients S.L.",
+        "source": {
+          "url": "https://www.sosa.cat/en/sosa-ingredients/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.sosa.cat/",
+        "source": {
+          "url": "https://www.sosa.cat/en/sosa-ingredients/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Colonia Galobart s/n, 08270 Navarcles, Barcelona, Spain",
+        "source": {
+          "url": "https://www.sosa.cat/en/sosa-ingredients/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Spain",
+        "source": {
+          "url": "https://www.sosa.cat/en/sosa-ingredients/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "bakery ingredients",
+          "gastronomy ingredients"
+        ],
+        "source": {
+          "url": "https://www.sosa.cat/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "premium bakery and gastronomy ingredients"
+        ],
+        "source": {
+          "url": "https://www.sosa.cat/",
+          "retrievedAt": "2026-09-19",
+          "note": "site title: 'Premium ingredients for bakery and gastronomy'"
+        }
+      },
+      "type": {
+        "value": "Ingredient manufacturer",
+        "source": {
+          "url": "https://www.sosa.cat/en/sosa-ingredients/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.sosa.cat/en/sosa-ingredients/",
+          "retrievedAt": "2026-09-19",
+          "note": "not stated on pages fetched (site content mostly JS-gated; not retrieved)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no pricing stated on fetched pages",
+          "source": {
+            "url": "https://www.sosa.cat/en/sosa-ingredients/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://www.sosa.cat/en/sosa-ingredients/",
+          "retrievedAt": "2026-09-19",
+          "note": "address, email, phone"
+        },
+        {
+          "url": "https://www.sosa.cat/",
+          "retrievedAt": "2026-09-19",
+          "note": "site title and positioning"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-012",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Foodcom S.A.",
+        "source": {
+          "url": "https://foodcom.pl/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://foodcom.pl/",
+        "source": {
+          "url": "https://foodcom.pl/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Poland",
+        "source": {
+          "url": "https://foodcom.pl/",
+          "retrievedAt": "2026-09-19",
+          "note": "city not verified"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "dairy proteins",
+          "food ingredients"
+        ],
+        "source": {
+          "url": "https://foodcom.pl/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "dairy proteins",
+          "whey protein hydrolysates",
+          "food ingredients (broad)"
+        ],
+        "source": {
+          "url": "https://foodcom.pl/",
+          "retrievedAt": "2026-09-19",
+          "note": "'Foodcom S.A. – Międzynarodowa Firma Handlowa'; response to every question within 4 hours"
+        }
+      },
+      "type": {
+        "value": "Trader",
+        "source": {
+          "url": "https://foodcom.pl/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://foodcom.pl/",
+          "retrievedAt": "2026-09-19",
+          "note": "not stated on pages fetched"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "\"Kup teraz Hydrolizat Białka Serwatkowego 80% (WPH 80) — 23700 EUR/MT\"; \"Hydrolizat Izolatu Białka Serwatkowego 90% (WPH 90) — 23700 EUR/MT\" — the only two homepage tiles with a clean product-price pairing",
+          "note": "B2B trader, not a manufacturer of its own production; other homepage tiles render values without product names in static text (fetch limitation) — recorded only where pairing is clean. Re-verified live 2026-09-21.",
+          "source": {
+            "url": "https://foodcom.pl/",
+            "retrievedAt": "2026-09-21"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "url": "https://foodcom.pl/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://foodcom.pl/",
+          "retrievedAt": "2026-09-21",
+          "note": "re-verification read"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-013",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Joseph Flach & Sons Ltd",
+        "source": {
+          "url": "https://www.josephflach.co.uk/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.josephflach.co.uk/",
+        "source": {
+          "url": "https://www.josephflach.co.uk/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Unit 24 & 25 Maxwell Road, Woodston, Peterborough, Cambridgeshire PE2 7JD, England",
+        "source": {
+          "url": "https://www.josephflach.co.uk/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "United Kingdom",
+        "source": {
+          "url": "https://www.josephflach.co.uk/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "botanicals",
+          "herbs",
+          "spices"
+        ],
+        "source": {
+          "url": "https://www.josephflach.co.uk/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "dried botanicals (600+)",
+          "herbs",
+          "spices",
+          "gums and related plant products"
+        ],
+        "source": {
+          "url": "https://www.josephflach.co.uk/",
+          "retrievedAt": "2026-09-19",
+          "note": "'Your global supplier of wholesale dried botanical ingredients since 1882'"
+        }
+      },
+      "type": {
+        "value": "Botanicals wholesaler",
+        "source": {
+          "url": "https://www.josephflach.co.uk/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "BRCGS",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.josephflach.co.uk/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.josephflach.co.uk/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.josephflach.co.uk/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "UFAS",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.josephflach.co.uk/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Soil Association",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.josephflach.co.uk/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Sedex",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.josephflach.co.uk/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.josephflach.co.uk/",
+          "retrievedAt": "2026-09-19",
+          "note": "self-listed accreditations"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "Bespoke quotation with cost, lead time, specification 'or sample if needed'; most ingredients shipped next day",
+        "source": {
+          "url": "https://www.josephflach.co.uk/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "quote-based; bespoke quotation with cost, lead time and specification",
+          "source": {
+            "url": "https://www.josephflach.co.uk/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "600+ dried botanicals stocked; 300+ global suppliers; 2,000+ customers; trading since 1882",
+        "source": {
+          "url": "https://www.josephflach.co.uk/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": {
+        "value": "Customer testimonials from named companies (e.g., Devro Plc, Thistly Cross Cider) published on own site — self-published",
+        "source": {
+          "url": "https://www.josephflach.co.uk/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Orders under 25 kg directed to sister site Mimea",
+      "sources": [
+        {
+          "url": "https://www.josephflach.co.uk/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-014",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "UK Blending Ltd",
+        "source": {
+          "url": "https://ukblending.com/certified-organic-herbs-and-spice/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://ukblending.com/",
+        "source": {
+          "url": "https://ukblending.com/certified-organic-herbs-and-spice/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "United Kingdom",
+        "source": {
+          "url": "https://ukblending.com/certified-organic-herbs-and-spice/",
+          "retrievedAt": "2026-09-19",
+          "note": "city not verified"
+        }
+      },
+      "regionsServed": {
+        "value": "UK and export food industries",
+        "source": {
+          "url": "https://ukblending.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+        }
+      },
+      "categories": {
+        "value": [
+          "herbs",
+          "spices",
+          "seasonings"
+        ],
+        "source": {
+          "url": "https://ukblending.com/certified-organic-herbs-and-spice/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "certified organic herbs",
+          "certified organic spices",
+          "seasonings"
+        ],
+        "source": {
+          "url": "https://ukblending.com/certified-organic-herbs-and-spice/",
+          "retrievedAt": "2026-09-19",
+          "note": "'Leading manufacturer and supplier of certified organic herbs and spices'; ~25 years experience"
+        }
+      },
+      "type": {
+        "value": "Seasoning manufacturer",
+        "source": {
+          "url": "https://ukblending.com/certified-organic-herbs-and-spice/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "BRC Global Standard (Food Safety)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ukblending.com/certified-organic-herbs-and-spice/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Organic Food Federation",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ukblending.com/certified-organic-herbs-and-spice/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ukblending.com/certified-organic-herbs-and-spice/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "Halal Food Authority",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ukblending.com/certified-organic-herbs-and-spice/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          }
+        ],
+        "source": {
+          "url": "https://ukblending.com/certified-organic-herbs-and-spice/",
+          "retrievedAt": "2026-09-19",
+          "note": "self-listed accreditations"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "Sample development supported; 'Samples are dispatched as soon as possible with next-day delivery'",
+        "source": {
+          "url": "https://ukblending.com/certified-organic-herbs-and-spice/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "'competitive prices' claimed, no figures",
+          "source": {
+            "url": "https://ukblending.com/certified-organic-herbs-and-spice/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "sources": [
+        {
+          "url": "https://ukblending.com/certified-organic-herbs-and-spice/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://ukblending.com/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-015",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Senocak Hazelnut",
+        "source": {
+          "url": "https://www.senocaknut.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.senocaknut.com/",
+        "source": {
+          "url": "https://www.senocaknut.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Türkiye",
+        "source": {
+          "url": "https://www.senocaknut.com/en",
+          "retrievedAt": "2026-09-19",
+          "note": "city not verified"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "hazelnuts"
+        ],
+        "source": {
+          "url": "https://www.senocaknut.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "hazelnut kernels",
+          "roasted hazelnuts",
+          "blanched hazelnuts",
+          "diced hazelnuts",
+          "hazelnut meal",
+          "hazelnut paste"
+        ],
+        "source": {
+          "url": "https://www.senocaknut.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "Hazelnut processor/exporter",
+        "source": {
+          "url": "https://www.senocaknut.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.senocaknut.com/en/quality",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "BRC",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.senocaknut.com/en/quality",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "UTZ/Rainforest Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.senocaknut.com/en/quality",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "IFS",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.senocaknut.com/en/quality",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.senocaknut.com/en/quality",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.senocaknut.com/en/quality",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Ecocert organic (organic product line)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.senocaknut.com/en/quality",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.senocaknut.com/en/quality",
+          "retrievedAt": "2026-09-19",
+          "note": "from own quality page"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no pricing stated on fetched pages",
+          "source": {
+            "url": "https://www.senocaknut.com/en",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "15,000 t raw hazelnuts per year + 10,000 t combined roasted/blanched/diced/meal/paste per year",
+        "source": {
+          "url": "https://www.senocaknut.com/en/quality",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Member of Sedex and INC (self-reported; memberships, not certifications)",
+      "sources": [
+        {
+          "url": "https://www.senocaknut.com/en/quality",
+          "retrievedAt": "2026-09-19",
+          "note": "certifications and capacity"
+        },
+        {
+          "url": "https://www.senocaknut.com/en",
+          "retrievedAt": "2026-09-19",
+          "note": "homepage products"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-016",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "S.E.P. Gıda (SEP Hazelnuts)",
+        "source": {
+          "url": "https://sephazelnuts.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://sephazelnuts.com/",
+        "source": {
+          "url": "https://sephazelnuts.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Office: Cengelkoy Mah., Üsküdar, Istanbul; factory: Fatih Mah., Gümüşova, Düzce",
+        "source": {
+          "url": "https://sephazelnuts.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Türkiye",
+        "source": {
+          "url": "https://sephazelnuts.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "International food manufacturers — chocolate, confectionery, bakery, dairy, ice cream industries",
+        "source": {
+          "url": "https://sephazelnuts.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "hazelnuts"
+        ],
+        "source": {
+          "url": "https://sephazelnuts.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "raw hazelnut kernels",
+          "processed hazelnut kernels"
+        ],
+        "source": {
+          "url": "https://sephazelnuts.com/about-us/",
+          "retrievedAt": "2026-09-19",
+          "note": "'Turkish manufacturer and exporter of raw and processed hazelnut kernels, serving international food manufacturers since 1975'"
+        }
+      },
+      "type": {
+        "value": "Hazelnut processor/exporter",
+        "source": {
+          "url": "https://sephazelnuts.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "BRC (AA grade)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://sephazelnuts.com/about-us/",
+              "retrievedAt": "2026-09-19",
+              "note": "first achieved 2007, upgraded to AA 2014"
+            }
+          },
+          {
+            "name": "SEDEX",
+            "status": "company-stated",
+            "source": {
+              "url": "https://sephazelnuts.com/about-us/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "UTZ",
+            "status": "company-stated",
+            "source": {
+              "url": "https://sephazelnuts.com/about-us/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://sephazelnuts.com/about-us/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://sephazelnuts.com/about-us/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://sephazelnuts.com/about-us/",
+          "retrievedAt": "2026-09-19",
+          "note": "site-claimed; GMP-based production"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no pricing stated on fetched pages",
+          "source": {
+            "url": "https://sephazelnuts.com/about-us/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Processes approximately 15,000 tons of hazelnuts annually",
+        "source": {
+          "url": "https://sephazelnuts.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "On-site solar energy at the Düzce factory",
+      "sources": [
+        {
+          "url": "https://sephazelnuts.com/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-017",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Ronly Gıda",
+        "source": {
+          "url": "https://ronlygida.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://ronlygida.com/",
+        "source": {
+          "url": "https://ronlygida.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Türkiye",
+        "source": {
+          "url": "https://ronlygida.com/en/",
+          "retrievedAt": "2026-09-19",
+          "note": "city not verified"
+        }
+      },
+      "regionsServed": {
+        "value": "Global food industry",
+        "source": {
+          "url": "https://ronlygida.com/en/",
+          "retrievedAt": "2026-09-19",
+          "note": "'Supplying High-Quality Hazelnut Ingredients to the Global Food Industry'"
+        }
+      },
+      "categories": {
+        "value": [
+          "hazelnuts"
+        ],
+        "source": {
+          "url": "https://ronlygida.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "natural/roasted/blanched hazelnut kernels (origins Akçakoca, Levant, Giresun)",
+          "chopped hazelnuts",
+          "praline grain",
+          "hazelnut flour",
+          "hazelnut pastes"
+        ],
+        "source": {
+          "url": "https://ronlygida.com/en/",
+          "retrievedAt": "2026-09-19",
+          "note": "packaging: big bags and 10–25 kg vacuum bags; 40+ years industry experience"
+        }
+      },
+      "type": {
+        "value": "Hazelnut processor/exporter",
+        "source": {
+          "url": "https://ronlygida.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "BRCGS",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ronlygida.com/en/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "IFS Food",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ronlygida.com/en/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://ronlygida.com/en/",
+          "retrievedAt": "2026-09-19",
+          "note": "site-claimed; full farm-to-factory traceability claim"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no pricing stated on fetched pages",
+          "source": {
+            "url": "https://ronlygida.com/en/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://ronlygida.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-018",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Yavuz Gıda (Yavuz Hazelnut)",
+        "source": {
+          "url": "https://yavuzhazelnut.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://yavuzhazelnut.com/",
+        "source": {
+          "url": "https://yavuzhazelnut.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Pazarsuyu Köyü OSB Mevkii 5. Cadde No:7, Bulancak/Giresun",
+        "source": {
+          "url": "https://yavuzhazelnut.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Türkiye",
+        "source": {
+          "url": "https://yavuzhazelnut.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "hazelnuts"
+        ],
+        "source": {
+          "url": "https://yavuzhazelnut.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "natural hazelnut kernels",
+          "roasted whole kernels",
+          "roasted chopped hazelnuts",
+          "hazelnut meal",
+          "hazelnut paste",
+          "organic hazelnuts"
+        ],
+        "source": {
+          "url": "https://yavuzhazelnut.com/en",
+          "retrievedAt": "2026-09-19",
+          "note": "'Established in 1933 in Giresun, Turkey'; export trade began in the 1940s; first processed-hazelnut facility 1982"
+        }
+      },
+      "type": {
+        "value": "Hazelnut processor/exporter",
+        "source": {
+          "url": "https://yavuzhazelnut.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://yavuzhazelnut.com/en",
+          "retrievedAt": "2026-09-19",
+          "note": "not listed on fetched pages"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no pricing stated on fetched pages",
+          "source": {
+            "url": "https://yavuzhazelnut.com/en",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "note": "Social program: summer schools since 2016 for children of seasonal workers (300+ children per year, company-stated)",
+      "sources": [
+        {
+          "url": "https://yavuzhazelnut.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-019",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Kayalar Hazelnut",
+        "source": {
+          "url": "https://www.kayalarhazelnut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.kayalarhazelnut.com/",
+        "source": {
+          "url": "https://www.kayalarhazelnut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Türkiye",
+        "source": {
+          "url": "https://www.kayalarhazelnut.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "city not verified"
+        }
+      },
+      "regionsServed": {
+        "value": "Global (self-described among the largest hazelnut producers, processors, and exporters)",
+        "source": {
+          "url": "https://www.kayalarhazelnut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "hazelnuts"
+        ],
+        "source": {
+          "url": "https://www.kayalarhazelnut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "natural hazelnut kernels (9–15 mm, 15 mm+)",
+          "roasted hazelnut kernels",
+          "piccolo kernels (<9 mm)",
+          "chopped hazelnuts (2–8 mm)",
+          "Giresun hazelnuts"
+        ],
+        "source": {
+          "url": "https://www.kayalarhazelnut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "Hazelnut grower/processor",
+        "source": {
+          "url": "https://www.kayalarhazelnut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.kayalarhazelnut.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "not listed on fetched page"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no pricing stated on fetched pages",
+          "source": {
+            "url": "https://www.kayalarhazelnut.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Family-owned; 35 years of experience; sources from Black Sea coast farmers; company states EU PDO for 'Giresun Tombul' hazelnuts granted June 2022 by the European Commission",
+      "sources": [
+        {
+          "url": "https://www.kayalarhazelnut.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-020",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "IFS Food Gıda Ltd.",
+        "source": {
+          "url": "https://ifsfood.com.tr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://ifsfood.com.tr/",
+        "source": {
+          "url": "https://ifsfood.com.tr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "2. Organize Sanayi Bölgesi 11. Cad. No:4, Malatya 44100",
+        "source": {
+          "url": "https://ifsfood.com.tr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Türkiye",
+        "source": {
+          "url": "https://ifsfood.com.tr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "35+ destination markets across five continents",
+        "source": {
+          "url": "https://ifsfood.com.tr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "dried fruit",
+          "hazelnuts",
+          "frozen fruit (IQF)"
+        ],
+        "source": {
+          "url": "https://ifsfood.com.tr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "dried apricots (sulphured, natural/unsulphured, organic, RTE soft)",
+          "dates (Medjool, Deglet Noor)",
+          "hazelnuts (raw/roasted/blanched/diced)",
+          "raisins (sultana, golden, Thompson)",
+          "IQF frozen fruits"
+        ],
+        "source": {
+          "url": "https://ifsfood.com.tr/en",
+          "retrievedAt": "2026-09-19",
+          "note": "'Premium Dried Apricot Exporter from Malatya'; founded 1985"
+        }
+      },
+      "type": {
+        "value": "Dried fruit processor/exporter",
+        "source": {
+          "url": "https://ifsfood.com.tr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "BRCGS AA+",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ifsfood.com.tr/en",
+              "retrievedAt": "2026-09-19",
+              "note": "highest unannounced audit grade"
+            }
+          },
+          {
+            "name": "ISO 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ifsfood.com.tr/en",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ifsfood.com.tr/en",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ifsfood.com.tr/en",
+              "retrievedAt": "2026-09-19",
+              "note": "organic apricots EU Organic and USDA Organic compliant"
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ifsfood.com.tr/en",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ifsfood.com.tr/en",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://ifsfood.com.tr/en",
+          "retrievedAt": "2026-09-19",
+          "note": "site-claimed"
+        }
+      },
+      "moq": {
+        "value": "Flexible MOQs (company statement)",
+        "source": {
+          "url": "https://ifsfood.com.tr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "quote-only; export offer within 24 hours",
+          "source": {
+            "url": "https://ifsfood.com.tr/en",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "10,000 MT annual output; 12,000 sqm processing plant; 39+ years in industry",
+        "source": {
+          "url": "https://ifsfood.com.tr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://ifsfood.com.tr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-021",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Akdaglar Dried Food",
+        "source": {
+          "url": "https://www.akdaglarexport.com.tr/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.akdaglarexport.com.tr/",
+        "source": {
+          "url": "https://www.akdaglarexport.com.tr/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Alacakapi Mah. Kirkgöz Cad. No:7, Battalgazi, Malatya 44210",
+        "source": {
+          "url": "https://www.akdaglarexport.com.tr/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Türkiye",
+        "source": {
+          "url": "https://www.akdaglarexport.com.tr/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "Business partners in over 64 countries",
+        "source": {
+          "url": "https://www.akdaglarexport.com.tr/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "dried fruit",
+          "nuts"
+        ],
+        "source": {
+          "url": "https://www.akdaglarexport.com.tr/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "dried apricots",
+          "apricot kernels",
+          "dried figs",
+          "sultana raisins",
+          "dried mulberries",
+          "almonds",
+          "hazelnuts"
+        ],
+        "source": {
+          "url": "https://www.akdaglarexport.com.tr/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "Dried fruit processor/exporter",
+        "source": {
+          "url": "https://www.akdaglarexport.com.tr/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.akdaglarexport.com.tr/about/",
+          "retrievedAt": "2026-09-19",
+          "note": "not listed on fetched page"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no pricing stated on fetched pages",
+          "source": {
+            "url": "https://www.akdaglarexport.com.tr/about/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "2 factories in Malatya, total area 29,000 m² (16,000 m² closed); founded by Akdag brothers 1990; exporting since 2004",
+        "source": {
+          "url": "https://www.akdaglarexport.com.tr/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Self-listed memberships: Malatya Commodity Exchange, Istanbul Dried Fruits and Products Exporters Association, SouthEast Anatolia Exporters Unions, TOBB",
+      "sources": [
+        {
+          "url": "https://www.akdaglarexport.com.tr/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-022",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "King Apricot",
+        "source": {
+          "url": "https://kingapricot.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://kingapricot.com/",
+        "source": {
+          "url": "https://kingapricot.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Saricioglu Mah. Safir Sokak 1B, Battalgazi/Malatya",
+        "source": {
+          "url": "https://kingapricot.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Türkiye",
+        "source": {
+          "url": "https://kingapricot.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "Export-only — 'all of them exported'",
+        "source": {
+          "url": "https://kingapricot.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "dried fruit",
+          "nuts"
+        ],
+        "source": {
+          "url": "https://kingapricot.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "sulphured dried apricots",
+          "natural dried apricots",
+          "dried figs",
+          "diced apricots/figs",
+          "nuts"
+        ],
+        "source": {
+          "url": "https://kingapricot.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "Dried apricot producer/exporter",
+        "source": {
+          "url": "https://kingapricot.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "BRC",
+            "status": "company-stated",
+            "source": {
+              "url": "https://kingapricot.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 9001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://kingapricot.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://kingapricot.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 45001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://kingapricot.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 14001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://kingapricot.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://kingapricot.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://kingapricot.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://kingapricot.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "site-claimed"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no pricing stated on fetched pages",
+          "source": {
+            "url": "https://kingapricot.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "10,000 m² facility (4,000 m² closed); annual production capacity 5,000 tons; operating since 1991",
+        "source": {
+          "url": "https://kingapricot.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://kingapricot.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-023",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Yamanlar Fruit",
+        "source": {
+          "url": "https://yamanlarfruit.com/product/turkish-sultana-raisins",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://yamanlarfruit.com/",
+        "source": {
+          "url": "https://yamanlarfruit.com/product/turkish-sultana-raisins",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Tuna Mah. 5501 Sok. No:1, 35090 Bornova, İzmir",
+        "source": {
+          "url": "https://yamanlarfruit.com/product/turkish-sultana-raisins",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Türkiye",
+        "source": {
+          "url": "https://yamanlarfruit.com/product/turkish-sultana-raisins",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "dried fruit"
+        ],
+        "source": {
+          "url": "https://yamanlarfruit.com/product/turkish-sultana-raisins",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Turkish sultana raisins (types 7–11, dark to light; sizes jumbo to extra small)"
+        ],
+        "source": {
+          "url": "https://yamanlarfruit.com/product/turkish-sultana-raisins",
+          "retrievedAt": "2026-09-19",
+          "note": "title claim: 'Manisa&Izmir Exporter Since 1970'; spec: Vitis vinifera, harvest Aug–end Sep, moisture max 15–16%, shelf life 12 months, HS code 080620"
+        }
+      },
+      "type": {
+        "value": "Sultana processor/exporter",
+        "source": {
+          "url": "https://yamanlarfruit.com/product/turkish-sultana-raisins",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://yamanlarfruit.com/product/turkish-sultana-raisins",
+          "retrievedAt": "2026-09-19",
+          "note": "not listed on fetched page"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no pricing stated on fetched pages",
+          "source": {
+            "url": "https://yamanlarfruit.com/product/turkish-sultana-raisins",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "note": "Packaging: 5 kg / 10 kg / 12.5 kg export cartons; retail 200 g–1 kg doypacks; private label available",
+      "sources": [
+        {
+          "url": "https://yamanlarfruit.com/product/turkish-sultana-raisins",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-024",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Yabanfood",
+        "source": {
+          "url": "https://www.yabanfood.com/raisins",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.yabanfood.com/",
+        "source": {
+          "url": "https://www.yabanfood.com/raisins",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Konak Mahallesi 858 Sk., Paykoç İşhanı No:9 D:601, 35250 Konak/İzmir",
+        "source": {
+          "url": "https://www.yabanfood.com/raisins",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Türkiye",
+        "source": {
+          "url": "https://www.yabanfood.com/raisins",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "dried fruit"
+        ],
+        "source": {
+          "url": "https://www.yabanfood.com/raisins",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic sultana raisins",
+          "organic Thompson raisins",
+          "organic black raisins (with seeds)",
+          "raisin paste and industrial forms"
+        ],
+        "source": {
+          "url": "https://www.yabanfood.com/raisins",
+          "retrievedAt": "2026-09-19",
+          "note": "sourcing: Aegean region village vineyards, hand-harvested, sun-dried"
+        }
+      },
+      "type": {
+        "value": "Organic raisin supplier",
+        "source": {
+          "url": "https://www.yabanfood.com/raisins",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "NOP Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.yabanfood.com/raisins",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "EU/EC Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.yabanfood.com/raisins",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "COR Organic (Canada)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.yabanfood.com/raisins",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.yabanfood.com/raisins",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.yabanfood.com/raisins",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.yabanfood.com/raisins",
+          "retrievedAt": "2026-09-19",
+          "note": "self-listed"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no pricing stated on fetched pages",
+          "source": {
+            "url": "https://www.yabanfood.com/raisins",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.yabanfood.com/raisins",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-025",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Kurukahveci Mehmet Efendi",
+        "source": {
+          "url": "https://www.mehmetefendi.com/eng",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.mehmetefendi.com/",
+        "source": {
+          "url": "https://www.mehmetefendi.com/eng",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Türkiye",
+        "source": {
+          "url": "https://www.mehmetefendi.com/eng",
+          "retrievedAt": "2026-09-19",
+          "note": "city not stated on fetched page"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://www.mehmetefendi.com/eng",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Turkish coffee"
+        ],
+        "source": {
+          "url": "https://www.mehmetefendi.com/eng",
+          "retrievedAt": "2026-09-19",
+          "note": "family business, third and fourth generation; Tahmis Sokak building reference"
+        }
+      },
+      "type": {
+        "value": "Coffee manufacturer",
+        "source": {
+          "url": "https://www.mehmetefendi.com/eng",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.mehmetefendi.com/eng",
+          "retrievedAt": "2026-09-19",
+          "note": "not stated on pages fetched"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no pricing stated on fetched pages",
+          "source": {
+            "url": "https://www.mehmetefendi.com/eng",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Company claims 'The most consumed Turkish coffee brand around the world'; export orientation not stated",
+      "sources": [
+        {
+          "url": "https://www.mehmetefendi.com/eng",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-026",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Kuapa Kokoo Farmers Union",
+        "source": {
+          "url": "https://kuapakokoo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://kuapakokoo.com/",
+        "source": {
+          "url": "https://kuapakokoo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "J.O. Amoo Goltfried Road, Asokwa-Kumasi, Ghana",
+        "source": {
+          "url": "https://kuapakokoo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Ghana",
+        "source": {
+          "url": "https://kuapakokoo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "Global markets (company statement)",
+        "source": {
+          "url": "https://kuapakokoo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "cocoa"
+        ],
+        "source": {
+          "url": "https://kuapakokoo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Ghana cocoa beans"
+        ],
+        "source": {
+          "url": "https://kuapakokoo.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "founded 1993; 'Kuapa Kokoo means good cocoa farmer in Twi'; farmer-led cooperative; 'Over 100k Farmers'"
+        }
+      },
+      "type": {
+        "value": "Cocoa cooperative union",
+        "source": {
+          "url": "https://kuapakokoo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://kuapakokoo.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "not stated on fetched page — Fairtrade not assumed without retrieval"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no public pricing",
+          "source": {
+            "url": "https://kuapakokoo.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Over 100,000 farmers; Five-Year Sustainability Plan 2024–2029 includes a planned cocoa processing company (cocoa butter, liquor, powder, local chocolate); agroforestry project with Grow Ahead (180,000 trees planted); hotline +233 3222081010",
+        "source": {
+          "url": "https://kuapakokoo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Cocoa production and marketing ('quality cocoa reaches global markets while securing fair prices for our farmers')",
+      "sources": [
+        {
+          "url": "https://kuapakokoo.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-027",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Ghana Nuts Company Ltd",
+        "source": {
+          "url": "https://www.ghananuts.com/sheabutter/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.ghananuts.com/",
+        "source": {
+          "url": "https://www.ghananuts.com/sheabutter/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Techiman, Bono East Region, Ghana",
+        "source": {
+          "url": "https://www.ghananuts.com/sheabutter/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Ghana",
+        "source": {
+          "url": "https://www.ghananuts.com/sheabutter/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "shea",
+          "edible oils"
+        ],
+        "source": {
+          "url": "https://www.ghananuts.com/sheabutter/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "refined shea butter (100% natural)",
+          "unrefined shea butter (100% natural)",
+          "edible oils (shea and soya value chains)",
+          "animal feed meals"
+        ],
+        "source": {
+          "url": "https://www.ghananuts.com/sheabutter/",
+          "retrievedAt": "2026-09-19",
+          "note": "shea butter (Butyrospermum Parkii) from ethically and sustainably harvested Shea nuts; kernels cleaned, crushed, roasted, kneaded — no chemical extraction or animal byproducts"
+        }
+      },
+      "type": {
+        "value": "Processor/exporter",
+        "source": {
+          "url": "https://www.ghananuts.com/sheabutter/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.ghananuts.com/sheabutter/",
+          "retrievedAt": "2026-09-19",
+          "note": "not stated on fetched page"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "quote request form (no public price)",
+          "source": {
+            "url": "https://www.ghananuts.com/sheabutter/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.ghananuts.com/sheabutter/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-028",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "SheaTree Ghana Ltd",
+        "source": {
+          "url": "https://sheatreeghana.com/landing/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://sheatreeghana.com/",
+        "source": {
+          "url": "https://sheatreeghana.com/landing/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Ghana",
+        "source": {
+          "url": "https://sheatreeghana.com/landing/",
+          "retrievedAt": "2026-09-19",
+          "note": "city not stated"
+        }
+      },
+      "regionsServed": {
+        "value": "Ships FCL (20FCL & 40HC) and LCL to all major ports",
+        "source": {
+          "url": "https://sheatreeghana.com/landing/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "shea"
+        ],
+        "source": {
+          "url": "https://sheatreeghana.com/landing/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic unrefined shea butter",
+          "conventional unrefined shea butter"
+        ],
+        "source": {
+          "url": "https://sheatreeghana.com/landing/",
+          "retrievedAt": "2026-09-19",
+          "note": "fully traceable wild-collection parklands to shipment"
+        }
+      },
+      "type": {
+        "value": "Shea processor/exporter",
+        "source": {
+          "url": "https://sheatreeghana.com/landing/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "EU Organic (certified by CERES)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://sheatreeghana.com/landing/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "NOP Organic (certified by CERES)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://sheatreeghana.com/landing/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://sheatreeghana.com/landing/",
+          "retrievedAt": "2026-09-19",
+          "note": "site-claimed"
+        }
+      },
+      "moq": {
+        "value": "1.2 metric tonnes (1,200 kg); packaging 5-ply carton boxes, 30 kg each; 20 ft container max 21,000 kg (700 cartons)",
+        "source": {
+          "url": "https://sheatreeghana.com/landing/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "pricing dependent on order quantity (weight), seasonality, INCOTERMS — ex warehouse, CIF, CNF, FOB; buyers asked to email quantity, destination, Incoterms, shipping mode",
+          "source": {
+            "url": "https://sheatreeghana.com/landing/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://sheatreeghana.com/landing/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-029",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "NESKAO",
+        "source": {
+          "url": "https://www.neskao.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.neskao.com/",
+        "source": {
+          "url": "https://www.neskao.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Côte d'Ivoire",
+        "source": {
+          "url": "https://www.neskao.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "city not stated; 'Family-owned company that has been committed for more than 50 years to the responsible processing of cocoa', based in Ivory Coast"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "cocoa"
+        ],
+        "source": {
+          "url": "https://www.neskao.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "natural cocoa liquor (mass)",
+          "cocoa butter",
+          "cocoa cake"
+        ],
+        "source": {
+          "url": "https://www.neskao.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "for food/cosmetic/pharma industries"
+        }
+      },
+      "type": {
+        "value": "Cocoa processor",
+        "source": {
+          "url": "https://www.neskao.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "FSSC 22000 Version 6 (GFSI recognised)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.neskao.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.neskao.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.neskao.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Sedex (member)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.neskao.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "EUDR ready",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.neskao.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FDA-registered facility (US)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.neskao.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.neskao.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "self-listed certifications and compliance"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no public pricing",
+          "source": {
+            "url": "https://www.neskao.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "20,000 MT/yr cocoa liquor; 5,000 MT/yr cocoa butter; 8,000 MT/yr cocoa cake",
+        "source": {
+          "url": "https://www.neskao.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Audited by Bureau Veritas, LRQA, Novolyse; supported by Government of Ivory Coast and the Coffee-Cocoa Council",
+      "sources": [
+        {
+          "url": "https://www.neskao.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-030",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Ivory Cocoa Products (ICP)",
+        "source": {
+          "url": "https://www.ivorycocoaproducts.ci/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.ivorycocoaproducts.ci/",
+        "source": {
+          "url": "https://www.ivorycocoaproducts.ci/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "San-Pedro, Côte d'Ivoire",
+        "source": {
+          "url": "https://www.ivorycocoaproducts.ci/about-us",
+          "retrievedAt": "2026-09-19",
+          "note": "'Créée en 2010... entreprise de transformation de fèves de cacao basée à San-Pedro (sud-ouest de la Côte d'Ivoire)'"
+        }
+      },
+      "country": {
+        "value": "Côte d'Ivoire",
+        "source": {
+          "url": "https://www.ivorycocoaproducts.ci/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "cocoa"
+        ],
+        "source": {
+          "url": "https://www.ivorycocoaproducts.ci/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "cocoa products (grinding)"
+        ],
+        "source": {
+          "url": "https://www.ivorycocoaproducts.ci/about-us",
+          "retrievedAt": "2026-09-19",
+          "note": "operating since the 2012/2013 season; founder/CEO Ismail EL KHALIL"
+        }
+      },
+      "type": {
+        "value": "Cocoa grinder",
+        "source": {
+          "url": "https://www.ivorycocoaproducts.ci/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.ivorycocoaproducts.ci/about-us",
+          "retrievedAt": "2026-09-19",
+          "note": "not listed on fetched page"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no public pricing",
+          "source": {
+            "url": "https://www.ivorycocoaproducts.ci/about-us",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Initial capacity 25,000 t beans; current grind capacity 80,000 t beans/year; ranks 4th in cocoa grinding volume in Côte d'Ivoire (company claim)",
+        "source": {
+          "url": "https://www.ivorycocoaproducts.ci/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.ivorycocoaproducts.ci/about-us",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-031",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "GCEX Group",
+        "source": {
+          "url": "https://gcex-ci.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://gcex-ci.com/",
+        "source": {
+          "url": "https://gcex-ci.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Côte d'Ivoire",
+        "source": {
+          "url": "https://gcex-ci.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "city not stated"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "cocoa"
+        ],
+        "source": {
+          "url": "https://gcex-ci.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "conventional cocoa beans",
+          "organic cocoa beans"
+        ],
+        "source": {
+          "url": "https://gcex-ci.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "'Le Groupe GCEX est l'un des acteurs majeurs de la filière cacao... collectant les meilleures fèves de cacao conventionnelles et biologiques... et les transformant, pour la plupart, en Côte d'Ivoire'; full traceability claim"
+        }
+      },
+      "type": {
+        "value": "Cocoa exporter/processor",
+        "source": {
+          "url": "https://gcex-ci.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://gcex-ci.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "unnamed on site"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no public pricing",
+          "source": {
+            "url": "https://gcex-ci.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Low",
+      "note": "Self-published news: strategic partnership with international manufacturers (Nov 2025); 'prestigieuse certification internationale de qualité cacao' (Oct 2025, standard unnamed); producer-support program for 500+ growers (Sep 2025)",
+      "sources": [
+        {
+          "url": "https://gcex-ci.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-032",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Oromia Coffee Farmers' Cooperative Union (OCFCU)",
+        "source": {
+          "url": "https://www.oromiacoffeeunion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.oromiacoffeeunion.com/",
+        "source": {
+          "url": "https://www.oromiacoffeeunion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Oromia, Ethiopia",
+        "source": {
+          "url": "https://www.oromiacoffeeunion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Ethiopia",
+        "source": {
+          "url": "https://www.oromiacoffeeunion.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://www.oromiacoffeeunion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Ethiopian Arabica (green and roasted)",
+          "washed and natural Arabica",
+          "Harar Arabica (altitude 1510–2120 m)"
+        ],
+        "source": {
+          "url": "https://www.oromiacoffeeunion.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "type": {
+        "value": "Coffee coop union",
+        "source": {
+          "url": "https://www.oromiacoffeeunion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Fair Trade",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.oromiacoffeeunion.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Organic (EU Organic, NOP, JAS)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.oromiacoffeeunion.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "Rainforest Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.oromiacoffeeunion.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Bird Friendly (Smithsonian)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.oromiacoffeeunion.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "C.A.F.E. Practices",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.oromiacoffeeunion.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.oromiacoffeeunion.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "self-described"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no pricing stated on fetched pages",
+          "source": {
+            "url": "https://www.oromiacoffeeunion.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Established June 1, 1999 by 34 primary cooperatives with 22,691 farmers; as of 2024: 413 member cooperatives, 562,186 coffee farmers (64,742 women); processing plants in Gelan, Kality, Dire Dawa; coffee courts in Addis Ababa; OneKoo Coffee roasting facility",
+        "source": {
+          "url": "https://www.oromiacoffeeunion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.oromiacoffeeunion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-033",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Yirgacheffe Coffee Farmers' Cooperative Union",
+        "source": {
+          "url": "https://yirgacheffeunion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://yirgacheffeunion.com/",
+        "source": {
+          "url": "https://yirgacheffeunion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Akaki Kaliti, Addis Ababa, Ethiopia",
+        "source": {
+          "url": "https://yirgacheffeunion.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "office: Maselitegna Woreda 05, Akaki Kaliti; +251-011-471-7017/18/19"
+        }
+      },
+      "country": {
+        "value": "Ethiopia",
+        "source": {
+          "url": "https://yirgacheffeunion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://yirgacheffeunion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "washed Yirgacheffe Arabica (Grade 1/2)",
+          "unwashed (natural) Arabica (Grade 1/3)",
+          "roasted coffee (light/medium/dark)"
+        ],
+        "source": {
+          "url": "https://yirgacheffeunion.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Gedeo Zone, Southern Ethiopia"
+        }
+      },
+      "type": {
+        "value": "Coffee coop union",
+        "source": {
+          "url": "https://yirgacheffeunion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://yirgacheffeunion.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Fairtrade",
+            "status": "company-stated",
+            "source": {
+              "url": "https://yirgacheffeunion.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://yirgacheffeunion.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "'100% pure Arabica organic and Fairtrade certified' (company claim)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no pricing stated on fetched pages",
+          "source": {
+            "url": "https://yirgacheffeunion.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Established June 2002; 28 member cooperatives; 43,536 farmers; 44 coffee processing stations; 62,004 hectares of garden coffee; ~20,000 metric tons washed and sun-dried coffee per year",
+        "source": {
+          "url": "https://yirgacheffeunion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Data-quality caveat (dossier): the page also contained injected third-party spam text (online-casino content) observed at retrieval — site maintenance is weak; treat numbers as self-reported",
+      "sources": [
+        {
+          "url": "https://yirgacheffeunion.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-034",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Kenya Co-operative Coffee Exporters (KCCE)",
+        "source": {
+          "url": "https://www.kencaffee.coop/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.kencaffee.coop/",
+        "source": {
+          "url": "https://www.kencaffee.coop/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Kenya",
+        "source": {
+          "url": "https://www.kencaffee.coop/",
+          "retrievedAt": "2026-09-19",
+          "note": "city not stated"
+        }
+      },
+      "regionsServed": {
+        "value": "Asia, Africa, North America, South America, Europe, Australia (site list also includes 'Antarctica')",
+        "source": {
+          "url": "https://www.kencaffee.coop/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://www.kencaffee.coop/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Kenyan green Arabica (AA, AB, PB grades)"
+        ],
+        "source": {
+          "url": "https://www.kencaffee.coop/",
+          "retrievedAt": "2026-09-19",
+          "note": "'Farmer-owned national cooperative representing coffee societies across Kenya's thirty-three (33) coffee-growing regions'; established 2009"
+        }
+      },
+      "type": {
+        "value": "Cooperative coffee exporter",
+        "source": {
+          "url": "https://www.kencaffee.coop/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "FDA registration",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.kencaffee.coop/",
+              "retrievedAt": "2026-09-19",
+              "note": "self-claimed in FAQ"
+            }
+          },
+          {
+            "name": "Rainforest Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.kencaffee.coop/",
+              "retrievedAt": "2026-09-19",
+              "note": "self-claimed in FAQ"
+            }
+          },
+          {
+            "name": "Fairtrade (FLO)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.kencaffee.coop/",
+              "retrievedAt": "2026-09-19",
+              "note": "self-claimed in FAQ"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.kencaffee.coop/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "Couriered samples and in-house cupping sessions for international buyers",
+        "source": {
+          "url": "https://www.kencaffee.coop/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no pricing stated on fetched pages",
+          "source": {
+            "url": "https://www.kencaffee.coop/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Export documentation: phytosanitary certificates, International Certificate of Origin (ICO)",
+      "sources": [
+        {
+          "url": "https://www.kencaffee.coop/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-035",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Biovanilla",
+        "source": {
+          "url": "https://www.biovanilla.fr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.biovanilla.fr/",
+        "source": {
+          "url": "https://www.biovanilla.fr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Rue de Commerce, BP-47 A, Sambava Centre, Madagascar",
+        "source": {
+          "url": "https://www.biovanilla.fr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Madagascar",
+        "source": {
+          "url": "https://www.biovanilla.fr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vanilla"
+        ],
+        "source": {
+          "url": "https://www.biovanilla.fr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Bourbon vanilla beans",
+          "vanilla powder",
+          "vanilla caviar"
+        ],
+        "source": {
+          "url": "https://www.biovanilla.fr/en",
+          "retrievedAt": "2026-09-19",
+          "note": "'Cultivator and exporter of organic vanilla from Madagascar'; grades for gourmet, extraction, and 'exception' uses"
+        }
+      },
+      "type": {
+        "value": "Vanilla grower/exporter",
+        "source": {
+          "url": "https://www.biovanilla.fr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.biovanilla.fr/en",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FSSC 22000 (GFSI-recognized)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.biovanilla.fr/en",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Rainforest Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.biovanilla.fr/en",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Fair for Life",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.biovanilla.fr/en",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.biovanilla.fr/en",
+          "retrievedAt": "2026-09-19",
+          "note": "self-listed"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no public pricing",
+          "source": {
+            "url": "https://www.biovanilla.fr/en",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "20+ years; 4,200 growers from SAVA and DIANA regions; 45 hectares of Bourbon vanilla plantations",
+        "source": {
+          "url": "https://www.biovanilla.fr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://www.biovanilla.fr/en",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-036",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "EKL Export",
+        "source": {
+          "url": "https://ekl-export.mg/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://ekl-export.mg/",
+        "source": {
+          "url": "https://ekl-export.mg/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Madagascar",
+        "source": {
+          "url": "https://ekl-export.mg/en/home/",
+          "retrievedAt": "2026-09-19",
+          "note": "city not stated; Tamatave used for temporary storage"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vanilla",
+          "spices",
+          "cocoa",
+          "coffee",
+          "essential oils"
+        ],
+        "source": {
+          "url": "https://ekl-export.mg/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Madagascar vanilla",
+          "spices",
+          "cocoa",
+          "Arabica coffee",
+          "Robusta coffee",
+          "essential oils",
+          "cloves"
+        ],
+        "source": {
+          "url": "https://ekl-export.mg/en/home/",
+          "retrievedAt": "2026-09-19",
+          "note": "'Franco-Malagasy company specializing in the export of premium agricultural products'; SAVA region sourcing"
+        }
+      },
+      "type": {
+        "value": "Spice exporter",
+        "source": {
+          "url": "https://ekl-export.mg/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic (Ecocert)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ekl-export.mg/en/home/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Fairtrade",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ekl-export.mg/en/home/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "SPP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ekl-export.mg/en/home/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Rainforest Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ekl-export.mg/en/home/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://ekl-export.mg/en/home/",
+          "retrievedAt": "2026-09-19",
+          "note": "product certifications offered"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "personalized quotes based on quantity, packaging, destination, shipping method",
+          "source": {
+            "url": "https://ekl-export.mg/en/home/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": {
+        "value": "Customer reviews published on Google, embedded via Trustindex on the company site",
+        "source": {
+          "url": "https://ekl-export.mg/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "note": "Works with accredited laboratories (CTHT) and international certification bodies (ISO 17025, Ecocert, HACCP); logistics via DHL Express, air and sea freight",
+      "sources": [
+        {
+          "url": "https://ekl-export.mg/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-037",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "EIC for Export (Herbs EIC)",
+        "source": {
+          "url": "https://herbseic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://herbseic.com/",
+        "source": {
+          "url": "https://herbseic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Egypt",
+        "source": {
+          "url": "https://herbseic.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "city not stated"
+        }
+      },
+      "regionsServed": {
+        "value": "Exporting to 21+ countries",
+        "source": {
+          "url": "https://herbseic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "herbs",
+          "botanicals"
+        ],
+        "source": {
+          "url": "https://herbseic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "hibiscus (karkade)",
+          "chamomile",
+          "calendula",
+          "thyme",
+          "spearmint",
+          "sage",
+          "lentils",
+          "flax fiber"
+        ],
+        "source": {
+          "url": "https://herbseic.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "'Leading Egyptian Supplier of Dried Herbs in Bulk Since 1960'; family expertise; 55+ product types; videos of orders from factory to ship"
+        }
+      },
+      "type": {
+        "value": "Herbs exporter",
+        "source": {
+          "url": "https://herbseic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "NFSA",
+            "status": "company-stated",
+            "source": {
+              "url": "https://herbseic.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FDA",
+            "status": "company-stated",
+            "source": {
+              "url": "https://herbseic.com/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://herbseic.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "self-claimed"
+        }
+      },
+      "moq": {
+        "value": "Full container loads ('Orders accepted starting from full container quantities'); chamomile MOQ listed as bulk 20′ container",
+        "source": {
+          "url": "https://herbseic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "quote-only; MOQ is full container quantities",
+          "source": {
+            "url": "https://herbseic.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://herbseic.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-038",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Herbs King",
+        "source": {
+          "url": "https://king-herbs.com/en/products/herbs/hibiscus",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://king-herbs.com/",
+        "source": {
+          "url": "https://king-herbs.com/en/products/herbs/hibiscus",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "Egypt",
+        "source": {
+          "url": "https://king-herbs.com/en/products/herbs/hibiscus",
+          "retrievedAt": "2026-09-19",
+          "note": "city not stated"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "herbs",
+          "botanicals"
+        ],
+        "source": {
+          "url": "https://king-herbs.com/en/products/herbs/hibiscus",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Egyptian hibiscus (Hibiscus sabdariffa, Upper Egypt/Aswan origin; whole, cut, powder, sifted; grades AAA/AA/A)",
+          "herbs",
+          "seeds"
+        ],
+        "source": {
+          "url": "https://king-herbs.com/en/products/herbs/hibiscus",
+          "retrievedAt": "2026-09-19",
+          "note": "specs: moisture ≤12%, foreign matter ≤1.0%, EU MRL pesticide compliance"
+        }
+      },
+      "type": {
+        "value": "Botanicals exporter",
+        "source": {
+          "url": "https://king-herbs.com/en/products/herbs/hibiscus",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "ISO 9001",
+            "status": "company-stated",
+            "source": {
+              "url": "https://king-herbs.com/en/products/herbs/hibiscus",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "ISO 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://king-herbs.com/en/products/herbs/hibiscus",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FSSC 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://king-herbs.com/en/products/herbs/hibiscus",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FDA Registered",
+            "status": "company-stated",
+            "source": {
+              "url": "https://king-herbs.com/en/products/herbs/hibiscus",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://king-herbs.com/en/products/herbs/hibiscus",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Halal",
+            "status": "company-stated",
+            "source": {
+              "url": "https://king-herbs.com/en/products/herbs/hibiscus",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "GMP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://king-herbs.com/en/products/herbs/hibiscus",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://king-herbs.com/en/products/herbs/hibiscus",
+          "retrievedAt": "2026-09-19",
+          "note": "self-listed"
+        }
+      },
+      "moq": {
+        "value": "500 kg by air freight or 1 MT by sea freight; packaging 25 kg multi-layer bags / 500 kg jumbo bags",
+        "source": {
+          "url": "https://king-herbs.com/en/products/herbs/hibiscus",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "explicitly quote-only: 'We don't display prices online.'",
+          "source": {
+            "url": "https://king-herbs.com/en/products/herbs/hibiscus",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Export orders include COA, certificate of origin, phytosanitary certificate",
+      "sources": [
+        {
+          "url": "https://king-herbs.com/en/products/herbs/hibiscus",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-039",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Coopérative Agricole Rose Dades Mgoun",
+        "source": {
+          "url": "https://rosedadesmgoun.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://rosedadesmgoun.com/",
+        "source": {
+          "url": "https://rosedadesmgoun.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Valley of Roses, Kelaa Mgouna, Morocco",
+        "source": {
+          "url": "https://rosedadesmgoun.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Morocco",
+        "source": {
+          "url": "https://rosedadesmgoun.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "essential oils",
+          "floral ingredients"
+        ],
+        "source": {
+          "url": "https://rosedadesmgoun.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "Rosa damascena essential oils",
+          "rose hydrosols (hydrolats)",
+          "dried roses"
+        ],
+        "source": {
+          "url": "https://rosedadesmgoun.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "Agricultural cooperative",
+        "source": {
+          "url": "https://rosedadesmgoun.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://rosedadesmgoun.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "none stated (organic/sustainable positioning only)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no pricing stated on fetched pages",
+          "source": {
+            "url": "https://rosedadesmgoun.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "60 hectares cultivated (operating since 2016); targets 100 hectares and ~200 tonnes of roses by 2028",
+        "source": {
+          "url": "https://rosedadesmgoun.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": {
+        "value": "Client testimonials on own site (self-published)",
+        "source": {
+          "url": "https://rosedadesmgoun.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "verificationLevel": "Official-site",
+      "confidence": "Medium-High",
+      "note": "Contact: Cooperativerosedadesmgoun@gmail.com; +212 6 73 26 22 50",
+      "sources": [
+        {
+          "url": "https://rosedadesmgoun.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-040",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Klipopmekaar",
+        "source": {
+          "url": "https://klipopmekaar.co.za/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://klipopmekaar.co.za/",
+        "source": {
+          "url": "https://klipopmekaar.co.za/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Northern Cederberg, South Africa",
+        "source": {
+          "url": "https://klipopmekaar.co.za/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "South Africa",
+        "source": {
+          "url": "https://klipopmekaar.co.za/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "Supplies specialty and premium tea brands in Asia, Europe and North America",
+        "source": {
+          "url": "https://klipopmekaar.co.za/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "rooibos"
+        ],
+        "source": {
+          "url": "https://klipopmekaar.co.za/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic rooibos (Super Export Grade Short/Teabag Cut)",
+          "organic rooibos (Long/Loose-Leaf Cut)",
+          "organic rooibos (Choice Grade)",
+          "rooibos by-products"
+        ],
+        "source": {
+          "url": "https://klipopmekaar.co.za/",
+          "retrievedAt": "2026-09-19",
+          "note": "'One of the largest organic rooibos farms in the world'"
+        }
+      },
+      "type": {
+        "value": "Rooibos estate/processor",
+        "source": {
+          "url": "https://klipopmekaar.co.za/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic (JAS, NOP/USDA & EU)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://klipopmekaar.co.za/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "UEBT / Rainforest Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://klipopmekaar.co.za/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "FSSC 22000 (processing protocols)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://klipopmekaar.co.za/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://klipopmekaar.co.za/",
+          "retrievedAt": "2026-09-19",
+          "note": "self-listed"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no pricing stated on fetched pages",
+          "source": {
+            "url": "https://klipopmekaar.co.za/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "'Hundreds of tons' of bulk organic rooibos produced/exported (company statement)",
+        "source": {
+          "url": "https://klipopmekaar.co.za/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Delivery: carbon net-zero ('carbon neutral') to client's port or warehouse",
+      "sources": [
+        {
+          "url": "https://klipopmekaar.co.za/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-041",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Afrika Botanicals",
+        "source": {
+          "url": "https://afrikabotanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://afrikabotanicals.com/",
+        "source": {
+          "url": "https://afrikabotanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": null,
+      "country": {
+        "value": "South Africa",
+        "source": {
+          "url": "https://afrikabotanicals.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "city not stated"
+        }
+      },
+      "regionsServed": {
+        "value": "Domestic and export markets (handles export documentation, packaging, labels, delivery/palletising)",
+        "source": {
+          "url": "https://afrikabotanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "specialty oils",
+          "essential oils"
+        ],
+        "source": {
+          "url": "https://afrikabotanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "marula oil",
+          "baobab oil",
+          "kalahari melon oil",
+          "mongongo oil",
+          "ximenia oil",
+          "prickly pear oil",
+          "rosehip oil",
+          "moringa oil",
+          "buchu essential oil",
+          "frankincense"
+        ],
+        "source": {
+          "url": "https://afrikabotanicals.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "'South African supplier and exporter of premium, cold-pressed African botanical oils'"
+        }
+      },
+      "type": {
+        "value": "Botanical oil supplier/exporter",
+        "source": {
+          "url": "https://afrikabotanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "USDA Organic (marula oil)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://afrikabotanicals.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "'Our Marula oil is certified by the USDA' (self-claimed)"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://afrikabotanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "100 ml samples via online shop; add 'Sample' in order comments to receive COA and MSDS by email",
+        "source": {
+          "url": "https://afrikabotanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "Small-pack ZAR prices (500 ml–1 L): Marula Seed Oil R718.20–R6,793.50; Baobab R670.94–R6,342.00; Kalahari Melon R765.45–R7,245.00; Prickly Pear R4,329.15–R43,291.50; Ximenia R469.69–R4,528.13",
+          "note": "bulk pricelist offered in USD and ZAR",
+          "source": {
+            "url": "https://afrikabotanicals.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": {
+        "value": "Testimonials on own site (self-published)",
+        "source": {
+          "url": "https://afrikabotanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "sources": [
+        {
+          "url": "https://afrikabotanicals.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "europe-turkey-africa-042",
+      "regionId": "europe-turkey-africa",
+      "name": {
+        "value": "Limpopo Marula Products (Pty) Ltd",
+        "source": {
+          "url": "https://marulaoil.co.za/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://marulaoil.co.za/",
+        "source": {
+          "url": "https://marulaoil.co.za/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Limpopo, South Africa",
+        "source": {
+          "url": "https://marulaoil.co.za/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "South Africa",
+        "source": {
+          "url": "https://marulaoil.co.za/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "'Provide a wide range of products internationally' (company claim)",
+        "source": {
+          "url": "https://marulaoil.co.za/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "specialty oils"
+        ],
+        "source": {
+          "url": "https://marulaoil.co.za/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "marula oil"
+        ],
+        "source": {
+          "url": "https://marulaoil.co.za/",
+          "retrievedAt": "2026-09-19",
+          "note": "commercializes products of the marula tree (Sclerocarya birrea); contact person Tania Slabbert"
+        }
+      },
+      "type": {
+        "value": "Marula oil producer",
+        "source": {
+          "url": "https://marulaoil.co.za/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://marulaoil.co.za/",
+          "retrievedAt": "2026-09-19",
+          "note": "not stated"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "note": "no pricing stated on fetched pages",
+          "source": {
+            "url": "https://marulaoil.co.za/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Low",
+      "note": "Provides employment for the Bochum community; thin public detail — dossier marks it suitable as a lead only (MOQ unknown)",
+      "sources": [
+        {
+          "url": "https://marulaoil.co.za/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    }
+  ],
+  "coverageGaps": [
+    "Association and registry lists attempted but unreadable (empty/JS-gated or defunct domains): hazelnutfromturkey.com (Turkish Hazelnut Promotion Group), karafindik.org.tr (Black Sea Hazelnut Exporters' Union), kurumeyve.org.tr (Dried Fruit & Products Exporters' Union), cocobod.gov.gh (Ghana Cocoa Board), rooibos.co.za (SA Rooibos Council) — association/licensed-exporter membership is unknown for every supplier; no supplier was included because of a membership claim",
+    "Ethiopian Commodity Exchange (ecx.et) no longer serves the exchange (returns an unrelated parked page) — ECX-listing status could not be verified for any Ethiopian exporter; all Ethiopian entries rest on official company/co-op sites",
+    "Dropped as unverifiable this session: Kotányi GmbH (retrieved homepage is consumer recipe content), Dormans Coffee and Iledor Company (fetches returned no text), Tcocoa Export (promotional claims with no named certifications, address, or verifiable corporate details)",
+    "Unverified leads found in search results but not listed without verification: Egypt hibiscus (el-rihanna.com, omnicoretrading.com, egyptglobe.com, brotherhoodherbs.com, goldenwolfeg.com); Turkey sultanas/dried fruit (fruitsofturkey.com, vestafruits.com, akadsunfood.com, sahraapricot.com); Germany organic traders (bode.bio, ziegler-organic.de, delinatural.de, organic-germany.com, qualino.nl, doitorganic.com); shea (lugushea.com, ecosheanaturals.com, twentiethtaskenterprise.com, danikom.com, bndtrading.com, ganett.de); Ethiopia coffee (amgcoffeeexport.com, ykmcoffee.com, olkaicoffee.com, tarikucoffee.com, katamudugacoffee.com); Kenya coffee (waziricoffee.com, enkakenyacoffee.com, sumseroncoffee.com, elisaexporters.co.ke, githakaestate.com, karungurucoffeeestate.com, eaagadsltd.com); Madagascar (vanillafair.com, excelia-madagascar.com, madagascargoldenbean.com, vanygo-mg.com); Côte d'Ivoire (cacaosa.com, kko-international.com, sucden.com)",
+    "Morocco rose search returned mostly non-Moroccan resellers (fraterworks.com, berjeinc.com, natureinbottle.com, lgbotanicals.com) — excluded as out-of-region resellers, not producers"
+  ]
+}

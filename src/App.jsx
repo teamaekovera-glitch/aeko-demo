@@ -5,6 +5,8 @@ import Footer from './components/Footer.jsx'
 import Discover from './views/Discover.jsx'
 import Outreach from './views/Outreach.jsx'
 import Marketplace from './views/Marketplace.jsx'
+import IngredientsDiscover from './views/ingredients/Discover.jsx'
+import IngredientProfile from './views/ingredients/SupplierProfile.jsx'
 import LiveCall from './components/outreach/LiveCall.jsx'
 import ColdOpen, { ColdOpenGate } from './components/intro/ColdOpen.jsx'
 
@@ -40,6 +42,8 @@ export default function App() {
           />
           <Route path="/intro" element={<ColdOpen />} />
           <Route path="/marketplace" element={<Marketplace />} />
+          <Route path="/ingredients" element={<IngredientsDiscover />} />
+          <Route path="/ingredients/:supplierId" element={<IngredientProfile />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>

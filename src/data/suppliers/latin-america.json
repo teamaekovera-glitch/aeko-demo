@@ -1,0 +1,4399 @@
+{
+  "schemaVersion": 1,
+  "regionId": "latin-america",
+  "region": "Latin America",
+  "retrieved": "2026-09-19",
+  "documentArtifact": "art_a1WB1gVA",
+  "documentPath": "docs/ingredient-suppliers-latin-america.md",
+  "methodology": "Every factual claim comes from a page fetched in-session on the retrieval date above, with claim-level source URLs in the companion dossier (documentArtifact art_a1WB1gVA). Sources: official supplier websites first; export-promotion directories (ProColombia, PROMPERU, ProEcuador, ProChile, ApexBrasil) were discovery seeds only — no row rests on a directory page alone. Certifications are recorded only as stated on the supplier's own retrieved pages (status 'company-stated'); no certifier-database cross-check has been run this session. Fields without a fetched source are null; explicit unknowns stay unknown. Price signals are labeled by tier — quote-only is the honest default. No emails, phones, MOQs, prices, certifications, or reviews are invented. Dossier verification levels carry into the verification fields as: V1 (official site retrieved, detailed consistent claims) and V2 (official site retrieved but thin) both map to verificationLevel 'Official-site'; V2 rows carry confidence Medium (thin retrieval), V1 rows carry High or Medium exactly as the dossier rates them, with row notes preserving the dossier's thinness/self-reporting qualifiers.",
+  "suppliers": [
+    {
+      "id": "latin-america-001",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Racafé S.A.S.",
+        "source": {
+          "url": "https://www.racafe.com.co/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.racafe.com.co/en/",
+        "source": {
+          "url": "https://www.racafe.com.co/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Bogotá, Colombia (Carrera 11 # 82-01, Piso 5)",
+        "source": {
+          "url": "https://www.racafe.com.co/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Colombia",
+        "source": {
+          "url": "https://www.racafe.com.co/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://www.racafe.com.co/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "green colombian arabica coffee",
+          "specialty coffee"
+        ],
+        "source": {
+          "url": "https://www.racafe.com.co/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "exporter / mill",
+        "source": {
+          "url": "https://www.racafe.com.co/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.racafe.com.co/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.racafe.com.co/en/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Runs a 'Product creation and development center'; states its solar-powered green-coffee milling plant (2018) made it a pioneer in coffee export powered by renewables; regions served not detailed on retrieved page — unknown beyond 'coffee industry around the world'",
+      "sources": [
+        {
+          "url": "https://www.racafe.com.co/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-002",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Expocafé S.A.",
+        "source": {
+          "url": "https://expocafeco.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://expocafeco.com/about/",
+        "source": {
+          "url": "https://expocafeco.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Bogotá D.C. (Carrera 7 No. 74-36, Piso 3)",
+        "source": {
+          "url": "https://expocafeco.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Colombia",
+        "source": {
+          "url": "https://expocafeco.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "'40+ destination countries' incl. United States, Europe, Asia (stated)",
+        "source": {
+          "url": "https://expocafeco.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://expocafeco.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "green colombian coffee (excelso, supremo)",
+          "specialty and certified coffee programs"
+        ],
+        "source": {
+          "url": "https://expocafeco.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "cooperative-owned exporter",
+        "source": {
+          "url": "https://expocafeco.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Rainforest Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://expocafeco.com/about/",
+              "retrievedAt": "2026-09-19",
+              "note": "stated on About page; certifier scope not independently confirmed"
+            }
+          },
+          {
+            "name": "UTZ",
+            "status": "company-stated",
+            "source": {
+              "url": "https://expocafeco.com/about/",
+              "retrievedAt": "2026-09-19",
+              "note": "stated on About page; certifier scope not independently confirmed"
+            }
+          },
+          {
+            "name": "Fairtrade",
+            "status": "company-stated",
+            "source": {
+              "url": "https://expocafeco.com/about/",
+              "retrievedAt": "2026-09-19",
+              "note": "stated on About page; certifier scope not independently confirmed"
+            }
+          },
+          {
+            "name": "Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://expocafeco.com/about/",
+              "retrievedAt": "2026-09-19",
+              "note": "stated on About page; certifier scope not independently confirmed"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://expocafeco.com/about/",
+          "retrievedAt": "2026-09-19",
+          "note": "stated on About page; certifier scope not independently confirmed"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://expocafeco.com/about/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Export arm of Colombia's coffee-grower cooperatives; 100% Colombian owned; 'more than 38 years' exporting (stated)",
+      "sources": [
+        {
+          "url": "https://expocafeco.com/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-003",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Cooperativa Agraria Cafetalera La Florida",
+        "source": {
+          "url": "https://lafloridacac.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://lafloridacac.com/",
+        "source": {
+          "url": "https://lafloridacac.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Puerto Yurinaki, Perené, Chanchamayo, Junín, Peru (Av. Chanchamayo Mza. O Lote 24)",
+        "source": {
+          "url": "https://lafloridacac.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Peru",
+        "source": {
+          "url": "https://lafloridacac.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://lafloridacac.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic green arabica coffee (washed/honey/natural, micro-lots)",
+          "roasted own-brand coffee"
+        ],
+        "source": {
+          "url": "https://lafloridacac.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "cooperative",
+        "source": {
+          "url": "https://lafloridacac.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://lafloridacac.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "stated on homepage"
+            }
+          },
+          {
+            "name": "Fairtrade",
+            "status": "company-stated",
+            "source": {
+              "url": "https://lafloridacac.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "stated on homepage"
+            }
+          },
+          {
+            "name": "Bird Friendly",
+            "status": "company-stated",
+            "source": {
+              "url": "https://lafloridacac.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "stated on homepage"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://lafloridacac.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "stated on homepage"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "S/12–S/32 per unit, e.g. 'Café Clásico S/12.00'",
+          "note": "retail price signal for own-brand roasted bags; bulk green coffee quote-only",
+          "source": {
+            "url": "https://lafloridacac.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "From full containers to specialty micro-lots (stated)",
+        "source": {
+          "url": "https://lafloridacac.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Exporting since 1966; 900–1,700 m, Selva Central; varieties incl. Caturra, Catuaí, Bourbon, Typica, Geisha, Pacamara (stated)",
+      "sources": [
+        {
+          "url": "https://lafloridacac.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-004",
+      "regionId": "latin-america",
+      "name": {
+        "value": "ACPC Pichanaki",
+        "source": {
+          "url": "https://acpcperu.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://acpcperu.com/",
+        "source": {
+          "url": "https://acpcperu.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Pichanaki, Chanchamayo, Peru (Av. Industrial S/N)",
+        "source": {
+          "url": "https://acpcperu.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Peru",
+        "source": {
+          "url": "https://acpcperu.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "Germany, Japan, USA, Canada, Netherlands, Belgium, South Korea (stated)",
+        "source": {
+          "url": "https://acpcperu.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://acpcperu.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "specialty green coffee from small producers, central jungle of Peru"
+        ],
+        "source": {
+          "url": "https://acpcperu.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "cooperative",
+        "source": {
+          "url": "https://acpcperu.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://acpcperu.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "stated in site FAQ section"
+            }
+          },
+          {
+            "name": "Fair Trade",
+            "status": "company-stated",
+            "source": {
+              "url": "https://acpcperu.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "stated in site FAQ section"
+            }
+          },
+          {
+            "name": "Bird Friendly",
+            "status": "company-stated",
+            "source": {
+              "url": "https://acpcperu.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "stated in site FAQ section"
+            }
+          },
+          {
+            "name": "SPP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://acpcperu.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "stated in site FAQ section"
+            }
+          },
+          {
+            "name": "CAFÉ Practices",
+            "status": "company-stated",
+            "source": {
+              "url": "https://acpcperu.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "stated in site FAQ section"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://acpcperu.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "stated in site FAQ section"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://acpcperu.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Founded 2000; association base of 39 grassroots organizations / 900 producers (stated). Named buyers (supplier claim): Falcon Coffees, GEPA, Sustainable Harvest, HACOFCO, Be Green Trading",
+      "sources": [
+        {
+          "url": "https://acpcperu.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-005",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Green Coffee Guatemala",
+        "source": {
+          "url": "https://www.greencoffeeguatemala.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.greencoffeeguatemala.com/",
+        "source": {
+          "url": "https://www.greencoffeeguatemala.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Guatemala City (Km 9.5 CAES, Torre Tigo, fase 2, nivel 4, oficina #5)",
+        "source": {
+          "url": "https://www.greencoffeeguatemala.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Guatemala",
+        "source": {
+          "url": "https://www.greencoffeeguatemala.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://www.greencoffeeguatemala.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "green coffee (specialty and commercial grades)"
+        ],
+        "source": {
+          "url": "https://www.greencoffeeguatemala.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "exporter",
+        "source": {
+          "url": "https://www.greencoffeeguatemala.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.greencoffeeguatemala.com/",
+              "retrievedAt": "2026-09-21",
+              "note": "Claim confirmed on this page during the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "Rainforest Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.greencoffeeguatemala.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.greencoffeeguatemala.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "displayed as logos in homepage certification gallery (image alt text); individual cert scopes not readable — company-displayed, unconfirmed"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.greencoffeeguatemala.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Founded by exporters with 'more than 25 years' experience; 'more than 150 people' on team; on-site Q Grader-run QC lab (stated)",
+      "sources": [
+        {
+          "url": "https://www.greencoffeeguatemala.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-006",
+      "regionId": "latin-america",
+      "name": {
+        "value": "UNEX (Guatemala), S.A.",
+        "source": {
+          "url": "https://www.unexguatemala.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.unexguatemala.com/en/",
+        "source": {
+          "url": "https://www.unexguatemala.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Guatemala City (operations at Ixchel dry mill, Villanueva)",
+        "source": {
+          "url": "https://www.unexguatemala.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Guatemala",
+        "source": {
+          "url": "https://www.unexguatemala.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://www.unexguatemala.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "green coffee"
+        ],
+        "source": {
+          "url": "https://www.unexguatemala.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "exporter / processor (Itochu group)",
+        "source": {
+          "url": "https://www.unexguatemala.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Rainforest Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.unexguatemala.com/en/",
+              "retrievedAt": "2026-09-19",
+              "note": "Santa Bárbara wet mill 'certified with the Rainforest Alliance and UTZ' (stated on homepage)"
+            }
+          },
+          {
+            "name": "UTZ",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.unexguatemala.com/en/",
+              "retrievedAt": "2026-09-19",
+              "note": "Santa Bárbara wet mill 'certified with the Rainforest Alliance and UTZ' (stated on homepage)"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.unexguatemala.com/en/",
+          "retrievedAt": "2026-09-19",
+          "note": "Santa Bárbara wet mill 'certified with the Rainforest Alliance and UTZ' (stated on homepage)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.unexguatemala.com/en/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Ixchel dry mill described as main processing plant with large warehouse capacity for months of parchment storage (stated, unquantified)",
+        "source": {
+          "url": "https://www.unexguatemala.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "'More than 70 years' in coffee; Itochu Corporation (Japan) shareholder since 2004, major shareholder since 2010; food-safety program across mills (stated)",
+      "sources": [
+        {
+          "url": "https://www.unexguatemala.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-007",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Flora, Café de Guatemala",
+        "source": {
+          "url": "https://flora.com.gt/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://flora.com.gt/",
+        "source": {
+          "url": "https://flora.com.gt/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Guatemala City (15 Calle A 10-62 Zona 10)",
+        "source": {
+          "url": "https://flora.com.gt/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Guatemala",
+        "source": {
+          "url": "https://flora.com.gt/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://flora.com.gt/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "green shb coffee",
+          "micro-lot coffee"
+        ],
+        "source": {
+          "url": "https://flora.com.gt/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "exporter",
+        "source": {
+          "url": "https://flora.com.gt/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://flora.com.gt/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://flora.com.gt/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Brand since 1958; family 'in coffee for more than 130 years'; '35 years of experience' serving roasters (stated). Sources across all eight Guatemalan regions — Acatenango, Antigua, Atitlán, Cobán, Fraijanes, Huehuetenango, Nuevo Oriente, San Marcos. Services: export logistics handling and QC described (stated)",
+      "sources": [
+        {
+          "url": "https://flora.com.gt/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-008",
+      "regionId": "latin-america",
+      "name": {
+        "value": "BrasilJuta",
+        "source": {
+          "url": "https://www.brasiljuta.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.brasiljuta.com.br/",
+        "source": {
+          "url": "https://www.brasiljuta.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Brazil",
+        "source": {
+          "url": "https://www.brasiljuta.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Brazil",
+        "source": {
+          "url": "https://www.brasiljuta.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "'50+ countries served' (stated homepage metrics)",
+        "source": {
+          "url": "https://www.brasiljuta.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://www.brasiljuta.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "green arabica coffee"
+        ],
+        "source": {
+          "url": "https://www.brasiljuta.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "exporter",
+        "source": {
+          "url": "https://www.brasiljuta.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Cafés do Brasil",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.brasiljuta.com.br/",
+              "retrievedAt": "2026-09-19",
+              "note": "footer list"
+            }
+          },
+          {
+            "name": "Certifica Minas Café",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.brasiljuta.com.br/",
+              "retrievedAt": "2026-09-19",
+              "note": "footer list"
+            }
+          },
+          {
+            "name": "FairTrade",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.brasiljuta.com.br/",
+              "retrievedAt": "2026-09-19",
+              "note": "footer list"
+            }
+          },
+          {
+            "name": "Região do Cerrado Mineiro",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.brasiljuta.com.br/",
+              "retrievedAt": "2026-09-19",
+              "note": "footer list"
+            }
+          },
+          {
+            "name": "Organic Brazil",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.brasiljuta.com.br/",
+              "retrievedAt": "2026-09-19",
+              "note": "footer list"
+            }
+          },
+          {
+            "name": "SCAE",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.brasiljuta.com.br/",
+              "retrievedAt": "2026-09-19",
+              "note": "footer list"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.brasiljuta.com.br/",
+          "retrievedAt": "2026-09-19",
+          "note": "footer list"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.brasiljuta.com.br/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Exporter 'since 2002'; own cupping/analysis laboratory; consumer arm: own roasted brand 'Rio Café de Brazil' sold on Amazon (stated)",
+      "sources": [
+        {
+          "url": "https://www.brasiljuta.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-009",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Volcafe Brazil (ED&F Man)",
+        "source": {
+          "url": "https://www.volcafe.com/network/brazil",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.volcafe.com/network/brazil",
+        "source": {
+          "url": "https://www.volcafe.com/network/brazil",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Santos, SP (Rua Frei Gaspar 22, 3rd floor)",
+        "source": {
+          "url": "https://www.volcafe.com/network/brazil",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Brazil",
+        "source": {
+          "url": "https://www.volcafe.com/network/brazil",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "coffee"
+        ],
+        "source": {
+          "url": "https://www.volcafe.com/network/brazil",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "arabica green coffee (icatu, catuai, mundo novo, arara)",
+          "conilon green coffee",
+          "washed/semi-washed/natural coffees"
+        ],
+        "source": {
+          "url": "https://www.volcafe.com/network/brazil",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "large international trader / processor — anchor volume supplier",
+        "source": {
+          "url": "https://www.volcafe.com/network/brazil",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "4C",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.volcafe.com/network/brazil",
+              "retrievedAt": "2026-09-21",
+              "note": "Claim confirmed on this page during the 2026-09-21 URL audit."
+            }
+          },
+          {
+            "name": "Fairtrade",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.volcafe.com/network/brazil",
+              "retrievedAt": "2026-09-19",
+              "note": "stated as schemes the company works under"
+            }
+          },
+          {
+            "name": "Rainforest Alliance/UTZ",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.volcafe.com/network/brazil",
+              "retrievedAt": "2026-09-19",
+              "note": "stated as schemes the company works under"
+            }
+          },
+          {
+            "name": "C.A.F.E. Practices",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.volcafe.com/network/brazil",
+              "retrievedAt": "2026-09-19",
+              "note": "stated as schemes the company works under"
+            }
+          },
+          {
+            "name": "Nespresso AAA",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.volcafe.com/network/brazil",
+              "retrievedAt": "2026-09-19",
+              "note": "stated as schemes the company works under"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.volcafe.com/network/brazil",
+          "retrievedAt": "2026-09-19",
+          "note": "stated as schemes the company works under"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.volcafe.com/network/brazil",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Warehousing/processing across all major Brazilian regions; states access to 97% of Arabica and 75% of Conilon production in Brazil (stated)",
+        "source": {
+          "url": "https://www.volcafe.com/network/brazil",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Founded 1955; part of Volcafe's global network; harvest calendar and altitude ranges published on page (stated)",
+      "sources": [
+        {
+          "url": "https://www.volcafe.com/network/brazil",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-010",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Fortaleza del Valle",
+        "source": {
+          "url": "https://www.fortalezavalle.org/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.fortalezavalle.org/",
+        "source": {
+          "url": "https://www.fortalezavalle.org/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Calceta, Manabí, Ecuador (5R8V+6V Calceta)",
+        "source": {
+          "url": "https://www.fortalezavalle.org/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Ecuador",
+        "source": {
+          "url": "https://www.fortalezavalle.org/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "cocoa"
+        ],
+        "source": {
+          "url": "https://www.fortalezavalle.org/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "fine-flavor cacao nacional (dried beans, grade 3, 69 kg sacks)",
+          "chocolate bars",
+          "chocolate bonbons",
+          "dried fruits"
+        ],
+        "source": {
+          "url": "https://www.fortalezavalle.org/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "producer association / cooperative",
+        "source": {
+          "url": "https://www.fortalezavalle.org/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.fortalezavalle.org/",
+              "retrievedAt": "2026-09-19",
+              "note": "stated in the dried-cacao product description; certifier not named"
+            }
+          },
+          {
+            "name": "Fair trade",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.fortalezavalle.org/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.fortalezavalle.org/",
+          "retrievedAt": "2026-09-19",
+          "note": "stated in the dried-cacao product description; certifier not named"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.fortalezavalle.org/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Groups four agricultural associations of the Carrizal–Chone zone; working with 1,000+ producer families since 2008; agroforestry systems (stated). International Cocoa Award at the Salón du Chocolat de Paris (stated)",
+      "sources": [
+        {
+          "url": "https://www.fortalezavalle.org/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-011",
+      "regionId": "latin-america",
+      "name": {
+        "value": "UNOCACE",
+        "source": {
+          "url": "https://unocace.com/nosotros/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://unocace.com/nosotros/",
+        "source": {
+          "url": "https://unocace.com/nosotros/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Km 30 vía Duran–Boliche–Milagro, Recinto El Deseo, Ecuador",
+        "source": {
+          "url": "https://unocace.com/contacto/",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+        }
+      },
+      "country": {
+        "value": "Ecuador",
+        "source": {
+          "url": "https://unocace.com/nosotros/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "cocoa"
+        ],
+        "source": {
+          "url": "https://unocace.com/nosotros/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic cacao from small producer cooperatives",
+          "chocolate bars",
+          "chocolate derivatives"
+        ],
+        "source": {
+          "url": "https://unocace.com/nosotros/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "cooperative union (association of cocoa co-ops)",
+        "source": {
+          "url": "https://unocace.com/nosotros/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic (2001)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://unocace.com/nosotros/",
+              "retrievedAt": "2026-09-19",
+              "note": "certification timeline (stated on Nosotros page)"
+            }
+          },
+          {
+            "name": "Bio-Équitable (2006)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://unocace.com/nosotros/",
+              "retrievedAt": "2026-09-19",
+              "note": "certification timeline (stated on Nosotros page)"
+            }
+          },
+          {
+            "name": "Fair Trade (2013)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://unocace.com/nosotros/",
+              "retrievedAt": "2026-09-19",
+              "note": "certification timeline (stated on Nosotros page)"
+            }
+          },
+          {
+            "name": "Gold Standard carbon certification (2020)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://unocace.com/nosotros/",
+              "retrievedAt": "2026-09-19",
+              "note": "certification timeline (stated on Nosotros page)"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://unocace.com/nosotros/",
+          "retrievedAt": "2026-09-19",
+          "note": "certification timeline (stated on Nosotros page)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://unocace.com/nosotros/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Union founded 1998, legal status 1999; first organic container exported to France 2002; 25 years celebrated 2024; chocolate bars and derivatives since 2018; bio-inputs plant (2024) (stated)",
+      "sources": [
+        {
+          "url": "https://unocace.com/nosotros/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://unocace.com/contacto/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-012",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Roig Agro Cacao",
+        "source": {
+          "url": "https://roigagrocacao.do/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://roigagrocacao.do/en/home/",
+        "source": {
+          "url": "https://roigagrocacao.do/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Dominican Republic",
+        "source": {
+          "url": "https://roigagrocacao.do/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Dominican Republic",
+        "source": {
+          "url": "https://roigagrocacao.do/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "cocoa"
+        ],
+        "source": {
+          "url": "https://roigagrocacao.do/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "cocoa beans"
+        ],
+        "source": {
+          "url": "https://roigagrocacao.do/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "processor / exporter",
+        "source": {
+          "url": "https://roigagrocacao.do/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://roigagrocacao.do/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://roigagrocacao.do/en/home/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "'More than 50 years' marketing cocoa; third-generation management; founded as a special free-zone company (stated). Programs: farmer financing, technical support, guaranteed fair price; no-child/forced-labor policy; Good Management Practices; farm-to-container traceability claim (stated)",
+      "sources": [
+        {
+          "url": "https://roigagrocacao.do/en/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-013",
+      "regionId": "latin-america",
+      "name": {
+        "value": "CONACADO",
+        "source": {
+          "url": "https://conacado.com.do/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://conacado.com.do/en/",
+        "source": {
+          "url": "https://conacado.com.do/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Santo Domingo (Calle Altagracia Saviñón #11, Los Prados)",
+        "source": {
+          "url": "https://conacado.com.do/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Dominican Republic",
+        "source": {
+          "url": "https://conacado.com.do/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "cocoa"
+        ],
+        "source": {
+          "url": "https://conacado.com.do/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "cocoa"
+        ],
+        "source": {
+          "url": "https://conacado.com.do/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "producer confederation / processor",
+        "source": {
+          "url": "https://conacado.com.do/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://conacado.com.do/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://conacado.com.do/en/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Producer organization with first organizing activity dated 1985; 'more than 580' staff; self-described leading business group (holding) in Dominican cocoa (stated)",
+      "sources": [
+        {
+          "url": "https://conacado.com.do/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-014",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Santiago Cocoa",
+        "source": {
+          "url": "https://santiagococoa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://santiagococoa.com/",
+        "source": {
+          "url": "https://santiagococoa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Dominican Republic; US and Europe representatives listed",
+        "source": {
+          "url": "https://santiagococoa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Dominican Republic",
+        "source": {
+          "url": "https://santiagococoa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "cocoa"
+        ],
+        "source": {
+          "url": "https://santiagococoa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "wholesale cocoa beans (hispaniola & sanchez, fermented, sun-dried)",
+          "organic cacao nibs",
+          "natural cacao powder (non-alkalized)"
+        ],
+        "source": {
+          "url": "https://santiagococoa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "producer-exporter",
+        "source": {
+          "url": "https://santiagococoa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "USDA Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://santiagococoa.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "certified options offered (stated on homepage/FAQ)"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://santiagococoa.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "certified options offered (stated on homepage/FAQ)"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://santiagococoa.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "certified options offered (stated on homepage/FAQ)"
+        }
+      },
+      "moq": {
+        "value": "1,000 kg standard minimum order (stated in site FAQ)",
+        "source": {
+          "url": "https://santiagococoa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": {
+        "value": "Samples provided to potential wholesale clients via the quote-request form; a regional representative follows up (stated in FAQ)",
+        "source": {
+          "url": "https://santiagococoa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "Certified Organic Fermented Cocoa Beans — $8,066 (USD/MT; wholesale price block headed \"Dominican Cocoa Beans — Wholesale Price (USD/MT). ICE NY · CC=F Exchange spot: $5,330/MT Updated: Sep 18 2026, 04:00 · yahoo_v8\")",
+          "source": {
+            "url": "https://santiagococoa.com/",
+            "retrievedAt": "2026-09-21"
+          }
+        },
+        {
+          "tier": "supplier-published",
+          "value": "Certified Organic Unfermented Cocoa Beans — $7,066 (USD/MT; wholesale price block headed \"Dominican Cocoa Beans — Wholesale Price (USD/MT). ICE NY · CC=F Exchange spot: $5,330/MT Updated: Sep 18 2026, 04:00 · yahoo_v8\")",
+          "source": {
+            "url": "https://santiagococoa.com/",
+            "retrievedAt": "2026-09-21"
+          }
+        },
+        {
+          "tier": "supplier-published",
+          "value": "Naturally Grown Fermented Cocoa Beans — $6,166 (USD/MT; wholesale price block headed \"Dominican Cocoa Beans — Wholesale Price (USD/MT). ICE NY · CC=F Exchange spot: $5,330/MT Updated: Sep 18 2026, 04:00 · yahoo_v8\")",
+          "source": {
+            "url": "https://santiagococoa.com/",
+            "retrievedAt": "2026-09-21"
+          }
+        },
+        {
+          "tier": "supplier-published",
+          "value": "Naturally Grown Unfermented Cocoa Beans — $5,206 (USD/MT; wholesale price block headed \"Dominican Cocoa Beans — Wholesale Price (USD/MT). ICE NY · CC=F Exchange spot: $5,330/MT Updated: Sep 18 2026, 04:00 · yahoo_v8\")",
+          "source": {
+            "url": "https://santiagococoa.com/",
+            "retrievedAt": "2026-09-21"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Family cacao tradition 'started in 1955'; third generation; states it is not a broker and manages cultivation-to-export (stated). Logistics: worldwide FCL/LCL, FOB/CIF from DR origin; 2–4 week ocean freight to major US/EU ports (stated)",
+      "sources": [
+        {
+          "url": "https://santiagococoa.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://santiagococoa.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "re-verification read 2026-09-21; price table live-maintained (ICE NY reference updated Sep 18, 2026)"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-015",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Bayacao (19 Degrees Services S.R.L.)",
+        "source": {
+          "url": "https://www.bayacao.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.bayacao.com/",
+        "source": {
+          "url": "https://www.bayacao.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Calle Duarte 242 (3rd floor), Las Terrenas, Samaná, Dominican Republic",
+        "source": {
+          "url": "https://www.bayacao.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Dominican Republic",
+        "source": {
+          "url": "https://www.bayacao.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "cocoa"
+        ],
+        "source": {
+          "url": "https://www.bayacao.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "premium/sustainable cocoa beans"
+        ],
+        "source": {
+          "url": "https://www.bayacao.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "producer",
+        "source": {
+          "url": "https://www.bayacao.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.bayacao.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.bayacao.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "States 1.2 million cacao trees on 800 hectares (stated); RNC 1-31-29647-5 (published)",
+      "sources": [
+        {
+          "url": "https://www.bayacao.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-016",
+      "regionId": "latin-america",
+      "name": {
+        "value": "IBC Cacau",
+        "source": {
+          "url": "https://ibcacau.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://ibcacau.com.br/",
+        "source": {
+          "url": "https://ibcacau.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Rio das Pedras, São Paulo (Rua Cristina Taranto Pariz, 900)",
+        "source": {
+          "url": "https://ibcacau.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Brazil",
+        "source": {
+          "url": "https://ibcacau.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "cocoa"
+        ],
+        "source": {
+          "url": "https://ibcacau.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "cocoa powder (natural IB1100; alkalized BR1350, BR1500, BR1550 red, BR1600 black; lecithinated BR1580)",
+          "cocoa liquor (natural and alkalized)",
+          "cocoa butter"
+        ],
+        "source": {
+          "url": "https://ibcacau.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "processor",
+        "source": {
+          "url": "https://ibcacau.com.br/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ibcacau.com.br/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Rainforest Alliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ibcacau.com.br/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://ibcacau.com.br/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://ibcacau.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://ibcacau.com.br/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Founded 2005; supplies food and cosmetic segments. Supply base: 3,000 families, 6 cooperatives, 15,000 ha of agroforestry (stated). UN Global Compact participant; GHG Protocol inventory with third-party-verified 'Selo Ouro' (stated)",
+      "sources": [
+        {
+          "url": "https://ibcacau.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-017",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Açucareira Quatá S/A",
+        "source": {
+          "url": "https://quatasa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://quatasa.com/",
+        "source": {
+          "url": "https://quatasa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Lençóis Paulista, SP (Rod. Mal. Rondon km 289, 18680-900)",
+        "source": {
+          "url": "https://quatasa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Brazil",
+        "source": {
+          "url": "https://quatasa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "sugar & sweeteners"
+        ],
+        "source": {
+          "url": "https://quatasa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "raw sugar (icumsa 600-1200)",
+          "icumsa 45 refined sugar",
+          "icumsa 150 sugar",
+          "ethanol",
+          "yeast",
+          "bioenergy"
+        ],
+        "source": {
+          "url": "https://quatasa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "mill / exporter",
+        "source": {
+          "url": "https://quatasa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://quatasa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://quatasa.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "'78 years' in the sugar-energy sector; 6 production units; ~3,900 collaborators (stated homepage metrics). Presents itself as a wholesale supplier/exporter to global clients (stated). Confidence qualifier: site is marketing-heavy; scale figures are self-reported",
+      "sources": [
+        {
+          "url": "https://quatasa.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-018",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Xtevia (X-Sanbar Group)",
+        "source": {
+          "url": "https://x-tevia.com.br/en/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://x-tevia.com.br/",
+        "source": {
+          "url": "https://x-tevia.com.br/",
+          "retrievedAt": "2026-09-21",
+          "note": "Website updated to the live homepage during the 2026-09-21 URL audit; former /en/about-us/ path returned 404, verified via secondary crawler."
+        }
+      },
+      "hq": {
+        "value": "Brazil",
+        "source": {
+          "url": "https://x-tevia.com.br/en/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Brazil",
+        "source": {
+          "url": "https://x-tevia.com.br/en/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "sugar & sweeteners"
+        ],
+        "source": {
+          "url": "https://x-tevia.com.br/en/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "stevia-based sweetener systems",
+          "reb a 99% stevia extracts blended with prebiotic fibers (chicory, chia, agave)"
+        ],
+        "source": {
+          "url": "https://x-tevia.com.br/en/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "ingredient producer / formulator",
+        "source": {
+          "url": "https://x-tevia.com.br/en/about-us/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://x-tevia.com.br/en/about-us/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://x-tevia.com.br/en/about-us/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "X-Sanbar Group with operations in the United States, Brazil, Hungary, and Peru; 'more than 20 years' in the stevia chain (stated); CNPJ 30.659.252/0001-98",
+      "sources": [
+        {
+          "url": "https://x-tevia.com.br/en/about-us/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://x-tevia.com.br/",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-019",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Agavica",
+        "source": {
+          "url": "https://agavica.com.mx/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://agavica.com.mx/",
+        "source": {
+          "url": "https://agavica.com.mx/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Distribution center: Guadalajara, Jalisco (Calle Río Tizapán 1721, CP 44870)",
+        "source": {
+          "url": "https://agavica.com.mx/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Mexico",
+        "source": {
+          "url": "https://agavica.com.mx/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "sugar & sweeteners"
+        ],
+        "source": {
+          "url": "https://agavica.com.mx/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic blue agave syrup (retail presentations 330 g and 660 g)"
+        ],
+        "source": {
+          "url": "https://agavica.com.mx/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "brand / processor",
+        "source": {
+          "url": "https://agavica.com.mx/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://agavica.com.mx/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://agavica.com.mx/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Claims 100% natural, low glycemic index, vegan, non-GMO, gluten-free, allergen-free (stated). Consumer brand with a distributor-signup program",
+      "sources": [
+        {
+          "url": "https://agavica.com.mx/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-020",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Biocosechas",
+        "source": {
+          "url": "https://biocmex.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://biocmex.com/",
+        "source": {
+          "url": "https://biocmex.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Mexico",
+        "source": {
+          "url": "https://biocmex.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "country": {
+        "value": "Mexico",
+        "source": {
+          "url": "https://biocmex.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; homepage states products are 100% Mexican ('100% mexicano'), verified via secondary crawler."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "sugar & sweeteners"
+        ],
+        "source": {
+          "url": "https://biocmex.com/",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; homepage displays agave sweetener product lines (Spanish-language site), verified via secondary crawler."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic agave syrup",
+          "agave powder (incl. raw version)",
+          "agave inulin (fructans)",
+          "complex/low-carb agave syrups",
+          "prickly pear (tuna) syrup",
+          "hibiscus (jamaica) nectar and syrup"
+        ],
+        "source": {
+          "url": "https://biocmex.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "processor / ingredient manufacturer",
+        "source": {
+          "url": "https://biocmex.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://biocmex.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://biocmex.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Services: co-development, formulation consulting, stability testing, scale-up; pilot-lot to industrial volumes (stated)",
+      "sources": [
+        {
+          "url": "https://biocmex.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-021",
+      "regionId": "latin-america",
+      "name": {
+        "value": "NatBee Blue",
+        "source": {
+          "url": "https://natbeeblue.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://natbeeblue.com/",
+        "source": {
+          "url": "https://natbeeblue.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Cuisillos, Jalisco (Av. del Agave 1, CP 45320)",
+        "source": {
+          "url": "https://natbeeblue.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Mexico",
+        "source": {
+          "url": "https://natbeeblue.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "North America, Europe, Asia (stated)",
+        "source": {
+          "url": "https://natbeeblue.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "sugar & sweeteners"
+        ],
+        "source": {
+          "url": "https://natbeeblue.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic blue agave syrup (blue weber)",
+          "agave inulin powder",
+          "liquid inulin",
+          "agave spirits",
+          "bulk tequila (51% agave, crt-compliant)"
+        ],
+        "source": {
+          "url": "https://natbeeblue.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "producer / supplier (family business)",
+        "source": {
+          "url": "https://natbeeblue.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://natbeeblue.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://natbeeblue.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Self-described top-10 Mexican exporter claim (unverified marketing claim); analyses 'backed by rigorous laboratories such as Intertek, Eurofins, Medallion and QSI' (stated)",
+      "sources": [
+        {
+          "url": "https://natbeeblue.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-022",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Naturalever",
+        "source": {
+          "url": "http://naturalever.mx/english",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "http://naturalever.mx/english",
+        "source": {
+          "url": "http://naturalever.mx/english",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "San Ignacio Cerro Gordo, Los Altos de Jalisco (industrial plant, Km 22 Tepatitlán–Arandas highway)",
+        "source": {
+          "url": "http://naturalever.mx/english",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Mexico",
+        "source": {
+          "url": "http://naturalever.mx/english",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "Europe, Asia, North America (stated)",
+        "source": {
+          "url": "http://naturalever.mx/english",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "sugar & sweeteners"
+        ],
+        "source": {
+          "url": "http://naturalever.mx/english",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "organic agave nectar/syrup (blue weber agave, cultivated ~6 years in los altos de jalisco)"
+        ],
+        "source": {
+          "url": "http://naturalever.mx/english",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "processor",
+        "source": {
+          "url": "http://naturalever.mx/english",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Certified organic process",
+            "status": "company-stated",
+            "source": {
+              "url": "http://naturalever.mx/english",
+              "retrievedAt": "2026-09-19",
+              "note": "certifier not named"
+            }
+          }
+        ],
+        "source": {
+          "url": "http://naturalever.mx/english",
+          "retrievedAt": "2026-09-19",
+          "note": "certifier not named"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "http://naturalever.mx/english",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Founded 2010; 'agave juice and nothing else added' (stated). Formats: bulk from 5.4 kg gallons to 1,350 kg IBC totes; 25 kg / 30 kg containers; 280 kg drums; retail bottles (stated)",
+      "sources": [
+        {
+          "url": "http://naturalever.mx/english",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-023",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Amazon Andes / Amazon Andes Export",
+        "source": {
+          "url": "https://amazon-andes.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://amazon-andes.com/",
+        "source": {
+          "url": "https://amazon-andes.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Lima, Peru",
+        "source": {
+          "url": "https://amazon-andes.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Peru",
+        "source": {
+          "url": "https://amazon-andes.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "'40+ countries served' (stated)",
+        "source": {
+          "url": "https://amazon-andes.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "superfruit & botanical powders"
+        ],
+        "source": {
+          "url": "https://amazon-andes.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "andean-amazonian superfood powders",
+          "capsules",
+          "cold-pressed sacha inchi oil",
+          "dragon's blood resin",
+          "copaiba resin",
+          "maca (red/yellow/black, 4,000 m)",
+          "camu camu",
+          "cacao",
+          "sacha inchi",
+          "aguaje",
+          "yacon syrup"
+        ],
+        "source": {
+          "url": "https://amazon-andes.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer / exporter",
+        "source": {
+          "url": "https://amazon-andes.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "USDA NOP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://supplementsperu.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "'6 certifications held' (stated on supplementsperu.com)"
+            }
+          },
+          {
+            "name": "EU Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://supplementsperu.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "'6 certifications held' (stated on supplementsperu.com)"
+            }
+          },
+          {
+            "name": "Canada Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://supplementsperu.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "'6 certifications held' (stated on supplementsperu.com)"
+            }
+          },
+          {
+            "name": "JAS Japan",
+            "status": "company-stated",
+            "source": {
+              "url": "https://supplementsperu.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "'6 certifications held' (stated on supplementsperu.com)"
+            }
+          },
+          {
+            "name": "GMP·HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://supplementsperu.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "'6 certifications held' (stated on supplementsperu.com)"
+            }
+          },
+          {
+            "name": "FDA-registered facility",
+            "status": "company-stated",
+            "source": {
+              "url": "https://supplementsperu.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "'6 certifications held' (stated on supplementsperu.com)"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://supplementsperu.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "'6 certifications held' (stated on supplementsperu.com)"
+        }
+      },
+      "moq": {
+        "value": "'Flexible minimums' (stated; no number published)",
+        "source": {
+          "url": "https://amazon-andes.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": {
+        "value": "Sample requests via distributor catalogue form ('request samples for your market') (stated on amazon-andes.com)",
+        "source": {
+          "url": "https://amazon-andes.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://amazon-andes.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Operating since 2010/2011; 90+ finished products; 2,000+ pharmacies in Peru (Inkafarma/Mifarma); brands sold on Amazon US/CA/MX (stated). Sourcing model: direct purchase from farming families, traceability to valley level (stated). Wholesale 'pricing tiers' via distributor catalogue — quote-only on site",
+      "sources": [
+        {
+          "url": "https://amazon-andes.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://supplementsperu.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-024",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Andean Taste",
+        "source": {
+          "url": "https://www.andeantaste.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.andeantaste.com/",
+        "source": {
+          "url": "https://www.andeantaste.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Lima (Av. Brígida Silva 384, San Miguel; second site in Callao)",
+        "source": {
+          "url": "https://www.andeantaste.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Peru",
+        "source": {
+          "url": "https://www.andeantaste.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "superfruit & botanical powders"
+        ],
+        "source": {
+          "url": "https://www.andeantaste.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "maca flour (raw and gelatinized)",
+          "dried mango (kent/edward)",
+          "dried pineapple (md2, sulfite-free)",
+          "algarrobo"
+        ],
+        "source": {
+          "url": "https://www.andeantaste.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "processor / exporter",
+        "source": {
+          "url": "https://www.andeantaste.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.andeantaste.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": {
+        "value": "Orders from 100 kg (stated: 'Pedidos mínimos desde 100 kg')",
+        "source": {
+          "url": "https://www.andeantaste.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.andeantaste.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "Own processing 30 min from Lima airport/port; 50% renewable energy mix (stated)",
+        "source": {
+          "url": "https://www.andeantaste.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "OEM services: milling to 60–80 mesh, gelatinization/roasting, tray drying, spray-dried extracts (via partners), contract packing (doypacks, 25 kg sacks, stick-packs) (stated)",
+      "sources": [
+        {
+          "url": "https://www.andeantaste.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-025",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Açaí Super Fruta",
+        "source": {
+          "url": "https://www.superfrutadamazonia.com.br/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.superfrutadamazonia.com.br/en/",
+        "source": {
+          "url": "https://www.superfrutadamazonia.com.br/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Brazil (Amazon region)",
+        "source": {
+          "url": "https://www.superfrutadamazonia.com.br/en/",
+          "retrievedAt": "2026-09-19",
+          "note": "factory described; city not stated on retrieved page"
+        }
+      },
+      "country": {
+        "value": "Brazil",
+        "source": {
+          "url": "https://www.superfrutadamazonia.com.br/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "superfruit & botanical powders"
+        ],
+        "source": {
+          "url": "https://www.superfrutadamazonia.com.br/en/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "frozen açaí pulp (12% and 14% total solids)",
+          "freeze-dried açaí",
+          "açaí+guaraná sorbets",
+          "uht sorbet mix"
+        ],
+        "source": {
+          "url": "https://www.superfrutadamazonia.com.br/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "processor",
+        "source": {
+          "url": "https://www.superfrutadamazonia.com.br/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.superfrutadamazonia.com.br/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.superfrutadamazonia.com.br/en/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": {
+        "value": "5,000 m² production floor (stated)",
+        "source": {
+          "url": "https://www.superfrutadamazonia.com.br/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Packaging: 1 kg, 400 g retail, industrial 180 kg barrels / 18 kg buckets; full specs/packaging details stated",
+      "sources": [
+        {
+          "url": "https://www.superfrutadamazonia.com.br/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-026",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Nutrilatino",
+        "source": {
+          "url": "https://nutrilatino.com.br/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://nutrilatino.com.br/home/",
+        "source": {
+          "url": "https://nutrilatino.com.br/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Tracuateua, Igarapé-Miri, Pará (Rod. PA 51, Km 01)",
+        "source": {
+          "url": "https://nutrilatino.com.br/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Brazil",
+        "source": {
+          "url": "https://nutrilatino.com.br/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "superfruit & botanical powders"
+        ],
+        "source": {
+          "url": "https://nutrilatino.com.br/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "açaí pulp (guaraná/banana/strawberry blends)",
+          "organic freeze-dried açaí powder"
+        ],
+        "source": {
+          "url": "https://nutrilatino.com.br/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "processor",
+        "source": {
+          "url": "https://nutrilatino.com.br/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://nutrilatino.com.br/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://nutrilatino.com.br/home/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Pulp formats: 5–10 kg boxes, 220–500 ml pots; organic freeze-dried açaí powder 500 g (stated, with ingredient labels)",
+      "sources": [
+        {
+          "url": "https://nutrilatino.com.br/home/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-027",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Amazonas Açaí",
+        "source": {
+          "url": "https://www.acaiamazonas.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.acaiamazonas.com.br/",
+        "source": {
+          "url": "https://www.acaiamazonas.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Brazil",
+        "source": {
+          "url": "https://www.acaiamazonas.com.br/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "country": {
+        "value": "Brazil",
+        "source": {
+          "url": "https://www.acaiamazonas.com.br/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "superfruit & botanical powders"
+        ],
+        "source": {
+          "url": "https://www.acaiamazonas.com.br/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "açaí pulp"
+        ],
+        "source": {
+          "url": "https://www.acaiamazonas.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "processor",
+        "source": {
+          "url": "https://www.acaiamazonas.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Organic (USDA/EU)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.acaiamazonas.com.br/",
+              "retrievedAt": "2026-09-19",
+              "note": "described as independently audited; certifier scope not independently confirmed"
+            }
+          },
+          {
+            "name": "Fair Trade",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.acaiamazonas.com.br/",
+              "retrievedAt": "2026-09-19",
+              "note": "described as independently audited; certifier scope not independently confirmed"
+            }
+          },
+          {
+            "name": "BRCGS",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.acaiamazonas.com.br/",
+              "retrievedAt": "2026-09-19",
+              "note": "described as independently audited; certifier scope not independently confirmed"
+            }
+          },
+          {
+            "name": "FSSC 22000",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.acaiamazonas.com.br/",
+              "retrievedAt": "2026-09-19",
+              "note": "described as independently audited; certifier scope not independently confirmed"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.acaiamazonas.com.br/",
+          "retrievedAt": "2026-09-19",
+          "note": "described as independently audited; certifier scope not independently confirmed"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.acaiamazonas.com.br/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Full-chain producer (sourcing, harvesting, processing, logistics, distribution); flash-freezing and aseptic processing; sustainability-led model (agroforestry, forest management); unquantified capacity (stated)",
+      "sources": [
+        {
+          "url": "https://www.acaiamazonas.com.br/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-028",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Wiraccocha",
+        "source": {
+          "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://wiraccocha.com.pe/bulk-quinoa/",
+        "source": {
+          "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Peru",
+        "source": {
+          "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+          "retrievedAt": "2026-09-19",
+          "note": "city not stated on retrieved page"
+        }
+      },
+      "country": {
+        "value": "Peru",
+        "source": {
+          "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "quinoa & pulses"
+        ],
+        "source": {
+          "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "quinoa grains",
+          "quinoa flakes",
+          "quinoa flour",
+          "precooked quinoa",
+          "gelatinized quinoa"
+        ],
+        "source": {
+          "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "processor / exporter (wholesaler)",
+        "source": {
+          "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "NOP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+              "retrievedAt": "2026-09-19",
+              "note": "per product spec sheets (grains; subsets for derivatives)"
+            }
+          },
+          {
+            "name": "EOS",
+            "status": "company-stated",
+            "source": {
+              "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+              "retrievedAt": "2026-09-19",
+              "note": "per product spec sheets (grains; subsets for derivatives)"
+            }
+          },
+          {
+            "name": "RTPO",
+            "status": "company-stated",
+            "source": {
+              "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+              "retrievedAt": "2026-09-19",
+              "note": "per product spec sheets (grains; subsets for derivatives)"
+            }
+          },
+          {
+            "name": "JAS",
+            "status": "company-stated",
+            "source": {
+              "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+              "retrievedAt": "2026-09-19",
+              "note": "per product spec sheets (grains; subsets for derivatives)"
+            }
+          },
+          {
+            "name": "Orgânico Brasil",
+            "status": "company-stated",
+            "source": {
+              "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+              "retrievedAt": "2026-09-19",
+              "note": "per product spec sheets (grains; subsets for derivatives)"
+            }
+          },
+          {
+            "name": "Orgánico Mexico",
+            "status": "company-stated",
+            "source": {
+              "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+              "retrievedAt": "2026-09-19",
+              "note": "per product spec sheets (grains; subsets for derivatives)"
+            }
+          },
+          {
+            "name": "Non-GMO",
+            "status": "company-stated",
+            "source": {
+              "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+              "retrievedAt": "2026-09-19",
+              "note": "per product spec sheets (grains; subsets for derivatives)"
+            }
+          },
+          {
+            "name": "Gluten-Free",
+            "status": "company-stated",
+            "source": {
+              "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+              "retrievedAt": "2026-09-19",
+              "note": "per product spec sheets (grains; subsets for derivatives)"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+              "retrievedAt": "2026-09-19",
+              "note": "per product spec sheets (grains; subsets for derivatives)"
+            }
+          },
+          {
+            "name": "Fair For Life",
+            "status": "company-stated",
+            "source": {
+              "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+              "retrievedAt": "2026-09-19",
+              "note": "per product spec sheets (grains; subsets for derivatives)"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+          "retrievedAt": "2026-09-19",
+          "note": "per product spec sheets (grains; subsets for derivatives)"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Sourcing origin: Andes of Peru — Ayacucho, Huancavelica, Apurimac, Junin, Cuzco (stated). Formats: 1 MT big bags, 25 kg bags (grains); 15 kg cartons (flakes); 20 kg / 900 kg (flour) (stated). Available year-round; harvest Mar–Aug; 2-year shelf life (grains) (stated)",
+      "sources": [
+        {
+          "url": "https://wiraccocha.com.pe/bulk-quinoa/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-029",
+      "regionId": "latin-america",
+      "name": {
+        "value": "INNAC",
+        "source": {
+          "url": "https://innovacionnacional.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://innovacionnacional.com/",
+        "source": {
+          "url": "https://innovacionnacional.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Peru",
+        "source": {
+          "url": "https://innovacionnacional.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "city not stated on retrieved page"
+        }
+      },
+      "country": {
+        "value": "Peru",
+        "source": {
+          "url": "https://innovacionnacional.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "quinoa & pulses"
+        ],
+        "source": {
+          "url": "https://innovacionnacional.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "quinoa (organic and conventional)",
+          "chia",
+          "amaranth",
+          "processed/packaged quinoa"
+        ],
+        "source": {
+          "url": "https://innovacionnacional.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "producer / exporter",
+        "source": {
+          "url": "https://innovacionnacional.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://innovacionnacional.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://innovacionnacional.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Claims '40 years of expertise in quinoa cultivation'; supports 1,200+ low-income Andean families; carbon-minimizing program (stated)",
+      "sources": [
+        {
+          "url": "https://innovacionnacional.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-030",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Quinoa Andina",
+        "source": {
+          "url": "https://quinuandina.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://quinuandina.com/",
+        "source": {
+          "url": "https://quinuandina.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Saurama, Vilcas Huamán, Ayacucho (Av. Caminos del Inca Mza. K Lote 2)",
+        "source": {
+          "url": "https://quinuandina.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Peru",
+        "source": {
+          "url": "https://quinuandina.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "quinoa & pulses"
+        ],
+        "source": {
+          "url": "https://quinuandina.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "quinoa grains",
+          "processed quinoa (non-bitter, custom specs, industrial and retail)"
+        ],
+        "source": {
+          "url": "https://quinuandina.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "producer / processor",
+        "source": {
+          "url": "https://quinuandina.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "GFSI criteria compliance",
+            "status": "company-stated",
+            "source": {
+              "url": "https://quinuandina.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "company-stated; certificate not independently confirmed"
+            }
+          },
+          {
+            "name": "BRC Global Standards 'AA' rating",
+            "status": "company-stated",
+            "source": {
+              "url": "https://quinuandina.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "company-stated; certificate not independently confirmed"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://quinuandina.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "company-stated; certificate not independently confirmed"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://quinuandina.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Farms in coastal and Andean regions (>1,000 m) with drip irrigation; indoor processing plants in Lima with Buhler machinery, optical sorting (stated)",
+      "sources": [
+        {
+          "url": "https://quinuandina.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-031",
+      "regionId": "latin-america",
+      "name": {
+        "value": "South Am Freeze Dry",
+        "source": {
+          "url": "https://southamfreezedry.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://southamfreezedry.com/",
+        "source": {
+          "url": "https://southamfreezedry.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Chile",
+        "source": {
+          "url": "https://southamfreezedry.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "country": {
+        "value": "Chile",
+        "source": {
+          "url": "https://www.southamfreezedry.com/contact-mexico-chile",
+          "retrievedAt": "2026-09-21",
+          "note": "Re-sourced during the 2026-09-21 URL audit; claim verified on this page."
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "berry powders"
+        ],
+        "source": {
+          "url": "https://southamfreezedry.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "freeze-dried fruits",
+          "freeze-dried vegetables"
+        ],
+        "source": {
+          "url": "https://southamfreezedry.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "processor (toll / freeze-dry manufacturer)",
+        "source": {
+          "url": "https://southamfreezedry.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://southamfreezedry.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://southamfreezedry.com/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Full-service freeze-drying facility 'since 2004'; white-label packing in retail formats; custom R&D formulation (stated)",
+      "sources": [
+        {
+          "url": "https://southamfreezedry.com/",
+          "retrievedAt": "2026-09-19"
+        },
+        {
+          "url": "https://www.southamfreezedry.com/contact-mexico-chile",
+          "retrievedAt": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-032",
+      "regionId": "latin-america",
+      "name": {
+        "value": "MNL Group",
+        "source": {
+          "url": "https://www.mnl-group.com/en/freeze-dried-maqui-berry-powder",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.mnl-group.com/en/freeze-dried-maqui-berry-powder",
+        "source": {
+          "url": "https://www.mnl-group.com/en/freeze-dried-maqui-berry-powder",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Chile",
+        "source": {
+          "url": "https://www.mnl-group.com/en/freeze-dried-maqui-berry-powder",
+          "retrievedAt": "2026-09-19",
+          "note": "city not stated on retrieved page"
+        }
+      },
+      "country": {
+        "value": "Chile",
+        "source": {
+          "url": "https://www.mnl-group.com/en/freeze-dried-maqui-berry-powder",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "berry powders"
+        ],
+        "source": {
+          "url": "https://www.mnl-group.com/en/freeze-dried-maqui-berry-powder",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "freeze-dried 100% whole-fruit maqui berry powder (aristotelia chilensis, no carriers/excipients, whole-berry incl. seed)"
+        ],
+        "source": {
+          "url": "https://www.mnl-group.com/en/freeze-dried-maqui-berry-powder",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "processor / exporter",
+        "source": {
+          "url": "https://www.mnl-group.com/en/freeze-dried-maqui-berry-powder",
+          "retrievedAt": "2026-09-19",
+          "note": "Company-stated; claim not displayed on the cited page at the 2026-09-21 URL audit."
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.mnl-group.com/en/freeze-dried-maqui-berry-powder",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "'Request a Sample or Quote' path offered on the product page (stated)",
+        "source": {
+          "url": "https://www.mnl-group.com/en/freeze-dried-maqui-berry-powder",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.mnl-group.com/en/freeze-dried-maqui-berry-powder",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Technical specifications available on request (stated)",
+      "sources": [
+        {
+          "url": "https://www.mnl-group.com/en/freeze-dried-maqui-berry-powder",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-033",
+      "regionId": "latin-america",
+      "name": {
+        "value": "El Buen Temporal",
+        "source": {
+          "url": "https://elbuentemporal.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Cited URL no longer served the supplier's site at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "website": {
+        "value": "https://elbuentemporal.com/",
+        "source": {
+          "url": "https://elbuentemporal.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Cited URL no longer served the supplier's site at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "hq": {
+        "value": "Fresnillo, Zacatecas (8,000 m² own plant)",
+        "source": {
+          "url": "https://elbuentemporal.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Cited URL no longer served the supplier's site at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "country": {
+        "value": "Mexico",
+        "source": {
+          "url": "https://elbuentemporal.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Cited URL no longer served the supplier's site at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "regionsServed": {
+        "value": "Mexico and United States (stated)",
+        "source": {
+          "url": "https://elbuentemporal.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Cited URL no longer served the supplier's site at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "categories": {
+        "value": [
+          "chiles & paprika"
+        ],
+        "source": {
+          "url": "https://elbuentemporal.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Cited URL no longer served the supplier's site at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "ingredients": {
+        "value": [
+          "dried mexican chiles — 8 varieties with published asta color ranges: guajillo (asta 90–120), puya (100–130), ancho (80–110), pasilla (60–90), de árbol (70–90), cascabel (70–95), chipotle (80–110), chiltepín (40–60)",
+          "ground mexican chiles",
+          "custom blends"
+        ],
+        "source": {
+          "url": "https://elbuentemporal.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Cited URL no longer served the supplier's site at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "type": {
+        "value": "processor / exporter",
+        "source": {
+          "url": "https://elbuentemporal.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Cited URL no longer served the supplier's site at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://elbuentemporal.com/",
+              "retrievedAt": "2026-09-19",
+              "note": "Company-stated; certification not evidenced on the cited page at the 2026-09-21 URL audit."
+            }
+          }
+        ],
+        "source": {
+          "url": "https://elbuentemporal.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "HACCP referenced on homepage; FDA registration listed — a registration, not a certification"
+        }
+      },
+      "moq": null,
+      "samplePolicy": {
+        "value": "'Soporte para muestras antes del primer pedido' — sample support before first order (stated)",
+        "source": {
+          "url": "https://elbuentemporal.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Cited URL no longer served the supplier's site at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://elbuentemporal.com/",
+            "retrievedAt": "2026-09-19"
+          },
+          "note": "Cited URL no longer served the supplier's site at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      ],
+      "capacity": {
+        "value": "4,000 tonnes/year (stated)",
+        "source": {
+          "url": "https://elbuentemporal.com/",
+          "retrievedAt": "2026-09-19",
+          "note": "Cited URL no longer served the supplier's site at the 2026-09-21 URL audit; claim retained as company-stated, unverified."
+        }
+      },
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Low",
+      "note": "20+ years operating; 100+ direct jobs; BPA-based field sourcing; packaging 25 kg sacks, 10 kg boxes, retail/private-label; FOB, EXW, CIF; documentation for export (stated) | 2026-09-21 URL audit: cited domain no longer serves the supplier's site; claims annotated unverified pending re-verification.",
+      "sources": [
+        {
+          "url": "https://elbuentemporal.com/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-034",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Santo Tomas",
+        "source": {
+          "url": "https://santotomas.com.mx/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://santotomas.com.mx/",
+        "source": {
+          "url": "https://santotomas.com.mx/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Guadalajara, Jalisco; plants in strategic locations",
+        "source": {
+          "url": "https://santotomas.com.mx/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Mexico",
+        "source": {
+          "url": "https://santotomas.com.mx/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "chiles & paprika"
+        ],
+        "source": {
+          "url": "https://santotomas.com.mx/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "specialty chiles (whole, flake, granulate, or powder)",
+          "spices",
+          "herbs",
+          "seeds",
+          "dried fruits"
+        ],
+        "source": {
+          "url": "https://santotomas.com.mx/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer",
+        "source": {
+          "url": "https://santotomas.com.mx/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://santotomas.com.mx/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://santotomas.com.mx/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "'More than 35 years' of experience; private-label CPG solutions; distribution-center proximity to the US border cited as advantage; food-grade trucks (stated)",
+      "sources": [
+        {
+          "url": "https://santotomas.com.mx/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-035",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Zanilli",
+        "source": {
+          "url": "https://zanilli.com/en/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://zanilli.com/en/about/",
+        "source": {
+          "url": "https://zanilli.com/en/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Gutiérrez Zamora, Veracruz, Mexico",
+        "source": {
+          "url": "https://zanilli.com/en/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Mexico",
+        "source": {
+          "url": "https://zanilli.com/en/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vanilla"
+        ],
+        "source": {
+          "url": "https://zanilli.com/en/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "vanilla planifolia (cultivation)",
+          "vanilla extract"
+        ],
+        "source": {
+          "url": "https://zanilli.com/en/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "grower / producer",
+        "source": {
+          "url": "https://zanilli.com/en/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "Appellation of Origin 'Vanilla from Papantla' (Mexican federal government)",
+            "status": "company-stated",
+            "source": {
+              "url": "https://zanilli.com/en/about/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "OU Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://zanilli.com/en/about/",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "SQF Food Safety Code, 9th edition",
+            "status": "company-stated",
+            "source": {
+              "url": "https://zanilli.com/en/about/",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://zanilli.com/en/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://zanilli.com/en/about/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Family business founded 2002; worldwide distribution (stated)",
+      "sources": [
+        {
+          "url": "https://zanilli.com/en/about/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-036",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Pontiac Vanilla",
+        "source": {
+          "url": "https://www.pontiacvanilla.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.pontiacvanilla.com/en",
+        "source": {
+          "url": "https://www.pontiacvanilla.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "SAVA region, northeastern Madagascar",
+        "source": {
+          "url": "https://www.pontiacvanilla.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Madagascar",
+        "source": {
+          "url": "https://www.pontiacvanilla.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vanilla"
+        ],
+        "source": {
+          "url": "https://www.pontiacvanilla.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "bourbon vanilla pods (gourmet black)",
+          "bourbon vanilla pods (red, 'europe/us type')",
+          "vanilla powder",
+          "pepper",
+          "cinnamon",
+          "cocoa",
+          "other spices"
+        ],
+        "source": {
+          "url": "https://www.pontiacvanilla.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "grower / exporter",
+        "source": {
+          "url": "https://www.pontiacvanilla.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.pontiacvanilla.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "supplier-published",
+          "value": "gourmet black Bourbon vanilla beans €380/kg",
+          "note": "supplier-listed e-commerce price (EUR)",
+          "source": {
+            "url": "https://www.pontiacvanilla.com/en",
+            "retrievedAt": "2026-09-19"
+          }
+        },
+        {
+          "tier": "supplier-published",
+          "value": "premium vanilla powder €380/kg",
+          "note": "supplier-listed e-commerce price (EUR)",
+          "source": {
+            "url": "https://www.pontiacvanilla.com/en",
+            "retrievedAt": "2026-09-19"
+          }
+        },
+        {
+          "tier": "supplier-published",
+          "value": "red vanilla pods €278/kg",
+          "note": "supplier-listed e-commerce price (EUR)",
+          "source": {
+            "url": "https://www.pontiacvanilla.com/en",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Model: production and export; controls harvest, preparation, packaging, storage at its SAVA site; serves professionals (manufacturers, spice sellers, restaurants, hotels, pastry) and individuals (stated). Madagascar alternative vanilla origin",
+      "sources": [
+        {
+          "url": "https://www.pontiacvanilla.com/en",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-037",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Vanygo",
+        "source": {
+          "url": "https://www.vanygo-mg.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.vanygo-mg.com/en/",
+        "source": {
+          "url": "https://www.vanygo-mg.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Sambava 208, Madagascar",
+        "source": {
+          "url": "https://www.vanygo-mg.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Madagascar",
+        "source": {
+          "url": "https://www.vanygo-mg.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "vanilla"
+        ],
+        "source": {
+          "url": "https://www.vanygo-mg.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "bourbon vanilla beans (grade a black)",
+          "bourbon vanilla beans (grade b red, extraction)",
+          "vanilla cuts (grade c)",
+          "additive-free vanilla powder"
+        ],
+        "source": {
+          "url": "https://www.vanygo-mg.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "B2B exporter",
+        "source": {
+          "url": "https://www.vanygo-mg.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [],
+        "source": {
+          "url": "https://www.vanygo-mg.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.vanygo-mg.com/en/",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Process: curing green beans through sun/shade drying and wooden-box maturation; hand sorting; batch QC incl. laboratory analyses for microbiological/chemical risks and foreign matter (stated). Logistics: air and sea freight; professional export packaging; batch specs (grade, length, moisture) per availability; quotes within 24–48 business hours (stated). Madagascar alternative vanilla origin",
+      "sources": [
+        {
+          "url": "https://www.vanygo-mg.com/en/",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-038",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Futurcorp S.A.",
+        "source": {
+          "url": "https://www.futurcorp.com/our-plant.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "https://www.futurcorp.com/our-plant.html",
+        "source": {
+          "url": "https://www.futurcorp.com/our-plant.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Ecuador",
+        "source": {
+          "url": "https://www.futurcorp.com/our-plant.html",
+          "retrievedAt": "2026-09-19",
+          "note": "city not stated on retrieved page"
+        }
+      },
+      "country": {
+        "value": "Ecuador",
+        "source": {
+          "url": "https://www.futurcorp.com/our-plant.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": null,
+      "categories": {
+        "value": [
+          "banana & tropical purees"
+        ],
+        "source": {
+          "url": "https://www.futurcorp.com/our-plant.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "aseptic banana puree",
+          "banana flakes",
+          "fruit-based cereals"
+        ],
+        "source": {
+          "url": "https://www.futurcorp.com/our-plant.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer",
+        "source": {
+          "url": "https://www.futurcorp.com/our-plant.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "HACCP",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.futurcorp.com/our-plant.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.futurcorp.com/our-plant.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "BCS Organic",
+            "status": "company-stated",
+            "source": {
+              "url": "https://www.futurcorp.com/our-plant.html",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "https://www.futurcorp.com/our-plant.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "https://www.futurcorp.com/our-plant.html",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "Medium",
+      "note": "Located in a year-round banana-supply zone (stated)",
+      "sources": [
+        {
+          "url": "https://www.futurcorp.com/our-plant.html",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "id": "latin-america-039",
+      "regionId": "latin-america",
+      "name": {
+        "value": "Inborja S.A.",
+        "source": {
+          "url": "http://inborja.com.ec/About.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "website": {
+        "value": "http://inborja.com.ec/About.html",
+        "source": {
+          "url": "http://inborja.com.ec/About.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "hq": {
+        "value": "Machala, El Oro; factory near Barbones, 40 min from Machala, inside own banana plantation",
+        "source": {
+          "url": "http://inborja.com.ec/About.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "country": {
+        "value": "Ecuador",
+        "source": {
+          "url": "http://inborja.com.ec/About.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "regionsServed": {
+        "value": "USA, France, UK, Germany, Italy, Netherlands, Spain, Poland, Israel, Japan, Saudi Arabia, UAE, South Africa, Chile (stated)",
+        "source": {
+          "url": "http://inborja.com.ec/About.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "categories": {
+        "value": [
+          "banana & tropical purees"
+        ],
+        "source": {
+          "url": "http://inborja.com.ec/About.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "ingredients": {
+        "value": [
+          "aseptic banana puree (100% natural, seeded/seedless; acidified with ascorbic/citric options)",
+          "aseptic bag-in-box/drum formats incl. 55-gallon drums",
+          "fruit nectars (1 l / 250 ml)"
+        ],
+        "source": {
+          "url": "http://inborja.com.ec/About.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "type": {
+        "value": "manufacturer",
+        "source": {
+          "url": "http://inborja.com.ec/About.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "certifications": {
+        "value": [
+          {
+            "name": "SGF (Germany)",
+            "status": "company-stated",
+            "source": {
+              "url": "http://inborja.com.ec/About.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "HACCP (Inspectorate)",
+            "status": "company-stated",
+            "source": {
+              "url": "http://inborja.com.ec/About.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Kosher",
+            "status": "company-stated",
+            "source": {
+              "url": "http://inborja.com.ec/About.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Organic from BCS",
+            "status": "company-stated",
+            "source": {
+              "url": "http://inborja.com.ec/About.html",
+              "retrievedAt": "2026-09-19"
+            }
+          },
+          {
+            "name": "Environmental license",
+            "status": "company-stated",
+            "source": {
+              "url": "http://inborja.com.ec/About.html",
+              "retrievedAt": "2026-09-19"
+            }
+          }
+        ],
+        "source": {
+          "url": "http://inborja.com.ec/About.html",
+          "retrievedAt": "2026-09-19"
+        }
+      },
+      "moq": null,
+      "samplePolicy": null,
+      "priceSignals": [
+        {
+          "tier": "quote-only",
+          "source": {
+            "url": "http://inborja.com.ec/About.html",
+            "retrievedAt": "2026-09-19"
+          }
+        }
+      ],
+      "capacity": null,
+      "reviewPresence": null,
+      "verificationLevel": "Official-site",
+      "confidence": "High",
+      "note": "Began exporting aseptic banana puree at end of 1986 (stated)",
+      "sources": [
+        {
+          "url": "http://inborja.com.ec/About.html",
+          "retrievedAt": "2026-09-19"
+        }
+      ]
+    }
+  ],
+  "coverageGaps": [
+    "All 39 certification claims are company-stated (corpus-wide rule); certifier-database cross-checks (e.g., certifier databases, USDA Organic Integrity Database, Rainforest Alliance/Member registries) were not run this session and must precede any buyer-facing certification badge",
+    "Review presence: no independent public B2B review presence was verified for any supplier this session; buyers named on supplier sites are recorded as supplier claims, not reviews",
+    "Pricing/MOQ/sample evidence is sparse by design: 2 suppliers publish MOQs (Santiago Cocoa 1,000 kg; Andean Taste from 100 kg), 3 publish price signals (Santiago Cocoa indicative FOB USD/MT; Pontiac Vanilla EUR/kg e-commerce; La Florida own-brand retail, not bulk), 4 publish sample policies (Santiago Cocoa, Amazon Andes, MNL Group, El Buen Temporal); all other MOQ/price/sample fields are quote-only or unknown, never inferred",
+    "Dropped after a verification attempt per genuineness rules: Ipanema Coffees (Brazil, coffee — official site returned no retrievable page content on two fetch attempts on 2026-09-19) and Felicia Cacao (Dominican Republic, cocoa — '100% organic' claim without a named certifier, no export track record, small family farm)",
+    "Leads surfaced but not verified this session (do not treat as vetted): HP Ingredients (maqui, US-based reseller), iTi Tropicals (banana puree, US importer/distributor), Brazil sugar intermediaries (OJC Sugar, Jordão Sugar, Valia Brazil, Mello Commodity), Exportadora Atlántica S.A. (Guatemala coffee, third-party profile only), Stevita/steviaparaguaya.com.py (Paraguay, outside the eight specified countries), Tribo Superfoods and Natu Açaí (Brazil, distributor/retail-oriented), Yuligaya / Comercializadora de Vainilla del Totonacapan / Maria Adelita (Mexico, vanilla), Ecological Peru / Natural Source Peru / Highland Products (Peru) — official pages not retrieved",
+    "Association/directory usage: ANECACAO (https://anecacao.com/, retrieved 2026-09-19) was retrieved for Ecuador cocoa sector context only; its member-level pages were not retrieved, so no supplier row claims ANECACAO membership. Export-promotion directories informed discovery seeds only"
+  ]
+}
