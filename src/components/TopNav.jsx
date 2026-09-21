@@ -5,7 +5,7 @@ import { ArrowRightIcon } from './icons.jsx'
 const NAV_LINKS = [
   { to: '/', label: 'Discover', end: true },
   { to: '/outreach', label: 'Outreach' },
-  { to: '/marketplace', label: 'Packaging' },
+  { href: '/packaging/', label: 'Packaging' },
 ]
 
 export default function TopNav() {
@@ -30,18 +30,24 @@ export default function TopNav() {
         </Link>
 
         <nav className="site-nav" aria-label="Primary">
-          {NAV_LINKS.map((link) => (
-            <NavLink
-              key={link.to}
-              to={link.to}
-              end={link.end}
-              className={({ isActive }) =>
-                `site-nav__link ${isActive ? 'site-nav__link--active' : ''}`
-              }
-            >
-              {link.label}
-            </NavLink>
-          ))}
+          {NAV_LINKS.map((link) =>
+            link.href ? (
+              <a key={link.label} href={link.href} className="site-nav__link">
+                {link.label}
+              </a>
+            ) : (
+              <NavLink
+                key={link.to}
+                to={link.to}
+                end={link.end}
+                className={({ isActive }) =>
+                  `site-nav__link ${isActive ? 'site-nav__link--active' : ''}`
+                }
+              >
+                {link.label}
+              </NavLink>
+            )
+          )}
         </nav>
 
         <div className="site-nav__actions">

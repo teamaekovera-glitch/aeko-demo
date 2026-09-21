@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aekovera — Packaging Marketplace</title>
+  <meta name="description" content="Compare verified packaging suppliers across the US, Europe, India and China — with honest pricing, MOQ guidance, source-checked reviews and provenance on every listing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Geist+Mono:wght@100..900&family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=5">
+</head>
+<body>
+  <div class="banner">Prototype · Data collected manually from supplier websites and review platforms, September&nbsp;2026 · Every price, review and sample claim links to its source · Prices are not live quotes.</div>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#/">
+        <span>aekovera</span><span class="dot"></span><span class="lite">Packaging Hub</span>
+      </a>
+      <div class="header-search">
+        <span class="icon" aria-hidden="true">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.5" y2="16.5"></line></svg>
+        </span>
+        <input id="nav-q" type="search" placeholder="Search pouches, jars, labels, cartons…" value=""
+               oninput="App.search(this.value)" onkeydown="if(event.key==='Enter')App.searchGo()" aria-label="Search offers">
+      </div>
+      <nav class="header-nav" aria-label="Site">
+        <button class="nav-link" data-pop="cats" aria-haspopup="true">Categories <span class="chev">▾</span></button>
+        <div class="popover cat-menu hidden" id="pop-cats">
+          <div class="cat-menu-grid" id="catmenu-grid"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app"><div class="wrap" style="text-align:center;padding:80px 0"><span class="glyph" style="display:inline-block;font-size:2rem">▚</span><p style="color:var(--faint,#64748b);margin-top:12px">Loading the marketplace…</p></div></main>
+
+  <div id="cmpbar" class="hidden"></div>
+  <div id="modal" class="hidden"></div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <a class="wordmark" href="#/"><span>aekovera</span><span class="dot"></span><span class="lite">Packaging Hub</span></a>
+          <p style="margin-top:12px; font-size:.88rem; color:var(--muted); max-width:34ch">Where CPG brands' favorite suppliers live. Every listing carries its offer type, MOQ guidance and a provenance receipt — what's verified, and what to ask the supplier.</p>
+        </div>
+        <div>
+          <h4>Shop by category</h4>
+          <ul>
+            <li><a href="#/cat/pouches-bags">Pouches &amp; Bags</a></li>
+            <li><a href="#/cat/glass-bottles">Glass Bottles</a></li>
+            <li><a href="#/cat/folding-cartons">Folding Cartons</a></li>
+            <li><a href="#/cat/labels">Labels</a></li>
+            <li><a href="#/cat/all">All 25 categories</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>How listings stay honest</h4>
+          <ul>
+            <li><a href="#/cat/all">Offer type stated on every card</a></li>
+            <li><a href="#/cat/all">Reviews shown as dated receipts</a></li>
+            <li><a href="#/cat/all">Samples only where source-verified</a></li>
+            <li><a href="#/cat/all">Unknowns say “Ask the supplier”</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-note">
+        <span>Packaging Hub · Prototype v3</span>
+        <span>Data observed <span class="num">18 Sept 2026</span> — not live quotes</span>
+        <span>© 2026 Aekovera (AeK Technologies)</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js?v=3"></script>
+  <script src="asset-data.js?v=1"></script>
+  <script src="app.js?v=5"></script>
+</body>
+</html>
