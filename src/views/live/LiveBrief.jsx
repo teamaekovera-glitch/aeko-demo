@@ -6,6 +6,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { api, ensureBrandSession } from '../../lib/live/api.js'
 import BrandCallback from './BrandCallback.jsx'
+import { AekoMascot } from './shared.jsx'
 import { playPcmClip } from '../../lib/live/audio.js'
 
 const AEKO_LINE = "Got it. Give me a couple of days — I'll talk to the makers and call you back with the ones who can actually run it."
@@ -184,7 +185,7 @@ export default function LiveBrief({ query, created, onReset }) {
             </dl>
 
             <div className="lb__aeko">
-              <span className="lb__orb">Æ</span>
+              <AekoMascot size={64} listening={stage === 'working'} />
               <p>
                 <strong>Aeko</strong> {stage === 'working' ? workNote : AEKO_LINE}
               </p>

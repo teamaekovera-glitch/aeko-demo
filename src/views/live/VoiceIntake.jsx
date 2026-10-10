@@ -4,7 +4,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { api, ensureBrandSession } from '../../lib/live/api.js'
 import { startLiveSession, BRAND_INTAKE_TOOLS, BRAND_INTAKE_INSTRUCTION } from '../../lib/live/session.js'
-import { Waveform } from './shared.jsx'
+import { Waveform, AekoMascot } from './shared.jsx'
 
 export function requestFromIntake(args) {
   const equipment = Array.isArray(args.equipment) ? args.equipment : []
@@ -110,7 +110,7 @@ export default function VoiceIntake({ onCreated, onClose }) {
           </button>
         </div>
         <p className="spec-modal__sub">English · हिन्दी · मराठी — just speak naturally.</p>
-        <div className={`vi__orb ${aekoLevel > 0.05 ? 'is-speaking' : ''} ${userLevel > 0.08 ? 'is-hearing' : ''}`}>Æ</div>
+        <AekoMascot level={aekoLevel} listening={userLevel > 0.08} size={170} />
         <p className="vi__state">
           {error
             ? 'Voice unavailable'

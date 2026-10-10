@@ -6,7 +6,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import { api, getStoredUser } from '../../lib/live/api.js'
 import { listen } from '../../lib/live/realtime.js'
-import { Waveform, fmtClock, initials, camel, LANG_LABEL } from './shared.jsx'
+import { Waveform, fmtClock, initials, camel, LANG_LABEL, AekoMascot } from './shared.jsx'
 
 const MATCH_STEPS = [
   'Reading your brief',
@@ -314,7 +314,7 @@ export default function ControlRoom() {
         <div className="cr__layout">
           <aside className={`cr-aeko ${aekoLevel > 0.05 ? 'is-speaking' : ''}`}>
             <header className="cr-aeko__head">
-              <span className="cr-aeko__orb">Æ</span>
+              <AekoMascot level={aekoLevel} size={64} />
               <div>
                 <strong>Aeko</strong>
                 <span>Aekovera sourcing agent</span>

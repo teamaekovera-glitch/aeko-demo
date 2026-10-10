@@ -59,3 +59,23 @@ export function camel(row) {
   for (const [k, v] of Object.entries(row)) out[k.replace(/_([a-z])/g, (_, c) => c.toUpperCase())] = v
   return out
 }
+
+// Aeko mascot — transparent cut-out that breathes when idle, bounces with the
+// voice level while speaking, and tilts while listening.
+import mascotUrl from '../../assets/aeko-mascot.webp'
+
+export function AekoMascot({ level = 0, listening = false, size = 120, className = '' }) {
+  const speaking = level > 0.04
+  const s = speaking ? 1 + Math.min(level, 1) * 0.07 : 1
+  return (
+    <span
+      className={`aeko-m ${speaking ? 'is-speaking' : ''} ${listening && !speaking ? 'is-listening' : ''} ${className}`}
+      style={{ width: size, height: size, '--aeko-s': s }}
+      aria-label="Aeko"
+      role="img"
+    >
+      <span className="aeko-m__glow" aria-hidden="true" />
+      <img src={mascotUrl} alt="" draggable="false" />
+    </span>
+  )
+}

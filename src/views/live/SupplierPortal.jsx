@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 import { api, getStoredUser } from '../../lib/live/api.js'
 import { openBroadcaster } from '../../lib/live/realtime.js'
 import { startLiveSession, SUPPLIER_CALL_TOOLS } from '../../lib/live/session.js'
-import { Waveform, fmtClock, LANG_LABEL } from './shared.jsx'
+import { Waveform, fmtClock, LANG_LABEL, AekoMascot } from './shared.jsx'
 
 function useRingtone(on) {
   useEffect(() => {
@@ -269,12 +269,7 @@ export default function SupplierPortal() {
 
       {phase === 'ringing' && incoming && (
         <div className="sp__ring">
-          <div className="lcall__rings" aria-hidden="true">
-            <span />
-            <span />
-            <span />
-            <div className="lcall__pbadge">A</div>
-          </div>
+          <AekoMascot size={180} listening />
           <p className="lcall__microlabel">Incoming call · Aeko · Aekovera sourcing agent</p>
           <h1 className="lcall__caller">Aeko is calling {company}</h1>
           {req && (
@@ -296,7 +291,7 @@ export default function SupplierPortal() {
       {(phase === 'connecting' || phase === 'live' || phase === 'ended' || phase === 'error') && (
         <div className="sp__call">
           <div className="sp__callhead">
-            <div className={`sp__orb ${aekoLevel > 0.05 ? 'is-speaking' : ''}`}>A</div>
+            <AekoMascot level={aekoLevel} listening={userLevel > 0.08} size={96} />
             <div className="sp__callid">
               <strong>Aeko</strong>
               <span>Aekovera sourcing agent</span>

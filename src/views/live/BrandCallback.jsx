@@ -4,7 +4,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { api } from '../../lib/live/api.js'
 import { startLiveSession, BRAND_CALLBACK_TOOLS } from '../../lib/live/session.js'
-import { Waveform, fmtClock, initials } from './shared.jsx'
+import { Waveform, fmtClock, initials, AekoMascot } from './shared.jsx'
 
 const fmt = (n) => (n != null ? Number(n).toLocaleString('en-US') : null)
 
@@ -196,12 +196,7 @@ export default function BrandCallback({ request, systemInstruction, onDone }) {
 
         {phase === 'ringing' && (
           <div className="bc-ring">
-            <div className="lcall__rings" aria-hidden="true">
-              <span />
-              <span />
-              <span />
-              <div className="lcall__pbadge">Æ</div>
-            </div>
+            <AekoMascot size={110} listening />
             <div>
               <p className="lcall__microlabel">Incoming call · Aeko · Aekovera</p>
               <strong>Aeko is calling you back</strong>
@@ -214,7 +209,7 @@ export default function BrandCallback({ request, systemInstruction, onDone }) {
 
         {phase !== 'ringing' && (
           <div className="bc-call">
-            <div className={`sp__orb ${aekoLevel > 0.05 ? 'is-speaking' : ''}`}>Æ</div>
+            <AekoMascot level={aekoLevel} listening={userLevel > 0.08} size={110} />
             <div className="bc-call__mid">
               <div className="bc-call__head">
                 <strong>Aeko</strong>
