@@ -6,7 +6,11 @@ import { fallbackParse, normalizeParsed } from './parser.js'
 
 export const liveModel = () => process.env.GEMINI_LIVE_MODEL || 'gemini-3.8-live'
 export const textModel = () => process.env.GEMINI_TEXT_MODEL || 'gemini-3.8-flash'
-export const voice = () => process.env.GEMINI_VOICE || 'Aoede'
+export const voice = () => process.env.GEMINI_VOICE || 'Umbriel'
+// Voice recipe (voice.md): Umbriel on gemini-2.5-pro-preview-tts with a casual
+// phone-call style direction. Newer TTS models read the direction aloud — keep 2.5 pro.
+export const ttsModel = () => process.env.GEMINI_TTS_MODEL || 'gemini-2.5-pro-preview-tts'
+export const TTS_STYLE = 'Say casually, like a real person on the phone: '
 
 // state.winner: undefined = unchecked, 'primary' | 'secondary' | null = none works
 const state = { winner: undefined }
@@ -159,4 +163,45 @@ export async function parseWithFallback(query, language) {
   } catch {
     return fallbackParse(query, language)
   }
+}
+
+// ---- scripted lines (POST /api/tts) -------------------------------------------
+// Returns { audio: base64 PCM16 mono 24 kHz, mimeType }. Cached per text+voice in
+// module scope so repeated demo lines are instant on a warm function.
+const ttsCache = new Map()
+
+async function ttsWithKey(apiKey, text, voiceName) {
+  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${ttsModel()}:generateContent`, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json', 'x-goog-api-key': apiKey },
+    body: JSON.stringify({
+      contents: [{ parts: [{ text: TTS_STYLE + text }] }],
+      generationConfig: {
+        responseModalities: ['AUDIO'],
+        speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName } } },
+      },
+    }),
+    signal: AbortSignal.timeout(45_000),
+  })
+  if (!res.ok) throw new Error(`gemini tts ${res.status}`)
+  const data = await res.json()
+  const part = (data?.candidates?.[0]?.content?.parts || []).find((p) => p.inlineData?.data)
+  if (!part) throw new Error('gemini tts: no audio')
+  return { audio: part.inlineData.data, mimeType: part.inlineData.mimeType || 'audio/L16;codec=pcm;rate=24000' }
+}
+
+export async function synthesize(text, voiceName = voice()) {
+  const key = `${voiceName}::${text}`
+  if (ttsCache.has(key)) return ttsCache.get(key)
+  const list = ordered()
+  if (!list.length) throw httpError(503, 'GEMINI_NOT_CONFIGURED')
+  let last
+  for (const [, apiKey] of list) {
+    try {
+      const out = await ttsWithKey(apiKey, text, voiceName)
+      ttsCache.set(key, out)
+      return out
+    } catch (e) { last = e }
+  }
+  throw httpError(502, 'GEMINI_TTS_UNAVAILABLE', last?.message || last)
 }

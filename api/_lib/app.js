@@ -341,6 +341,14 @@ const HANDLERS = {
     })
   },
 
+  async tts(ctx) {
+    const text = String(ctx.body?.text || '').trim()
+    if (!text) return fail(ctx.res, 400, 'TEXT_REQUIRED')
+    if (text.length > 600) return fail(ctx.res, 400, 'TEXT_TOO_LONG')
+    const out = await G.synthesize(text)
+    json(ctx.res, 200, { ...out, voice: G.voice(), model: G.ttsModel() })
+  },
+
   async liveContext(ctx) {
     const callId = ctx.query.get('callId')
     if (!callId) {

@@ -89,6 +89,7 @@ export const api = {
   endCall: (id) => request('POST', `/api/calls/${id}/end`),
 
   liveToken: (purpose, callId) => request('POST', '/api/live/token', { purpose, callId }),
+  tts: (text) => request('POST', '/api/tts', { text }),
   liveContext: (callId) => request('GET', `/api/live/context?callId=${encodeURIComponent(callId)}`),
 
   activeCalls: () => request('GET', '/api/calls/active'),

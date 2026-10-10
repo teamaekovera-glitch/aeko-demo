@@ -4,10 +4,21 @@
 import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { api } from '../../lib/live/api.js'
+import { playPcmClip } from '../../lib/live/audio.js'
 
 const AEKO_LINE = "Got it. Give me a couple of days — I'll talk to the makers and call you back with the ones who can actually run it."
 
-function speak(text) {
+// Aeko's voice (Umbriel via /api/tts); browser TTS only if Gemini TTS fails.
+async function speak(text) {
+  try {
+    const { audio } = await api.tts(text)
+    if (audio) {
+      await playPcmClip(audio)
+      return
+    }
+  } catch {
+    /* fall through to browser voice */
+  }
   try {
     const synth = window.speechSynthesis
     if (!synth) return

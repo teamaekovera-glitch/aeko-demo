@@ -184,3 +184,13 @@ export function createPlayer({ onLevel } = {}) {
     },
   }
 }
+
+// One-shot playback of a base64 PCM16 24 kHz clip (from /api/tts). Resolves when done.
+export async function playPcmClip(b64) {
+  const player = createPlayer()
+  await player.resume()
+  player.enqueue(b64)
+  await new Promise((r) => setTimeout(r, 80))
+  await player.drain(60000)
+  await player.close()
+}

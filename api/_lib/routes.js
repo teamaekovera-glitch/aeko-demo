@@ -25,6 +25,7 @@ export const ROUTES = [
 
   { method: 'POST', pattern: 'live/token', handler: 'liveToken' },
   { method: 'GET', pattern: 'live/context', handler: 'liveContext' },
+  { method: 'POST', pattern: 'tts', handler: 'tts' },
 
   { method: 'GET', pattern: 'config', handler: 'config' },
   { method: 'POST', pattern: 'admin/reset-demo', handler: 'resetDemo' },
