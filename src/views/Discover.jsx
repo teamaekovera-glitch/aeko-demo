@@ -1,6 +1,9 @@
 import { useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import SupplierCard from '../components/SupplierCard.jsx'
+import LiveBrief from './live/LiveBrief.jsx'
+import VoiceIntake from './live/VoiceIntake.jsx'
+import { getStoredUser } from '../lib/live/api.js'
 import {
   SparklesIcon,
   ArrowRightIcon,
@@ -22,7 +25,7 @@ const MIN_INTROS = 10
 const MAX_INTROS = 20
 const COUNT_PRESETS = [10, 15, 20]
 
-function BriefForm({ value, onChange, onSubmit, autoFocus = false, buttonLabel = 'Search' }) {
+function BriefForm({ value, onChange, onSubmit, onMic, autoFocus = false, buttonLabel = 'Search' }) {
   return (
     <form
       className="brief-form"
@@ -41,6 +44,15 @@ function BriefForm({ value, onChange, onSubmit, autoFocus = false, buttonLabel =
           autoFocus={autoFocus}
           onChange={(e) => onChange(e.target.value)}
         />
+        {onMic && (
+          <button type="button" className="brief-bar__mic" onClick={onMic} aria-label="Search by voice" title="Search by voice — English, हिन्दी, मराठी, Norsk">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <rect x="9" y="2" width="6" height="12" rx="3" />
+              <path d="M5 10a7 7 0 0 0 14 0" />
+              <line x1="12" y1="17" x2="12" y2="22" />
+            </svg>
+          </button>
+        )}
         <button type="submit" className="btn btn--navy btn--submit" disabled={!value.trim()}>
           <span className="btn__submit-label">{buttonLabel}</span>
           <ArrowRightIcon size={16} />
@@ -236,11 +248,41 @@ export default function Discover() {
   const [showSpec, setShowSpec] = useState(false)
   const [introTarget, setIntroTarget] = useState(null)
   const navigate = useNavigate()
+  // Live mode: a signed-in brand gets the real pipeline (saved project
+  // request → control room). Everyone else keeps the simulated demo.
+  const liveUser = getStoredUser()
+  const live = liveUser?.role === 'BRAND' || liveUser?.role === 'ADMIN'
+  const [liveQuery, setLiveQuery] = useState(null)
+  const [liveCreated, setLiveCreated] = useState(null)
+  const [voiceOpen, setVoiceOpen] = useState(false)
 
   const search = () => {
     const q = brief.trim()
     if (!q) return
+    if (live) {
+      setLiveCreated(null)
+      setLiveQuery(q)
+      return
+    }
     setQuery(q)
+  }
+
+  const openVoice = () => {
+    if (!live) {
+      navigate('/login?next=/')
+      return
+    }
+    setVoiceOpen(true)
+  }
+
+  const resetLive = () => {
+    setLiveQuery(null)
+    setLiveCreated(null)
+    setBrief('')
+  }
+
+  if (liveQuery || liveCreated) {
+    return <LiveBrief key={liveCreated?.id || liveQuery} query={liveQuery} created={liveCreated} onReset={resetLive} />
   }
 
   return (
@@ -269,7 +311,17 @@ export default function Discover() {
               </p>
 
               <div className="hero__form">
-                <BriefForm value={brief} onChange={setBrief} onSubmit={search} autoFocus />
+                <BriefForm value={brief} onChange={setBrief} onSubmit={search} onMic={openVoice} autoFocus />
+                {voiceOpen && (
+                  <VoiceIntake
+                    onClose={() => setVoiceOpen(false)}
+                    onCreated={(req) => {
+                      setVoiceOpen(false)
+                      setLiveQuery(null)
+                      setLiveCreated(req)
+                    }}
+                  />
+                )}
                 <p className="hero__form-note">
                   Describe your product in detail and instantly discover who can manufacture it —
                   complete with intelligent match scores and direct supplier connections.

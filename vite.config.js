@@ -3,12 +3,16 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  // Preview-host allowlist for the Obvious sandbox proxy (dev server only;
-  // ignored by the production build).
+  // Dev server: allow any host (the hard-coded e2b host broke elsewhere) and
+  // proxy /api to the local API server when running vite standalone
+  // (`vercel dev` serves both without the proxy).
   server: {
-    allowedHosts: ['5173-iyph86pq76fnilfh4cejp.e2b.app'],
+    allowedHosts: true,
+    proxy: {
+      '/api': 'http://localhost:3000',
+    },
   },
   preview: {
-    allowedHosts: ['4173-i0asnfpnzb1svw4kxn5ma.e2b.app'],
+    allowedHosts: true,
   },
 })
