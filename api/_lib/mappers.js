@@ -51,6 +51,9 @@ export function mapRequest(r, extra = {}) {
     searchTerms: arr(r.search_terms),
     deadline: r.deadline ?? null,
     status: r.status ?? 'NEW',
+    callbackStatus: r.callback_status ?? null,
+    summary: r.summary ?? null,
+    chosenSupplierId: r.chosen_supplier_id ?? null,
     createdAt: r.created_at ?? null,
     ...extra,
   }

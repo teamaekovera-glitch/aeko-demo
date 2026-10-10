@@ -8,7 +8,7 @@ import { matchRoute } from './router.js'
 import { json, fail, readBody, newId, newToken, nowIso, toInt } from './json.js'
 import { mapUser, mapSupplier, mapRequest, mapCall, mapMatch, mapEvent } from './mappers.js'
 import { scoreSuppliers } from './matching.js'
-import { supplierCallInstruction, brandIntakeInstruction } from './context.js'
+import { supplierCallInstruction, brandIntakeInstruction, brandCallbackInstruction } from './context.js'
 import * as G from './gemini.js'
 
 function httpError(status, code) {
@@ -153,6 +153,73 @@ const HANDLERS = {
       matches,
       calls,
     })
+  },
+
+  // ---------------------------------------------------- brand callback --
+  // Admin approves the call results → the brand's screen rings and Aeko
+  // presents the options (YES first, then MAYBE).
+  async approve(ctx) {
+    if (ctx.user.role !== 'ADMIN') throw httpError(403, 'FORBIDDEN')
+    const request = await ctx.store.getRequest(ctx.params.id)
+    if (!request) throw httpError(404, 'NOT_FOUND')
+    const [supplierById, callRows] = await Promise.all([
+      loadSupplierMap(ctx.store),
+      ctx.store.listCalls({ requestId: request.id }),
+    ])
+    const rank = { YES: 0, MAYBE: 1 }
+    const options = callRows
+      .filter((c) => c.outcome === 'YES' || c.outcome === 'MAYBE')
+      .sort((a, b) => rank[a.outcome] - rank[b.outcome])
+      .map((c) => {
+        const s = mapSupplier(supplierById.get(c.supplier_id)) || {}
+        return {
+          supplierId: c.supplier_id,
+          name: s.name,
+          location: s.location,
+          outcome: c.outcome,
+          reason: c.outcome_reason,
+          introSlot: c.intro_slot,
+          equipment: s.equipment,
+          capabilities: s.capabilities,
+          certifications: s.certifications,
+          moq: s.moq,
+          capacityPerMonth: s.capacityPerMonth,
+        }
+      })
+    const declined = callRows
+      .filter((c) => c.outcome === 'NO' || c.status === 'MISSED')
+      .map((c) => ({ supplierId: c.supplier_id, name: supplierById.get(c.supplier_id)?.name, reason: c.outcome_reason || 'No answer' }))
+    const summary = { options, declined, callsMade: callRows.length, approvedAt: nowIso() }
+    const updated = await ctx.store.updateRequest(request.id, { callback_status: 'READY', summary, chosen_supplier_id: null })
+    json(ctx.res, 200, { request: mapRequest(updated) })
+  },
+
+  async callbackPending(ctx) {
+    if (ctx.user.role === 'SUPPLIER') throw httpError(403, 'FORBIDDEN')
+    const brandUserId = ctx.user.role === 'BRAND' ? ctx.user.id : null
+    const rows = await ctx.store.listRequests({ brandUserId })
+    const pending = rows
+      .filter((r) => r.callback_status === 'READY' || r.callback_status === 'CALLING')
+      .sort((a, b) => String(b.created_at).localeCompare(String(a.created_at)))[0]
+    if (!pending) return json(ctx.res, 200, { request: null })
+    const brandUser = pending.brand_user_id ? await ctx.store.getUserById(pending.brand_user_id) : null
+    json(ctx.res, 200, {
+      request: mapRequest(pending, { brandCompany: brandUser?.company ?? null }),
+      systemInstruction: brandCallbackInstruction({ request: mapRequest(pending), summary: pending.summary, brandUser }),
+    })
+  },
+
+  async callbackUpdate(ctx) {
+    const request = await ctx.store.getRequest(ctx.params.id)
+    if (!request) throw httpError(404, 'NOT_FOUND')
+    if (!canSeeRequest(ctx.user, request)) throw httpError(403, 'FORBIDDEN')
+    const b = ctx.body || {}
+    const patch = {}
+    if (['READY', 'CALLING', 'DONE'].includes(b.status)) patch.callback_status = b.status
+    if (typeof b.chosenSupplierId === 'string') patch.chosen_supplier_id = b.chosenSupplierId
+    if (!Object.keys(patch).length) return fail(ctx.res, 400, 'VALIDATION')
+    const updated = await ctx.store.updateRequest(request.id, patch)
+    json(ctx.res, 200, { request: mapRequest(updated) })
   },
 
   async match(ctx) {

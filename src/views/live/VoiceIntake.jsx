@@ -1,5 +1,5 @@
 // Voice search: the brand talks to Aeko (Gemini Live) in English, Hindi,
-// Marathi or Norwegian; Aeko asks at most two follow-ups, then saves the
+// or Marathi; Aeko asks at most two follow-ups, then saves the
 // project request through submit_project_request.
 import { useEffect, useRef, useState } from 'react'
 import { api, ensureBrandSession } from '../../lib/live/api.js'
@@ -109,7 +109,7 @@ export default function VoiceIntake({ onCreated, onClose }) {
             ×
           </button>
         </div>
-        <p className="spec-modal__sub">English · हिन्दी · मराठी · Norsk — just speak naturally.</p>
+        <p className="spec-modal__sub">English · हिन्दी · मराठी — just speak naturally.</p>
         <div className={`vi__orb ${aekoLevel > 0.05 ? 'is-speaking' : ''} ${userLevel > 0.08 ? 'is-hearing' : ''}`}>Æ</div>
         <p className="vi__state">
           {error

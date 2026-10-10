@@ -37,8 +37,8 @@ insert into suppliers (id, name, location, email, category, capabilities, equipm
    'You CANNOT: rack ovens only, can''t run 500k. Say no politely. Speak Hindi or Marathi if you like.'),
   ('sup_wheatwind', 'Wheatwind Bakehouse', 'Wichita, KS', 'sourcing@wheatwind.demo', 'cookies',
    '["crackers","flatbreads"]', '["tunnel oven"]', '[]',
-   25000, 900000, '["en","no"]', true,
-   'You CANNOT hit the timeline: booked through Q1. Say no. Speak Norwegian if you like.')
+   25000, 900000, '["en","mr"]', true,
+   'MAYBE: you have a tunnel oven, but it''s only free from mid-November. Say you could do it if the timeline can move. Speak Marathi if you like.')
 on conflict (id) do update set
   name = excluded.name, location = excluded.location, email = excluded.email, category = excluded.category,
   capabilities = excluded.capabilities, equipment = excluded.equipment, certifications = excluded.certifications,

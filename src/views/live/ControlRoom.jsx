@@ -210,6 +210,20 @@ export default function ControlRoom() {
     })
   }, [now])
 
+  const [approving, setApproving] = useState(false)
+  const approve = async () => {
+    if (!requestId) return
+    setApproving(true)
+    try {
+      const { request: updated } = await api.approveRequest(requestId)
+      setRequest((r) => ({ ...r, ...updated }))
+    } catch (err) {
+      setError(`Approve failed: ${err.message}`)
+    } finally {
+      setApproving(false)
+    }
+  }
+
   // The match → dial sequence when the request has no calls yet.
   const runMatch = useCallback(async () => {
     if (!requestId || dialing.current) return
@@ -255,6 +269,8 @@ export default function ControlRoom() {
 
   const rows = useMemo(() => specialtyRows(request), [request])
   const yes = calls.filter((c) => c.outcome === 'YES')
+  const maybes = calls.filter((c) => c.outcome === 'MAYBE')
+  const chosenName = calls.find((c) => c.supplierId === request?.chosenSupplierId)?.supplier?.name
   const declined = calls.filter((c) => c.outcome === 'NO')
   const liveCount = calls.filter((c) => c.status === 'CONNECTED').length
   const allDone = calls.length > 0 && calls.every((c) => c.status === 'ENDED' || c.status === 'MISSED')
@@ -437,9 +453,28 @@ export default function ControlRoom() {
                     <span>{[...languages].map((l) => LANG_LABEL[l] || l).join(' · ')}</span>
                   </div>
                   <div>
-                    <b className="is-brand">{yes.length}</b>
-                    <span>Factory that can actually run it</span>
+                    <b className="is-brand">{yes.length + maybes.length}</b>
+                    <span>{yes.length + maybes.length === 1 ? 'Factory that can run it' : 'Factories that can run it'}</span>
                   </div>
+                </div>
+                <div className="cr-approve">
+                  {!request?.callbackStatus && user?.role === 'ADMIN' && (
+                    <button type="button" className="btn btn--brand btn--lg" onClick={approve} disabled={approving}>
+                      {approving ? 'Approving…' : `✓ Approve & call ${request?.brandCompany || 'the brand'} back`}
+                    </button>
+                  )}
+                  {!request?.callbackStatus && user?.role !== 'ADMIN' && (
+                    <p className="cr-dim">Waiting for admin approval to call the brand back</p>
+                  )}
+                  {request?.callbackStatus === 'READY' && <p className="cr-cb is-ring">📞 Ringing {request?.brandCompany || 'the brand'}…</p>}
+                  {request?.callbackStatus === 'CALLING' && (
+                    <p className="cr-cb is-live">● Aeko is on the phone with {request?.brandCompany || 'the brand'} — presenting {yes.length + maybes.length} options</p>
+                  )}
+                  {request?.callbackStatus === 'DONE' && (
+                    <p className="cr-cb is-done">
+                      ✓ Brand call done{chosenName ? ` · chose ${chosenName} · intro booked` : ''}
+                    </p>
+                  )}
                 </div>
                 {winner ? (
                   <div className="cr-intro">

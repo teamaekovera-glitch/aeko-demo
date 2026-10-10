@@ -88,6 +88,9 @@ export const api = {
   createRequest: (payload) => request('POST', '/api/requests', payload),
   listRequests: () => request('GET', '/api/requests'),
   getRequest: (id) => request('GET', `/api/requests/${id}`),
+  approveRequest: (id) => request('POST', `/api/requests/${id}/approve`),
+  callbackPending: () => request('GET', '/api/requests/callback'),
+  callbackUpdate: (id, body) => request('POST', `/api/requests/${id}/callback`, body),
   matchRequest: (id) => request('POST', `/api/requests/${id}/match`),
   startCalls: (id, supplierIds) => request('POST', `/api/requests/${id}/calls`, supplierIds ? { supplierIds } : {}),
 

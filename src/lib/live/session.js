@@ -229,6 +229,25 @@ export const BRAND_INTAKE_TOOLS = [
 ]
 
 export const BRAND_INTAKE_INSTRUCTION = `You are Aeko, the sourcing agent at Aekovera. A CPG brand founder is talking to you to start a sourcing request. Speak casually, like a real person on the phone — warm, quick and confident, a sharp friendly assistant (think Friday from Iron Man). Say the names plainly: \"Aeko\" and \"Aekovera\". Keep every turn to one or two short sentences.
-Language: reply in the language the founder speaks — English, Hindi, Marathi or Norwegian — and switch if they switch. Never use any other language.
+Language: reply in the language the founder speaks — English, Hindi or Marathi — and switch if they switch. Never use any other language.
 Goal: capture product, category, first-run volume in units, key equipment or process requirements (e.g. tunnel oven, hot-fill), certifications or line requirements (e.g. allergen-controlled), packaging, and deadline. Ask at most two short follow-up questions, only for what is missing and important (volume and the key requirement matter most).
 When you have enough, call submit_project_request (all field values in English), then say exactly the spirit of: "Got it. Give me a couple of days — I'll talk to the makers and call you back with the ones who can actually run it." Then call end_session.`
+
+export const BRAND_CALLBACK_TOOLS = [
+  {
+    name: 'choose_option',
+    description: 'Record which supplier the brand wants to meet first.',
+    parametersJsonSchema: {
+      type: 'object',
+      properties: {
+        supplierId: { type: 'string', description: 'The supplierId of the chosen option' },
+      },
+      required: ['supplierId'],
+    },
+  },
+  {
+    name: 'end_call',
+    description: 'Hang up after the goodbye has been spoken.',
+    parametersJsonSchema: { type: 'object', properties: {} },
+  },
+]

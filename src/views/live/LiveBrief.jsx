@@ -1,9 +1,11 @@
 // Brand-side result of a live search: the parsed project request as saved in
 // the database, Aeko's "give me a couple of days" line, and the demo's
-// "5 days have passed" fast-forward into the control room.
+// "5 days have passed" fast-forward: Aeko matches + calls makers in the
+// background (the admin watches the control room); when the admin approves,
+// Aeko calls the brand back here with the options.
 import { useEffect, useRef, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
 import { api, ensureBrandSession } from '../../lib/live/api.js'
+import BrandCallback from './BrandCallback.jsx'
 import { playPcmClip } from '../../lib/live/audio.js'
 
 const AEKO_LINE = "Got it. Give me a couple of days — I'll talk to the makers and call you back with the ones who can actually run it."
@@ -44,8 +46,10 @@ function Field({ k, v }) {
 }
 
 export default function LiveBrief({ query, created, onReset }) {
-  const navigate = useNavigate()
   const [request, setRequest] = useState(created || null)
+  const [stage, setStage] = useState('brief') // brief | working | callback
+  const [callback, setCallback] = useState(null) // { request, systemInstruction }
+  const [workNote, setWorkNote] = useState('')
   const [error, setError] = useState('')
   const [busy, setBusy] = useState(!created)
   const spoke = useRef(false)
@@ -91,6 +95,54 @@ export default function LiveBrief({ query, created, onReset }) {
 
   const sp = request?.specialty || {}
 
+  // "5 days have passed": run the match, give the control room a beat to
+  // animate, then dial the top makers. All in the background.
+  const fastForward = async () => {
+    if (!request) return
+    setStage('working')
+    setError('')
+    try {
+      setWorkNote('Searching the network for makers who can run it…')
+      if (request.status === 'NEW') {
+        const res = await api.matchRequest(request.id)
+        setWorkNote(`${res.matches?.length || 0} makers matched across ${res.scanned || 'the'} suppliers — calling the best ones now.`)
+        await new Promise((r) => setTimeout(r, 6000))
+        await api.startCalls(request.id)
+      }
+      setWorkNote("I'm on the phone with the makers. I'll call you back as soon as I have answers.")
+    } catch (err) {
+      setError(`Couldn't start Aeko: ${err.message}`)
+      setStage('brief')
+    }
+  }
+
+  // Wait for the admin's approval → Aeko's callback rings here.
+  useEffect(() => {
+    if (stage !== 'working' || !request) return undefined
+    let stop = false
+    const tick = async () => {
+      try {
+        const data = await api.callbackPending()
+        if (!stop && data.request && data.request.id === request.id && data.request.callbackStatus === 'READY') {
+          setCallback(data)
+          setStage('callback')
+          return
+        }
+      } catch {
+        /* keep waiting */
+      }
+      if (!stop) setTimeout(tick, 2000)
+    }
+    tick()
+    return () => {
+      stop = true
+    }
+  }, [stage, request])
+
+  if (stage === 'callback' && callback) {
+    return <BrandCallback request={callback.request} systemInstruction={callback.systemInstruction} onDone={onReset} />
+  }
+
   return (
     <section className="results">
       <div className="results__inner lb">
@@ -134,12 +186,13 @@ export default function LiveBrief({ query, created, onReset }) {
             <div className="lb__aeko">
               <span className="lb__orb">Æ</span>
               <p>
-                <strong>Aeko</strong> {AEKO_LINE}
+                <strong>Aeko</strong> {stage === 'working' ? workNote : AEKO_LINE}
               </p>
+              {stage === 'working' && <span className="lb__working" aria-hidden="true"><i /><i /><i /></span>}
             </div>
 
             <div className="lb__actions">
-              <button type="button" className="btn btn--brand btn--lg" onClick={() => navigate(`/control/${request.id}`, { state: { run: true } })}>
+              <button type="button" className="btn btn--brand btn--lg" onClick={fastForward} disabled={stage !== 'brief'}>
                 ⏩ 5 days have passed
               </button>
               <button type="button" className="btn btn--ghost" onClick={onReset}>

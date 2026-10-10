@@ -11,7 +11,10 @@ export const ROUTES = [
   { method: 'POST', pattern: 'requests/parse', handler: 'parse' },
   { method: 'POST', pattern: 'requests', handler: 'createRequest' },
   { method: 'GET', pattern: 'requests', handler: 'listRequests' },
+  { method: 'GET', pattern: 'requests/callback', handler: 'callbackPending' },
   { method: 'GET', pattern: 'requests/:id', handler: 'getRequest' },
+  { method: 'POST', pattern: 'requests/:id/approve', handler: 'approve' },
+  { method: 'POST', pattern: 'requests/:id/callback', handler: 'callbackUpdate' },
   { method: 'POST', pattern: 'requests/:id/match', handler: 'match' },
   { method: 'POST', pattern: 'requests/:id/calls', handler: 'createCalls' },
 
