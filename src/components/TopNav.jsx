@@ -5,7 +5,7 @@ import { ArrowRightIcon } from './icons.jsx'
 const NAV_LINKS = [
   { to: '/', label: 'Discover', end: true },
   { to: '/outreach', label: 'Outreach' },
-  { href: '/packaging/', label: 'Packaging' },
+  { to: '/packaging', label: 'Packaging' },
   { to: '/ingredients', label: 'Ingredients' },
 ]
 

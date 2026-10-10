@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
+import { Routes, Route, Navigate, Outlet, useLocation } from 'react-router-dom'
 import TopNav from './components/TopNav.jsx'
 import Footer from './components/Footer.jsx'
 import Discover from './views/Discover.jsx'
@@ -7,6 +7,13 @@ import Outreach from './views/Outreach.jsx'
 import Marketplace from './views/Marketplace.jsx'
 import IngredientsDiscover from './views/ingredients/Discover.jsx'
 import IngredientProfile from './views/ingredients/SupplierProfile.jsx'
+import { PackagingBasketProvider } from './state/packagingBasket.jsx'
+import PackagingLanding from './views/packaging/Landing.jsx'
+import PackagingResults from './views/packaging/Results.jsx'
+import PackagingProduct from './views/packaging/ProductDetail.jsx'
+import SuppliersDirectory from './views/packaging/SuppliersDirectory.jsx'
+import SupplierProfile from './views/packaging/SupplierProfile.jsx'
+import PackagingBasket from './views/packaging/Basket.jsx'
 import LiveCall from './components/outreach/LiveCall.jsx'
 import ColdOpen, { ColdOpenGate } from './components/intro/ColdOpen.jsx'
 
@@ -16,6 +23,15 @@ function ScrollToTop() {
     window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
   }, [pathname])
   return null
+}
+
+/** Pathless layout: one basket provider shared by every /packaging route. */
+function PackagingLayout() {
+  return (
+    <PackagingBasketProvider>
+      <Outlet />
+    </PackagingBasketProvider>
+  )
 }
 
 export default function App() {
@@ -44,6 +60,14 @@ export default function App() {
           <Route path="/marketplace" element={<Marketplace />} />
           <Route path="/ingredients" element={<IngredientsDiscover />} />
           <Route path="/ingredients/:supplierId" element={<IngredientProfile />} />
+          <Route element={<PackagingLayout />}>
+            <Route path="/packaging" element={<PackagingLanding />} />
+            <Route path="/packaging/results" element={<PackagingResults />} />
+            <Route path="/packaging/products/:id" element={<PackagingProduct />} />
+            <Route path="/packaging/suppliers" element={<SuppliersDirectory />} />
+            <Route path="/packaging/suppliers/:slug" element={<SupplierProfile />} />
+            <Route path="/packaging/basket" element={<PackagingBasket />} />
+          </Route>
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
