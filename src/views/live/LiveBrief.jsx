@@ -113,7 +113,7 @@ export default function LiveBrief({ query, created, onReset }) {
               <Field k="Volume" v={request.volume ? `${Number(request.volume).toLocaleString()} units` : null} />
               <Field k="MOQ" v={request.moq ? `${Number(request.moq).toLocaleString()} units` : null} />
               <Field k="Equipment" v={sp.equipment} />
-              <Field k="Line / requirements" v={sp.line || sp.requirements} />
+              <Field k="Line / requirements" v={sp.line || sp.requirements || sp.capabilities} />
               <Field k="Packaging" v={sp.packaging} />
               <Field k="Deadline" v={request.deadline} />
               <Field k="Input" v={request.inputMode === 'voice' ? `Voice · ${request.language || 'en'}` : 'Text'} />

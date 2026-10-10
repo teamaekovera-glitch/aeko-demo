@@ -22,7 +22,8 @@ function specialtyRows(request) {
   if (request?.volume) rows.push(['Volume', `${Number(request.volume).toLocaleString()} units`])
   const eq = Array.isArray(sp.equipment) ? sp.equipment.join(', ') : sp.equipment
   if (eq) rows.push(['Equipment', eq])
-  const line = sp.line || (Array.isArray(sp.requirements) ? sp.requirements.join(', ') : sp.requirements)
+  const reqs = sp.line || sp.requirements || sp.capabilities
+  const line = Array.isArray(reqs) ? reqs.join(', ') : reqs
   if (line) rows.push(['Line', line])
   if (sp.packaging) rows.push(['Packaging', sp.packaging])
   if (request?.deadline) rows.push(['Ship by', request.deadline])
