@@ -5,6 +5,34 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import { api } from '../../lib/live/api.js'
 import { startLiveSession, BRAND_CALLBACK_TOOLS } from '../../lib/live/session.js'
 import { Waveform, fmtClock, initials, AekoMascot } from './shared.jsx'
+import PackagingScene from './PackagingScene.jsx'
+import { PACKAGING_OPTIONS, PACKAGING_PICK, packagingSceneInstruction } from '../../data/packagingScene.js'
+
+const PACKAGING_TOOLS = [
+  {
+    name: 'show_packaging',
+    description: 'Show the three packaging options on the brand screen (Aekobaba).',
+    parametersJsonSchema: { type: 'object', properties: {} },
+  },
+  {
+    name: 'focus_packaging',
+    description: 'Spotlight one packaging option while talking about it.',
+    parametersJsonSchema: {
+      type: 'object',
+      properties: { id: { type: 'string', enum: ['amazon', 'berlin', 'custom-print'] } },
+      required: ['id'],
+    },
+  },
+  {
+    name: 'request_packaging_quote',
+    description: 'Send a quote request to the chosen packaging supplier.',
+    parametersJsonSchema: {
+      type: 'object',
+      properties: { id: { type: 'string', enum: ['amazon', 'berlin', 'custom-print'] } },
+      required: ['id'],
+    },
+  },
+]
 
 const fmt = (n) => (n != null ? Number(n).toLocaleString('en-US') : null)
 
@@ -63,6 +91,13 @@ export default function BrandCallback({ request, systemInstruction, onDone }) {
   const [aekoLevel, setAekoLevel] = useState(0)
   const [userLevel, setUserLevel] = useState(0)
   const [chosen, setChosen] = useState(request.chosenSupplierId || null)
+  const [pkgShown, setPkgShown] = useState(false)
+  const [pkgFocus, setPkgFocus] = useState(null)
+  const [pkgQuoted, setPkgQuoted] = useState(null)
+  const pkgRef = useRef(null)
+  useEffect(() => {
+    if (pkgShown) pkgRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }, [pkgShown])
   const [elapsed, setElapsed] = useState(0)
   const [error, setError] = useState('')
   const sessionRef = useRef(null)
@@ -140,8 +175,8 @@ export default function BrandCallback({ request, systemInstruction, onDone }) {
       await api.callbackUpdate(request.id, { status: 'CALLING' })
       sessionRef.current = await startLiveSession({
         purpose: 'brand_intake',
-        systemInstruction,
-        tools: BRAND_CALLBACK_TOOLS,
+        systemInstruction: systemInstruction + packagingSceneInstruction({ product: request.product || 'stuffed cookies' }),
+        tools: [...BRAND_CALLBACK_TOOLS, ...PACKAGING_TOOLS],
         kickoff: 'The founder just picked up your call. Greet them and give them the news now.',
         onState: (st, detail) => {
           if (st === 'live' || st === 'speaking' || st === 'listening') setPhase('live')
@@ -168,6 +203,22 @@ export default function BrandCallback({ request, systemInstruction, onDone }) {
               await api.callbackUpdate(request.id, { chosenSupplierId: match.supplierId })
             }
             return { ok: true, chosen: match?.name, introSlot: match?.introSlot || 'Tue 10:00' }
+          }
+          if (name === 'show_packaging') {
+            setPkgShown(true)
+            return { ok: true, options: PACKAGING_OPTIONS.map((o) => ({ id: o.id, name: o.name, seller: o.seller, price: o.unitPrice })) }
+          }
+          if (name === 'focus_packaging') {
+            setPkgShown(true)
+            setPkgFocus(String(args.id || ''))
+            return { ok: true }
+          }
+          if (name === 'request_packaging_quote') {
+            const id = PACKAGING_OPTIONS.some((o) => o.id === args.id) ? args.id : PACKAGING_PICK
+            setPkgShown(true)
+            setPkgFocus(id)
+            setPkgQuoted(id)
+            return { ok: true, sentTo: PACKAGING_OPTIONS.find((o) => o.id === id)?.seller }
           }
           if (name === 'end_call') {
             setTimeout(() => finish(true), 50)
@@ -236,7 +287,13 @@ export default function BrandCallback({ request, systemInstruction, onDone }) {
         )}
         {error && <p className="live-error">{error}</p>}
 
-        <div className="bc-opts">
+        {pkgShown && (
+          <div ref={pkgRef}>
+            <PackagingScene brandCompany={request.brandCompany} focusId={pkgFocus} quotedId={pkgQuoted} />
+          </div>
+        )}
+
+        <div className={`bc-opts ${pkgShown ? 'bc-opts--compact' : ''}`}>
           {options.map((o, i) => (
             <OptionCard key={o.supplierId} o={o} index={i} chosen={chosen === o.supplierId} />
           ))}
@@ -254,7 +311,7 @@ export default function BrandCallback({ request, systemInstruction, onDone }) {
             <p>
               <strong>Aeko</strong>
               {chosenOpt
-                ? `Intro booked with ${chosenOpt.name} · ${chosenOpt.introSlot || 'Tue 10:00'}. The spec sheet is on its way to them.`
+                ? `Intro booked with ${chosenOpt.name} · ${chosenOpt.introSlot || 'Tue 10:00'}. The spec sheet is on its way to them.${pkgQuoted ? ` Packaging quote requested from ${PACKAGING_OPTIONS.find((o) => o.id === pkgQuoted)?.seller}.` : ''}`
                 : 'Call wrapped — your options are saved here.'}
             </p>
           </div>
