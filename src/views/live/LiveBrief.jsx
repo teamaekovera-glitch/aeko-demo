@@ -1,6 +1,6 @@
 // Brand-side result of a live search: the parsed project request as saved in
-// the database, Aeko's "give me a couple of days" line, and the demo's
-// "5 days have passed" fast-forward: Aeko matches + calls makers in the
+// the database, Aeko's "grab a coffee, I'll call you right back" line, and the
+// "Start outreach" button: Aeko matches + calls makers in the
 // background (the admin watches the control room); when the admin approves,
 // Aeko calls the brand back here with the options.
 import { useEffect, useRef, useState } from 'react'
@@ -9,7 +9,7 @@ import BrandCallback from './BrandCallback.jsx'
 import { AekoMascot } from './shared.jsx'
 import { playPcmClip } from '../../lib/live/audio.js'
 
-const AEKO_LINE = "Got it. Give me a couple of days — I'll talk to the makers and call you back with the ones who can actually run it."
+const AEKO_LINE = "Got it. Give me a little time — go grab a coffee or knock out a chore, and I'll call you right back with the makers who can actually run it."
 
 // Aeko's voice (Umbriel via /api/tts); browser TTS only if Gemini TTS fails.
 async function speak(text) {
@@ -96,21 +96,21 @@ export default function LiveBrief({ query, created, onReset }) {
 
   const sp = request?.specialty || {}
 
-  // "5 days have passed": run the match, give the control room a beat to
+  // "Start outreach": run the match, give the control room a beat to
   // animate, then dial the top makers. All in the background.
   const fastForward = async () => {
     if (!request) return
     setStage('working')
     setError('')
     try {
-      setWorkNote('Searching the network for makers who can run it…')
+      setWorkNote('Rummaging through the network for makers who can actually run it…')
       if (request.status === 'NEW') {
         const res = await api.matchRequest(request.id)
-        setWorkNote(`${res.matches?.length || 0} makers matched across ${res.scanned || 'the'} suppliers — calling the best ones now.`)
+        setWorkNote(`${res.matches?.length || 0} makers matched across ${res.scanned || 'the'} suppliers — dialing the best ones now. Phone's warm.`)
         await new Promise((r) => setTimeout(r, 6000))
         await api.startCalls(request.id)
       }
-      setWorkNote("I'm on the phone with the makers. I'll call you back as soon as I have answers.")
+      setWorkNote("I'm on the phone with the makers. Finish that coffee — I'll ring you the second I've got answers.")
     } catch (err) {
       setError(`Couldn't start Aeko: ${err.message}`)
       setStage('brief')
@@ -208,7 +208,7 @@ export default function LiveBrief({ query, created, onReset }) {
 
             <div className="lb__actions">
               <button type="button" className="btn btn--brand btn--lg" onClick={fastForward} disabled={stage !== 'brief'}>
-                ⏩ 5 days have passed
+                ☕ Coffee break — start outreach
               </button>
               <button type="button" className="btn btn--ghost" onClick={onReset}>
                 New brief

@@ -260,7 +260,7 @@ export default function ControlRoom() {
     }
   }, [requestId, refresh])
 
-  // Only the page that pressed "5 days have passed" runs the match + dials.
+  // Only the page that pressed "Start outreach" runs the match + dials.
   // Every other screen (the admin monitor) just watches.
   const autoStarted = useRef(false)
   useEffect(() => {
@@ -318,7 +318,7 @@ export default function ControlRoom() {
       {!requestId && (
         <div className="cr__empty">
           <h1>Waiting for a brief…</h1>
-          <p>Start a search on the brand laptop, then press “5 days have passed”.</p>
+          <p>Start a search on the brand laptop, then press “Start outreach”.</p>
         </div>
       )}
 
@@ -387,7 +387,7 @@ export default function ControlRoom() {
               <div className="cr-match">
                 <h2 className="cr-ready">New brief from {request?.brandCompany || 'the brand'}: <b>{request?.rawQuery}</b></h2>
                 <button type="button" className="btn btn--brand btn--lg" onClick={runMatch}>
-                  ⏩ 5 days have passed — run Aeko
+                  ☕ Start outreach — run Aeko
                 </button>
               </div>
             )}
