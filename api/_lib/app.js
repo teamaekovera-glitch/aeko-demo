@@ -143,7 +143,9 @@ const HANDLERS = {
 
     const matches = matchRows.map((m) => ({ ...mapMatch(m), supplier: mapSupplier(supplierById.get(m.supplier_id)) }))
     const calls = await enrichCalls(ctx.store, callRows, supplierById, {
-      ...Object.fromEntries(callRows.map((c) => [c.id, { request: mapRequest(request) }])),
+      ...Object.fromEntries(
+        callRows.map((c) => [c.id, { request: mapRequest(request), supplier: mapSupplier(supplierById.get(c.supplier_id)) }])
+      ),
     })
 
     json(ctx.res, 200, {
@@ -235,7 +237,9 @@ const HANDLERS = {
     const callRows = await ctx.store.listCalls({ requestId: latest.id })
     const supplierById = await loadSupplierMap(ctx.store)
     const calls = await enrichCalls(ctx.store, callRows, supplierById, {
-      ...Object.fromEntries(callRows.map((c) => [c.id, { request: mapRequest(latest) }])),
+      ...Object.fromEntries(
+        callRows.map((c) => [c.id, { request: mapRequest(latest), supplier: mapSupplier(supplierById.get(c.supplier_id)) }])
+      ),
     })
     json(ctx.res, 200, { calls, request: mapRequest(latest) })
   },
