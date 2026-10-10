@@ -313,6 +313,11 @@ try {
     check('unknown path 404', nf.status === 404 && nf.json?.error === 'NOT_FOUND', nf.json)
     const wm = await call('DELETE', '/api/health')
     check('wrong method 405', wm.status === 405 && wm.json?.error === 'METHOD_NOT_ALLOWED', wm.json)
+    // mimics the deployed vercel.json rewrite: /api/* -> /api/handler?__route=<subpath>
+    const rw = await call('GET', '/api/handler?__route=health')
+    check('__route rewrite param resolves the real subpath', rw.status === 200 && rw.json?.ok === true, rw.json)
+    const rwDeep = await call('GET', '/api/handler?__route=definitely/nope', { token: tokens.usr_admin })
+    check('__route multi-segment unknown 404', rwDeep.status === 404 && rwDeep.json?.error === 'NOT_FOUND', rwDeep.json)
   }
 } finally {
   server.close()

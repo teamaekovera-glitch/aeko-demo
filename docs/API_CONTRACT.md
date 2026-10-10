@@ -6,7 +6,7 @@ field — only add new ones.**
 - JSON everywhere. Errors are `{ "error": "<code>" }` with a correct HTTP status.
 - `Authorization: Bearer <token>` on everything **except** `/api/health` and `/api/auth/login`.
 - Responses use camelCase keys (mapped from snake_case columns).
-- One Vercel Node serverless function: `api/[...path].js` (Hobby 12-function limit).
+- One Vercel Node serverless function: `api/handler.js` (Hobby 12-function limit). `vercel.json` rewrites `/api/:path*` → `/api/handler?__route=:path*` — bracket catch-all filenames are not supported outside Next.js, so the rewrite carries the real subpath in `__route`.
   Shared code in `api/_lib/` (`_` prefix = not a function).
 
 ## Error codes

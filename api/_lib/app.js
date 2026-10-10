@@ -388,7 +388,15 @@ export function createApp(overrides = {}) {
     } catch {
       return fail(res, 404, 'NOT_FOUND')
     }
-    const segs = url.pathname.split('/').filter(Boolean)
+    // vercel.json rewrites /api/* to the function at /api/handler with the
+    // original subpath in the __route query param (bracket catch-all filenames
+    // are not supported outside Next.js — they match only ONE segment). Direct
+    // invocations without __route fall back to the plain pathname.
+    const routeParam = url.searchParams.get('__route')
+    const effectivePath = routeParam !== null
+      ? `/api/${routeParam.replace(/^\/+/, '')}`
+      : url.pathname
+    const segs = effectivePath.split('/').filter(Boolean)
     if (segs[0] !== 'api') return fail(res, 404, 'NOT_FOUND')
     segs.shift()
 
