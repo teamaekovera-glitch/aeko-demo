@@ -158,10 +158,26 @@ export async function parseQuery(query, language) {
 
 // Never fails: falls back to the regex/keyword parser on any Gemini problem.
 export async function parseWithFallback(query, language) {
+  const kw = fallbackParse(query, language)
+  let ai
   try {
-    return await parseQuery(query, language)
+    ai = await parseQuery(query, language)
   } catch {
-    return fallbackParse(query, language)
+    return kw
+  }
+  // Gemini sometimes returns empty arrays; keep the keyword parser's hits so
+  // equipment/capabilities always drive matching and the UNDERSTOOD chips.
+  const merge = (a, b) => [...new Set([...(Array.isArray(a) ? a : []), ...(Array.isArray(b) ? b : [])])]
+  return {
+    ...kw,
+    ...Object.fromEntries(Object.entries(ai || {}).filter(([, v]) => v != null && v !== '')),
+    specialty: {
+      ...(kw.specialty || {}),
+      ...(ai?.specialty || {}),
+      equipment: merge(ai?.specialty?.equipment, kw.specialty?.equipment),
+      capabilities: merge(ai?.specialty?.capabilities, kw.specialty?.capabilities),
+    },
+    searchTerms: merge(ai?.searchTerms, kw.searchTerms),
   }
 }
 
