@@ -92,6 +92,23 @@ export default function SupplierPortal() {
     }
   }, [phase, navigate])
 
+  // While ringing, drop back to idle if the call disappears (demo reset).
+  useEffect(() => {
+    if (phase !== 'ringing' || !incoming) return undefined
+    const t = setInterval(async () => {
+      try {
+        const { call } = await api.incomingCall()
+        if (!call || call.id !== incoming.id) {
+          setIncoming(null)
+          setPhase('idle')
+        }
+      } catch {
+        /* keep ringing */
+      }
+    }, 2500)
+    return () => clearInterval(t)
+  }, [phase, incoming])
+
   useRingtone(phase === 'ringing')
 
   useEffect(() => {

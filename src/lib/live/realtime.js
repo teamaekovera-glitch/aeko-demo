@@ -29,10 +29,10 @@ export function getSupabase() {
 const CHANNEL = 'aeko-live'
 
 // Sender side (supplier laptop): returns { send(event, payload), close() }.
-export async function openBroadcaster() {
+export async function openBroadcaster(channelName = CHANNEL) {
   const sb = await getSupabase()
   if (!sb) return { send: () => {}, close: () => {} }
-  const ch = sb.channel(CHANNEL, { config: { broadcast: { self: false, ack: false } } })
+  const ch = sb.channel(channelName, { config: { broadcast: { self: false, ack: false } } })
   await new Promise((resolve) => {
     const t = setTimeout(resolve, 3000)
     ch.subscribe((status) => {
@@ -90,5 +90,34 @@ export function listen({ onTranscript, onLevel, onCallChange, onRequestChange, o
     closed = true
     clearInterval(pollTimer)
     if (sbRef) channels.forEach((c) => sbRef.removeChannel(c))
+  }
+}
+
+// ---- Demo reset ----------------------------------------------------------
+// The admin's "Reset demo" wipes the data and broadcasts `reset`; every open
+// screen (brand, suppliers, control room) reloads to its start page so no
+// stale request, call or callback stays on screen.
+export async function broadcastDemoReset() {
+  const b = await openBroadcaster('aeko-reset')
+  b.send('reset', { at: Date.now() })
+  await new Promise((r) => setTimeout(r, 600))
+  b.close()
+}
+
+export function onDemoReset(cb) {
+  let closed = false
+  let sbRef = null
+  let ch = null
+  getSupabase().then((sb) => {
+    if (!sb || closed) return
+    sbRef = sb
+    ch = sb
+      .channel('aeko-reset', { config: { broadcast: { self: false } } })
+      .on('broadcast', { event: 'reset' }, () => cb())
+      .subscribe()
+  })
+  return () => {
+    closed = true
+    if (sbRef && ch) sbRef.removeChannel(ch)
   }
 }

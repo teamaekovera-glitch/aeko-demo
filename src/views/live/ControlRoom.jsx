@@ -5,7 +5,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import { api, getStoredUser } from '../../lib/live/api.js'
-import { listen } from '../../lib/live/realtime.js'
+import { listen, broadcastDemoReset } from '../../lib/live/realtime.js'
 import { Waveform, fmtClock, initials, camel, LANG_LABEL, AekoMascot } from './shared.jsx'
 
 const MATCH_STEPS = [
@@ -137,6 +137,16 @@ export default function ControlRoom() {
         // Monitor mode: always follow the newest request (made on the brand laptop).
         const { requests } = await api.listRequests()
         const newest = [...(requests || [])].sort((a, b) => String(b.createdAt).localeCompare(String(a.createdAt)))[0]
+        if (!newest && requestId) {
+          // Demo was reset — drop everything on screen.
+          setRequestId(null)
+          setRequest(null)
+          setMatches([])
+          setCalls([])
+          setLive({})
+          setStepIdx(-1)
+          return
+        }
         if (newest && newest.id !== requestId) {
           id = newest.id
           setRequestId(newest.id)
@@ -153,6 +163,7 @@ export default function ControlRoom() {
       setCalls(data.calls || [])
     } catch (err) {
       if (err.status === 401) navigate(`/login?next=${encodeURIComponent(window.location.pathname)}`, { replace: true })
+      if (err.status === 404) window.location.replace('/control')
     }
   }, [routeId, requestId, navigate])
 
@@ -293,9 +304,10 @@ export default function ControlRoom() {
             type="button"
             className="cr__reset"
             onClick={async () => {
+              if (!window.confirm('Reset the demo? This clears every brief, call and callback on all screens.')) return
               await api.resetDemo().catch(() => {})
-              navigate('/control')
-              window.location.reload()
+              await broadcastDemoReset().catch(() => {})
+              window.location.replace('/control')
             }}
           >
             Reset demo

@@ -19,6 +19,7 @@ import ColdOpen, { ColdOpenGate } from './components/intro/ColdOpen.jsx'
 import Login from './views/live/Login.jsx'
 import SupplierPortal from './views/live/SupplierPortal.jsx'
 import ControlRoom from './views/live/ControlRoom.jsx'
+import { onDemoReset } from './lib/live/realtime.js'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -37,6 +38,30 @@ function PackagingLayout() {
   )
 }
 
+// Admin "Reset demo" → every open screen reloads to its start page.
+export function homeAfterReset(pathname) {
+  if (pathname.startsWith('/control')) return '/control'
+  if (pathname.startsWith('/supplier')) return '/supplier'
+  if (pathname.startsWith('/login')) return pathname
+  return '/'
+}
+
+function DemoResetListener() {
+  useEffect(
+    () =>
+      onDemoReset(() => {
+        try {
+          sessionStorage.clear()
+        } catch {
+          /* noop */
+        }
+        window.location.replace(homeAfterReset(window.location.pathname))
+      }),
+    [],
+  )
+  return null
+}
+
 export default function App() {
   // The outreach workspace and the cold-open intro are full-screen surfaces
   // with their own chrome — the standard site chrome drops away there.
@@ -50,6 +75,7 @@ export default function App() {
   return (
     <div className={`app-shell ${immersive ? 'app-shell--immersive' : ''}`}>
       <ScrollToTop />
+      <DemoResetListener />
       {!immersive && <TopNav />}
       <main className="app-main">
         <Routes>

@@ -140,6 +140,20 @@ export default function LiveBrief({ query, created, onReset }) {
     }
   }, [stage, request])
 
+  // Demo reset fallback: if the request was wiped, go back to a clean start
+  // (Realtime broadcast normally handles this instantly).
+  useEffect(() => {
+    if (!request?.id) return undefined
+    const t = setInterval(async () => {
+      try {
+        await api.getRequest(request.id)
+      } catch (err) {
+        if (err.status === 404) window.location.replace('/')
+      }
+    }, 4000)
+    return () => clearInterval(t)
+  }, [request?.id])
+
   if (stage === 'callback' && callback) {
     return <BrandCallback request={callback.request} systemInstruction={callback.systemInstruction} onDone={onReset} />
   }
