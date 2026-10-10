@@ -7,6 +7,7 @@ import '@fontsource-variable/space-grotesk'
 import '@fontsource/instrument-serif'
 import './styles.css'
 import './ingredients.css'
+import './packaging.css'
 import App from './App.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(

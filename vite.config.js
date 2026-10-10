@@ -8,4 +8,7 @@ export default defineConfig({
   server: {
     allowedHosts: ['5173-iyph86pq76fnilfh4cejp.e2b.app'],
   },
+  preview: {
+    allowedHosts: ['4173-i0asnfpnzb1svw4kxn5ma.e2b.app'],
+  },
 })
