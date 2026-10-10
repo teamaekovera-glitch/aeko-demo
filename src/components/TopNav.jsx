@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { ArrowRightIcon } from './icons.jsx'
+import { api, getStoredUser } from '../lib/live/api.js'
 
 const NAV_LINKS = [
   { to: '/', label: 'Discover', end: true },
@@ -52,9 +53,24 @@ export default function TopNav() {
         </nav>
 
         <div className="site-nav__actions">
-          <a href="#signin" onClick={(e) => e.preventDefault()} className="site-nav__link">
-            Sign in
-          </a>
+          {getStoredUser() ? (
+            <a
+              href="/login"
+              className="site-nav__link"
+              title={getStoredUser()?.email}
+              onClick={async (e) => {
+                e.preventDefault()
+                await api.logout().catch(() => {})
+                window.location.href = '/login'
+              }}
+            >
+              {getStoredUser()?.company || 'Account'} · Sign out
+            </a>
+          ) : (
+            <Link to="/login" className="site-nav__link">
+              Sign in
+            </Link>
+          )}
           <Link to="/outreach" className="btn btn--pill btn--navy">
             Book a demo
             <ArrowRightIcon size={16} className="btn__arrow" />

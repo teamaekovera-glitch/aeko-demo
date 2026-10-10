@@ -8,6 +8,7 @@ import '@fontsource/instrument-serif'
 import './styles.css'
 import './ingredients.css'
 import './packaging.css'
+import './live.css'
 import App from './App.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(

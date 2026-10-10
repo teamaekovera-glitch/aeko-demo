@@ -16,6 +16,9 @@ import SupplierProfile from './views/packaging/SupplierProfile.jsx'
 import PackagingBasket from './views/packaging/Basket.jsx'
 import LiveCall from './components/outreach/LiveCall.jsx'
 import ColdOpen, { ColdOpenGate } from './components/intro/ColdOpen.jsx'
+import Login from './views/live/Login.jsx'
+import SupplierPortal from './views/live/SupplierPortal.jsx'
+import ControlRoom from './views/live/ControlRoom.jsx'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -38,7 +41,11 @@ export default function App() {
   // The outreach workspace and the cold-open intro are full-screen surfaces
   // with their own chrome — the standard site chrome drops away there.
   const { pathname } = useLocation()
-  const immersive = pathname.startsWith('/outreach') || pathname === '/intro'
+  const immersive =
+    pathname.startsWith('/outreach') ||
+    pathname === '/intro' ||
+    pathname.startsWith('/control') ||
+    pathname.startsWith('/supplier')
 
   return (
     <div className={`app-shell ${immersive ? 'app-shell--immersive' : ''}`}>
@@ -57,6 +64,10 @@ export default function App() {
             }
           />
           <Route path="/intro" element={<ColdOpen />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/supplier" element={<SupplierPortal />} />
+          <Route path="/control" element={<ControlRoom />} />
+          <Route path="/control/:requestId" element={<ControlRoom />} />
           <Route path="/marketplace" element={<Marketplace />} />
           <Route path="/ingredients" element={<IngredientsDiscover />} />
           <Route path="/ingredients/:supplierId" element={<IngredientProfile />} />
