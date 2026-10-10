@@ -190,7 +190,13 @@ const HANDLERS = {
       .filter((c) => c.outcome === 'NO' || c.status === 'MISSED')
       .map((c) => ({ supplierId: c.supplier_id, name: supplierById.get(c.supplier_id)?.name, reason: c.outcome_reason || 'No answer' }))
     const summary = { options, declined, callsMade: callRows.length, approvedAt: nowIso() }
-    const updated = await ctx.store.updateRequest(request.id, { callback_status: 'READY', summary, chosen_supplier_id: null })
+    let updated
+    try {
+      updated = await ctx.store.updateRequest(request.id, { callback_status: 'READY', summary, chosen_supplier_id: null })
+    } catch (e) {
+      if (/callback_status|summary|chosen_supplier_id/.test(String(e?.message))) throw httpError(500, 'DB is missing the callback columns — run supabase/migrations/002_brand_callback.sql')
+      throw e
+    }
     json(ctx.res, 200, { request: mapRequest(updated) })
   },
 

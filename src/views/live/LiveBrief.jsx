@@ -1,5 +1,5 @@
 // Brand-side result of a live search: the parsed project request as saved in
-// the database, Aeko's "grab a coffee, I'll call you right back" line, and the
+// the database, Aeko's "go do your chores, I'll get back to you" line, and the
 // "Start outreach" button: Aeko matches + calls makers in the
 // background (the admin watches the control room); when the admin approves,
 // Aeko calls the brand back here with the options.
@@ -9,7 +9,7 @@ import BrandCallback from './BrandCallback.jsx'
 import { AekoMascot } from './shared.jsx'
 import { playPcmClip } from '../../lib/live/audio.js'
 
-const AEKO_LINE = "Got it. Give me a little time — go grab a coffee or knock out a chore, and I'll call you right back with the makers who can actually run it."
+const AEKO_LINE = "Got it. Go do your chores — I'll talk to the makers and get back to you."
 
 // Aeko's voice (Umbriel via /api/tts); browser TTS only if Gemini TTS fails.
 async function speak(text) {
@@ -110,7 +110,7 @@ export default function LiveBrief({ query, created, onReset }) {
         await new Promise((r) => setTimeout(r, 6000))
         await api.startCalls(request.id)
       }
-      setWorkNote("I'm on the phone with the makers. Finish that coffee — I'll ring you the second I've got answers.")
+      setWorkNote("I'm on the phone with the makers. Go do your chores — I'll get back to you.")
     } catch (err) {
       setError(`Couldn't start Aeko: ${err.message}`)
       setStage('brief')
@@ -208,7 +208,7 @@ export default function LiveBrief({ query, created, onReset }) {
 
             <div className="lb__actions">
               <button type="button" className="btn btn--brand btn--lg" onClick={fastForward} disabled={stage !== 'brief'}>
-                ☕ Coffee break — start outreach
+                Start outreach
               </button>
               <button type="button" className="btn btn--ghost" onClick={onReset}>
                 New brief

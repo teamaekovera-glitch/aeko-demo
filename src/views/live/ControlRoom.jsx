@@ -387,7 +387,7 @@ export default function ControlRoom() {
               <div className="cr-match">
                 <h2 className="cr-ready">New brief from {request?.brandCompany || 'the brand'}: <b>{request?.rawQuery}</b></h2>
                 <button type="button" className="btn btn--brand btn--lg" onClick={runMatch}>
-                  ☕ Start outreach — run Aeko
+                  Start outreach — run Aeko
                 </button>
               </div>
             )}

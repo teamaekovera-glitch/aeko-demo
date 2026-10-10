@@ -41,6 +41,7 @@ export function supplierCallInstruction({ supplier, request, brandCompany }) {
     'As soon as you know whether they can do it, call record_outcome (outcome YES/NO/MAYBE, a one-line reason, a language code). ' +
     'On YES say "Perfect. The spec sheet\'s on its way and I\'ll book your intro," then call end_call. ' +
     'On NO, thank them warmly, say you\'ll keep them in mind, then call end_call. ' +
+    'If they are busy or say they don\'t have time right now, don\'t push: say something short, generic and lightly funny in the spirit of "No stress, I\'ll call you back later — go save the day" (make up your own line, never the same one twice), then call record_outcome with NO and reason "Busy — calling back later", then end_call. ' +
     'Never invent prices, certifications or facts that aren\'t in the brief.'
   )
 }
