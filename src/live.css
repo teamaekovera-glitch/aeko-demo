@@ -242,3 +242,5 @@
 .cr-intro__nodes em.is-ok { color: #047857; }
 .cr-intro__link { color: #f76808; font-weight: 700; }
 .cr-tiles--mini .cr-tile { min-height: 0; }
+.cr-ready { font-family: var(--font-display); font-weight: 500; font-size: 1.5rem; color: var(--cr-dim); margin: 0 0 18px; }
+.cr-ready b { color: var(--cr-ink); }

@@ -57,6 +57,16 @@ async function request(method, path, body) {
   return data
 }
 
+// Guest brand mode: search and voice work without a sign-in. The first live
+// action quietly opens a session as the demo brand (Doughmere Cookie Co.).
+const GUEST_BRAND = { email: 'maya@doughmere.demo', password: 'aeko2026' }
+
+export async function ensureBrandSession() {
+  const u = getStoredUser()
+  if (getToken() && u && (u.role === 'BRAND' || u.role === 'ADMIN')) return u
+  return api.login(GUEST_BRAND.email, GUEST_BRAND.password)
+}
+
 export const api = {
   health: () => request('GET', '/api/health'),
 

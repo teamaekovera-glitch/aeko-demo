@@ -3,7 +3,7 @@
 // transcripts stream in over Supabase Broadcast from the supplier laptops,
 // call status/outcomes arrive via postgres_changes (+ polling fallback).
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import { api, getStoredUser } from '../../lib/live/api.js'
 import { listen } from '../../lib/live/realtime.js'
 import { Waveform, fmtClock, initials, camel, LANG_LABEL } from './shared.jsx'
@@ -106,6 +106,8 @@ function CallTile({ call, live: liveIn, now }) {
 export default function ControlRoom() {
   const { requestId: routeId } = useParams()
   const navigate = useNavigate()
+  const location = useLocation()
+  const autoRun = location.state?.run === true
   const user = getStoredUser()
   const [requestId, setRequestId] = useState(routeId || null)
   const [request, setRequest] = useState(null)
@@ -130,23 +132,29 @@ export default function ControlRoom() {
 
   const refresh = useCallback(async () => {
     try {
-      if (requestId) {
-        const data = await api.getRequest(requestId)
-        setRequest(data.request)
-        if (data.matches?.length) setMatches(data.matches)
-        setCalls(data.calls || [])
-      } else {
-        const { calls: active } = await api.activeCalls()
-        if (active?.length) {
-          setRequestId(active[0].requestId || active[0].request?.id)
-          setCalls(active)
-          if (active[0].request) setRequest(active[0].request)
+      let id = routeId || requestId
+      if (!routeId) {
+        // Monitor mode: always follow the newest request (made on the brand laptop).
+        const { requests } = await api.listRequests()
+        const newest = [...(requests || [])].sort((a, b) => String(b.createdAt).localeCompare(String(a.createdAt)))[0]
+        if (newest && newest.id !== requestId) {
+          id = newest.id
+          setRequestId(newest.id)
+          setMatches([])
+          setCalls([])
+          setLive({})
+          setStepIdx(-1)
         }
       }
+      if (!id) return
+      const data = await api.getRequest(id)
+      setRequest(data.request)
+      if (data.matches?.length) setMatches(data.matches)
+      setCalls(data.calls || [])
     } catch (err) {
-      if (err.status === 401) navigate('/login', { replace: true })
+      if (err.status === 401) navigate(`/login?next=${encodeURIComponent(window.location.pathname)}`, { replace: true })
     }
-  }, [requestId, navigate])
+  }, [routeId, requestId, navigate])
 
   useEffect(() => {
     refresh()
@@ -227,9 +235,23 @@ export default function ControlRoom() {
     }
   }, [requestId, refresh])
 
+  // Only the page that pressed "5 days have passed" runs the match + dials.
+  // Every other screen (the admin monitor) just watches.
+  const autoStarted = useRef(false)
   useEffect(() => {
-    if (requestId && request && calls.length === 0 && ['NEW', 'MATCHING'].includes(request.status)) runMatch()
-  }, [requestId, request, calls.length, runMatch])
+    if (!autoRun || autoStarted.current) return
+    if (requestId && request && calls.length === 0 && request.status === 'NEW') {
+      autoStarted.current = true
+      runMatch()
+    }
+  }, [autoRun, requestId, request, calls.length, runMatch])
+
+  // Watching a match that another laptop started: animate the steps locally.
+  useEffect(() => {
+    if (dialing.current || request?.status !== 'MATCHING' || stepIdx >= MATCH_STEPS.length) return undefined
+    const t = setTimeout(() => setStepIdx((i) => Math.min(MATCH_STEPS.length, i + 1)), 900)
+    return () => clearTimeout(t)
+  }, [request?.status, stepIdx])
 
   const rows = useMemo(() => specialtyRows(request), [request])
   const yes = calls.filter((c) => c.outcome === 'YES')
@@ -333,7 +355,16 @@ export default function ControlRoom() {
           </aside>
 
           <main className="cr__stage">
-            {phase === 'match' && (
+            {phase === 'match' && request?.status === 'NEW' && !dialing.current && (
+              <div className="cr-match">
+                <h2 className="cr-ready">New brief from {request?.brandCompany || 'the brand'}: <b>{request?.rawQuery}</b></h2>
+                <button type="button" className="btn btn--brand btn--lg" onClick={runMatch}>
+                  ⏩ 5 days have passed — run Aeko
+                </button>
+              </div>
+            )}
+
+            {phase === 'match' && !(request?.status === 'NEW' && !dialing.current) && (
               <div className="cr-match">
                 <ul className="cr-steps">
                   {MATCH_STEPS.map((s, i) => (

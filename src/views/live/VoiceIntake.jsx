@@ -2,7 +2,7 @@
 // Marathi or Norwegian; Aeko asks at most two follow-ups, then saves the
 // project request through submit_project_request.
 import { useEffect, useRef, useState } from 'react'
-import { api } from '../../lib/live/api.js'
+import { api, ensureBrandSession } from '../../lib/live/api.js'
 import { startLiveSession, BRAND_INTAKE_TOOLS, BRAND_INTAKE_INSTRUCTION } from '../../lib/live/session.js'
 import { Waveform } from './shared.jsx'
 
@@ -54,7 +54,7 @@ export default function VoiceIntake({ onCreated, onClose }) {
 
   useEffect(() => {
     let cancelled = false
-    startLiveSession({
+    ensureBrandSession().then(() => startLiveSession({
       purpose: 'brand_intake',
       systemInstruction: BRAND_INTAKE_INSTRUCTION,
       tools: BRAND_INTAKE_TOOLS,
@@ -87,7 +87,7 @@ export default function VoiceIntake({ onCreated, onClose }) {
         }
         return { ok: false }
       },
-    })
+    }))
       .then((s) => {
         if (cancelled) s.stop()
         else sessionRef.current = s

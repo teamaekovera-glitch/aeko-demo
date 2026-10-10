@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom'
 import SupplierCard from '../components/SupplierCard.jsx'
 import LiveBrief from './live/LiveBrief.jsx'
 import VoiceIntake from './live/VoiceIntake.jsx'
-import { getStoredUser } from '../lib/live/api.js'
 import {
   SparklesIcon,
   ArrowRightIcon,
@@ -250,8 +249,9 @@ export default function Discover() {
   const navigate = useNavigate()
   // Live mode: a signed-in brand gets the real pipeline (saved project
   // request → control room). Everyone else keeps the simulated demo.
-  const liveUser = getStoredUser()
-  const live = liveUser?.role === 'BRAND' || liveUser?.role === 'ADMIN'
+  // No sign-in needed: live mode is on for everyone (guest brand session is
+  // opened on the first search). Add ?sim=1 to get the old simulated demo.
+  const live = !new URLSearchParams(window.location.search).has('sim')
   const [liveQuery, setLiveQuery] = useState(null)
   const [liveCreated, setLiveCreated] = useState(null)
   const [voiceOpen, setVoiceOpen] = useState(false)
@@ -267,13 +267,7 @@ export default function Discover() {
     setQuery(q)
   }
 
-  const openVoice = () => {
-    if (!live) {
-      navigate('/login?next=/')
-      return
-    }
-    setVoiceOpen(true)
-  }
+  const openVoice = () => setVoiceOpen(true)
 
   const resetLive = () => {
     setLiveQuery(null)

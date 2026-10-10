@@ -3,7 +3,7 @@
 // "5 days have passed" fast-forward into the control room.
 import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { api } from '../../lib/live/api.js'
+import { api, ensureBrandSession } from '../../lib/live/api.js'
 import { playPcmClip } from '../../lib/live/audio.js'
 
 const AEKO_LINE = "Got it. Give me a couple of days — I'll talk to the makers and call you back with the ones who can actually run it."
@@ -56,6 +56,7 @@ export default function LiveBrief({ query, created, onReset }) {
     ;(async () => {
       try {
         setBusy(true)
+        await ensureBrandSession()
         const { parsed } = await api.parseRequest(query)
         const { request: saved } = await api.createRequest({
           rawQuery: query,
@@ -138,7 +139,7 @@ export default function LiveBrief({ query, created, onReset }) {
             </div>
 
             <div className="lb__actions">
-              <button type="button" className="btn btn--brand btn--lg" onClick={() => navigate(`/control/${request.id}`)}>
+              <button type="button" className="btn btn--brand btn--lg" onClick={() => navigate(`/control/${request.id}`, { state: { run: true } })}>
                 ⏩ 5 days have passed
               </button>
               <button type="button" className="btn btn--ghost" onClick={onReset}>
