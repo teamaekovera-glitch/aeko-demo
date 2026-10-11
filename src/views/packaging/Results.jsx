@@ -5,7 +5,9 @@
  * is the single source of truth (parseFilters is forgiving of junk params),
  * facets update with the query (each dimension counts within the others
  * open), sorting is one of the four spec sorts, and the search note states
- * honestly what the taxonomy matched — no invented results.
+ * honestly what the taxonomy matched — no invented results. An unmatched
+ * query (resolved === null) shows suggestions instead of presenting the
+ * whole catalog as matches; picking another facet keeps the narrowed view.
  */
 
 import { useEffect, useMemo, useState } from 'react'
@@ -24,6 +26,7 @@ import {
 } from '../../lib/packaging/filters'
 import { resolveSearchQuery } from '../../lib/packaging/aliases'
 import { allProducts } from '../../lib/packaging/catalog'
+import { POPULAR_SEARCHES, popularSearchUrl } from '../../lib/packaging/popular'
 import { priceTypeLabel } from '../../lib/packaging/format'
 import ProductCard from '../../components/packaging/ProductCard'
 import { PackageIcon } from '../../components/icons.jsx'
@@ -157,6 +160,12 @@ export default function PackagingResults() {
     (filters.maxMoq !== null ? 1 : 0) +
     (filters.maxLeadDays !== null ? 1 : 0)
 
+  // Unmatched free text must not read as "here are 80 matching products": with
+  // no other facet active, swap the grid for suggestions. A user-picked facet
+  // (activeCount > 1) keeps the narrowed, honestly-labelled result list.
+  const showNoMatchSuggestions =
+    Boolean(filters.q) && resolved === null && activeCount === 1
+
   return (
     <section className="marketplace pkg-page">
       <div className="marketplace__texture bg-grid mask-radial" aria-hidden="true" />
@@ -281,10 +290,15 @@ export default function PackagingResults() {
                     )}
                     .
                   </>
+                ) : showNoMatchSuggestions ? (
+                  <>
+                    No taxonomy match for <strong>“{filters.q}”</strong> — no results are shown
+                    rather than a guess. Try a popular search below.
+                  </>
                 ) : (
                   <>
                     No taxonomy match for <strong>“{filters.q}”</strong> — showing everything,
-                    narrowed by any filters below.
+                    narrowed by the filters below.
                   </>
                 )}
               </p>
@@ -296,13 +310,34 @@ export default function PackagingResults() {
               remove={update}
             />
 
-            <p className="pkg-count">
-              <strong>{results.length}</strong> product{results.length === 1 ? '' : 's'}
-              {activeCount > 0 ? ` of ${allProducts.length}` : ''} · every price and MOQ is a dated
-              snapshot from the supplier&apos;s own page
-            </p>
+            {!showNoMatchSuggestions && (
+              <p className="pkg-count">
+                <strong>{results.length}</strong> product{results.length === 1 ? '' : 's'}
+                {activeCount > 0 ? ` of ${allProducts.length}` : ''} · every price and MOQ is a
+                dated snapshot from the supplier&apos;s own page
+              </p>
+            )}
 
-            {results.length === 0 ? (
+            {showNoMatchSuggestions ? (
+              <div className="pkg-empty">
+                <p className="pkg-empty__title">No taxonomy match for “{filters.q}”</p>
+                <p className="pkg-empty__sub">
+                  The taxonomy did not match this wording, so no products are shown rather than a
+                  guess. Try one of the popular searches, or browse the categories.
+                </p>
+                <div className="pkg-popular">
+                  <span>Popular:</span>
+                  {POPULAR_SEARCHES.map((entry) => (
+                    <Link key={entry.label} className="chip" to={popularSearchUrl(entry)}>
+                      {entry.label}
+                    </Link>
+                  ))}
+                </div>
+                <Link className="btn btn--brand" to="/packaging">
+                  Browse all packaging categories
+                </Link>
+              </div>
+            ) : results.length === 0 ? (
               <div className="pkg-empty">
                 <p className="pkg-empty__title">No products match those filters</p>
                 <p className="pkg-empty__sub">
