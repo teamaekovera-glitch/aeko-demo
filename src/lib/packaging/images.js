@@ -42,6 +42,7 @@ const CATEGORY_VARIANTS = {
   'cr-cannabis': ['child-resistant-jar'],
   compostables: ['compostable-pouch'],
   'brand-accessories': ['hang-tag-sticker'],
+  'single-serve-pouches': ['cookie-cello-bag', 'kraft-cookie-sleeve', 'paper-bakery-bag', 'kraft-zipper-pouch'],
 }
 
 /**
@@ -63,6 +64,16 @@ const CATEGORY_SIGNALS = {
       pattern: /cardboard|corrugated|kraft|\bbox(es)?\b|postal tube|bo[îi]te/,
       asset: 'mailer-kraft',
     },
+  ],
+  'single-serve-pouches': [
+    // The printed cookie bag's verified material is dry wax PAPER, so the
+    // tin-tie/paper rule below would grab it first and collide with the
+    // tin-tie bag; "printed" pins it to the printed-bag asset (its format
+    // family in the reference photos).
+    { pattern: /\bprinted\b/, asset: 'cookie-cello-bag' },
+    { pattern: /\bsleeve\b/, asset: 'kraft-cookie-sleeve' },
+    { pattern: /\btin[- ]tie\b|\bpaper\b/, asset: 'paper-bakery-bag' },
+    { pattern: /\bzipper\b/, asset: 'kraft-zipper-pouch' },
   ],
 }
 
