@@ -5,6 +5,6 @@
   "outputDirectory": "dist",
   "rewrites": [
     { "source": "/api/:path*", "destination": "/api/handler?__route=:path*" },
-    { "source": "/((?!api/|assets/|packaging).*)", "destination": "/index.html" }
+    { "source": "/((?!api/|assets/|packaging-marketplace).*)", "destination": "/index.html" }
   ]
 }
