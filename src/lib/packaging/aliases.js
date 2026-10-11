@@ -150,6 +150,25 @@ const ALIAS_TABLE = {
     categories: ['single-serve-pouches'],
     terms: ['single-serve pouches', 'cookie pouches'],
   },
+  // Multi-word cookie phrases resolve as whole-phrase aliases (priority 1 in
+  // resolveSearchQuery) so they return ONLY the single-serve category — the
+  // bare "pouches" token still falls through to pouches-bags below.
+  'pouches for cookies': {
+    categories: ['single-serve-pouches'],
+    terms: ['cookie pouches', 'cookie bags'],
+  },
+  'pouch for cookies': {
+    categories: ['single-serve-pouches'],
+    terms: ['cookie pouches', 'cookie bags'],
+  },
+  'cookie pouches': {
+    categories: ['single-serve-pouches'],
+    terms: ['cookie bags', 'cello bags'],
+  },
+  'cookies pouches': {
+    categories: ['single-serve-pouches'],
+    terms: ['cookie pouches', 'cookie bags'],
+  },
 }
 
 /** A guard against runaway unions when many tokens match. */
