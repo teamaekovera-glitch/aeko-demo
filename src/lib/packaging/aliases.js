@@ -134,6 +134,22 @@ const ALIAS_TABLE = {
     categories: ['pouches-bags'],
     terms: ['pouches'],
   },
+  cookies: {
+    categories: ['single-serve-pouches'],
+    terms: ['cookie bags', 'cello bags'],
+  },
+  cookie: {
+    categories: ['single-serve-pouches'],
+    terms: ['cookie bags', 'cello bags'],
+  },
+  bakery: {
+    categories: ['single-serve-pouches'],
+    terms: ['cookie bags', 'bakery bags'],
+  },
+  'single-serve': {
+    categories: ['single-serve-pouches'],
+    terms: ['single-serve pouches', 'cookie pouches'],
+  },
 }
 
 /** A guard against runaway unions when many tokens match. */

@@ -18,6 +18,7 @@ export const POPULAR_SEARCHES = [
   { label: 'Dropper vials', q: 'serum' },
   { label: 'Metal tins', q: 'tea' },
   { label: 'Collapsible tubes', q: 'cosmetics' },
+  { label: 'Single-serve pouches', q: 'cookies' },
 ]
 
 /** The exact results URL a chip deep-links to (deterministic). */
