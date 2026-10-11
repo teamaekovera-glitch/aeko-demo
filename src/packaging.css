@@ -547,6 +547,25 @@
   border-radius: var(--radius);
 }
 
+/* The unmatched-search guard reuses the popular chips on a light card —
+   restore the base dark-on-light chip scheme the hero's .pkg-popular overrides. */
+.pkg-empty .pkg-popular {
+  justify-content: center;
+  color: hsl(var(--muted-foreground));
+}
+
+.pkg-empty .pkg-popular .chip {
+  background: hsl(var(--card));
+  border-color: hsl(var(--border));
+  color: hsl(var(--muted-foreground));
+}
+
+.pkg-empty .pkg-popular .chip:hover {
+  border-color: hsl(var(--brand) / 0.6);
+  color: hsl(var(--brand-ink));
+  background: hsl(var(--brand-tint));
+}
+
 .pkg-empty__title {
   font-family: var(--font-display);
   font-size: 1.05rem;
