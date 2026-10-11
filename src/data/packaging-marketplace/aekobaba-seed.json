@@ -7,7 +7,8 @@
       "art_h4fHBK9S (US & EU supplier candidates, 2026-09-18 captures)",
       "art_6XTcxoI0 (India & China supplier candidates, 2026-09-18 captures)",
       "art_F5ybF01Q (CPG Packaging Taxonomy, 25 categories)",
-      "art_K7D7LV5Z (Data permissions & review-source rules)"
+      "art_K7D7LV5Z (Data permissions & review-source rules)",
+      "Single-serve pouches category products (live supplier pages captured 2026-10-11: papermart.com, nashvillewraps.com, clearbags.com)"
     ]
   },
   "categories": [
@@ -15,6 +16,12 @@
       "slug": "pouches-bags",
       "name": "Flexible Pouches & Bags",
       "description": "The highest-frequency primary pack in food CPG (stand-up, flat-bottom, side-gusset, lay-flat formats); flexible formats account for over 38% of global food packaging volume per the taxonomy corpus.",
+      "parentSlug": null
+    },
+    {
+      "slug": "single-serve-pouches",
+      "name": "Single-Serve Pouches",
+      "description": "Individually portioned bakery and treat packaging — clear printed cello cookie bags, kraft window sleeves and stand-up zipper pouches, and tin-tie paper bakery bags for single cookies and small bakes.",
       "parentSlug": null
     },
     {
@@ -441,6 +448,44 @@
           "samplePolicyVerified": false,
           "sourceUrl": "https://www.papermart.com/",
           "sourceCapturedAt": "2026-09-21",
+          "quantityBreaks": []
+        },
+        {
+          "title": "Printed \"Cookie\" Bags (2000/Pack)",
+          "description": "Verbatim (2026-10-11): \"Regular price $47.96\" — \"Sold in packs of 2,000\". 'Sized to fit: 4-7/8\" W x 4\" H'. \"These bags feature an eye-catching printed design and food-safe dry wax paper construction\". Page displayed an \"Out of stock\" badge at capture.",
+          "material": "Dry wax paper (food-safe)",
+          "categorySlug": "single-serve-pouches",
+          "subcategory": "Printed cookie bag",
+          "priceType": "EXACT",
+          "basePrice": 47.96,
+          "priceBasis": "per 2,000-pack (USD)",
+          "priceUnit": null,
+          "moq": 2000,
+          "moqUnit": "bags (1 pack of 2,000)",
+          "leadTimeDays": null,
+          "stockOrCustom": "STOCK",
+          "samplePolicyVerified": false,
+          "sourceUrl": "https://www.papermart.com/products/printed-cookie-bags",
+          "sourceCapturedAt": "2026-10-11",
+          "quantityBreaks": []
+        },
+        {
+          "title": "Kraft Tin Tie Bags with Biodegradable Liner",
+          "description": "Verbatim (2026-10-11): \"Regular price $216.96\" displayed for the default 1000/Pack variant ('3-3/8\" W X 2-1/2\" G X 7-3/4\" H'); \"Flexible quantities: available in 100, 500, or 1000 packs\". \"Reusable closure: tin tie top opens and reseals with ease\". Page displayed an \"Out of stock\" badge at capture.",
+          "material": "Recycled kraft paper with biodegradable PLA liner, tin tie closure",
+          "categorySlug": "single-serve-pouches",
+          "subcategory": "Tin-tie paper bakery bag",
+          "priceType": "EXACT",
+          "basePrice": 216.96,
+          "priceBasis": "per 1,000-pack (USD; default displayed size 3-3/8 x 2-1/2 x 7-3/4 in)",
+          "priceUnit": null,
+          "moq": 1000,
+          "moqUnit": "bags (1 pack of 1,000; also sold in 100- and 500-packs)",
+          "leadTimeDays": null,
+          "stockOrCustom": "STOCK",
+          "samplePolicyVerified": false,
+          "sourceUrl": "https://www.papermart.com/products/kraft-tin-tie-bags-with-biodegradable-liner",
+          "sourceCapturedAt": "2026-10-11",
           "quantityBreaks": []
         }
       ]
@@ -2216,6 +2261,74 @@
       "review": null,
       "certifications": [],
       "products": []
+    },
+    {
+      "slug": "nashville-wraps",
+      "name": "Nashville Wraps",
+      "website": "https://www.nashvillewraps.com",
+      "location": "US",
+      "legalIdentity": null,
+      "status": "LISTED",
+      "isPartner": false,
+      "sourceUrl": "https://www.nashvillewraps.com",
+      "sourceCapturedAt": "2026-10-11",
+      "review": null,
+      "certifications": [],
+      "products": [
+        {
+          "title": "Kraft Macaron and Cookie Sleeve with Window — 8.25 × 2.5 × 2 in",
+          "description": "Verbatim (2026-10-11): \"Each sleeve has a window with protected film insert to showcase the box contents.\" Sold as a 100-pack; per-sleeve price shown on page as $0.40.",
+          "material": "Kraft paperboard with protected film window",
+          "categorySlug": "single-serve-pouches",
+          "subcategory": "Kraft window sleeve",
+          "priceType": "EXACT",
+          "basePrice": 0.4,
+          "priceBasis": "per sleeve (USD; sold in 100-pack boxes)",
+          "priceUnit": null,
+          "moq": 100,
+          "moqUnit": "sleeves (1 box)",
+          "leadTimeDays": null,
+          "stockOrCustom": "STOCK",
+          "samplePolicyVerified": false,
+          "sourceUrl": "https://www.nashvillewraps.com/boxes/cookie-candy-boxes/p-487/mcsskr",
+          "sourceCapturedAt": "2026-10-11",
+          "quantityBreaks": []
+        }
+      ]
+    },
+    {
+      "slug": "clearbags",
+      "name": "ClearBags",
+      "website": "https://www.clearbags.com",
+      "location": "US",
+      "legalIdentity": null,
+      "status": "LISTED",
+      "isPartner": false,
+      "sourceUrl": "https://www.clearbags.com",
+      "sourceCapturedAt": "2026-10-11",
+      "review": null,
+      "certifications": [],
+      "products": [
+        {
+          "title": "Kraft Heart-Shaped Window Stand-Up Zipper Pouch, 5⅛ × 3⅛ × 8⅛ in",
+          "description": "Verbatim (2026-10-11): \"$9.57\" — 'Kraft Heart Shaped Window Stand Up Zipper Pouches 5 1/8\" x 3 1/8\" x 8 1/8\" 25 pack ZBGW3KHT'. Page listed \"Closure Type: Zipper\", \"Food Safe: Yes\", and material \"Back: Kraft/KPET/PE - Front: OPP/CPP\".",
+          "material": "Kraft/KPET/PE back, OPP/CPP front (5.75 mil laminate)",
+          "categorySlug": "single-serve-pouches",
+          "subcategory": "Kraft stand-up zipper pouch",
+          "priceType": "EXACT",
+          "basePrice": 9.57,
+          "priceBasis": "per 25-pack (USD)",
+          "priceUnit": null,
+          "moq": 25,
+          "moqUnit": "pouches (1 pack)",
+          "leadTimeDays": null,
+          "stockOrCustom": "STOCK",
+          "samplePolicyVerified": false,
+          "sourceUrl": "https://www.clearbags.com/5-1-8-x-3-1-8-x-8-1-8-outer-dimensions-kraft-heart-shaped-window-stand-up-zipper-pouch-25-pieces-zbgw3kht.html",
+          "sourceCapturedAt": "2026-10-11",
+          "quantityBreaks": []
+        }
+      ]
     }
   ]
 }
