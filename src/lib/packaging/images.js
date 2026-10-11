@@ -42,7 +42,7 @@ const CATEGORY_VARIANTS = {
   'cr-cannabis': ['child-resistant-jar'],
   compostables: ['compostable-pouch'],
   'brand-accessories': ['hang-tag-sticker'],
-  'single-serve-pouches': ['cookie-cello-bag', 'kraft-cookie-sleeve', 'paper-bakery-bag', 'kraft-zipper-pouch'],
+  'single-serve-pouches': ['cookie-cello-bag', 'kraft-cookie-sleeve', 'paper-bakery-bag', 'kraft-zipper-pouch', 'printed-cello-treat-bag', 'clear-gusset-cello-bag', 'kraft-window-tintie-bag', 'kraft-pouch-tree-window', 'white-zipper-pouch', 'kraft-print-pouch'],
 }
 
 /**
@@ -66,12 +66,20 @@ const CATEGORY_SIGNALS = {
     },
   ],
   'single-serve-pouches': [
+    // Specific printed/window formats beat the generic rules below them, so
+    // each of the ten products lands on its own distinct asset.
+    { pattern: /\bstar\b/, asset: 'printed-cello-treat-bag' },
+    { pattern: /\bgusset/, asset: 'clear-gusset-cello-bag' },
+    { pattern: /\btree\b/, asset: 'kraft-pouch-tree-window' },
+    { pattern: /\bcompostable\b/, asset: 'white-zipper-pouch' },
+    { pattern: /\bdots\b|\bstripes\b/, asset: 'kraft-print-pouch' },
+    { pattern: /\btin[- ]tie\b[\s\S]*\bwindow\b|\bwindow\b[\s\S]*\btin[- ]tie\b/, asset: 'kraft-window-tintie-bag' },
+    { pattern: /\bsleeve\b/, asset: 'kraft-cookie-sleeve' },
     // The printed cookie bag's verified material is dry wax PAPER, so the
     // tin-tie/paper rule below would grab it first and collide with the
     // tin-tie bag; "printed" pins it to the printed-bag asset (its format
     // family in the reference photos).
     { pattern: /\bprinted\b/, asset: 'cookie-cello-bag' },
-    { pattern: /\bsleeve\b/, asset: 'kraft-cookie-sleeve' },
     { pattern: /\btin[- ]tie\b|\bpaper\b/, asset: 'paper-bakery-bag' },
     { pattern: /\bzipper\b/, asset: 'kraft-zipper-pouch' },
   ],
