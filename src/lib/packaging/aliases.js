@@ -169,6 +169,57 @@ const ALIAS_TABLE = {
     categories: ['single-serve-pouches'],
     terms: ['cookie pouches', 'cookie bags'],
   },
+  // Natural hyphenless wordings people type after reading the tile label.
+  // Without these, "single serve pouches" resolves to null and the results
+  // page can only answer with the full catalog (the dump the note lies about).
+  'single serve': {
+    categories: ['single-serve-pouches'],
+    terms: ['single-serve pouches', 'cookie pouches'],
+  },
+  'single serve pouches': {
+    categories: ['single-serve-pouches'],
+    terms: ['single-serve pouches', 'cookie bags'],
+  },
+  'single serve pouch': {
+    categories: ['single-serve-pouches'],
+    terms: ['single-serve pouches', 'cookie pouches'],
+  },
+  'treat bags': {
+    categories: ['single-serve-pouches'],
+    terms: ['cello bags', 'cookie bags'],
+  },
+  'treat bag': {
+    categories: ['single-serve-pouches'],
+    terms: ['cello bags', 'cookie bags'],
+  },
+  'cello bags': {
+    categories: ['single-serve-pouches'],
+    terms: ['cello bags', 'cookie bags'],
+  },
+  'cookie bags': {
+    categories: ['single-serve-pouches'],
+    terms: ['cookie bags', 'cello bags'],
+  },
+  'bakery bags': {
+    categories: ['single-serve-pouches'],
+    terms: ['bakery bags', 'cookie bags'],
+  },
+  'bags for cookies': {
+    categories: ['single-serve-pouches'],
+    terms: ['cookie bags', 'cello bags'],
+  },
+  'cookies packaging': {
+    categories: ['single-serve-pouches'],
+    terms: ['cookie bags', 'cello bags'],
+  },
+  'cookie packaging': {
+    categories: ['single-serve-pouches'],
+    terms: ['cookie bags', 'bakery bags'],
+  },
+  'bakery packaging': {
+    categories: ['single-serve-pouches'],
+    terms: ['bakery bags', 'cookie bags'],
+  },
 }
 
 /** A guard against runaway unions when many tokens match. */
